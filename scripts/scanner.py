@@ -8,14 +8,25 @@ MIN_LIQUIDITY_USD = 5000  # Мин. ликвидность на DEX (Пункт 
 MAX_SPREAD = 50.0         # Максимальный спред (Пункт 11)
 MIN_SPREAD = 0.3          # Минимальный спред для отображения
 
-# Конфигурация бирж и их персональных прокси (Пункт 8)
+# --- ЛОГИКА АВТОМАТИЧЕСКИХ ПРОКСИ (Пункт 8) ---
+# Получаем строку из Secrets и превращаем её в список
+raw_proxies = os.getenv('PROXY_LIST', '')
+PROXY_POOL = [p.strip() for p in raw_proxies.split('\n') if p.strip()]
+
+def get_proxy(index):
+    """Возвращает прокси по индексу, если он существует"""
+    return PROXY_POOL[index] if index < len(PROXY_POOL) else ''
+
+# Конфигурация бирж с привязкой прокси (Пункт 8)
 EXCHANGES_CONFIG = {
-    'binance': {'class': ccxt.binance, 'proxy': ''}, # Пример: 'http://user:pass@ip:port'
-    'bybit': {'class': ccxt.bybit, 'proxy': ''},
-    'okx': {'class': ccxt.okx, 'proxy': ''},
-    'gateio': {'class': ccxt.gateio, 'proxy': ''},
-    'mexc': {'class': ccxt.mexc, 'proxy': ''}
+    'binance': {'class': ccxt.binance, 'proxy': get_proxy(0)},
+    'bybit':   {'class': ccxt.bybit,   'proxy': get_proxy(1)},
+    'okx':     {'class': ccxt.okx,     'proxy': get_proxy(2)},
+    'gateio':  {'class': ccxt.gateio,  'proxy': get_proxy(3)},
+    'mexc':    {'class': ccxt.mexc,    'proxy': get_proxy(4)}
 }
+
+# Далее идет остальной код (SYMBOLS, get_cex_data и т.д.)
 
 SYMBOLS = ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'TON/USDT', 'PEPE/USDT']
 
