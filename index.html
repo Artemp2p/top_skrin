@@ -5,6 +5,19 @@
     <title>Arbitrage Scanner Pro</title>
     <link rel="stylesheet" href="style.css">
 </head>
+    <section id="controls">
+    <div class="panel">
+        <h3>Управление сканером</h3>
+        <input type="text" id="new-exchange" placeholder="Название биржи (напр. gateio)">
+        <button onclick="addExchange()">Добавить биржу</button>
+        <div id="active-exchanges"></div>
+    </div>
+    
+    <div class="actions">
+        <button class="btn-stop" onclick="toggleScanner(false)">Остановить сканер</button>
+        <button class="btn-start" onclick="toggleScanner(true)">Запустить сканер</button>
+    </div>
+</section>
 <body>
     <header>
         <h1>Spread Scanner v1.0</h1>
