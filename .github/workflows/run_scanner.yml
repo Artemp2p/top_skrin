@@ -19,7 +19,10 @@ jobs:
 
       - name: Install dependencies
         run: pip install ccxt
-
+      - name: Run scanner
+        env:
+          PROXY_LIST: ${{ secrets.PROXY_LIST }} # Передаем секрет в скрипт
+        run: python scripts/scanner.py
       - name: Run scanner
         run: python scripts/scanner.py
 
