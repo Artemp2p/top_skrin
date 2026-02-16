@@ -1,5 +1,2603 @@
 {
-    "spot": [],
+    "spot": [
+        {
+            "symbol": "ES",
+            "spread": 49.23,
+            "buyAt": "mexc (0.11596)",
+            "sellAt": "bingx (0.17305)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ES",
+            "spread": 48.52,
+            "buyAt": "gateio (0.11652)",
+            "sellAt": "bingx (0.17305)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ES",
+            "spread": 48.16,
+            "buyAt": "htx (0.1168)",
+            "sellAt": "bingx (0.17305)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TRIBE",
+            "spread": 44.5,
+            "buyAt": "mexc (0.4647)",
+            "sellAt": "gateio (0.6715)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MAN",
+            "spread": 43.03,
+            "buyAt": "gateio (0.001671)",
+            "sellAt": "mexc (0.00239)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SLAY",
+            "spread": 42.79,
+            "buyAt": "mexc (0.001353)",
+            "sellAt": "gateio (0.001932)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PMG",
+            "spread": 37.65,
+            "buyAt": "gateio (0.0008646)",
+            "sellAt": "mexc (0.0011901)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PAI",
+            "spread": 35.09,
+            "buyAt": "bingx (0.00558)",
+            "sellAt": "gateio (0.007538)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PAI",
+            "spread": 32.65,
+            "buyAt": "bingx (0.00558)",
+            "sellAt": "mexc (0.007402)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "XTZ",
+            "spread": 23.85,
+            "buyAt": "mexc (0.4)",
+            "sellAt": "htx (0.4954)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "XTZ",
+            "spread": 23.85,
+            "buyAt": "gateio (0.4)",
+            "sellAt": "htx (0.4954)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "XTZ",
+            "spread": 23.82,
+            "buyAt": "okx (0.4001)",
+            "sellAt": "htx (0.4954)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "XTZ",
+            "spread": 23.76,
+            "buyAt": "bingx (0.4003)",
+            "sellAt": "htx (0.4954)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "CAMP",
+            "spread": 23.31,
+            "buyAt": "mexc (0.003397)",
+            "sellAt": "gateio (0.004189)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "CAMP",
+            "spread": 22.96,
+            "buyAt": "mexc (0.003397)",
+            "sellAt": "bingx (0.004177)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TBC",
+            "spread": 22.69,
+            "buyAt": "mexc (5.801)",
+            "sellAt": "gateio (7.117)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "CAMP",
+            "spread": 21.52,
+            "buyAt": "mexc (0.003397)",
+            "sellAt": "htx (0.004128)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "HIFI",
+            "spread": 17.36,
+            "buyAt": "mexc (0.01325)",
+            "sellAt": "gateio (0.01555)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TARA",
+            "spread": 16.41,
+            "buyAt": "mexc (0.0001718)",
+            "sellAt": "gateio (0.0002)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RATS",
+            "spread": 13.53,
+            "buyAt": "bingx (5.002e-05)",
+            "sellAt": "htx (5.679e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RATS",
+            "spread": 13.51,
+            "buyAt": "gateio (5.003e-05)",
+            "sellAt": "htx (5.679e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RATS",
+            "spread": 13.31,
+            "buyAt": "mexc (5.012e-05)",
+            "sellAt": "htx (5.679e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TALENT",
+            "spread": 8.5,
+            "buyAt": "mexc (0.0005716)",
+            "sellAt": "gateio (0.0006202)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PALU",
+            "spread": 8.48,
+            "buyAt": "mexc (0.0009753)",
+            "sellAt": "htx (0.001058)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ROG",
+            "spread": 8.18,
+            "buyAt": "mexc (0.2225)",
+            "sellAt": "bingx (0.2407)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ORDI",
+            "spread": 7.85,
+            "buyAt": "mexc (2.816)",
+            "sellAt": "htx (3.037)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ORDI",
+            "spread": 7.85,
+            "buyAt": "gateio (2.816)",
+            "sellAt": "htx (3.037)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ORDI",
+            "spread": 7.85,
+            "buyAt": "bingx (2.816)",
+            "sellAt": "htx (3.037)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ORDI",
+            "spread": 7.77,
+            "buyAt": "okx (2.818)",
+            "sellAt": "htx (3.037)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "CARDS",
+            "spread": 7.59,
+            "buyAt": "mexc (0.0474)",
+            "sellAt": "bingx (0.051)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "THINK",
+            "spread": 7.14,
+            "buyAt": "mexc (0.0005662)",
+            "sellAt": "gateio (0.0006066)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SWAP",
+            "spread": 6.76,
+            "buyAt": "gateio (0.03903)",
+            "sellAt": "mexc (0.04167)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AIA",
+            "spread": 6.75,
+            "buyAt": "gateio (0.10548)",
+            "sellAt": "bingx (0.1126)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AIA",
+            "spread": 6.65,
+            "buyAt": "mexc (0.10558)",
+            "sellAt": "bingx (0.1126)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ASTRA",
+            "spread": 6.44,
+            "buyAt": "gateio (0.0004488)",
+            "sellAt": "mexc (0.0004777)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MLN",
+            "spread": 6.17,
+            "buyAt": "gateio (3.743)",
+            "sellAt": "htx (3.974)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MLN",
+            "spread": 6.03,
+            "buyAt": "mexc (3.748)",
+            "sellAt": "htx (3.974)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TEM",
+            "spread": 5.73,
+            "buyAt": "bingx (0.01831)",
+            "sellAt": "mexc (0.01936)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MLN",
+            "spread": 5.69,
+            "buyAt": "bingx (3.76)",
+            "sellAt": "htx (3.974)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SWAP",
+            "spread": 5.49,
+            "buyAt": "htx (0.0395)",
+            "sellAt": "mexc (0.04167)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PROM",
+            "spread": 5.21,
+            "buyAt": "htx (1.4)",
+            "sellAt": "mexc (1.473)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SNIFT",
+            "spread": 5.1,
+            "buyAt": "gateio (9.21e-05)",
+            "sellAt": "mexc (9.68e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PROM",
+            "spread": 5.0,
+            "buyAt": "htx (1.4)",
+            "sellAt": "bingx (1.47)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BDX",
+            "spread": 4.95,
+            "buyAt": "bingx (0.08047)",
+            "sellAt": "gateio (0.08445)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "OGPU",
+            "spread": 4.94,
+            "buyAt": "gateio (0.08224)",
+            "sellAt": "mexc (0.0863)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MGT",
+            "spread": 4.9,
+            "buyAt": "mexc (8.57e-05)",
+            "sellAt": "gateio (8.99e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PROM",
+            "spread": 4.86,
+            "buyAt": "htx (1.4)",
+            "sellAt": "gateio (1.468)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BDX",
+            "spread": 4.67,
+            "buyAt": "mexc (0.08068)",
+            "sellAt": "gateio (0.08445)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TOWER",
+            "spread": 4.66,
+            "buyAt": "mexc (0.0002746)",
+            "sellAt": "bingx (0.0002874)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "VIA",
+            "spread": 4.3,
+            "buyAt": "gateio (0.0014575)",
+            "sellAt": "mexc (0.0015201)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "STRK",
+            "spread": 3.97,
+            "buyAt": "gateio (0.04934)",
+            "sellAt": "htx (0.0513)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "STRK",
+            "spread": 3.91,
+            "buyAt": "mexc (0.04937)",
+            "sellAt": "htx (0.0513)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "STRK",
+            "spread": 3.89,
+            "buyAt": "okx (0.04938)",
+            "sellAt": "htx (0.0513)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "KARRAT",
+            "spread": 3.85,
+            "buyAt": "mexc (0.0046)",
+            "sellAt": "gateio (0.004777)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BADGER",
+            "spread": 3.82,
+            "buyAt": "mexc (0.3668)",
+            "sellAt": "gateio (0.3808)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "STRK",
+            "spread": 3.64,
+            "buyAt": "bingx (0.0495)",
+            "sellAt": "htx (0.0513)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BULLISH",
+            "spread": 3.33,
+            "buyAt": "mexc (0.007258)",
+            "sellAt": "bingx (0.0075)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DEFI",
+            "spread": 3.31,
+            "buyAt": "mexc (0.000363)",
+            "sellAt": "gateio (0.000375)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DCR",
+            "spread": 2.88,
+            "buyAt": "htx (23.4321)",
+            "sellAt": "mexc (24.108)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DEFI",
+            "spread": 2.86,
+            "buyAt": "mexc (0.000363)",
+            "sellAt": "bingx (0.00037339)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TESTICLE",
+            "spread": 2.86,
+            "buyAt": "bingx (0.00412)",
+            "sellAt": "mexc (0.004238)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AVT",
+            "spread": 2.71,
+            "buyAt": "mexc (0.6794)",
+            "sellAt": "gateio (0.6978)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ELX",
+            "spread": 2.63,
+            "buyAt": "mexc (0.001824)",
+            "sellAt": "gateio (0.001872)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DCR",
+            "spread": 2.63,
+            "buyAt": "htx (23.4321)",
+            "sellAt": "gateio (24.049)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ACNON",
+            "spread": 2.56,
+            "buyAt": "gateio (224.17)",
+            "sellAt": "mexc (229.9)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ACNON",
+            "spread": 2.48,
+            "buyAt": "bingx (224.33)",
+            "sellAt": "mexc (229.9)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "FOG",
+            "spread": 2.46,
+            "buyAt": "bingx (0.01423)",
+            "sellAt": "mexc (0.01458)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BELLS",
+            "spread": 2.42,
+            "buyAt": "mexc (0.062)",
+            "sellAt": "gateio (0.0635)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BTS",
+            "spread": 2.25,
+            "buyAt": "gateio (0.0010899)",
+            "sellAt": "mexc (0.0011144)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MRLN",
+            "spread": 2.22,
+            "buyAt": "bingx (0.000158)",
+            "sellAt": "gateio (0.0001615)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BRISE",
+            "spread": 2.2,
+            "buyAt": "htx (2.14e-08)",
+            "sellAt": "mexc (2.187e-08)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MOODENGETH",
+            "spread": 1.99,
+            "buyAt": "mexc (6.134e-06)",
+            "sellAt": "gateio (6.256e-06)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SQT",
+            "spread": 1.97,
+            "buyAt": "mexc (0.0003704)",
+            "sellAt": "gateio (0.0003777)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BONE",
+            "spread": 1.95,
+            "buyAt": "mexc (0.06215)",
+            "sellAt": "gateio (0.06336)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "XEN",
+            "spread": 1.87,
+            "buyAt": "gateio (7.212e-09)",
+            "sellAt": "mexc (7.347e-09)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ALI",
+            "spread": 1.85,
+            "buyAt": "mexc (0.00168)",
+            "sellAt": "gateio (0.001711)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "JOYSTREAM",
+            "spread": 1.83,
+            "buyAt": "gateio (0.0001257)",
+            "sellAt": "mexc (0.000128)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "HAPPY",
+            "spread": 1.82,
+            "buyAt": "gateio (0.0004174)",
+            "sellAt": "bingx (0.000425)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DCK",
+            "spread": 1.8,
+            "buyAt": "gateio (0.00111)",
+            "sellAt": "bingx (0.00113)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GXE",
+            "spread": 1.8,
+            "buyAt": "gateio (0.0003325)",
+            "sellAt": "mexc (0.0003385)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ALI",
+            "spread": 1.79,
+            "buyAt": "mexc (0.00168)",
+            "sellAt": "bingx (0.00171)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BAL",
+            "spread": 1.75,
+            "buyAt": "mexc (0.16)",
+            "sellAt": "gateio (0.1628)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AKITA",
+            "spread": 1.72,
+            "buyAt": "gateio (7.54e-09)",
+            "sellAt": "mexc (7.67e-09)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BRISE",
+            "spread": 1.68,
+            "buyAt": "htx (2.14e-08)",
+            "sellAt": "gateio (2.176e-08)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "POKT",
+            "spread": 1.67,
+            "buyAt": "mexc (0.015127)",
+            "sellAt": "bingx (0.01538)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SAI",
+            "spread": 1.63,
+            "buyAt": "mexc (0.001468)",
+            "sellAt": "bingx (0.001492)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ALI",
+            "spread": 1.61,
+            "buyAt": "mexc (0.00168)",
+            "sellAt": "htx (0.001707)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TRAC",
+            "spread": 1.61,
+            "buyAt": "mexc (0.3546)",
+            "sellAt": "htx (0.3603)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DADDY",
+            "spread": 1.59,
+            "buyAt": "mexc (0.007094)",
+            "sellAt": "gateio (0.007207)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "VULPEFI",
+            "spread": 1.58,
+            "buyAt": "bingx (0.001075)",
+            "sellAt": "mexc (0.001092)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BAL",
+            "spread": 1.56,
+            "buyAt": "mexc (0.16)",
+            "sellAt": "bingx (0.1625)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MGO",
+            "spread": 1.56,
+            "buyAt": "mexc (0.02048)",
+            "sellAt": "bingx (0.0208)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MGO",
+            "spread": 1.56,
+            "buyAt": "gateio (0.02048)",
+            "sellAt": "bingx (0.0208)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "POKT",
+            "spread": 1.52,
+            "buyAt": "gateio (0.01515)",
+            "sellAt": "bingx (0.01538)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SKYA",
+            "spread": 1.46,
+            "buyAt": "gateio (0.001237)",
+            "sellAt": "mexc (0.001255)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BTT",
+            "spread": 1.45,
+            "buyAt": "gateio (3.45e-07)",
+            "sellAt": "bingx (3.5e-07)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "XFI",
+            "spread": 1.45,
+            "buyAt": "bingx (0.04774)",
+            "sellAt": "htx (0.04843)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "NKN",
+            "spread": 1.38,
+            "buyAt": "htx (0.006362)",
+            "sellAt": "mexc (0.00645)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PAI",
+            "spread": 1.37,
+            "buyAt": "mexc (0.007436)",
+            "sellAt": "gateio (0.007538)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BTT",
+            "spread": 1.36,
+            "buyAt": "mexc (3.453e-07)",
+            "sellAt": "bingx (3.5e-07)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BTT",
+            "spread": 1.36,
+            "buyAt": "htx (3.453e-07)",
+            "sellAt": "bingx (3.5e-07)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TEVA",
+            "spread": 1.31,
+            "buyAt": "mexc (0.0009007)",
+            "sellAt": "gateio (0.0009125)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MANEKI",
+            "spread": 1.28,
+            "buyAt": "mexc (0.0002893)",
+            "sellAt": "htx (0.000293)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "WNXM",
+            "spread": 1.28,
+            "buyAt": "mexc (51.37)",
+            "sellAt": "gateio (52.03)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "NUM",
+            "spread": 1.28,
+            "buyAt": "mexc (0.00414)",
+            "sellAt": "gateio (0.004193)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AB",
+            "spread": 1.28,
+            "buyAt": "gateio (0.002496)",
+            "sellAt": "mexc (0.002528)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GOR",
+            "spread": 1.26,
+            "buyAt": "mexc (0.001985)",
+            "sellAt": "bingx (0.00201)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "FLM",
+            "spread": 1.25,
+            "buyAt": "mexc (0.003199)",
+            "sellAt": "gateio (0.003239)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "IEFAON",
+            "spread": 1.25,
+            "buyAt": "gateio (100.4)",
+            "sellAt": "mexc (101.65)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PAYAI",
+            "spread": 1.25,
+            "buyAt": "bingx (0.00543)",
+            "sellAt": "mexc (0.005498)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DOYR",
+            "spread": 1.24,
+            "buyAt": "mexc (0.0003556)",
+            "sellAt": "bingx (0.00036)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DF",
+            "spread": 1.15,
+            "buyAt": "mexc (0.001392)",
+            "sellAt": "gateio (0.001408)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "OVPP",
+            "spread": 1.15,
+            "buyAt": "gateio (0.00435)",
+            "sellAt": "mexc (0.0044)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "EMR",
+            "spread": 1.14,
+            "buyAt": "mexc (0.000967)",
+            "sellAt": "bingx (0.000978)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ELP",
+            "spread": 1.14,
+            "buyAt": "gateio (0.002453)",
+            "sellAt": "mexc (0.002481)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "VOLT",
+            "spread": 1.13,
+            "buyAt": "gateio (5.063e-08)",
+            "sellAt": "mexc (5.12e-08)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GAIX",
+            "spread": 1.13,
+            "buyAt": "gateio (0.04683)",
+            "sellAt": "mexc (0.04736)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "L1",
+            "spread": 1.1,
+            "buyAt": "gateio (0.002374)",
+            "sellAt": "mexc (0.0024)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "KTA",
+            "spread": 1.1,
+            "buyAt": "bingx (0.2633)",
+            "sellAt": "mexc (0.2662)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SAI",
+            "spread": 1.09,
+            "buyAt": "mexc (0.001468)",
+            "sellAt": "gateio (0.001484)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "NUMI",
+            "spread": 1.09,
+            "buyAt": "gateio (0.04699)",
+            "sellAt": "mexc (0.0475)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MOODENGETH",
+            "spread": 1.08,
+            "buyAt": "mexc (6.134e-06)",
+            "sellAt": "htx (6.2e-06)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SHIRO",
+            "spread": 1.08,
+            "buyAt": "mexc (1.0259e-09)",
+            "sellAt": "gateio (1.037e-09)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "QUACK",
+            "spread": 1.08,
+            "buyAt": "mexc (5.53e-11)",
+            "sellAt": "gateio (5.59e-11)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DCB",
+            "spread": 1.08,
+            "buyAt": "bingx (0.00212)",
+            "sellAt": "mexc (0.002143)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "WNCG",
+            "spread": 1.07,
+            "buyAt": "gateio (0.005802)",
+            "sellAt": "mexc (0.005864)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "UNIT0",
+            "spread": 1.05,
+            "buyAt": "bingx (0.0286)",
+            "sellAt": "mexc (0.0289)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "UNIT0",
+            "spread": 1.05,
+            "buyAt": "bingx (0.0286)",
+            "sellAt": "gateio (0.0289)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LUCE",
+            "spread": 1.02,
+            "buyAt": "mexc (0.0005867)",
+            "sellAt": "gateio (0.0005927)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "FEG",
+            "spread": 1.0,
+            "buyAt": "mexc (3.792e-05)",
+            "sellAt": "gateio (3.83e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "OPTIMUS",
+            "spread": 0.99,
+            "buyAt": "gateio (0.005664)",
+            "sellAt": "mexc (0.00572)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DCK",
+            "spread": 0.98,
+            "buyAt": "mexc (0.001119)",
+            "sellAt": "bingx (0.00113)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AT",
+            "spread": 0.96,
+            "buyAt": "bingx (0.159)",
+            "sellAt": "mexc (0.16052)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "VANRY",
+            "spread": 0.95,
+            "buyAt": "mexc (0.005976)",
+            "sellAt": "bingx (0.006033)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SAMO",
+            "spread": 0.95,
+            "buyAt": "gateio (0.0004937)",
+            "sellAt": "mexc (0.0004984)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "REEF",
+            "spread": 0.95,
+            "buyAt": "htx (8.4e-05)",
+            "sellAt": "mexc (8.48e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "VANRY",
+            "spread": 0.94,
+            "buyAt": "gateio (0.005977)",
+            "sellAt": "bingx (0.006033)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AT",
+            "spread": 0.94,
+            "buyAt": "bingx (0.159)",
+            "sellAt": "gateio (0.1605)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ETN",
+            "spread": 0.93,
+            "buyAt": "mexc (0.001017)",
+            "sellAt": "gateio (0.0010265)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "COMMON",
+            "spread": 0.92,
+            "buyAt": "bingx (0.0004358)",
+            "sellAt": "gateio (0.0004398)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TEN",
+            "spread": 0.9,
+            "buyAt": "bingx (0.007775)",
+            "sellAt": "mexc (0.0078452)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ELIZAOS",
+            "spread": 0.88,
+            "buyAt": "htx (0.001473)",
+            "sellAt": "gateio (0.001486)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TJRM",
+            "spread": 0.87,
+            "buyAt": "bingx (0.000473)",
+            "sellAt": "mexc (0.0004771)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GOR",
+            "spread": 0.85,
+            "buyAt": "htx (0.001993)",
+            "sellAt": "bingx (0.00201)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PAL",
+            "spread": 0.84,
+            "buyAt": "mexc (0.002628)",
+            "sellAt": "gateio (0.00265)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ALEO",
+            "spread": 0.83,
+            "buyAt": "gateio (0.08559)",
+            "sellAt": "bingx (0.0863)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SC",
+            "spread": 0.83,
+            "buyAt": "htx (0.001209)",
+            "sellAt": "mexc (0.001219)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "STRIKE",
+            "spread": 0.82,
+            "buyAt": "gateio (0.006438)",
+            "sellAt": "mexc (0.006491)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "XFI",
+            "spread": 0.82,
+            "buyAt": "bingx (0.04774)",
+            "sellAt": "mexc (0.04813)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "YFII",
+            "spread": 0.8,
+            "buyAt": "mexc (43.99)",
+            "sellAt": "gateio (44.34)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MTRG",
+            "spread": 0.8,
+            "buyAt": "mexc (0.02381)",
+            "sellAt": "gateio (0.024)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MY",
+            "spread": 0.8,
+            "buyAt": "mexc (0.1325)",
+            "sellAt": "gateio (0.13356)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AB",
+            "spread": 0.8,
+            "buyAt": "htx (0.002508)",
+            "sellAt": "mexc (0.002528)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BRN",
+            "spread": 0.79,
+            "buyAt": "gateio (0.1406)",
+            "sellAt": "mexc (0.14171)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "HVLO",
+            "spread": 0.78,
+            "buyAt": "mexc (9.51e-05)",
+            "sellAt": "gateio (9.584e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DUEL",
+            "spread": 0.76,
+            "buyAt": "mexc (4.501e-05)",
+            "sellAt": "gateio (4.535e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "EWT",
+            "spread": 0.75,
+            "buyAt": "gateio (0.4671)",
+            "sellAt": "mexc (0.4706)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "HVLO",
+            "spread": 0.74,
+            "buyAt": "mexc (9.51e-05)",
+            "sellAt": "bingx (9.58e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "CLORE",
+            "spread": 0.74,
+            "buyAt": "gateio (0.002696)",
+            "sellAt": "bingx (0.002716)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SC",
+            "spread": 0.74,
+            "buyAt": "htx (0.001209)",
+            "sellAt": "gateio (0.001218)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BONE",
+            "spread": 0.72,
+            "buyAt": "mexc (0.06215)",
+            "sellAt": "htx (0.0626)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "XCV",
+            "spread": 0.72,
+            "buyAt": "gateio (0.0003059)",
+            "sellAt": "mexc (0.0003081)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LINGO",
+            "spread": 0.71,
+            "buyAt": "mexc (0.007437)",
+            "sellAt": "gateio (0.00749)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PYR",
+            "spread": 0.7,
+            "buyAt": "htx (0.3406)",
+            "sellAt": "bingx (0.343)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BOSON",
+            "spread": 0.69,
+            "buyAt": "gateio (0.03792)",
+            "sellAt": "mexc (0.03818)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PURR",
+            "spread": 0.68,
+            "buyAt": "gateio (0.06943)",
+            "sellAt": "mexc (0.0699)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "EVER",
+            "spread": 0.67,
+            "buyAt": "mexc (0.00238)",
+            "sellAt": "gateio (0.002396)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "VSYS",
+            "spread": 0.67,
+            "buyAt": "mexc (0.0002103)",
+            "sellAt": "htx (0.0002117)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RFC",
+            "spread": 0.67,
+            "buyAt": "mexc (0.0008922)",
+            "sellAt": "gateio (0.0008982)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LAB",
+            "spread": 0.67,
+            "buyAt": "bingx (0.13547)",
+            "sellAt": "mexc (0.13638)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MANEKI",
+            "spread": 0.66,
+            "buyAt": "mexc (0.0002893)",
+            "sellAt": "gateio (0.0002912)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GMMT",
+            "spread": 0.66,
+            "buyAt": "mexc (0.003039)",
+            "sellAt": "gateio (0.003059)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SC",
+            "spread": 0.66,
+            "buyAt": "htx (0.001209)",
+            "sellAt": "bingx (0.001217)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BTG",
+            "spread": 0.65,
+            "buyAt": "gateio (3.565)",
+            "sellAt": "mexc (3.588)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RBNT",
+            "spread": 0.64,
+            "buyAt": "mexc (0.006914)",
+            "sellAt": "gateio (0.006958)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PORT3",
+            "spread": 0.64,
+            "buyAt": "gateio (0.0030233)",
+            "sellAt": "mexc (0.0030425)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BSW",
+            "spread": 0.63,
+            "buyAt": "mexc (0.001897)",
+            "sellAt": "gateio (0.001909)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TT",
+            "spread": 0.63,
+            "buyAt": "htx (0.000932)",
+            "sellAt": "gateio (0.0009379)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ALPHA",
+            "spread": 0.62,
+            "buyAt": "mexc (0.003559)",
+            "sellAt": "gateio (0.003581)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "XFI",
+            "spread": 0.62,
+            "buyAt": "gateio (0.04813)",
+            "sellAt": "htx (0.04843)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SIX",
+            "spread": 0.62,
+            "buyAt": "gateio (0.0097)",
+            "sellAt": "mexc (0.00976)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MRSOON",
+            "spread": 0.62,
+            "buyAt": "gateio (5.657e-06)",
+            "sellAt": "mexc (5.692e-06)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "IR",
+            "spread": 0.62,
+            "buyAt": "gateio (0.07603)",
+            "sellAt": "htx (0.0765)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ARRR",
+            "spread": 0.62,
+            "buyAt": "gateio (0.2593)",
+            "sellAt": "mexc (0.2609)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PYBOBO",
+            "spread": 0.62,
+            "buyAt": "gateio (0.0008177)",
+            "sellAt": "mexc (0.0008228)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PUSS",
+            "spread": 0.59,
+            "buyAt": "mexc (0.004202)",
+            "sellAt": "bingx (0.004227)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GUA",
+            "spread": 0.59,
+            "buyAt": "mexc (0.14612)",
+            "sellAt": "gateio (0.14698)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "CBK",
+            "spread": 0.59,
+            "buyAt": "mexc (0.2704)",
+            "sellAt": "htx (0.272)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SEND",
+            "spread": 0.59,
+            "buyAt": "gateio (0.1194)",
+            "sellAt": "mexc (0.1201)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LAB",
+            "spread": 0.58,
+            "buyAt": "bingx (0.13547)",
+            "sellAt": "gateio (0.13625)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DCB",
+            "spread": 0.57,
+            "buyAt": "bingx (0.00212)",
+            "sellAt": "gateio (0.002132)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LUNC",
+            "spread": 0.55,
+            "buyAt": "htx (3.475e-05)",
+            "sellAt": "gateio (3.494e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "IR",
+            "spread": 0.54,
+            "buyAt": "mexc (0.07609)",
+            "sellAt": "htx (0.0765)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ETN",
+            "spread": 0.54,
+            "buyAt": "htx (0.001021)",
+            "sellAt": "gateio (0.0010265)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LMTS",
+            "spread": 0.54,
+            "buyAt": "bingx (0.15904)",
+            "sellAt": "mexc (0.1599)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LMTS",
+            "spread": 0.54,
+            "buyAt": "bingx (0.15904)",
+            "sellAt": "gateio (0.1599)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AA",
+            "spread": 0.53,
+            "buyAt": "mexc (0.010758)",
+            "sellAt": "gateio (0.010815)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ENSO",
+            "spread": 0.53,
+            "buyAt": "gateio (1.111)",
+            "sellAt": "mexc (1.1169)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "NKN",
+            "spread": 0.53,
+            "buyAt": "gateio (0.006416)",
+            "sellAt": "mexc (0.00645)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PYR",
+            "spread": 0.53,
+            "buyAt": "htx (0.3406)",
+            "sellAt": "mexc (0.3424)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TTD",
+            "spread": 0.52,
+            "buyAt": "mexc (0.000967)",
+            "sellAt": "gateio (0.000972)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "OVR",
+            "spread": 0.52,
+            "buyAt": "mexc (0.0324)",
+            "sellAt": "bingx (0.03257)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "CBK",
+            "spread": 0.52,
+            "buyAt": "gateio (0.2706)",
+            "sellAt": "htx (0.272)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AB",
+            "spread": 0.52,
+            "buyAt": "bingx (0.002515)",
+            "sellAt": "mexc (0.002528)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "U",
+            "spread": 0.51,
+            "buyAt": "mexc (0.001182)",
+            "sellAt": "bingx (0.001188)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SFI",
+            "spread": 0.51,
+            "buyAt": "gateio (0.00649)",
+            "sellAt": "mexc (0.006523)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AKI",
+            "spread": 0.51,
+            "buyAt": "gateio (0.0009999)",
+            "sellAt": "mexc (0.001005)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "KZEN",
+            "spread": 0.5,
+            "buyAt": "gateio (0.000362)",
+            "sellAt": "mexc (0.0003638)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DMTR",
+            "spread": 0.5,
+            "buyAt": "bingx (0.00643)",
+            "sellAt": "mexc (0.006462)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ALEO",
+            "spread": 0.49,
+            "buyAt": "mexc (0.08588)",
+            "sellAt": "bingx (0.0863)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SNEK",
+            "spread": 0.49,
+            "buyAt": "mexc (0.000587)",
+            "sellAt": "gateio (0.0005899)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LNQ",
+            "spread": 0.49,
+            "buyAt": "mexc (0.002473)",
+            "sellAt": "bingx (0.002485)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LUNC",
+            "spread": 0.49,
+            "buyAt": "htx (3.475e-05)",
+            "sellAt": "mexc (3.492e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PEIPEI",
+            "spread": 0.48,
+            "buyAt": "mexc (7.24e-09)",
+            "sellAt": "gateio (7.275e-09)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SDM",
+            "spread": 0.48,
+            "buyAt": "gateio (0.0002475)",
+            "sellAt": "mexc (0.0002487)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ZF",
+            "spread": 0.47,
+            "buyAt": "mexc (0.0007)",
+            "sellAt": "gateio (0.0007033)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DCK",
+            "spread": 0.45,
+            "buyAt": "gateio (0.00111)",
+            "sellAt": "htx (0.001115)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ENSO",
+            "spread": 0.45,
+            "buyAt": "gateio (1.111)",
+            "sellAt": "bingx (1.116)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "WAVES",
+            "spread": 0.45,
+            "buyAt": "gateio (0.5555)",
+            "sellAt": "htx (0.558)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "FAR",
+            "spread": 0.45,
+            "buyAt": "bingx (0.0008717)",
+            "sellAt": "gateio (0.0008756)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MNTX",
+            "spread": 0.44,
+            "buyAt": "mexc (0.0818)",
+            "sellAt": "bingx (0.08216)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GHX",
+            "spread": 0.44,
+            "buyAt": "mexc (0.00944)",
+            "sellAt": "gateio (0.009482)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "CEEK",
+            "spread": 0.44,
+            "buyAt": "gateio (0.003675)",
+            "sellAt": "mexc (0.003691)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TEN",
+            "spread": 0.44,
+            "buyAt": "gateio (0.007811)",
+            "sellAt": "mexc (0.0078452)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BST",
+            "spread": 0.43,
+            "buyAt": "mexc (0.01621)",
+            "sellAt": "gateio (0.01628)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LUNC",
+            "spread": 0.43,
+            "buyAt": "htx (3.475e-05)",
+            "sellAt": "bingx (3.49e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "APR",
+            "spread": 0.43,
+            "buyAt": "bingx (0.0932)",
+            "sellAt": "htx (0.0936)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "STOS",
+            "spread": 0.42,
+            "buyAt": "mexc (0.0312)",
+            "sellAt": "gateio (0.03133)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DMAIL",
+            "spread": 0.42,
+            "buyAt": "mexc (0.001423)",
+            "sellAt": "gateio (0.001429)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "INSP",
+            "spread": 0.42,
+            "buyAt": "gateio (0.001653)",
+            "sellAt": "mexc (0.00166)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "POLS",
+            "spread": 0.42,
+            "buyAt": "gateio (0.06614)",
+            "sellAt": "mexc (0.06642)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "HEART",
+            "spread": 0.41,
+            "buyAt": "mexc (0.0008617)",
+            "sellAt": "gateio (0.0008652)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "JUV",
+            "spread": 0.41,
+            "buyAt": "gateio (0.6594)",
+            "sellAt": "htx (0.6621)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PORK",
+            "spread": 0.41,
+            "buyAt": "gateio (1.965e-08)",
+            "sellAt": "mexc (1.973e-08)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "HELLO",
+            "spread": 0.41,
+            "buyAt": "gateio (0.001706)",
+            "sellAt": "mexc (0.001713)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BELIEVE",
+            "spread": 0.41,
+            "buyAt": "gateio (0.0017)",
+            "sellAt": "mexc (0.001707)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PYR",
+            "spread": 0.41,
+            "buyAt": "htx (0.3406)",
+            "sellAt": "gateio (0.342)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "UNFI",
+            "spread": 0.4,
+            "buyAt": "gateio (0.08208)",
+            "sellAt": "mexc (0.08241)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "STARHEROES",
+            "spread": 0.39,
+            "buyAt": "mexc (0.001298)",
+            "sellAt": "gateio (0.001303)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RPL",
+            "spread": 0.39,
+            "buyAt": "gateio (2.84)",
+            "sellAt": "mexc (2.851)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MDAO",
+            "spread": 0.38,
+            "buyAt": "mexc (0.015627)",
+            "sellAt": "gateio (0.015686)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "0G",
+            "spread": 0.38,
+            "buyAt": "mexc (0.6505)",
+            "sellAt": "bingx (0.653)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SCA",
+            "spread": 0.38,
+            "buyAt": "mexc (0.0264)",
+            "sellAt": "htx (0.0265)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GFI",
+            "spread": 0.38,
+            "buyAt": "gateio (0.1308)",
+            "sellAt": "mexc (0.1313)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "OSHI",
+            "spread": 0.38,
+            "buyAt": "gateio (0.031932)",
+            "sellAt": "mexc (0.032052)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MANEKI",
+            "spread": 0.38,
+            "buyAt": "gateio (0.0002919)",
+            "sellAt": "htx (0.000293)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GFI",
+            "spread": 0.38,
+            "buyAt": "bingx (0.1308)",
+            "sellAt": "mexc (0.1313)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "WOJAK",
+            "spread": 0.37,
+            "buyAt": "mexc (4.619e-08)",
+            "sellAt": "gateio (4.636e-08)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SNEK",
+            "spread": 0.37,
+            "buyAt": "mexc (0.000587)",
+            "sellAt": "bingx (0.0005892)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "NVDAON",
+            "spread": 0.37,
+            "buyAt": "gateio (182.07)",
+            "sellAt": "mexc (182.74)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "0G",
+            "spread": 0.37,
+            "buyAt": "gateio (0.6506)",
+            "sellAt": "bingx (0.653)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "0G",
+            "spread": 0.37,
+            "buyAt": "htx (0.6506)",
+            "sellAt": "bingx (0.653)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ANDYETH",
+            "spread": 0.36,
+            "buyAt": "gateio (1.0889e-05)",
+            "sellAt": "mexc (1.0928e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RWA",
+            "spread": 0.36,
+            "buyAt": "bingx (0.00197)",
+            "sellAt": "mexc (0.001977)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "HTX",
+            "spread": 0.35,
+            "buyAt": "mexc (1.71e-06)",
+            "sellAt": "htx (1.716e-06)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ACE",
+            "spread": 0.35,
+            "buyAt": "mexc (0.1733)",
+            "sellAt": "gateio (0.1739)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LABUBU",
+            "spread": 0.35,
+            "buyAt": "gateio (0.0017678)",
+            "sellAt": "mexc (0.0017739)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BELIEVE",
+            "spread": 0.35,
+            "buyAt": "bingx (0.001701)",
+            "sellAt": "mexc (0.001707)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SKX",
+            "spread": 0.34,
+            "buyAt": "mexc (0.39865)",
+            "sellAt": "gateio (0.40001)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "OVR",
+            "spread": 0.34,
+            "buyAt": "gateio (0.03246)",
+            "sellAt": "bingx (0.03257)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "WEETH",
+            "spread": 0.34,
+            "buyAt": "gateio (2168.82)",
+            "sellAt": "mexc (2176.28)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "VELO",
+            "spread": 0.34,
+            "buyAt": "gateio (0.003577)",
+            "sellAt": "htx (0.003589)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ELIZAOS",
+            "spread": 0.34,
+            "buyAt": "htx (0.001473)",
+            "sellAt": "mexc (0.001478)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "WAVES",
+            "spread": 0.34,
+            "buyAt": "bingx (0.5561)",
+            "sellAt": "htx (0.558)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "NVDAON",
+            "spread": 0.34,
+            "buyAt": "bingx (182.12)",
+            "sellAt": "mexc (182.74)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SLIM",
+            "spread": 0.33,
+            "buyAt": "mexc (0.01214)",
+            "sellAt": "gateio (0.01218)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "EL",
+            "spread": 0.33,
+            "buyAt": "mexc (0.002105)",
+            "sellAt": "gateio (0.002112)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ALEO",
+            "spread": 0.33,
+            "buyAt": "gateio (0.08559)",
+            "sellAt": "mexc (0.08587)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RAD",
+            "spread": 0.33,
+            "buyAt": "bingx (0.245)",
+            "sellAt": "mexc (0.2458)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RAD",
+            "spread": 0.33,
+            "buyAt": "bingx (0.245)",
+            "sellAt": "gateio (0.2458)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PEPE2",
+            "spread": 0.32,
+            "buyAt": "mexc (2.774e-09)",
+            "sellAt": "gateio (2.783e-09)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "JUV",
+            "spread": 0.32,
+            "buyAt": "mexc (0.66)",
+            "sellAt": "htx (0.6621)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "EPT",
+            "spread": 0.32,
+            "buyAt": "mexc (0.00075)",
+            "sellAt": "gateio (0.0007524)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AB",
+            "spread": 0.32,
+            "buyAt": "gateio (0.002496)",
+            "sellAt": "htx (0.002504)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TRVL",
+            "spread": 0.32,
+            "buyAt": "gateio (0.001237)",
+            "sellAt": "mexc (0.001241)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "WKC",
+            "spread": 0.32,
+            "buyAt": "gateio (6.6205e-08)",
+            "sellAt": "mexc (6.642e-08)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "JUV",
+            "spread": 0.32,
+            "buyAt": "bingx (0.66)",
+            "sellAt": "htx (0.6621)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "HSK",
+            "spread": 0.32,
+            "buyAt": "bingx (0.1552)",
+            "sellAt": "mexc (0.1557)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MEY",
+            "spread": 0.32,
+            "buyAt": "bingx (0.10989)",
+            "sellAt": "mexc (0.11024)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MNSRY",
+            "spread": 0.32,
+            "buyAt": "bingx (0.00927)",
+            "sellAt": "mexc (0.0093)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "NIBI",
+            "spread": 0.31,
+            "buyAt": "mexc (0.004493)",
+            "sellAt": "gateio (0.004507)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ZKP",
+            "spread": 0.31,
+            "buyAt": "mexc (0.09347)",
+            "sellAt": "bingx (0.09376)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BID",
+            "spread": 0.31,
+            "buyAt": "gateio (0.009068)",
+            "sellAt": "mexc (0.009096)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TLOS",
+            "spread": 0.31,
+            "buyAt": "gateio (0.01302)",
+            "sellAt": "bingx (0.01306)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "CERE",
+            "spread": 0.31,
+            "buyAt": "gateio (0.00029)",
+            "sellAt": "mexc (0.0002909)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TLOS",
+            "spread": 0.31,
+            "buyAt": "htx (0.01302)",
+            "sellAt": "bingx (0.01306)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LVVA",
+            "spread": 0.31,
+            "buyAt": "htx (0.0005772)",
+            "sellAt": "gateio (0.000579)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BTR",
+            "spread": 0.3,
+            "buyAt": "mexc (0.18636)",
+            "sellAt": "bingx (0.18692)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "CLORE",
+            "spread": 0.3,
+            "buyAt": "mexc (0.002708)",
+            "sellAt": "bingx (0.002716)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "USTC",
+            "spread": 0.3,
+            "buyAt": "gateio (0.005044)",
+            "sellAt": "mexc (0.005059)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "NUMI",
+            "spread": 0.3,
+            "buyAt": "gateio (0.04699)",
+            "sellAt": "bingx (0.04713)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ALMANAK",
+            "spread": 0.29,
+            "buyAt": "mexc (0.002059)",
+            "sellAt": "gateio (0.002065)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LIME",
+            "spread": 0.29,
+            "buyAt": "mexc (0.003823)",
+            "sellAt": "gateio (0.003834)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PLAYSOLANA",
+            "spread": 0.29,
+            "buyAt": "gateio (0.002034)",
+            "sellAt": "bingx (0.00204)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "FUEL",
+            "spread": 0.29,
+            "buyAt": "gateio (0.001356)",
+            "sellAt": "mexc (0.00136)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LKY",
+            "spread": 0.28,
+            "buyAt": "mexc (0.0897)",
+            "sellAt": "gateio (0.08995)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AB",
+            "spread": 0.28,
+            "buyAt": "gateio (0.002496)",
+            "sellAt": "bingx (0.002503)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GWEI",
+            "spread": 0.28,
+            "buyAt": "gateio (0.02889)",
+            "sellAt": "htx (0.028972)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DCB",
+            "spread": 0.28,
+            "buyAt": "gateio (0.002137)",
+            "sellAt": "mexc (0.002143)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BAND",
+            "spread": 0.28,
+            "buyAt": "gateio (0.2542)",
+            "sellAt": "okx (0.2549)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "5IRE",
+            "spread": 0.28,
+            "buyAt": "bingx (0.0001436)",
+            "sellAt": "mexc (0.000144)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "5IRE",
+            "spread": 0.28,
+            "buyAt": "bingx (0.0001436)",
+            "sellAt": "gateio (0.000144)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "COAI",
+            "spread": 0.28,
+            "buyAt": "bingx (0.3534)",
+            "sellAt": "mexc (0.3544)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "MORE",
+            "spread": 0.27,
+            "buyAt": "mexc (0.000627)",
+            "sellAt": "gateio (0.0006287)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AVL",
+            "spread": 0.27,
+            "buyAt": "mexc (0.04437)",
+            "sellAt": "gateio (0.04449)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "REN",
+            "spread": 0.27,
+            "buyAt": "gateio (0.004118)",
+            "sellAt": "mexc (0.004129)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SAI",
+            "spread": 0.27,
+            "buyAt": "gateio (0.001488)",
+            "sellAt": "bingx (0.001492)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TEN",
+            "spread": 0.27,
+            "buyAt": "bingx (0.007775)",
+            "sellAt": "gateio (0.007796)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LUNA",
+            "spread": 0.26,
+            "buyAt": "okx (0.06659)",
+            "sellAt": "mexc (0.06676)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AMZNON",
+            "spread": 0.26,
+            "buyAt": "mexc (198.01)",
+            "sellAt": "gateio (198.53)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "VFY",
+            "spread": 0.26,
+            "buyAt": "mexc (0.01915)",
+            "sellAt": "bingx (0.0192)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "APR",
+            "spread": 0.26,
+            "buyAt": "mexc (0.09336)",
+            "sellAt": "htx (0.0936)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "VFY",
+            "spread": 0.26,
+            "buyAt": "gateio (0.01915)",
+            "sellAt": "bingx (0.0192)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ATH",
+            "spread": 0.26,
+            "buyAt": "htx (0.00605)",
+            "sellAt": "gateio (0.006066)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BOSON",
+            "spread": 0.26,
+            "buyAt": "bingx (0.03808)",
+            "sellAt": "mexc (0.03818)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "IOTA",
+            "spread": 0.26,
+            "buyAt": "bingx (0.07)",
+            "sellAt": "mexc (0.07018)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "FAR",
+            "spread": 0.26,
+            "buyAt": "bingx (0.0008717)",
+            "sellAt": "mexc (0.000874)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SCPT",
+            "spread": 0.26,
+            "buyAt": "bingx (0.0002351)",
+            "sellAt": "mexc (0.0002357)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "HSK",
+            "spread": 0.26,
+            "buyAt": "bingx (0.1552)",
+            "sellAt": "gateio (0.1556)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BLOCK",
+            "spread": 0.26,
+            "buyAt": "bingx (0.0074)",
+            "sellAt": "mexc (0.007419)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "WALLET",
+            "spread": 0.25,
+            "buyAt": "mexc (0.00752)",
+            "sellAt": "gateio (0.007539)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "WHITE",
+            "spread": 0.25,
+            "buyAt": "mexc (0.0001235)",
+            "sellAt": "gateio (0.00012381)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LONG",
+            "spread": 0.25,
+            "buyAt": "gateio (0.002405)",
+            "sellAt": "mexc (0.002411)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "VELO",
+            "spread": 0.25,
+            "buyAt": "gateio (0.003577)",
+            "sellAt": "okx (0.003586)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "REI",
+            "spread": 0.25,
+            "buyAt": "gateio (0.002769)",
+            "sellAt": "mexc (0.002776)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "FLM",
+            "spread": 0.25,
+            "buyAt": "bingx (0.003231)",
+            "sellAt": "gateio (0.003239)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TSLAON",
+            "spread": 0.24,
+            "buyAt": "mexc (415.3)",
+            "sellAt": "gateio (416.29)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RARE",
+            "spread": 0.24,
+            "buyAt": "mexc (0.02045)",
+            "sellAt": "bingx (0.0205)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "FTT",
+            "spread": 0.24,
+            "buyAt": "mexc (0.3764)",
+            "sellAt": "bingx (0.3773)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PTB",
+            "spread": 0.24,
+            "buyAt": "gateio (0.0016917)",
+            "sellAt": "bingx (0.0016957)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RARE",
+            "spread": 0.24,
+            "buyAt": "gateio (0.02045)",
+            "sellAt": "bingx (0.0205)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "NERO",
+            "spread": 0.24,
+            "buyAt": "gateio (0.002461)",
+            "sellAt": "mexc (0.002467)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "WLTH",
+            "spread": 0.24,
+            "buyAt": "gateio (0.002469)",
+            "sellAt": "mexc (0.002475)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PIT",
+            "spread": 0.24,
+            "buyAt": "gateio (1.65e-10)",
+            "sellAt": "mexc (1.654e-10)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "IVPAY",
+            "spread": 0.24,
+            "buyAt": "gateio (0.0008589)",
+            "sellAt": "bingx (0.000861)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ZKP",
+            "spread": 0.24,
+            "buyAt": "gateio (0.09354)",
+            "sellAt": "bingx (0.09376)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LUNA",
+            "spread": 0.24,
+            "buyAt": "htx (0.0666)",
+            "sellAt": "mexc (0.06676)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "AZERO",
+            "spread": 0.24,
+            "buyAt": "bingx (0.00678)",
+            "sellAt": "mexc (0.006796)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "THETA",
+            "spread": 0.24,
+            "buyAt": "bingx (0.209)",
+            "sellAt": "okx (0.2095)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ACE",
+            "spread": 0.23,
+            "buyAt": "okx (0.1735)",
+            "sellAt": "gateio (0.1739)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ES",
+            "spread": 0.23,
+            "buyAt": "mexc (0.11596)",
+            "sellAt": "gateio (0.11623)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LADYS",
+            "spread": 0.23,
+            "buyAt": "mexc (8.205e-09)",
+            "sellAt": "gateio (8.224e-09)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "WAVES",
+            "spread": 0.23,
+            "buyAt": "mexc (0.5567)",
+            "sellAt": "htx (0.558)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PACK",
+            "spread": 0.23,
+            "buyAt": "gateio (0.00852)",
+            "sellAt": "mexc (0.00854)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DOGS",
+            "spread": 0.23,
+            "buyAt": "gateio (3.047e-05)",
+            "sellAt": "okx (3.054e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DMTR",
+            "spread": 0.23,
+            "buyAt": "gateio (0.006447)",
+            "sellAt": "mexc (0.006462)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BRISE",
+            "spread": 0.23,
+            "buyAt": "gateio (2.182e-08)",
+            "sellAt": "mexc (2.187e-08)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ATH",
+            "spread": 0.23,
+            "buyAt": "htx (0.00605)",
+            "sellAt": "okx (0.006064)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ULTIMA",
+            "spread": 0.23,
+            "buyAt": "bingx (5595.38)",
+            "sellAt": "mexc (5608.45)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BTR",
+            "spread": 0.22,
+            "buyAt": "mexc (0.18636)",
+            "sellAt": "gateio (0.18677)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "PIPE",
+            "spread": 0.22,
+            "buyAt": "mexc (0.01801)",
+            "sellAt": "gateio (0.01805)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "NUM",
+            "spread": 0.22,
+            "buyAt": "mexc (0.00414)",
+            "sellAt": "bingx (0.004149)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "UXLINK",
+            "spread": 0.22,
+            "buyAt": "gateio (0.005358)",
+            "sellAt": "okx (0.00537)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ISP",
+            "spread": 0.22,
+            "buyAt": "gateio (8.327e-05)",
+            "sellAt": "mexc (8.345e-05)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "DEVVE",
+            "spread": 0.22,
+            "buyAt": "gateio (0.06368)",
+            "sellAt": "mexc (0.06382)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "LANDSHARE",
+            "spread": 0.22,
+            "buyAt": "gateio (0.1846)",
+            "sellAt": "mexc (0.185)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "G",
+            "spread": 0.22,
+            "buyAt": "gateio (0.004171)",
+            "sellAt": "htx (0.00418)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "VELO",
+            "spread": 0.22,
+            "buyAt": "gateio (0.003577)",
+            "sellAt": "mexc (0.003585)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "SWTCH",
+            "spread": 0.22,
+            "buyAt": "gateio (0.01342)",
+            "sellAt": "mexc (0.01345)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "FLT",
+            "spread": 0.22,
+            "buyAt": "gateio (0.005493)",
+            "sellAt": "mexc (0.005505)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "RPL",
+            "spread": 0.21,
+            "buyAt": "okx (2.845)",
+            "sellAt": "mexc (2.851)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GOAT",
+            "spread": 0.21,
+            "buyAt": "okx (0.02405)",
+            "sellAt": "gateio (0.0241)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "GOAT",
+            "spread": 0.21,
+            "buyAt": "okx (0.02405)",
+            "sellAt": "htx (0.0241)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BANANA",
+            "spread": 0.21,
+            "buyAt": "gateio (4.721)",
+            "sellAt": "okx (4.731)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ATH",
+            "spread": 0.21,
+            "buyAt": "htx (0.00605)",
+            "sellAt": "mexc (0.006063)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ATH",
+            "spread": 0.21,
+            "buyAt": "htx (0.00605)",
+            "sellAt": "bingx (0.006063)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ULTIMA",
+            "spread": 0.21,
+            "buyAt": "bingx (5595.38)",
+            "sellAt": "htx (5607.12)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "ELIZAOS",
+            "spread": 0.2,
+            "buyAt": "mexc (0.001483)",
+            "sellAt": "gateio (0.001486)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "TYCOON",
+            "spread": 0.2,
+            "buyAt": "mexc (0.010925)",
+            "sellAt": "gateio (0.010947)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "BIRB",
+            "spread": 0.2,
+            "buyAt": "mexc (0.1957)",
+            "sellAt": "gateio (0.1961)",
+            "networks": "Multi-Chain"
+        },
+        {
+            "symbol": "USDR",
+            "spread": 0.2,
+            "buyAt": "bingx (0.9979)",
+            "sellAt": "htx (0.9999)",
+            "networks": "Multi-Chain"
+        }
+    ],
     "futures": [],
     "dex": []
 }
