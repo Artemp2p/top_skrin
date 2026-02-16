@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Arbitrage Scanner Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Spread Scanner v1.0</h1>
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTab('spot')">Spot-Spot</button>
+            <button class="tab-btn" onclick="openTab('futures')">Futures-Futures</button>
+            <button class="tab-btn" onclick="openTab('dex')">DEX-Spot</button>
+        </div>
+    </header>
 
+    <main>
+        <div id="status-bar">Обновление: <span id="last-update">-</span></div>
+        
+        <table id="spread-table">
+            <thead>
+                <tr>
+                    <th>Монета</th>
+                    <th>Спред (%)</th>
+                    <th>Купить (Биржа/Цена)</th>
+                    <th>Продать (Биржа/Цена)</th>
+                    <th>Сети (Ввод/Вывод)</th>
+                    <th class="dex-only">Ликвидность</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                </tbody>
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
