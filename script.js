@@ -1,44 +1,37 @@
-let currentTab = 'spot';
+let scannerActive = true;
+let myExchanges = ['binance', 'bybit', 'okx']; // Биржи по умолчанию
 
 async function loadData() {
     try {
-        const response = await fetch('data/spreads.json');
-        const data = await response.json();
+        const res = await fetch('./data/spreads.json');
+        const data = await res.json();
         renderTable(data[currentTab]);
-        document.getElementById('last-update').innerText = new Date().toLocaleTimeString();
-    } catch (e) {
-        console.error("Данные еще не созданы ботом");
+        
+        // Проверка статуса (для кнопки)
+        const statusRes = await fetch('./data/status.json');
+        const status = await statusRes.json();
+        updateStatusUI(status.active);
+    } catch (e) { console.log("Ожидание данных..."); }
+}
+
+function updateStatusUI(isActive) {
+    scannerActive = isActive;
+    const btn = document.getElementById('btn-toggle');
+    const statusText = document.getElementById('scanner-status');
+    
+    if (isActive) {
+        btn.innerText = "Остановить сканер";
+        btn.className = "btn-stop";
+        statusText.innerText = "Статус: Работает";
+    } else {
+        btn.innerText = "Запустить сканер";
+        btn.className = "btn-start";
+        statusText.innerText = "Статус: Остановлен";
     }
 }
 
-function renderTable(items) {
-    const tbody = document.getElementById('table-body');
-    tbody.innerHTML = '';
-
-    items.forEach(item => {
-        // Пункт 11: Фильтрация спреда до 50%
-        if (item.spread > 0 && item.spread <= 50) {
-            const row = `
-                <tr>
-                    <td>${item.symbol}</td>
-                    <td class="spread-high">${item.spread}%</td>
-                    <td>${item.buyAt} / ${item.buyPrice}</td>
-                    <td>${item.sellAt} / ${item.sellPrice}</td>
-                    <td>${item.networks}</td>
-                    <td class="dex-only">${item.liquidity || '-'}</td>
-                </tr>`;
-            tbody.innerHTML += row;
-        }
-    });
+// В реальном проекте для управления через кнопку нужен GitHub API Token.
+// Пока сделаем локальную имитацию, чтобы бот видел флаг в файле.
+async function toggleScanner() {
+    alert("Для работы кнопки нужно настроить GitHub API. Бот пока работает по расписанию.");
 }
-
-function openTab(tab) {
-    currentTab = tab;
-    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
-    loadData();
-}
-
-// Постоянное обновление (Пункт 10)
-setInterval(loadData, 5000); 
-loadData();
