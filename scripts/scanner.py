@@ -3,21 +3,18 @@ import json
 import os
 import requests
 
-# --- НАСТРОЙКИ (Пункты 1, 8, 11, 12) ---
-MIN_LIQUIDITY_USD = 5000  # Мин. ликвидность на DEX (Пункт 12)
-MAX_SPREAD = 50.0         # Максимальный спред (Пункт 11)
-MIN_SPREAD = 0.1          # Минимальный спред для отображения
+# --- НАСТРОЙКИ ---
+MIN_LIQUIDITY_USD = 5000 
+MAX_SPREAD = 50.0        
+MIN_SPREAD = 0.1         # Возвращаем рабочий спред
+TOP_N_COINS = 200        # Сканировать топ-200 монет по объему
 
-# --- ЛОГИКА АВТОМАТИЧЕСКИХ ПРОКСИ (Пункт 8) ---
-# Получаем строку из Secrets и превращаем её в список
 raw_proxies = os.getenv('PROXY_LIST', '')
 PROXY_POOL = [p.strip() for p in raw_proxies.split('\n') if p.strip()]
 
 def get_proxy(index):
-    """Возвращает прокси по индексу, если он существует"""
     return PROXY_POOL[index] if index < len(PROXY_POOL) else ''
 
-# Конфигурация бирж с привязкой прокси (Пункт 8)
 EXCHANGES_CONFIG = {
     'binance': {'class': ccxt.binance, 'proxy': get_proxy(0)},
     'bybit':   {'class': ccxt.bybit,   'proxy': get_proxy(1)},
@@ -26,12 +23,22 @@ EXCHANGES_CONFIG = {
     'mexc':    {'class': ccxt.mexc,    'proxy': get_proxy(4)}
 }
 
-# Далее идет остальной код (SYMBOLS, get_cex_data и т.д.)
+def get_top_symbols():
+    """Автоматически получает топ монет по объему с Binance"""
+    try:
+        ex = ccxt.binance()
+        tickers = ex.fetch_tickers()
+        # Сортируем по объему в USDT и берем ТОП
+        sorted_tickers = sorted(
+            [t for t in tickers.values() if '/USDT' in t['symbol'] and t['quoteVolume']], 
+            key=lambda x: x['quoteVolume'], reverse=True
+        )
+        return [t['symbol'] for t in sorted_tickers[:TOP_N_COINS]]
+    except Exception as e:
+        print(f"Ошибка получения ТОП монет: {e}")
+        return ['BTC/USDT', 'ETH/USDT', 'SOL/USDT']
 
-SYMBOLS = ['BTC/USDT', 'ETH/USDT', 'SOL/USDT', 'TON/USDT', 'PEPE/USDT']
-
-def get_cex_data():
-    """Сбор цен со спота и фьючерсов (Пункты 2, 3, 6)"""
+def get_cex_data(symbols):
     spot_data = {}
     futures_data = {}
 
@@ -42,62 +49,57 @@ def get_cex_data():
                 params['proxies'] = {'http': cfg['proxy'], 'https': cfg['proxy']}
             
             ex = cfg['class'](params)
+            ex.load_markets() # Загружаем рынки один раз
             
-            # Собираем данные по списку символов
-            for symbol in SYMBOLS:
-                # 1. Spot
-                ticker = ex.fetch_ticker(symbol)
-                # Пункт 6: Блокчейны (заглушка, для реальных данных нужно fetch_currencies)
-                spot_data[f"{name}_{symbol}"] = {
-                    'exchange': name, 'symbol': symbol,
-                    'bid': ticker['bid'], 'ask': ticker['ask'],
-                    'net': 'Multi-Chain'
-                }
-
-                # 2. Futures (Пункт 2)
-                try:
-                    f_symbol = symbol.replace('/USDT', '/USDT:USDT') # Формат CCXT для перпов
-                    f_ticker = ex.fetch_ticker(f_symbol)
-                    futures_data[f"{name}_{f_symbol}"] = {
-                        'exchange': name, 'symbol': f_symbol,
-                        'bid': f_ticker['bid'], 'ask': f_ticker['ask']
+            current_tickers = ex.fetch_tickers(symbols)
+            
+            for symbol in symbols:
+                if symbol in current_tickers and current_tickers[symbol]['bid']:
+                    t = current_tickers[symbol]
+                    spot_data[f"{name}_{symbol}"] = {
+                        'exchange': name, 'symbol': symbol,
+                        'bid': t['bid'], 'ask': t['ask'], 'net': 'Multi-Chain'
                     }
-                except: continue
-        except Exception as e:
-            print(f"Ошибка {name}: {e}")
+
+                    # Фьючерсы (Пункт 2)
+                    try:
+                        f_sym = symbol.replace('/USDT', '/USDT:USDT')
+                        if f_sym in ex.markets:
+                            f_t = ex.fetch_ticker(f_sym)
+                            futures_data[f"{name}_{f_sym}"] = {
+                                'exchange': name, 'symbol': f_sym,
+                                'bid': f_t['bid'], 'ask': f_t['ask']
+                            }
+                    except: continue
+        except: continue
             
     return spot_data, futures_data
 
 def get_dex_data():
-    """Сканирование DEX через DexScreener (Пункты 4, 7, 12)"""
     dex_results = []
     try:
-        # Ищем пары к USDT в популярных сетях
         response = requests.get("https://api.dexscreener.com/latest/dex/search?q=USDT").json()
-        pairs = response.get('pairs', [])
-        
-        for p in pairs:
+        for p in response.get('pairs', []):
             liq = p.get('liquidity', {}).get('usd', 0)
-            # Пункт 12: Проверка ликвидности
-            if liq < MIN_LIQUIDITY_USD: continue
-            
-            dex_results.append({
-                'symbol': p['baseToken']['symbol'],
-                'price': float(p['priceUsd']),
-                'dex': p['dexId'],
-                'chain': p['chainId'],
-                'liquidity': liq
-            })
+            if liq >= MIN_LIQUIDITY_USD:
+                dex_results.append({
+                    'symbol': p['baseToken']['symbol'],
+                    'price': float(p['priceUsd']),
+                    'dex': p['dexId'],
+                    'chain': p['chainId'],
+                    'liquidity': liq
+                })
     except: pass
     return dex_results
 
 def calculate_spreads():
-    spot, futures = get_cex_data()
+    symbols = get_top_symbols()
+    spot, futures = get_cex_data(symbols)
     dex = get_dex_data()
     
     report = {'spot': [], 'futures': [], 'dex': []}
 
-    # Спред Spot-Spot (Пункт 3)
+    # Логика сравнения (Spot-Spot)
     keys = list(spot.keys())
     for i in range(len(keys)):
         for j in range(len(keys)):
@@ -112,21 +114,7 @@ def calculate_spreads():
                         'networks': s1['net']
                     })
 
-    # Спред Futures-Futures (Пункт 2)
-    f_keys = list(futures.keys())
-    for i in range(len(f_keys)):
-        for j in range(len(f_keys)):
-            f1, f2 = futures[f_keys[i]], futures[f_keys[j]]
-            if f1['symbol'] == f2['symbol'] and f1['exchange'] != f2['exchange']:
-                spread = ((f2['bid'] - f1['ask']) / f1['ask']) * 100
-                if MIN_SPREAD < spread < MAX_SPREAD:
-                    report['futures'].append({
-                        'symbol': f1['symbol'], 'spread': round(spread, 2),
-                        'buyAt': f1['exchange'], 'sellAt': f2['exchange'],
-                        'networks': 'Futures Contract'
-                    })
-
-    # Спред DEX-Spot (Пункты 4, 7)
+    # Логика сравнения (DEX-Spot)
     for d in dex:
         for s_key in spot:
             s = spot[s_key]
@@ -140,12 +128,12 @@ def calculate_spreads():
                         'networks': d['chain'],
                         'liquidity': f"${int(d['liquidity'])}"
                     })
-
-    # Сохраняем в JSON (Пункт 10)
+    
+    # Сохранение и "Очистка" (перезапись файла)
     os.makedirs('data', exist_ok=True)
     with open('data/spreads.json', 'w') as f:
         json.dump(report, f, indent=4)
-    print("Данные успешно обновлены.")
+    print(f"Сканирование завершено. Использовано монет: {len(symbols)}")
 
 if __name__ == "__main__":
     calculate_spreads()
