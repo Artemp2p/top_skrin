@@ -6,15 +6,15 @@ import os
 # Замени данные на свои или используй секреты GitHub
 EXCHANGES_CONFIG = {
     'binance': {
-        'proxy': 'http://user:pass@ip1:port', # Твой IP для Бинанса
+        'proxy': 'proxies': ..., # Твой IP для Бинанса
         'ccxt_class': ccxt.binance
     },
     'bybit': {
-        'proxy': 'http://user:pass@ip2:port', # Твой IP для Байбита
+        'proxy': 'proxies': ..., # Твой IP для Байбита
         'ccxt_class': ccxt.bybit
     },
     'okx': {
-        'proxy': 'http://user:pass@ip3:port', # Твой IP для OKX
+        'proxy': 'proxies': ..., # Твой IP для OKX
         'ccxt_class': ccxt.okx
     }
 }
