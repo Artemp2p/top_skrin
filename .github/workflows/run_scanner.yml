@@ -1,0 +1,32 @@
+name: Crypto Scanner
+
+on:
+  schedule:
+    - cron: '*/5 * * * *' # Запуск каждые 5 минут
+  workflow_dispatch: # Возможность запустить вручную
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install ccxt
+
+      - name: Run scanner
+        run: python scripts/scanner.py
+
+      - name: Commit results
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/spreads.json
+          git commit -m "Update spreads" || exit 0
+          git push
