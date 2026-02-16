@@ -5,7 +5,7 @@ import requests
 
 # --- НАСТРОЙКИ ---
 MIN_LIQUIDITY_USD = 50000  # Ликвидность от 50,000$
-MIN_SPREAD = 0.2
+MIN_SPREAD = 0.02
 MAX_SPREAD = 50.0
 
 # Прокси из секретов (Пункт 8)
