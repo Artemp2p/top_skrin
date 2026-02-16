@@ -1,37 +1,54 @@
-let scannerActive = true;
-let myExchanges = ['binance', 'bybit', 'okx']; // Биржи по умолчанию
+let currentTab = 'dex'; // По умолчанию открываем DEX, так как там сейчас больше всего данных
 
 async function loadData() {
     try {
-        const res = await fetch('./data/spreads.json');
-        const data = await res.json();
-        renderTable(data[currentTab]);
+        // Добавляем timestamp, чтобы браузер не брал старый файл из кэша
+        const response = await fetch('./data/spreads.json?t=' + Date.now());
+        if (!response.ok) throw new Error("Файл не найден");
         
-        // Проверка статуса (для кнопки)
-        const statusRes = await fetch('./data/status.json');
-        const status = await statusRes.json();
-        updateStatusUI(status.active);
-    } catch (e) { console.log("Ожидание данных..."); }
-}
-
-function updateStatusUI(isActive) {
-    scannerActive = isActive;
-    const btn = document.getElementById('btn-toggle');
-    const statusText = document.getElementById('scanner-status');
-    
-    if (isActive) {
-        btn.innerText = "Остановить сканер";
-        btn.className = "btn-stop";
-        statusText.innerText = "Статус: Работает";
-    } else {
-        btn.innerText = "Запустить сканер";
-        btn.className = "btn-start";
-        statusText.innerText = "Статус: Остановлен";
+        const data = await response.json();
+        console.log("Данные загружены:", data); // Для проверки в консоли браузера (F12)
+        
+        renderTable(data[currentTab]);
+        document.getElementById('last-update').innerText = new Date().toLocaleTimeString();
+    } catch (e) {
+        console.error("Ошибка загрузки:", e);
+        document.getElementById('table-body').innerHTML = 
+            '<tr><td colspan="6" style="text-align:center; color:red;">Ошибка: Данные еще не собраны ботом. Запустите Action!</td></tr>';
     }
 }
 
-// В реальном проекте для управления через кнопку нужен GitHub API Token.
-// Пока сделаем локальную имитацию, чтобы бот видел флаг в файле.
-async function toggleScanner() {
-    alert("Для работы кнопки нужно настроить GitHub API. Бот пока работает по расписанию.");
+function renderTable(items) {
+    const tbody = document.getElementById('table-body');
+    tbody.innerHTML = '';
+
+    if (!items || items.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" style="text-align:center">В этой категории пока нет выгодных связок (>0.2%)</td></tr>';
+        return;
+    }
+
+    items.forEach(item => {
+        const row = `
+            <tr>
+                <td><b>${item.symbol}</b></td>
+                <td style="color: #00c853; font-weight: bold;">${item.spread}%</td>
+                <td>${item.buyAt}</td>
+                <td>${item.sellAt}</td>
+                <td><small>${item.networks || 'Auto'}</small></td>
+                <td>${item.liquidity || '-'}</td>
+            </tr>`;
+        tbody.innerHTML += row;
+    });
 }
+
+function openTab(tab) {
+    currentTab = tab;
+    // Смена активного класса у кнопок
+    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+    loadData();
+}
+
+// Запуск
+loadData();
+setInterval(loadData, 30000); // Обновлять раз в 30 сек
