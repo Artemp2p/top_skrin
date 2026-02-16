@@ -77,19 +77,30 @@ def get_cex_data(symbols):
 
 def get_dex_data():
     dex_results = []
-    try:
-        response = requests.get("https://api.dexscreener.com/latest/dex/search?q=USDT").json()
-        for p in response.get('pairs', []):
-            liq = p.get('liquidity', {}).get('usd', 0)
-            if liq >= MIN_LIQUIDITY_USD:
-                dex_results.append({
-                    'symbol': p['baseToken']['symbol'],
-                    'price': float(p['priceUsd']),
-                    'dex': p['dexId'],
-                    'chain': p['chainId'],
-                    'liquidity': liq
-                })
-    except: pass
+    # Список сетей для сканирования (Пункт 12)
+    networks = ['ethereum', 'bsc', 'arbitrum', 'polygon', 'solana', 'base', 'optimism']
+    
+    for net in networks:
+        try:
+            # Запрашиваем последние пары в каждой сети
+            url = f"https://api.dexscreener.com/latest/dex/chains/{net}"
+            response = requests.get(url, timeout=10).json()
+            pairs = response.get('pairs', [])
+            
+            for p in pairs:
+                liq = p.get('liquidity', {}).get('usd', 0)
+                if liq >= MIN_LIQUIDITY_USD:
+                    # Извлекаем символ и цену
+                    symbol = p['baseToken']['symbol']
+                    dex_results.append({
+                        'symbol': symbol,
+                        'price': float(p['priceUsd']),
+                        'dex': f"{p['dexId']} ({net})", # Показываем сеть
+                        'chain': net,
+                        'liquidity': liq
+                    })
+        except Exception as e:
+            print(f"Ошибка сканирования сети {net}: {e}")
     return dex_results
 
 def calculate_spreads():
