@@ -2,25 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Arbitrage Scanner Pro</title>
+    <title>Arbitrage Control Panel</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    <section id="controls">
-    <div class="panel">
-        <h3>Управление сканером</h3>
-        <input type="text" id="new-exchange" placeholder="Название биржи (напр. gateio)">
-        <button onclick="addExchange()">Добавить биржу</button>
-        <div id="active-exchanges"></div>
-    </div>
-    
-    <div class="actions">
-        <button class="btn-stop" onclick="toggleScanner(false)">Остановить сканер</button>
-        <button class="btn-start" onclick="toggleScanner(true)">Запустить сканер</button>
-    </div>
-</section>
 <body>
     <header>
-        <h1>Spread Scanner v1.0</h1>
+        <h1>Arbitrage Scanner Pro</h1>
         <div class="tabs">
             <button class="tab-btn active" onclick="openTab('spot')">Spot-Spot</button>
             <button class="tab-btn" onclick="openTab('futures')">Futures-Futures</button>
@@ -29,24 +16,36 @@
     </header>
 
     <main>
-        <div id="status-bar">Обновление: <span id="last-update">-</span></div>
+        <section class="admin-panel">
+            <div class="control-group">
+                <h3>Управление сканером</h3>
+                <button id="btn-toggle" class="btn-start" onclick="toggleScanner()">Запустить сканер</button>
+                <span id="scanner-status">Статус: Загрузка...</span>
+            </div>
+            
+            <div class="control-group">
+                <h3>Мои Биржи</h3>
+                <div id="exchange-list">
+                    </div>
+            </div>
+        </section>
+
+        <div id="status-bar">Последнее обновление данных: <span id="last-update">-</span></div>
         
         <table id="spread-table">
             <thead>
                 <tr>
                     <th>Монета</th>
                     <th>Спред (%)</th>
-                    <th>Купить (Биржа/Цена)</th>
-                    <th>Продать (Биржа/Цена)</th>
-                    <th>Сети (Ввод/Вывод)</th>
-                    <th class="dex-only">Ликвидность</th>
+                    <th>Купить</th>
+                    <th>Продать</th>
+                    <th>Сети (In/Out)</th>
+                    <th>Ликвидность</th>
                 </tr>
             </thead>
-            <tbody id="table-body">
-                </tbody>
+            <tbody id="table-body"></tbody>
         </table>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
