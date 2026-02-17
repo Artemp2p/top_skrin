@@ -5,11 +5,11 @@ import requests
 from concurrent.futures import ThreadPoolExecutor
 
 # --- НАСТРОЙКИ ---
-MIN_LIQUIDITY_USD = 2000   # Снизили еще немного для теста
-MIN_SPREAD = 0.1           # Поставим 0.1% чтобы увидеть, есть ли вообще коннект
+MIN_LIQUIDITY_USD = 5000   # Оптимально для MEXC/LBank
+MIN_SPREAD = 0.2           # Минимальный порог для теста
 EXCHANGES = ['mexc', 'lbank'] 
 
-# Автоматические прокси (согласно вашим инструкциям)
+# Автоматические прокси из секретов (согласно вашим инструкциям)
 raw_proxies = os.getenv('PROXY_LIST', '')
 PROXY_POOL = [p.strip() for p in raw_proxies.split('\n') if p.strip()]
 
@@ -17,40 +17,45 @@ def get_proxy(index):
     return PROXY_POOL[index] if index < len(PROXY_POOL) else None
 
 def get_dex_data():
+    """Глубокий сбор через несколько эндпоинтов GeckoTerminal"""
     dex_results = {}
     headers = {'User-Agent': 'Mozilla/5.0'}
-    # Берем тренды + новые пулы для максимального охвата
-    endpoints = [
-        "https://api.geckoterminal.com/api/v2/networks/trending_pools",
-        "https://api.geckoterminal.com/api/v2/networks/eth/new_pools",
-        "https://api.geckoterminal.com/api/v2/networks/bsc/new_pools",
-        "https://api.geckoterminal.com/api/v2/networks/base/new_pools",
-        "https://api.geckoterminal.com/api/v2/networks/solana/new_pools"
-    ]
     
-    print(f"🔎 Сканирую DEX (Trends + New)...")
-    for url in endpoints:
-        try:
-            res = requests.get(url, headers=headers, timeout=15).json()
-            for p in res.get('data', []):
-                attr = p.get('attributes', {})
-                name = attr.get('name', '')
-                if '/' in name:
-                    # Чистим символ: "WETH/USDC" -> "ETH"
-                    raw_sym = name.split('/')[0].upper()
-                    symbol = raw_sym[1:] if raw_sym.startswith('W') and len(raw_sym) > 3 else raw_sym
+    # Список сетей и типов пулов для максимального охвата (Пункт 12)
+    networks = ['eth', 'bsc', 'solana', 'base', 'arbitrum', 'polygon', 'avalanche']
+    types = ['trending_pools', 'new_pools']
+    
+    print(f"🔎 Начинаю глубокий сбор с {len(networks)} сетей...")
+    
+    for net in networks:
+        for t in types:
+            try:
+                url = f"https://api.geckoterminal.com/api/v2/networks/{net}/{t}"
+                res = requests.get(url, headers=headers, timeout=10).json()
+                
+                for p in res.get('data', []):
+                    attr = p.get('attributes', {})
+                    name = attr.get('name', '')
                     
-                    price = float(attr.get('base_token_price_usd', 0))
-                    liq = float(attr.get('reserve_in_usd', 0))
+                    if '/' in name:
+                        # Чистим тикер: "PEPE/WETH" -> "PEPE"
+                        symbol = name.split('/')[0].upper().strip()
+                        # Убираем обертки (WETH -> ETH, WBTC -> BTC)
+                        if symbol.startswith('W') and len(symbol) > 3:
+                            symbol = symbol[1:]
+                            
+                        price = float(attr.get('base_token_price_usd') or 0)
+                        liq = float(attr.get('reserve_in_usd') or 0)
 
-                    if liq >= MIN_LIQUIDITY_USD and price > 0:
-                        if symbol not in dex_results or liq > dex_results[symbol]['liq']:
-                            dex_results[symbol] = {
-                                'price': price,
-                                'dex_name': "DEX",
-                                'liq': liq
-                            }
-        except: continue
+                        if liq >= MIN_LIQUIDITY_USD and price > 0:
+                            if symbol not in dex_results or liq > dex_results[symbol]['liq']:
+                                dex_results[symbol] = {
+                                    'price': price,
+                                    'dex_name': f"{net.upper()}",
+                                    'liq': liq
+                                }
+            except:
+                continue
     return dex_results
 
 def fetch_cex_tickers(ex_id_index):
@@ -63,19 +68,19 @@ def fetch_cex_tickers(ex_id_index):
             
         ex = getattr(ccxt, ex_id)(config)
         tickers = ex.fetch_tickers()
-        # Сохраняем только USDT пары, ключ в верхнем регистре
-        return ex_id, {k.split('/')[0].upper(): v for k, v in tickers.items() if '/USDT' in k}
+        # Собираем только USDT пары, приводим ключи к чистому виду
+        return ex_id, {k.split('/')[0].upper().strip(): v for k, v in tickers.items() if '/USDT' in k}
     except Exception as e:
         print(f"❌ {ex_id} error: {e}")
         return ex_id, {}
 
 def main():
-    # Log cleaning: подготовка
-    print("🧹 Очистка старых логов и старт...")
+    # Log cleaning: очистка перед записью (согласно вашим инструкциям)
+    print("🧹 Очистка старых данных и запуск сканера...")
     report = {'dex': [], 'spot': [], 'futures': []}
     
     dex_coins = get_dex_data()
-    print(f"📊 Собрано монет с DEX: {len(dex_coins)}")
+    print(f"📊 Всего уникальных монет собрано с DEX: {len(dex_coins)}")
 
     all_cex_data = {}
     with ThreadPoolExecutor(max_workers=len(EXCHANGES)) as executor:
@@ -83,40 +88,37 @@ def main():
         for ex_id, tickers in results:
             if tickers:
                 all_cex_data[ex_id] = tickers
-                print(f"✅ {ex_id.upper()} отдала {len(tickers)} пар")
+                print(f"✅ {ex_id.upper()} готова: {len(tickers)} пар")
 
-    # Сопоставление
+    # Поиск связок
     for coin, d_info in dex_coins.items():
         for ex_id, tickers in all_cex_data.items():
-            # Проверяем прямое совпадение
             if coin in tickers:
                 t = tickers[coin]
                 if not t['bid']: continue
                 
+                # Спред: (Цена_CEX - Цена_DEX) / Цена_DEX
                 spread = ((t['bid'] - d_info['price']) / d_info['price']) * 100
                 
-                # Фильтр реалистичности
-                if MIN_SPREAD < spread < 50:
+                if MIN_SPREAD < spread < 40:
                     report['dex'].append({
                         'symbol': coin,
                         'spread': round(spread, 2),
                         'buyAt': d_info['dex_name'],
                         'sellAt': ex_id.upper(),
-                        'dex_price': f"{d_info['price']:.6f}",
-                        'cex_price': f"{t['bid']:.6f}",
+                        'dex_price': f"{d_info['price']:.8f}",
+                        'cex_price': f"{t['bid']:.8f}",
                         'liquidity': f"${int(d_info['liq'])}"
                     })
 
     report['dex'].sort(key=lambda x: x['spread'], reverse=True)
     
-    # Пункт 10: Сохранение с очисткой старых данных
+    # Сохранение (Пункт 10)
     os.makedirs('data', exist_ok=True)
     with open('data/spreads.json', 'w') as f:
         json.dump(report, f, indent=4)
     
     print(f"🎯 Найдено связок: {len(report['dex'])}")
-    if len(report['dex']) > 0:
-        print(f"🔥 Топ спред: {report['dex'][0]['symbol']} - {report['dex'][0]['spread']}%")
 
 if __name__ == "__main__":
     main()
