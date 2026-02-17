@@ -2,126 +2,92 @@ import ccxt
 import json
 import os
 import requests
+from concurrent.futures import ThreadPoolExecutor
 
 # --- НАСТРОЙКИ ---
-MIN_LIQUIDITY_USD = 50000  # Ликвидность от 50,000$
-MIN_SPREAD = 0.02
-MAX_SPREAD = 50.0
-
-# Прокси из секретов (Пункт 8)
-raw_proxies = os.getenv('PROXY_LIST', '')
-PROXY_POOL = [p.strip() for p in raw_proxies.split('\n') if p.strip()]
-
-def get_proxy(index):
-    return PROXY_POOL[index] if index < len(PROXY_POOL) else ''
+MIN_LIQUIDITY_USD = 50000  # Ликвидность на DEX от 50,000$
+MIN_SPREAD = 0.5           # Минимальный профит 0.5%
+EXCHANGES = ['binance', 'bybit', 'okx', 'mexc', 'gateio', 'lbank2', 'htx', 'bingx', 'whitebit']
 
 def get_dex_data():
-    """Глубокий поиск по всем блокчейнам (Пункт 12)"""
-    dex_results = []
-    chains = ['ethereum', 'bsc', 'solana', 'base', 'arbitrum', 'polygon', 'avalanche', 'optimism']
-    
-    print(f"Начинаю глубокий скан DEX (Ликвидность > {MIN_LIQUIDITY_USD}$)...")
-    
-    for chain in chains:
-        try:
-            # Запрашиваем топ-пары для каждой сети отдельно для глубины
-            url = f"https://api.dexscreener.com/latest/dex/chains/{chain}"
-            response = requests.get(url, timeout=15)
-            if response.status_code == 200:
-                pairs = response.json().get('pairs', [])
-                count = 0
-                for p in pairs:
-                    liq = p.get('liquidity', {}).get('usd', 0)
-                    if liq >= MIN_LIQUIDITY_USD:
-                        # Очистка символа: WETH -> ETH, WBTC -> BTC
-                        raw_sym = p['baseToken']['symbol'].upper()
-                        symbol = raw_sym[1:] if raw_sym.startswith('W') and len(raw_sym) > 3 else raw_sym
-                        
-                        dex_results.append({
-                            'symbol': symbol,
-                            'price': float(p['priceUsd']),
-                            'dex': f"{p['dexId']} ({chain})",
-                            'liq': liq
-                        })
-                        count += 1
-                print(f"Сеть {chain}: найдено {count} ликвидных пар")
-        except Exception as e:
-            print(f"Ошибка DEX {chain}: {e}")
-    return dex_results
-
-def calculate_spreads():
-    # Твой расширенный список бирж
-    active_exchanges = ['binance', 'bybit', 'okx', 'mexc', 'gateio', 'lbank', 'htx', 'bingx', 'whitebit']
-    spot_data = {}
-    
-    print(f"Сбор данных с {len(active_exchanges)} бирж...")
-    
-    for i, name in enumerate(active_exchanges):
-        try:
-            params = {'enableRateLimit': True, 'timeout': 20000}
-            proxy = get_proxy(i)
-            if proxy:
-                params['proxies'] = {'http': proxy, 'https': proxy}
-            
-            ex = getattr(ccxt, name)(params)
-            tickers = ex.fetch_tickers()
-            
-            for sym, t in tickers.items():
-                if '/USDT' in sym and t['bid'] and t['ask']:
-                    coin = sym.split('/')[0].upper()
-                    # Сохраняем данные
-                    spot_data[f"{name}_{coin}"] = {
-                        'ex': name, 'coin': coin,
-                        'bid': t['bid'], 'ask': t['ask']
+    """Получаем жирные пары с DexScreener по всем сетям"""
+    try:
+        # Поиск по запросу USDT для фильтрации стейблкоинов и ликвидных пар
+        url = "https://api.dexscreener.com/latest/dex/search?q=USDT"
+        res = requests.get(url, timeout=15).json()
+        pairs = res.get('pairs', [])
+        
+        valid_dex_coins = {}
+        for p in pairs:
+            liq = p.get('liquidity', {}).get('usd', 0)
+            if liq >= MIN_LIQUIDITY_USD:
+                symbol = p['baseToken']['symbol'].upper()
+                # Убираем обернутые токены для сопоставления (WETH -> ETH)
+                clean_sym = symbol[1:] if symbol.startswith('W') and len(symbol) > 3 else symbol
+                dex_price = float(p['priceUsd'])
+                
+                if clean_sym not in valid_dex_coins or liq > valid_dex_coins[clean_sym]['liq']:
+                    valid_dex_coins[clean_sym] = {
+                        'price': dex_price,
+                        'dex_name': f"{p['dexId']} ({p['chainId']})",
+                        'liq': liq
                     }
-        except Exception as e:
-            print(f"Биржа {name} пропущена. Причина: {e}")
+        return valid_dex_coins
+    except Exception as e:
+        print(f"Ошибка DEX: {e}")
+        return {}
 
-    dex_data = get_dex_data()
-    report = {'spot': [], 'futures': [], 'dex': []}
+def fetch_cex_tickers(ex_id):
+    """Сбор цен с конкретной CEX"""
+    try:
+        ex = getattr(ccxt, ex_id)({'enableRateLimit': True, 'timeout': 20000})
+        tickers = ex.fetch_tickers()
+        return ex_id, {k.split('/')[0]: v for k, v in tickers.items() if '/USDT' in k}
+    except:
+        return ex_id, {}
 
-    # 1. Поиск связок Spot-Spot (Пункт 7)
-    all_spot_keys = list(spot_data.keys())
-    for i in range(len(all_spot_keys)):
-        for j in range(len(all_spot_keys)):
-            s1 = spot_data[all_spot_keys[i]]
-            s2 = spot_data[all_spot_keys[j]]
-            
-            if s1['coin'] == s2['coin'] and s1['ex'] != s2['ex']:
-                spread = ((s2['bid'] - s1['ask']) / s1['ask']) * 100
-                if MIN_SPREAD < spread < MAX_SPREAD:
-                    report['spot'].append({
-                        'symbol': s1['coin'],
+def main():
+    print("🚀 Запуск сканирования DEX-CEX...")
+    dex_coins = get_dex_data()
+    print(f"✅ Найдено {len(dex_coins)} ликвидных монет на DEX")
+
+    all_cex_data = {}
+    with ThreadPoolExecutor(max_workers=len(EXCHANGES)) as executor:
+        results = list(executor.map(fetch_cex_tickers, EXCHANGES))
+        for ex_id, tickers in results:
+            if tickers:
+                all_cex_data[ex_id] = tickers
+
+    found_spreads = []
+    for coin, d_info in dex_coins.items():
+        for ex_id, tickers in all_cex_data.items():
+            if coin in tickers:
+                cex_price = tickers[coin]['bid']
+                if not cex_price: continue
+                
+                # Считаем спред: Купили на DEX, продали на CEX
+                spread = ((cex_price - d_info['price']) / d_info['price']) * 100
+                
+                if MIN_SPREAD < spread < 50: # 50% - фильтр ошибок API
+                    found_spreads.append({
+                        'symbol': coin,
                         'spread': round(spread, 2),
-                        'buyAt': f"{s1['ex']} ({s1['ask']})",
-                        'sellAt': f"{s2['ex']} ({s2['bid']})",
-                        'networks': "Multi-Chain"
-                    })
-
-    # 2. Поиск связок DEX-Spot
-    for d in dex_data:
-        for key, s in spot_data.items():
-            if d['symbol'] == s['coin']:
-                spread = ((s['bid'] - d['price']) / d['price']) * 100
-                if MIN_SPREAD < spread < MAX_SPREAD:
-                    report['dex'].append({
-                        'symbol': d['symbol'],
-                        'spread': round(spread, 2),
-                        'buyAt': d['dex'],
-                        'sellAt': s['ex'],
-                        'networks': "Auto",
-                        'liquidity': f"${int(d['liq'])}"
+                        'buyAt': d_info['dex_name'],
+                        'sellAt': ex_id.upper(),
+                        'dex_price': d_info['price'],
+                        'cex_price': cex_price,
+                        'liquidity': f"${int(d_info['liq'])}"
                     })
 
     # Сортировка по профиту
-    report['spot'] = sorted(report['spot'], key=lambda x: x['spread'], reverse=True)
-    report['dex'] = sorted(report['dex'], key=lambda x: x['spread'], reverse=True)
-
+    found_spreads.sort(key=lambda x: x['spread'], reverse=True)
+    
+    # Сохраняем результат для сайта
+    output = {'dex': found_spreads, 'spot': [], 'futures': []}
     os.makedirs('data', exist_ok=True)
     with open('data/spreads.json', 'w') as f:
-        json.dump(report, f, indent=4)
-    
-    print(f"Готово! Найдено связок Spot: {len(report['spot'])}, DEX: {len(report['dex'])}")
+        json.dump(output, f, indent=4)
+    print(f"🎯 Найдено связок: {len(found_spreads)}. Данные сохранены в spreads.json")
 
 if __name__ == "__main__":
-    calculate_spreads()
+    main()
