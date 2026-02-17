@@ -1,85 +1,76 @@
 {
     "dex": [
         {
-            "symbol": "JTO",
-            "spread": 10.21,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.30105214",
-            "cex_price": "0.33180000",
-            "liquidity": "$150563840"
-        },
-        {
             "symbol": "67",
-            "spread": 0.99,
+            "spread": 1.18,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00250025",
+            "dex_price": "0.00249565",
             "cex_price": "0.00252500",
-            "liquidity": "$285371"
+            "liquidity": "$286152"
         },
         {
-            "symbol": "CLO",
-            "spread": 0.7,
-            "buyAt": "BSC",
+            "symbol": "PENGUIN",
+            "spread": 0.95,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.08164923",
-            "cex_price": "0.08222000",
-            "liquidity": "$1016899"
-        },
-        {
-            "symbol": "RPL",
-            "spread": 0.51,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "2.27944160",
-            "cex_price": "2.29100000",
-            "liquidity": "$548979"
-        },
-        {
-            "symbol": "ZAMA",
-            "spread": 0.39,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.01934464",
-            "cex_price": "0.01942000",
-            "liquidity": "$840785"
-        },
-        {
-            "symbol": "SPX",
-            "spread": 0.31,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.33765410",
-            "cex_price": "0.33870000",
-            "liquidity": "$9006616"
-        },
-        {
-            "symbol": "TRIA",
-            "spread": 0.28,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.01729187",
-            "cex_price": "0.01734000",
-            "liquidity": "$1302040"
-        },
-        {
-            "symbol": "BABYDOGE",
-            "spread": 0.25,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000000",
-            "cex_price": "0.00000000",
-            "liquidity": "$8257666"
+            "dex_price": "0.00936089",
+            "cex_price": "0.00945000",
+            "liquidity": "$498979"
         },
         {
             "symbol": "CAKE",
-            "spread": 0.23,
+            "spread": 0.56,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "1.29896254",
-            "cex_price": "1.30200000",
-            "liquidity": "$4771407"
+            "dex_price": "1.29870991",
+            "cex_price": "1.30600000",
+            "liquidity": "$4782492"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.52,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.51720979",
+            "cex_price": "0.51990100",
+            "liquidity": "$14348082"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.37,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01733584",
+            "cex_price": "0.01740000",
+            "liquidity": "$1301321"
+        },
+        {
+            "symbol": "FIGHT",
+            "spread": 0.3,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00621535",
+            "cex_price": "0.00623400",
+            "liquidity": "$715647"
+        },
+        {
+            "symbol": "ORCA",
+            "spread": 0.28,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "1.22469753",
+            "cex_price": "1.22810000",
+            "liquidity": "$326505"
+        },
+        {
+            "symbol": "RAY",
+            "spread": 0.23,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.68524129",
+            "cex_price": "0.68680000",
+            "liquidity": "$1242846"
         }
     ],
     "spot": [],
