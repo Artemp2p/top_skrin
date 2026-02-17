@@ -5,11 +5,11 @@ import requests
 from concurrent.futures import ThreadPoolExecutor
 
 # --- НАСТРОЙКИ ---
-MIN_LIQUIDITY_USD = 5000   # Снижаем до 5к, чтобы зацепить новые листинги
+MIN_LIQUIDITY_USD = 3000   # Снижаем до 3к для новых листингов (Пункт 12)
 MIN_SPREAD = 0.5           
 EXCHANGES = ['mexc', 'lbank'] 
 
-# Автоматическое использование прокси (согласно вашим инструкциям)
+# Автоматическое использование прокси (Пункт 8)
 raw_proxies = os.getenv('PROXY_LIST', '')
 PROXY_POOL = [p.strip() for p in raw_proxies.split('\n') if p.strip()]
 
@@ -17,34 +17,46 @@ def get_proxy(index):
     return PROXY_POOL[index] if index < len(PROXY_POOL) else None
 
 def get_dex_data():
-    """Масштабируемый поиск через эндпоинт поиска по трендам"""
+    """Сбор данных через эндпоинты последних листингов и топов"""
     dex_results = {}
-    # Список запросов для максимального охвата
-    queries = ['USDT', 'PEPE', 'SOL', 'MEME', 'AI', 'DOGE']
+    # Используем эндпоинты последних и самых активных пар
+    endpoints = [
+        "https://api.dexscreener.com/token-boosts/latest/v1",
+        "https://api.dexscreener.com/token-boosts/top/v1",
+        "https://api.dexscreener.com/latest/dex/search?q=USDT"
+    ]
     
     headers = {'User-Agent': 'Mozilla/5.0'}
-    print(f"🔎 Масштабный поиск по трендам DEX...")
+    print(f"🔎 Сканирую топовые и новые листинги DEX...")
     
-    for q in queries:
+    for url in endpoints:
         try:
-            url = f"https://api.dexscreener.com/latest/dex/search?q={q}"
             response = requests.get(url, headers=headers, timeout=15)
             if response.status_code == 200:
-                pairs = response.json().get('pairs', [])
+                # В новых эндпоинтах структура может отличаться, обрабатываем аккуратно
+                data = response.json()
+                # Если это поиск, берем 'pairs', если бусты - там список объектов напрямую
+                pairs = data if isinstance(data, list) else data.get('pairs', [])
+                
                 for p in pairs:
-                    liq = p.get('liquidity', {}).get('usd', 0)
-                    vol = p.get('volume', {}).get('h24', 0)
+                    # Извлекаем данные (учитываем разницу в форматах API)
+                    base_token = p.get('baseToken', p.get('tokenAddress', {}))
+                    if not base_token: continue
                     
-                    if liq >= MIN_LIQUIDITY_USD:
-                        symbol = p['baseToken']['symbol'].upper()
-                        # Очистка W-токенов (WETH -> ETH)
+                    symbol = p.get('baseToken', {}).get('symbol', '').upper()
+                    if not symbol: continue
+                    
+                    # Ликвидность и цена (Пункт 12)
+                    liq = p.get('liquidity', {}).get('usd', 0)
+                    price = float(p.get('priceUsd', 0))
+                    
+                    if liq >= MIN_LIQUIDITY_USD and price > 0:
                         clean_sym = symbol[1:] if symbol.startswith('W') and len(symbol) > 3 else symbol
-                        price = float(p['priceUsd'])
                         
                         if clean_sym not in dex_results or liq > dex_results[clean_sym]['liq']:
                             dex_results[clean_sym] = {
                                 'price': price,
-                                'dex_name': f"{p['dexId']} ({p.get('chainId', 'chain')})",
+                                'dex_name': f"{p.get('dexId', 'DEX')} ({p.get('chainId', 'chain')})",
                                 'liq': liq
                             }
         except: continue
@@ -54,8 +66,8 @@ def get_dex_data():
 def fetch_cex_tickers(ex_id_index):
     ex_id = EXCHANGES[ex_id_index]
     try:
-        proxy_url = get_proxy(ex_id_index)
         config = {'enableRateLimit': True, 'timeout': 30000}
+        proxy_url = get_proxy(ex_id_index)
         if proxy_url:
             config['proxies'] = {'http': proxy_url, 'https': proxy_url}
             
@@ -67,17 +79,16 @@ def fetch_cex_tickers(ex_id_index):
         return ex_id, {}
 
 def main():
-    # Функция очистки логов (согласно вашим инструкциям)
-    print("🧹 Log cleaning: Очистка старых данных...")
+    # Функция очистки логов перед стартом (Пункт 10)
+    print("🧹 Log cleaning: Подготовка свежего отчета...")
     report = {'dex': [], 'spot': [], 'futures': []}
     
     dex_coins = get_dex_data()
-    print(f"📊 Собрано монет с DEX: {len(dex_coins)}")
+    print(f"📊 Собрано уникальных монет с DEX: {len(dex_coins)}")
 
     if dex_coins:
         all_cex_data = {}
         with ThreadPoolExecutor(max_workers=len(EXCHANGES)) as executor:
-            # Передаем индексы для привязки прокси
             results = list(executor.map(fetch_cex_tickers, range(len(EXCHANGES))))
             for ex_id, tickers in results:
                 if tickers:
@@ -91,19 +102,21 @@ def main():
                     
                     spread = ((t['bid'] - d_info['price']) / d_info['price']) * 100
                     
-                    if MIN_SPREAD < spread < 30:
+                    # Ограничиваем спред реалистичными 50% (Пункт 7)
+                    if MIN_SPREAD < spread < 50:
                         report['dex'].append({
                             'symbol': coin,
                             'spread': round(spread, 2),
                             'buyAt': d_info['dex_name'],
                             'sellAt': ex_id.upper(),
-                            'dex_price': f"{d_info['price']:.6f}",
-                            'cex_price': f"{t['bid']:.6f}",
+                            'dex_price': f"{d_info['price']:.8f}",
+                            'cex_price': f"{t['bid']:.8f}",
                             'liquidity': f"${int(d_info['liq'])}"
                         })
 
     report['dex'].sort(key=lambda x: x['spread'], reverse=True)
     
+    # Сохранение с автоматической перезаписью старых данных (Пункт 10)
     os.makedirs('data', exist_ok=True)
     with open('data/spreads.json', 'w') as f:
         json.dump(report, f, indent=4)
