@@ -1,67 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "PENGUIN",
-            "spread": 1.68,
+            "symbol": "HNT",
+            "spread": 1.1,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1.51592679",
+            "cex_price": "1.53260000",
+            "liquidity": "$167457925"
+        },
+        {
+            "symbol": "67",
+            "spread": 0.71,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01045420",
-            "cex_price": "0.01063000",
-            "liquidity": "$528245"
-        },
-        {
-            "symbol": "ZAMA",
-            "spread": 0.67,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.01935988",
-            "cex_price": "0.01949000",
-            "liquidity": "$840349"
-        },
-        {
-            "symbol": "STABLE",
-            "spread": 0.61,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.02987255",
-            "cex_price": "0.03005400",
-            "liquidity": "$1073550"
-        },
-        {
-            "symbol": "KITE",
-            "spread": 0.4,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.23752690",
-            "cex_price": "0.23848000",
-            "liquidity": "$950826"
-        },
-        {
-            "symbol": "HIVE",
-            "spread": 0.31,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.07504681",
-            "cex_price": "0.07528000",
-            "liquidity": "$19420012"
-        },
-        {
-            "symbol": "CAKE",
-            "spread": 0.24,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "1.31180988",
-            "cex_price": "1.31500000",
-            "liquidity": "$4918587"
+            "dex_price": "0.00261445",
+            "cex_price": "0.00263300",
+            "liquidity": "$289214"
         },
         {
             "symbol": "AZTEC",
-            "spread": 0.21,
+            "spread": 0.65,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01957964",
-            "cex_price": "0.01962000",
-            "liquidity": "$13793456"
+            "dex_price": "0.01953379",
+            "cex_price": "0.01966000",
+            "liquidity": "$13698589"
+        },
+        {
+            "symbol": "\u6211\u8e0f\u9a6c\u6765\u4e86",
+            "spread": 0.39,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01711433",
+            "cex_price": "0.01718100",
+            "liquidity": "$944044"
+        },
+        {
+            "symbol": "CLO",
+            "spread": 0.39,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.09069408",
+            "cex_price": "0.09105000",
+            "liquidity": "$1069937"
+        },
+        {
+            "symbol": "CAKE",
+            "spread": 0.3,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.30407308",
+            "cex_price": "1.30800000",
+            "liquidity": "$4894835"
+        },
+        {
+            "symbol": "STABLE",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03095534",
+            "cex_price": "0.03103600",
+            "liquidity": "$1089651"
         }
     ],
     "spot": [],
