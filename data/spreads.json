@@ -1,22 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "STABLE",
-            "spread": 0.34,
+            "symbol": "ZAMA",
+            "spread": 0.4,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02905314",
-            "cex_price": "0.02915300",
-            "liquidity": "$1066170"
+            "dex_price": "0.01923241",
+            "cex_price": "0.01931000",
+            "liquidity": "$838275"
         },
         {
-            "symbol": "ZAMA",
-            "spread": 0.29,
+            "symbol": "SHIB",
+            "spread": 0.36,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000642",
+            "cex_price": "0.00000644",
+            "liquidity": "$2793691"
+        },
+        {
+            "symbol": "ACU",
+            "spread": 0.32,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.01933334",
-            "cex_price": "0.01939000",
-            "liquidity": "$843669"
+            "dex_price": "0.10739572",
+            "cex_price": "0.10774000",
+            "liquidity": "$888247"
+        },
+        {
+            "symbol": "CLANKER",
+            "spread": 0.26,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "31.88836769",
+            "cex_price": "31.97000000",
+            "liquidity": "$24019154"
+        },
+        {
+            "symbol": "STABLE",
+            "spread": 0.24,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02883150",
+            "cex_price": "0.02890200",
+            "liquidity": "$1059516"
         }
     ],
     "spot": [],
