@@ -1,76 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "ONDO",
-            "spread": 1.44,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.25999842",
-            "cex_price": "0.26375000",
-            "liquidity": "$3010626"
-        },
-        {
             "symbol": "AZTEC",
-            "spread": 1.29,
+            "spread": 3.56,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.02980647",
-            "cex_price": "0.03019000",
-            "liquidity": "$16128824"
+            "dex_price": "0.03110149",
+            "cex_price": "0.03221000",
+            "liquidity": "$16302845"
         },
         {
-            "symbol": "PEPE",
-            "spread": 1.25,
+            "symbol": "PEPECOIN",
+            "spread": 0.7,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000417",
-            "cex_price": "0.00000423",
-            "liquidity": "$26069638"
+            "dex_price": "0.15029046",
+            "cex_price": "0.15135000",
+            "liquidity": "$1621873"
         },
         {
             "symbol": "BTC",
-            "spread": 0.43,
+            "spread": 0.3,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "67587.79249262",
-            "cex_price": "67879.97000000",
-            "liquidity": "$45805729"
+            "dex_price": "67575.29387328",
+            "cex_price": "67780.79000000",
+            "liquidity": "$45766076"
         },
         {
-            "symbol": "BABYDOGE",
-            "spread": 0.41,
+            "symbol": "ASTER",
+            "spread": 0.23,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000000",
-            "cex_price": "0.00000000",
-            "liquidity": "$8070450"
-        },
-        {
-            "symbol": "ZAMA",
-            "spread": 0.38,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.02010314",
-            "cex_price": "0.02018000",
-            "liquidity": "$935512"
-        },
-        {
-            "symbol": "STABLE",
-            "spread": 0.37,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.02999160",
-            "cex_price": "0.03010300",
-            "liquidity": "$1079036"
-        },
-        {
-            "symbol": "TRIA",
-            "spread": 0.22,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.01550562",
-            "cex_price": "0.01554000",
-            "liquidity": "$1265854"
+            "dex_price": "0.70789728",
+            "cex_price": "0.70950000",
+            "liquidity": "$1645898"
         }
     ],
     "spot": [],
