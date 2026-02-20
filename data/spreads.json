@@ -1,76 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "AUKI",
-            "spread": 15.98,
+            "symbol": "AAVE",
+            "spread": 1.56,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00991637",
-            "cex_price": "0.01150100",
-            "liquidity": "$49824128"
+            "dex_price": "113.90765158",
+            "cex_price": "115.69000000",
+            "liquidity": "$1366891819"
         },
         {
             "symbol": "AZTEC",
-            "spread": 1.22,
+            "spread": 0.63,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03133912",
-            "cex_price": "0.03172000",
-            "liquidity": "$16410830"
-        },
-        {
-            "symbol": "BIO",
-            "spread": 0.9,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.03197153",
-            "cex_price": "0.03226000",
-            "liquidity": "$579191"
-        },
-        {
-            "symbol": "67",
-            "spread": 0.47,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00294608",
-            "cex_price": "0.00296000",
-            "liquidity": "$309203"
-        },
-        {
-            "symbol": "PIPPIN",
-            "spread": 0.47,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.49025897",
-            "cex_price": "0.49258500",
-            "liquidity": "$14019963"
-        },
-        {
-            "symbol": "ASTER",
-            "spread": 0.28,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.71040547",
-            "cex_price": "0.71240000",
-            "liquidity": "$1649621"
-        },
-        {
-            "symbol": "TRIA",
-            "spread": 0.25,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.01663777",
-            "cex_price": "0.01668000",
-            "liquidity": "$1290656"
+            "dex_price": "0.03091551",
+            "cex_price": "0.03111000",
+            "liquidity": "$16245531"
         },
         {
             "symbol": "TET",
-            "spread": 0.21,
+            "spread": 0.33,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.33798495",
+            "dex_price": "0.33759727",
             "cex_price": "0.33870000",
-            "liquidity": "$276366"
+            "liquidity": "$275447"
+        },
+        {
+            "symbol": "BIO",
+            "spread": 0.29,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.03151725",
+            "cex_price": "0.03161000",
+            "liquidity": "$567979"
         }
     ],
     "spot": [],
