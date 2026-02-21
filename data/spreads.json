@@ -2,21 +2,39 @@
     "dex": [
         {
             "symbol": "YGG",
-            "spread": 16.5,
+            "spread": 16.09,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.04158902",
-            "cex_price": "0.04845000",
-            "liquidity": "$31191766"
+            "cex_price": "0.04828000",
+            "liquidity": "$31191768"
         },
         {
-            "symbol": "ONDO",
-            "spread": 0.53,
+            "symbol": "ZAMA",
+            "spread": 1.28,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02481226",
+            "cex_price": "0.02513000",
+            "liquidity": "$978204"
+        },
+        {
+            "symbol": "BIO",
+            "spread": 0.7,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.27106260",
-            "cex_price": "0.27251000",
-            "liquidity": "$3094045"
+            "dex_price": "0.03037704",
+            "cex_price": "0.03059000",
+            "liquidity": "$563045"
+        },
+        {
+            "symbol": "AZTEC",
+            "spread": 0.47,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.03658919",
+            "cex_price": "0.03676000",
+            "liquidity": "$17282488"
         }
     ],
     "spot": [],
