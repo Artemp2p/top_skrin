@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "WKC",
-            "spread": 1.57,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000006",
-            "cex_price": "0.00000006",
-            "liquidity": "$940295"
-        },
-        {
             "symbol": "YGG",
-            "spread": 0.54,
+            "spread": 0.56,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04883778",
-            "cex_price": "0.04910000",
-            "liquidity": "$146664"
+            "dex_price": "0.04783227",
+            "cex_price": "0.04810000",
+            "liquidity": "$144779"
         },
         {
-            "symbol": "BABYDOGE",
-            "spread": 0.21,
+            "symbol": "AAVE",
+            "spread": 0.46,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "122.12080412",
+            "cex_price": "122.68000000",
+            "liquidity": "$6764922"
+        },
+        {
+            "symbol": "PENGUIN",
+            "spread": 0.4,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00821415",
+            "cex_price": "0.00824700",
+            "liquidity": "$478003"
+        },
+        {
+            "symbol": "ZAMA",
+            "spread": 0.23,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000000",
-            "cex_price": "0.00000000",
-            "liquidity": "$8400470"
+            "dex_price": "0.02513221",
+            "cex_price": "0.02519000",
+            "liquidity": "$981681"
         }
     ],
     "spot": [],
