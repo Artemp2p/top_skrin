@@ -1,40 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "ZAMA",
-            "spread": 0.75,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.02499336",
-            "cex_price": "0.02518000",
-            "liquidity": "$981962"
-        },
-        {
-            "symbol": "AAVE",
-            "spread": 0.58,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "120.30067165",
-            "cex_price": "121.00000000",
-            "liquidity": "$6666016"
-        },
-        {
-            "symbol": "SPX",
-            "spread": 0.35,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.32467784",
-            "cex_price": "0.32580000",
-            "liquidity": "$8785773"
-        },
-        {
             "symbol": "WKC",
-            "spread": 0.21,
+            "spread": 1.59,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000006",
             "cex_price": "0.00000006",
-            "liquidity": "$939596"
+            "liquidity": "$938619"
+        },
+        {
+            "symbol": "AZTEC",
+            "spread": 0.46,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.03636358",
+            "cex_price": "0.03653000",
+            "liquidity": "$17337393"
+        },
+        {
+            "symbol": "YGG",
+            "spread": 0.25,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.04885979",
+            "cex_price": "0.04898000",
+            "liquidity": "$146781"
         }
     ],
     "spot": [],
