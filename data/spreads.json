@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "PEPU",
-            "spread": 1.42,
+            "symbol": "HNT",
+            "spread": 2.87,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00017649",
-            "cex_price": "0.00017900",
-            "liquidity": "$280058"
+            "dex_price": "1.48112745",
+            "cex_price": "1.52360000",
+            "liquidity": "$73682594"
         },
         {
             "symbol": "WKC",
-            "spread": 0.86,
+            "spread": 0.84,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000006",
             "cex_price": "0.00000006",
-            "liquidity": "$908383"
+            "liquidity": "$910620"
         },
         {
-            "symbol": "YGG",
-            "spread": 0.42,
-            "buyAt": "ETH",
+            "symbol": "PIPPIN",
+            "spread": 0.67,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.04885595",
-            "cex_price": "0.04906000",
-            "liquidity": "$146398"
+            "dex_price": "0.48483342",
+            "cex_price": "0.48806900",
+            "liquidity": "$14075396"
+        },
+        {
+            "symbol": "ZAMA",
+            "spread": 0.48,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02533878",
+            "cex_price": "0.02546000",
+            "liquidity": "$986846"
         },
         {
             "symbol": "FIGHT",
-            "spread": 0.25,
+            "spread": 0.21,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00685187",
-            "cex_price": "0.00686900",
-            "liquidity": "$756655"
+            "dex_price": "0.00683171",
+            "cex_price": "0.00684600",
+            "liquidity": "$758309"
         }
     ],
     "spot": [],
