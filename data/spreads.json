@@ -2,21 +2,57 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 1.07,
+            "spread": 3.8,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000005",
-            "cex_price": "0.00000005",
-            "liquidity": "$879782"
+            "cex_price": "0.00000006",
+            "liquidity": "$880780"
+        },
+        {
+            "symbol": "AAVE",
+            "spread": 0.48,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "117.15752540",
+            "cex_price": "117.72000000",
+            "liquidity": "$6700219"
         },
         {
             "symbol": "SHIB",
-            "spread": 0.38,
+            "spread": 0.37,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000614",
-            "cex_price": "0.00000617",
-            "liquidity": "$2701103"
+            "cex_price": "0.00000616",
+            "liquidity": "$2698061"
+        },
+        {
+            "symbol": "ZAMA",
+            "spread": 0.25,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02136669",
+            "cex_price": "0.02142000",
+            "liquidity": "$895996"
+        },
+        {
+            "symbol": "RAVE",
+            "spread": 0.22,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.67361506",
+            "cex_price": "0.67510000",
+            "liquidity": "$1684533"
+        },
+        {
+            "symbol": "ETH",
+            "spread": 0.2,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1937.50625763",
+            "cex_price": "1941.44000000",
+            "liquidity": "$85896463"
         }
     ],
     "spot": [],
