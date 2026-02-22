@@ -1,49 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "ZAMA",
-            "spread": 0.57,
-            "buyAt": "BSC",
+            "symbol": "PENGUIN",
+            "spread": 0.33,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.02335589",
-            "cex_price": "0.02349000",
-            "liquidity": "$941826"
+            "dex_price": "0.00779115",
+            "cex_price": "0.00781700",
+            "liquidity": "$464970"
         },
         {
             "symbol": "SHIB",
-            "spread": 0.47,
+            "spread": 0.3,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000621",
-            "cex_price": "0.00000624",
-            "liquidity": "$2741288"
+            "cex_price": "0.00000623",
+            "liquidity": "$2740995"
         },
         {
-            "symbol": "AZTEC",
-            "spread": 0.33,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.03120615",
-            "cex_price": "0.03131000",
-            "liquidity": "$16630818"
-        },
-        {
-            "symbol": "MOG",
-            "spread": 0.22,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000017",
-            "cex_price": "0.00000017",
-            "liquidity": "$5882001"
-        },
-        {
-            "symbol": "PEPE",
+            "symbol": "AAVE",
             "spread": 0.21,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000410",
-            "cex_price": "0.00000411",
-            "liquidity": "$25849537"
+            "dex_price": "119.09531452",
+            "cex_price": "119.34000000",
+            "liquidity": "$6663149"
         }
     ],
     "spot": [],
