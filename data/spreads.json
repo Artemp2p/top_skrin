@@ -1,31 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "PENGUIN",
-            "spread": 0.33,
-            "buyAt": "SOLANA",
+            "symbol": "WKC",
+            "spread": 1.68,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00779115",
-            "cex_price": "0.00781700",
-            "liquidity": "$464970"
+            "dex_price": "0.00000006",
+            "cex_price": "0.00000006",
+            "liquidity": "$903313"
         },
         {
             "symbol": "SHIB",
-            "spread": 0.3,
+            "spread": 0.49,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000621",
-            "cex_price": "0.00000623",
-            "liquidity": "$2740995"
+            "cex_price": "0.00000624",
+            "liquidity": "$2740987"
         },
         {
             "symbol": "AAVE",
-            "spread": 0.21,
+            "spread": 0.46,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "119.09531452",
-            "cex_price": "119.34000000",
-            "liquidity": "$6663149"
+            "cex_price": "119.64000000",
+            "liquidity": "$6663165"
+        },
+        {
+            "symbol": "UNI",
+            "spread": 0.41,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "3.54430184",
+            "cex_price": "3.55900000",
+            "liquidity": "$14963903"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.26,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000409",
+            "cex_price": "0.00000410",
+            "liquidity": "$25820924"
+        },
+        {
+            "symbol": "ZAMA",
+            "spread": 0.25,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02330192",
+            "cex_price": "0.02336000",
+            "liquidity": "$941871"
+        },
+        {
+            "symbol": "KITE",
+            "spread": 0.21,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.24837661",
+            "cex_price": "0.24889000",
+            "liquidity": "$958609"
         }
     ],
     "spot": [],
