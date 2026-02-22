@@ -2,30 +2,57 @@
     "dex": [
         {
             "symbol": "INJ",
-            "spread": 0.51,
+            "spread": 0.76,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "3.60846898",
-            "cex_price": "3.62700000",
+            "cex_price": "3.63600000",
             "liquidity": "$237913"
         },
         {
-            "symbol": "ASTER",
-            "spread": 0.36,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.70866259",
-            "cex_price": "0.71120000",
-            "liquidity": "$1756835"
-        },
-        {
             "symbol": "LDO",
-            "spread": 0.23,
+            "spread": 0.7,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.31826648",
-            "cex_price": "0.31900000",
+            "cex_price": "0.32050000",
             "liquidity": "$238699701"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.65,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.26215399",
+            "cex_price": "0.26387000",
+            "liquidity": "$3063162"
+        },
+        {
+            "symbol": "AAVE",
+            "spread": 0.53,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "118.48247973",
+            "cex_price": "119.11000000",
+            "liquidity": "$6643336"
+        },
+        {
+            "symbol": "WKC",
+            "spread": 0.4,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000006",
+            "cex_price": "0.00000006",
+            "liquidity": "$903156"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.31,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.70978022",
+            "cex_price": "0.71200000",
+            "liquidity": "$1761069"
         }
     ],
     "spot": [],
