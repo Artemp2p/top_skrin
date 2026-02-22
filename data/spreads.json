@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "HNT",
-            "spread": 2.99,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "1.48112745",
-            "cex_price": "1.52540000",
-            "liquidity": "$73680436"
-        },
-        {
             "symbol": "WKC",
-            "spread": 0.29,
+            "spread": 1.12,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000006",
             "cex_price": "0.00000006",
-            "liquidity": "$911504"
+            "liquidity": "$912234"
         },
         {
-            "symbol": "INJ",
-            "spread": 0.25,
+            "symbol": "PIPPIN",
+            "spread": 0.67,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.49748900",
+            "cex_price": "0.50082200",
+            "liquidity": "$14258914"
+        },
+        {
+            "symbol": "AZTEC",
+            "spread": 0.6,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "3.78935331",
-            "cex_price": "3.79900000",
-            "liquidity": "$243980"
+            "dex_price": "0.03552704",
+            "cex_price": "0.03574000",
+            "liquidity": "$17188555"
+        },
+        {
+            "symbol": "AAVE",
+            "spread": 0.2,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "120.11755876",
+            "cex_price": "120.36000000",
+            "liquidity": "$6681925"
         }
     ],
     "spot": [],
