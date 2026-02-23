@@ -2,21 +2,66 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 3.93,
+            "spread": 2.28,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000005",
             "cex_price": "0.00000005",
-            "liquidity": "$849285"
+            "liquidity": "$847860"
         },
         {
             "symbol": "PEPU",
-            "spread": 1.49,
+            "spread": 1.35,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00018317",
-            "cex_price": "0.00018590",
-            "liquidity": "$272116"
+            "dex_price": "0.00018353",
+            "cex_price": "0.00018600",
+            "liquidity": "$271459"
+        },
+        {
+            "symbol": "BTC",
+            "spread": 0.47,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "63803.85802720",
+            "cex_price": "64105.27000000",
+            "liquidity": "$42120711"
+        },
+        {
+            "symbol": "PROMPT",
+            "spread": 0.46,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.05055605",
+            "cex_price": "0.05079000",
+            "liquidity": "$455685"
+        },
+        {
+            "symbol": "MANYU",
+            "spread": 0.39,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$590620"
+        },
+        {
+            "symbol": "\u6211\u8e0f\u9a6c\u6765\u4e86",
+            "spread": 0.32,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01130476",
+            "cex_price": "0.01134100",
+            "liquidity": "$761474"
+        },
+        {
+            "symbol": "ETH",
+            "spread": 0.2,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1850.06758781",
+            "cex_price": "1853.83000000",
+            "liquidity": "$83520946"
         }
     ],
     "spot": [],
