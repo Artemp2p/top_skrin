@@ -2,48 +2,30 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 3.39,
+            "spread": 1.5,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000005",
             "cex_price": "0.00000005",
-            "liquidity": "$869074"
-        },
-        {
-            "symbol": "PENGUIN",
-            "spread": 0.97,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00627987",
-            "cex_price": "0.00634100",
-            "liquidity": "$406470"
-        },
-        {
-            "symbol": "PUNCH",
-            "spread": 0.84,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.03215846",
-            "cex_price": "0.03243000",
-            "liquidity": "$780446"
-        },
-        {
-            "symbol": "KITE",
-            "spread": 0.29,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.24983675",
-            "cex_price": "0.25057000",
-            "liquidity": "$961490"
+            "liquidity": "$877135"
         },
         {
             "symbol": "ASTER",
-            "spread": 0.29,
+            "spread": 0.34,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.69799909",
-            "cex_price": "0.70000000",
-            "liquidity": "$1754479"
+            "dex_price": "0.69784775",
+            "cex_price": "0.70020000",
+            "liquidity": "$1735825"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.31,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000619",
+            "cex_price": "0.00000621",
+            "liquidity": "$2696323"
         }
     ],
     "spot": [],
