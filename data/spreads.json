@@ -1,76 +1,85 @@
 {
     "dex": [
         {
+            "symbol": "CHILLHOUSE",
+            "spread": 7.68,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00336261",
+            "cex_price": "0.00362100",
+            "liquidity": "$2001997"
+        },
+        {
+            "symbol": "MOLT",
+            "spread": 1.52,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00001997",
+            "cex_price": "0.00002027",
+            "liquidity": "$1410752"
+        },
+        {
+            "symbol": "PENDLE",
+            "spread": 1.31,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "1.19339546",
+            "cex_price": "1.20900000",
+            "liquidity": "$550414"
+        },
+        {
             "symbol": "PEPU",
-            "spread": 0.72,
+            "spread": 0.96,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00018120",
-            "cex_price": "0.00018250",
-            "liquidity": "$268862"
+            "dex_price": "0.00017780",
+            "cex_price": "0.00017950",
+            "liquidity": "$267711"
         },
         {
-            "symbol": "MOG",
-            "spread": 0.61,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000015",
-            "cex_price": "0.00000015",
-            "liquidity": "$5382486"
-        },
-        {
-            "symbol": "WKC",
-            "spread": 0.57,
+            "symbol": "POWER",
+            "spread": 0.96,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000005",
-            "cex_price": "0.00000005",
-            "liquidity": "$857508"
-        },
-        {
-            "symbol": "ESP",
-            "spread": 0.38,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.14836254",
-            "cex_price": "0.14892000",
-            "liquidity": "$50101"
+            "dex_price": "0.54636092",
+            "cex_price": "0.55162000",
+            "liquidity": "$1451705"
         },
         {
             "symbol": "KEKIUS",
-            "spread": 0.36,
+            "spread": 0.9,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00542752",
-            "cex_price": "0.00544700",
-            "liquidity": "$677858"
+            "dex_price": "0.00546290",
+            "cex_price": "0.00551200",
+            "liquidity": "$678924"
         },
         {
-            "symbol": "LINK",
-            "spread": 0.36,
-            "buyAt": "ETH",
+            "symbol": "PUNCH",
+            "spread": 0.35,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "8.14782017",
-            "cex_price": "8.17700000",
-            "liquidity": "$16838390"
+            "dex_price": "0.02339695",
+            "cex_price": "0.02348000",
+            "liquidity": "$672776"
         },
         {
-            "symbol": "PEPE",
-            "spread": 0.3,
-            "buyAt": "ETH",
+            "symbol": "AERO",
+            "spread": 0.23,
+            "buyAt": "BASE",
             "sellAt": "MEXC",
-            "dex_price": "0.00000389",
-            "cex_price": "0.00000390",
-            "liquidity": "$24165594"
+            "dex_price": "0.30248948",
+            "cex_price": "0.30320000",
+            "liquidity": "$19128409"
         },
         {
             "symbol": "BTC",
-            "spread": 0.29,
-            "buyAt": "ETH",
+            "spread": 0.21,
+            "buyAt": "ARBITRUM",
             "sellAt": "MEXC",
-            "dex_price": "63072.90899963",
-            "cex_price": "63252.82000000",
-            "liquidity": "$41549386"
+            "dex_price": "63052.64623415",
+            "cex_price": "63186.21000000",
+            "liquidity": "$45947274"
         }
     ],
     "spot": [],
