@@ -1,49 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "POWER",
-            "spread": 1.66,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.51490498",
-            "cex_price": "0.52347000",
-            "liquidity": "$1446336"
-        },
-        {
             "symbol": "WKC",
-            "spread": 1.51,
+            "spread": 1.0,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000005",
             "cex_price": "0.00000005",
-            "liquidity": "$863218"
-        },
-        {
-            "symbol": "MANYU",
-            "spread": 0.54,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$569571"
+            "liquidity": "$858352"
         },
         {
             "symbol": "PEPU",
-            "spread": 0.5,
+            "spread": 0.61,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00018409",
-            "cex_price": "0.00018500",
-            "liquidity": "$272808"
+            "dex_price": "0.00018199",
+            "cex_price": "0.00018310",
+            "liquidity": "$267504"
         },
         {
-            "symbol": "SHIB",
-            "spread": 0.36,
+            "symbol": "KEKIUS",
+            "spread": 0.33,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000597",
-            "cex_price": "0.00000599",
-            "liquidity": "$2596391"
+            "dex_price": "0.00535933",
+            "cex_price": "0.00537700",
+            "liquidity": "$672127"
+        },
+        {
+            "symbol": "AAVE",
+            "spread": 0.29,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "111.76524225",
+            "cex_price": "112.09000000",
+            "liquidity": "$6380883"
         }
     ],
     "spot": [],
