@@ -2,75 +2,57 @@
     "dex": [
         {
             "symbol": "FF",
-            "spread": 4.29,
+            "spread": 4.8,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.07434899",
-            "cex_price": "0.07754000",
-            "liquidity": "$445237839"
-        },
-        {
-            "symbol": "PEPU",
-            "spread": 1.69,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00017593",
-            "cex_price": "0.00017890",
-            "liquidity": "$265196"
-        },
-        {
-            "symbol": "POWER",
-            "spread": 1.28,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.60025518",
-            "cex_price": "0.60795000",
-            "liquidity": "$1459911"
+            "cex_price": "0.07792000",
+            "liquidity": "$445246057"
         },
         {
             "symbol": "WKC",
-            "spread": 0.84,
+            "spread": 0.82,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000005",
             "cex_price": "0.00000005",
-            "liquidity": "$844912"
+            "liquidity": "$843783"
         },
         {
             "symbol": "CRTR",
-            "spread": 0.74,
+            "spread": 0.6,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.01305305",
-            "cex_price": "0.01315000",
-            "liquidity": "$930549"
+            "dex_price": "0.01364844",
+            "cex_price": "0.01373000",
+            "liquidity": "$952492"
         },
         {
-            "symbol": "FT",
-            "spread": 0.68,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.09809184",
-            "cex_price": "0.09876000",
-            "liquidity": "$57832"
-        },
-        {
-            "symbol": "KEKIUS",
-            "spread": 0.36,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00549648",
-            "cex_price": "0.00551600",
-            "liquidity": "$680735"
-        },
-        {
-            "symbol": "FARTCOIN",
-            "spread": 0.22,
+            "symbol": "SKR",
+            "spread": 0.39,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.14092522",
-            "cex_price": "0.14123000",
-            "liquidity": "$5910631"
+            "dex_price": "0.02609882",
+            "cex_price": "0.02620000",
+            "liquidity": "$422962"
+        },
+        {
+            "symbol": "PEPU",
+            "spread": 0.34,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00017740",
+            "cex_price": "0.00017800",
+            "liquidity": "$265662"
+        },
+        {
+            "symbol": "BTC",
+            "spread": 0.21,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "63051.58562869",
+            "cex_price": "63186.34000000",
+            "liquidity": "$41479186"
         }
     ],
     "spot": [],
