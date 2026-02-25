@@ -1,31 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "KEKIUS",
-            "spread": 4.47,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00794096",
-            "cex_price": "0.00829600",
-            "liquidity": "$868725"
-        },
-        {
-            "symbol": "PIPPIN",
-            "spread": 1.25,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.75131638",
-            "cex_price": "0.76069900",
-            "liquidity": "$18128417"
-        },
-        {
             "symbol": "USDE",
             "spread": 0.54,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.99392226",
             "cex_price": "0.99930000",
-            "liquidity": "$187643"
+            "liquidity": "$187598"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.26,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000637",
+            "cex_price": "0.00000639",
+            "liquidity": "$2840403"
+        },
+        {
+            "symbol": "PIEVERSE",
+            "spread": 0.24,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.48154247",
+            "cex_price": "0.48270000",
+            "liquidity": "$1395830"
         }
     ],
     "spot": [],
