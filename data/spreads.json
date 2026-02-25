@@ -1,31 +1,76 @@
 {
     "dex": [
         {
-            "symbol": "TRIA",
-            "spread": 0.82,
-            "buyAt": "BSC",
+            "symbol": "SLING",
+            "spread": 10.36,
+            "buyAt": "ARBITRUM",
             "sellAt": "MEXC",
-            "dex_price": "0.02181060",
-            "cex_price": "0.02199000",
-            "liquidity": "$1387952"
+            "dex_price": "0.00000294",
+            "cex_price": "0.00000324",
+            "liquidity": "$5709"
         },
         {
-            "symbol": "GORK",
-            "spread": 0.69,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00643787",
-            "cex_price": "0.00648200",
-            "liquidity": "$748931"
-        },
-        {
-            "symbol": "MORPHO",
-            "spread": 0.21,
+            "symbol": "FIL",
+            "spread": 1.02,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "1.83975816",
-            "cex_price": "1.84360000",
-            "liquidity": "$3182908"
+            "dex_price": "1.07702297",
+            "cex_price": "1.08800000",
+            "liquidity": "$1053932281"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.52,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.02108937",
+            "cex_price": "0.02119900",
+            "liquidity": "$716714"
+        },
+        {
+            "symbol": "SOL",
+            "spread": 0.52,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "89.37851622",
+            "cex_price": "89.84000000",
+            "liquidity": "$8036599"
+        },
+        {
+            "symbol": "TIBBIR",
+            "spread": 0.43,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.19144472",
+            "cex_price": "0.19226000",
+            "liquidity": "$2882080"
+        },
+        {
+            "symbol": "PIEVERSE",
+            "spread": 0.35,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.50144702",
+            "cex_price": "0.50320000",
+            "liquidity": "$1428667"
+        },
+        {
+            "symbol": "GUA",
+            "spread": 0.29,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.22447164",
+            "cex_price": "0.22512000",
+            "liquidity": "$2109392"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02232165",
+            "cex_price": "0.02238000",
+            "liquidity": "$1396653"
         }
     ],
     "spot": [],
