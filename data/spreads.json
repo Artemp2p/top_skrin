@@ -1,13 +1,22 @@
 {
     "dex": [
         {
-            "symbol": "WKC",
-            "spread": 0.82,
+            "symbol": "SHIB",
+            "spread": 0.39,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000612",
+            "cex_price": "0.00000615",
+            "liquidity": "$2774520"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.33,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000006",
-            "cex_price": "0.00000006",
-            "liquidity": "$907095"
+            "dex_price": "0.02158970",
+            "cex_price": "0.02166000",
+            "liquidity": "$1391091"
         }
     ],
     "spot": [],
