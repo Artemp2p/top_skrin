@@ -1,40 +1,40 @@
 {
     "dex": [
         {
+            "symbol": "GORK",
+            "spread": 3.09,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00286005",
+            "cex_price": "0.00294850",
+            "liquidity": "$502800"
+        },
+        {
             "symbol": "GWEI",
-            "spread": 1.08,
+            "spread": 2.64,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03574246",
-            "cex_price": "0.03613000",
-            "liquidity": "$92731"
+            "dex_price": "0.03536733",
+            "cex_price": "0.03630000",
+            "liquidity": "$91522"
         },
         {
             "symbol": "PEPU",
-            "spread": 0.94,
+            "spread": 0.81,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00018516",
+            "dex_price": "0.00018541",
             "cex_price": "0.00018690",
-            "liquidity": "$289544"
+            "liquidity": "$291294"
         },
         {
-            "symbol": "KEKIUS",
-            "spread": 0.64,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00931701",
-            "cex_price": "0.00937700",
-            "liquidity": "$934720"
-        },
-        {
-            "symbol": "CAKE",
-            "spread": 0.47,
+            "symbol": "ASTER",
+            "spread": 0.31,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "1.29995298",
-            "cex_price": "1.30600000",
-            "liquidity": "$4955715"
+            "dex_price": "0.70054283",
+            "cex_price": "0.70270000",
+            "liquidity": "$1660567"
         }
     ],
     "spot": [],
