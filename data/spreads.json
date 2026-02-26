@@ -1,31 +1,85 @@
 {
     "dex": [
         {
-            "symbol": "CFG",
-            "spread": 0.25,
+            "symbol": "GWEI",
+            "spread": 1.58,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.14722934",
-            "cex_price": "0.14760000",
-            "liquidity": "$728279"
-        },
-        {
-            "symbol": "PUNCH",
-            "spread": 0.24,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.01845620",
-            "cex_price": "0.01850000",
-            "liquidity": "$667112"
+            "dex_price": "0.03560671",
+            "cex_price": "0.03617000",
+            "liquidity": "$91980"
         },
         {
             "symbol": "ZAMA",
-            "spread": 0.22,
+            "spread": 0.41,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02562357",
-            "cex_price": "0.02568000",
-            "liquidity": "$997875"
+            "dex_price": "0.02506728",
+            "cex_price": "0.02517000",
+            "liquidity": "$983147"
+        },
+        {
+            "symbol": "CRTR",
+            "spread": 0.37,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02386055",
+            "cex_price": "0.02395000",
+            "liquidity": "$1256688"
+        },
+        {
+            "symbol": "STABLE",
+            "spread": 0.33,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03631023",
+            "cex_price": "0.03643000",
+            "liquidity": "$1179235"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.33,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02068259",
+            "cex_price": "0.02075000",
+            "liquidity": "$1367556"
+        },
+        {
+            "symbol": "KITE",
+            "spread": 0.27,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.25181165",
+            "cex_price": "0.25249000",
+            "liquidity": "$40994825"
+        },
+        {
+            "symbol": "GORK",
+            "spread": 0.27,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00279495",
+            "cex_price": "0.00280250",
+            "liquidity": "$494492"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.27,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01771145",
+            "cex_price": "0.01776000",
+            "liquidity": "$652550"
+        },
+        {
+            "symbol": "AZTEC",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.02311679",
+            "cex_price": "0.02317000",
+            "liquidity": "$15568358"
         }
     ],
     "spot": [],
