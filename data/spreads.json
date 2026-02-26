@@ -1,40 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "GORK",
-            "spread": 3.09,
+            "symbol": "CFG",
+            "spread": 0.25,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.14722934",
+            "cex_price": "0.14760000",
+            "liquidity": "$728279"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.24,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00286005",
-            "cex_price": "0.00294850",
-            "liquidity": "$502800"
+            "dex_price": "0.01845620",
+            "cex_price": "0.01850000",
+            "liquidity": "$667112"
         },
         {
-            "symbol": "GWEI",
-            "spread": 2.64,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.03536733",
-            "cex_price": "0.03630000",
-            "liquidity": "$91522"
-        },
-        {
-            "symbol": "PEPU",
-            "spread": 0.81,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00018541",
-            "cex_price": "0.00018690",
-            "liquidity": "$291294"
-        },
-        {
-            "symbol": "ASTER",
-            "spread": 0.31,
+            "symbol": "ZAMA",
+            "spread": 0.22,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.70054283",
-            "cex_price": "0.70270000",
-            "liquidity": "$1660567"
+            "dex_price": "0.02562357",
+            "cex_price": "0.02568000",
+            "liquidity": "$997875"
         }
     ],
     "spot": [],
