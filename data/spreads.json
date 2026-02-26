@@ -1,40 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "PEPU",
-            "spread": 1.73,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00018618",
-            "cex_price": "0.00018940",
-            "liquidity": "$288031"
-        },
-        {
-            "symbol": "GWEI",
-            "spread": 1.66,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.03490146",
-            "cex_price": "0.03548000",
-            "liquidity": "$89892"
-        },
-        {
             "symbol": "GORK",
-            "spread": 0.44,
+            "spread": 2.21,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00282652",
-            "cex_price": "0.00283890",
-            "liquidity": "$495821"
+            "dex_price": "0.00301262",
+            "cex_price": "0.00307930",
+            "liquidity": "$509572"
+        },
+        {
+            "symbol": "POWER",
+            "spread": 1.52,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1.83125910",
+            "cex_price": "1.85905000",
+            "liquidity": "$9565"
         },
         {
             "symbol": "KEKIUS",
-            "spread": 0.31,
+            "spread": 1.22,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00869268",
-            "cex_price": "0.00872000",
-            "liquidity": "$894562"
+            "dex_price": "0.00873419",
+            "cex_price": "0.00884100",
+            "liquidity": "$896087"
+        },
+        {
+            "symbol": "GWEI",
+            "spread": 0.78,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.03600808",
+            "cex_price": "0.03629000",
+            "liquidity": "$91509"
+        },
+        {
+            "symbol": "MOG",
+            "spread": 0.41,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000016",
+            "cex_price": "0.00000016",
+            "liquidity": "$5783352"
+        },
+        {
+            "symbol": "UAI",
+            "spread": 0.3,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.24416041",
+            "cex_price": "0.24490000",
+            "liquidity": "$1224443"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.21,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000380",
+            "cex_price": "0.00000380",
+            "liquidity": "$24958638"
         }
     ],
     "spot": [],
