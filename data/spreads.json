@@ -1,22 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "SHIB",
-            "spread": 0.39,
+            "symbol": "GWEI",
+            "spread": 1.73,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000612",
-            "cex_price": "0.00000615",
-            "liquidity": "$2774520"
+            "dex_price": "0.03095465",
+            "cex_price": "0.03149000",
+            "liquidity": "$80311"
+        },
+        {
+            "symbol": "LINK",
+            "spread": 0.8,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "9.17946544",
+            "cex_price": "9.25300000",
+            "liquidity": "$19274483"
+        },
+        {
+            "symbol": "KEKIUS",
+            "spread": 0.64,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00996165",
+            "cex_price": "0.01002500",
+            "liquidity": "$977312"
+        },
+        {
+            "symbol": "KITE",
+            "spread": 0.37,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.29468706",
+            "cex_price": "0.29578000",
+            "liquidity": "$48133107"
         },
         {
             "symbol": "TRIA",
-            "spread": 0.33,
+            "spread": 0.34,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02158970",
-            "cex_price": "0.02166000",
-            "liquidity": "$1391091"
+            "dex_price": "0.02137631",
+            "cex_price": "0.02145000",
+            "liquidity": "$1380058"
         }
     ],
     "spot": [],
