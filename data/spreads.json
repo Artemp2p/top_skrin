@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "GWEI",
-            "spread": 2.56,
+            "symbol": "KSM",
+            "spread": 15.13,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03363915",
-            "cex_price": "0.03450000",
-            "liquidity": "$85653"
+            "dex_price": "4.49225709",
+            "cex_price": "5.17200000",
+            "liquidity": "$20818070"
         },
         {
-            "symbol": "GORK",
-            "spread": 0.72,
-            "buyAt": "SOLANA",
+            "symbol": "GWEI",
+            "spread": 1.01,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00515511",
-            "cex_price": "0.00519220",
-            "liquidity": "$674387"
+            "dex_price": "0.03286886",
+            "cex_price": "0.03320000",
+            "liquidity": "$84323"
         },
         {
-            "symbol": "ZAMA",
-            "spread": 0.28,
-            "buyAt": "BSC",
+            "symbol": "LINK",
+            "spread": 0.55,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.02387305",
-            "cex_price": "0.02394000",
-            "liquidity": "$956192"
+            "dex_price": "9.23940923",
+            "cex_price": "9.29000000",
+            "liquidity": "$19316916"
+        },
+        {
+            "symbol": "MOG",
+            "spread": 0.52,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000017",
+            "cex_price": "0.00000017",
+            "liquidity": "$6021552"
         }
     ],
     "spot": [],
