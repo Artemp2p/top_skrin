@@ -2,57 +2,57 @@
     "dex": [
         {
             "symbol": "GWEI",
-            "spread": 1.67,
+            "spread": 1.81,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03649068",
-            "cex_price": "0.03710000",
-            "liquidity": "$93899"
+            "dex_price": "0.03612783",
+            "cex_price": "0.03678000",
+            "liquidity": "$93199"
         },
         {
-            "symbol": "GORK",
-            "spread": 1.46,
-            "buyAt": "SOLANA",
+            "symbol": "CFG",
+            "spread": 0.77,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00275236",
-            "cex_price": "0.00279250",
-            "liquidity": "$492778"
+            "dex_price": "0.15729473",
+            "cex_price": "0.15850000",
+            "liquidity": "$751595"
+        },
+        {
+            "symbol": "LINK",
+            "spread": 0.64,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "9.00809867",
+            "cex_price": "9.06600000",
+            "liquidity": "$1206490"
+        },
+        {
+            "symbol": "MOLT",
+            "spread": 0.49,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00001902",
+            "cex_price": "0.00001911",
+            "liquidity": "$1472486"
+        },
+        {
+            "symbol": "DOT",
+            "spread": 0.49,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "1.55841497",
+            "cex_price": "1.56600000",
+            "liquidity": "$732020"
         },
         {
             "symbol": "KEKIUS",
-            "spread": 1.21,
+            "spread": 0.24,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00903046",
-            "cex_price": "0.00914000",
-            "liquidity": "$923835"
-        },
-        {
-            "symbol": "STABLE",
-            "spread": 0.38,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.03489999",
-            "cex_price": "0.03503100",
-            "liquidity": "$1159300"
-        },
-        {
-            "symbol": "ZAMA",
-            "spread": 0.32,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.02498956",
-            "cex_price": "0.02507000",
-            "liquidity": "$980835"
-        },
-        {
-            "symbol": "TRIA",
-            "spread": 0.31,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.02016774",
-            "cex_price": "0.02023000",
-            "liquidity": "$1356743"
+            "dex_price": "0.00914444",
+            "cex_price": "0.00916600",
+            "liquidity": "$925908"
         }
     ],
     "spot": [],
