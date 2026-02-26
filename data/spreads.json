@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "PUNCH",
-            "spread": 2.57,
-            "buyAt": "SOLANA",
+            "symbol": "GWEI",
+            "spread": 2.75,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.02213461",
-            "cex_price": "0.02270300",
-            "liquidity": "$730262"
+            "dex_price": "0.02809641",
+            "cex_price": "0.02887000",
+            "liquidity": "$15199"
         },
         {
             "symbol": "PEPU",
-            "spread": 1.06,
+            "spread": 0.73,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00019474",
-            "cex_price": "0.00019680",
-            "liquidity": "$297741"
+            "dex_price": "0.00019458",
+            "cex_price": "0.00019600",
+            "liquidity": "$296578"
         },
         {
-            "symbol": "KEKIUS",
-            "spread": 0.57,
-            "buyAt": "ETH",
+            "symbol": "TRIA",
+            "spread": 0.4,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00853422",
-            "cex_price": "0.00858300",
-            "liquidity": "$898005"
+            "dex_price": "0.02360450",
+            "cex_price": "0.02370000",
+            "liquidity": "$1420815"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.69947917",
+            "cex_price": "0.70130000",
+            "liquidity": "$1663171"
         }
     ],
     "spot": [],
