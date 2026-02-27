@@ -2,39 +2,66 @@
     "dex": [
         {
             "symbol": "GWEI",
-            "spread": 10.98,
+            "spread": 13.89,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.04020543",
-            "cex_price": "0.04462000",
-            "liquidity": "$201028777"
+            "cex_price": "0.04579000",
+            "liquidity": "$201106393"
         },
         {
             "symbol": "SHIB",
-            "spread": 0.87,
+            "spread": 1.04,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000573",
-            "cex_price": "0.00000578",
+            "cex_price": "0.00000579",
             "liquidity": "$2607109"
         },
         {
-            "symbol": "ROBO",
-            "spread": 0.59,
-            "buyAt": "BSC",
+            "symbol": "SPX",
+            "spread": 0.47,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04003568",
-            "cex_price": "0.04027000",
-            "liquidity": "$1172794"
+            "dex_price": "0.29589709",
+            "cex_price": "0.29730000",
+            "liquidity": "$8302208"
         },
         {
             "symbol": "BTC",
-            "spread": 0.49,
+            "spread": 0.46,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "65572.45068334",
-            "cex_price": "65896.76000000",
-            "liquidity": "$42450503"
+            "dex_price": "65559.85964838",
+            "cex_price": "65859.31000000",
+            "liquidity": "$42466674"
+        },
+        {
+            "symbol": "UNI",
+            "spread": 0.41,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "3.72674189",
+            "cex_price": "3.74200000",
+            "liquidity": "$15585320"
+        },
+        {
+            "symbol": "STABLE",
+            "spread": 0.32,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03231200",
+            "cex_price": "0.03241600",
+            "liquidity": "$1127402"
+        },
+        {
+            "symbol": "CRTR",
+            "spread": 0.23,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.04767048",
+            "cex_price": "0.04778000",
+            "liquidity": "$1784845"
         }
     ],
     "spot": [],
