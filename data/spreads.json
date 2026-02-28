@@ -1,49 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "PEPU",
-            "spread": 1.65,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00017265",
-            "cex_price": "0.00017550",
-            "liquidity": "$267437"
-        },
-        {
             "symbol": "KEKIUS",
-            "spread": 0.82,
+            "spread": 0.62,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00799350",
-            "cex_price": "0.00805900",
-            "liquidity": "$831937"
-        },
-        {
-            "symbol": "PIPPIN",
-            "spread": 0.44,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.58930343",
-            "cex_price": "0.59191700",
-            "liquidity": "$15329856"
-        },
-        {
-            "symbol": "ETH",
-            "spread": 0.24,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "1860.84471193",
-            "cex_price": "1865.27000000",
-            "liquidity": "$86312679"
+            "dex_price": "0.00823534",
+            "cex_price": "0.00828600",
+            "liquidity": "$844272"
         },
         {
             "symbol": "UNI",
-            "spread": 0.2,
+            "spread": 0.53,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "3.53981463",
-            "cex_price": "3.54700000",
-            "liquidity": "$14833640"
+            "dex_price": "3.54635564",
+            "cex_price": "3.56500000",
+            "liquidity": "$14868864"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.24,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000346",
+            "cex_price": "0.00000347",
+            "liquidity": "$23111888"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.21,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.27632204",
+            "cex_price": "0.27690000",
+            "liquidity": "$7903269"
         }
     ],
     "spot": [],
