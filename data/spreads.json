@@ -1,13 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "KITE",
-            "spread": 0.56,
+            "symbol": "PUNCH",
+            "spread": 1.05,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01135933",
+            "cex_price": "0.01147900",
+            "liquidity": "$539900"
+        },
+        {
+            "symbol": "CRV",
+            "spread": 0.87,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.26268912",
-            "cex_price": "0.26417000",
-            "liquidity": "$42543664"
+            "dex_price": "0.24150288",
+            "cex_price": "0.24360000",
+            "liquidity": "$348338900"
+        },
+        {
+            "symbol": "UNI",
+            "spread": 0.22,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "3.79076222",
+            "cex_price": "3.79900000",
+            "liquidity": "$15907341"
         }
     ],
     "spot": [],
