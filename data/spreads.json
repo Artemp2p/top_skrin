@@ -1,31 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "MANYU",
-            "spread": 0.76,
+            "symbol": "GWEI",
+            "spread": 0.73,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$564671"
+            "dex_price": "0.04510073",
+            "cex_price": "0.04543000",
+            "liquidity": "$113398"
         },
         {
-            "symbol": "ONDO",
-            "spread": 0.54,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.24588391",
-            "cex_price": "0.24720000",
-            "liquidity": "$3299752"
-        },
-        {
-            "symbol": "ASTER",
-            "spread": 0.31,
+            "symbol": "STABLE",
+            "spread": 0.24,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.69586638",
-            "cex_price": "0.69800000",
-            "liquidity": "$1688959"
+            "dex_price": "0.03091050",
+            "cex_price": "0.03098600",
+            "liquidity": "$1105081"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.23,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01132112",
+            "cex_price": "0.01134700",
+            "liquidity": "$532083"
         }
     ],
     "spot": [],
