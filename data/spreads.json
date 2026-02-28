@@ -2,12 +2,48 @@
     "dex": [
         {
             "symbol": "GWEI",
-            "spread": 3.16,
+            "spread": 1.63,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04380375",
-            "cex_price": "0.04519000",
-            "liquidity": "$108165"
+            "dex_price": "0.04489728",
+            "cex_price": "0.04563000",
+            "liquidity": "$112997"
+        },
+        {
+            "symbol": "KEKIUS",
+            "spread": 1.1,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00979158",
+            "cex_price": "0.00989900",
+            "liquidity": "$927254"
+        },
+        {
+            "symbol": "UNI",
+            "spread": 0.46,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "3.66208205",
+            "cex_price": "3.67900000",
+            "liquidity": "$15396550"
+        },
+        {
+            "symbol": "MOG",
+            "spread": 0.24,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000015",
+            "cex_price": "0.00000015",
+            "liquidity": "$5481677"
+        },
+        {
+            "symbol": "ETH",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1897.05855922",
+            "cex_price": "1901.48000000",
+            "liquidity": "$87459994"
         }
     ],
     "spot": [],
