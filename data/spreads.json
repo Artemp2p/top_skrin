@@ -1,13 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "UNI",
-            "spread": 0.22,
+            "symbol": "KTA",
+            "spread": 21.38,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "3.81272730",
-            "cex_price": "3.82100000",
-            "liquidity": "$15958031"
+            "dex_price": "0.20629519",
+            "cex_price": "0.25040000",
+            "liquidity": "$154749768"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.82,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000574",
+            "cex_price": "0.00000578",
+            "liquidity": "$2624600"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.24,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.31185354",
+            "cex_price": "0.31260000",
+            "liquidity": "$8604985"
         }
     ],
     "spot": [],
