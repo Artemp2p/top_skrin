@@ -2,39 +2,57 @@
     "dex": [
         {
             "symbol": "VOW",
-            "spread": 6.62,
+            "spread": 10.73,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.02630836",
-            "cex_price": "0.02805000",
-            "liquidity": "$22895"
+            "cex_price": "0.02913000",
+            "liquidity": "$22941"
         },
         {
             "symbol": "PEPU",
-            "spread": 2.0,
+            "spread": 2.87,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00017422",
-            "cex_price": "0.00017770",
-            "liquidity": "$266458"
+            "dex_price": "0.00017108",
+            "cex_price": "0.00017600",
+            "liquidity": "$266935"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.51,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000346",
+            "cex_price": "0.00000347",
+            "liquidity": "$23009104"
+        },
+        {
+            "symbol": "KITE",
+            "spread": 0.5,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.25362396",
+            "cex_price": "0.25489000",
+            "liquidity": "$41045511"
         },
         {
             "symbol": "KEKIUS",
-            "spread": 0.94,
+            "spread": 0.35,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00806795",
-            "cex_price": "0.00814400",
-            "liquidity": "$832979"
+            "dex_price": "0.00805948",
+            "cex_price": "0.00808800",
+            "liquidity": "$835021"
         },
         {
-            "symbol": "CRTR",
+            "symbol": "ZAMA",
             "spread": 0.33,
-            "buyAt": "BSC",
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04065661",
-            "cex_price": "0.04079000",
-            "liquidity": "$1636959"
+            "dex_price": "0.02162770",
+            "cex_price": "0.02170000",
+            "liquidity": "$628886"
         }
     ],
     "spot": [],
