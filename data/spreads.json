@@ -1,13 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "PUNCH",
-            "spread": 0.37,
-            "buyAt": "SOLANA",
+            "symbol": "PEPE",
+            "spread": 1.34,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01084638",
-            "cex_price": "0.01088700",
-            "liquidity": "$510138"
+            "dex_price": "0.00000347",
+            "cex_price": "0.00000352",
+            "liquidity": "$23323595"
+        },
+        {
+            "symbol": "KEKIUS",
+            "spread": 0.71,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00814336",
+            "cex_price": "0.00820100",
+            "liquidity": "$840886"
+        },
+        {
+            "symbol": "ATH",
+            "spread": 0.39,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00594575",
+            "cex_price": "0.00596900",
+            "liquidity": "$245774"
+        },
+        {
+            "symbol": "ZAMA",
+            "spread": 0.35,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.02196347",
+            "cex_price": "0.02204000",
+            "liquidity": "$633344"
         }
     ],
     "spot": [],
