@@ -1,13 +1,22 @@
 {
     "dex": [
         {
-            "symbol": "ROBO",
-            "spread": 1.11,
-            "buyAt": "BSC",
+            "symbol": "SPX",
+            "spread": 0.41,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03781074",
-            "cex_price": "0.03823000",
-            "liquidity": "$1175492"
+            "dex_price": "0.33809891",
+            "cex_price": "0.33950000",
+            "liquidity": "$9059645"
+        },
+        {
+            "symbol": "AZTEC",
+            "spread": 0.32,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.02211907",
+            "cex_price": "0.02219000",
+            "liquidity": "$15269539"
         }
     ],
     "spot": [],
