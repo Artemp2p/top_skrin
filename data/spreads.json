@@ -1,13 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "BNKR",
-            "spread": 0.58,
-            "buyAt": "BASE",
+            "symbol": "PEPE",
+            "spread": 0.33,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00051809",
-            "cex_price": "0.00052110",
-            "liquidity": "$2737114"
+            "dex_price": "0.00000348",
+            "cex_price": "0.00000349",
+            "liquidity": "$23868161"
+        },
+        {
+            "symbol": "MOG",
+            "spread": 0.33,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000016",
+            "cex_price": "0.00000016",
+            "liquidity": "$5732463"
+        },
+        {
+            "symbol": "MANYU",
+            "spread": 0.3,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$596530"
+        },
+        {
+            "symbol": "AZTEC",
+            "spread": 0.29,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.02178638",
+            "cex_price": "0.02185000",
+            "liquidity": "$15096345"
         }
     ],
     "spot": [],
