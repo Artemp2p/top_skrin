@@ -2,21 +2,39 @@
     "dex": [
         {
             "symbol": "GIZA",
-            "spread": 8.63,
+            "spread": 8.81,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.03187073",
-            "cex_price": "0.03462000",
-            "liquidity": "$15882604"
+            "cex_price": "0.03468000",
+            "liquidity": "$16216652"
         },
         {
-            "symbol": "PEPU",
-            "spread": 0.26,
+            "symbol": "MANYU",
+            "spread": 0.73,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00018232",
-            "cex_price": "0.00018280",
-            "liquidity": "$282710"
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$603946"
+        },
+        {
+            "symbol": "KEKIUS",
+            "spread": 0.28,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.01048164",
+            "cex_price": "0.01051100",
+            "liquidity": "$993179"
+        },
+        {
+            "symbol": "MOG",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000016",
+            "cex_price": "0.00000016",
+            "liquidity": "$5849536"
         }
     ],
     "spot": [],
