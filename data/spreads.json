@@ -1,22 +1,22 @@
 {
     "dex": [
         {
-            "symbol": "MANYU",
-            "spread": 0.85,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$596158"
-        },
-        {
             "symbol": "WKC",
-            "spread": 0.47,
+            "spread": 0.27,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000005",
             "cex_price": "0.00000005",
-            "liquidity": "$885310"
+            "liquidity": "$882553"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.70575248",
+            "cex_price": "0.70760000",
+            "liquidity": "$1708491"
         }
     ],
     "spot": [],
