@@ -1,40 +1,22 @@
 {
     "dex": [
         {
-            "symbol": "PEPE",
-            "spread": 0.33,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000348",
-            "cex_price": "0.00000349",
-            "liquidity": "$23868161"
-        },
-        {
-            "symbol": "MOG",
-            "spread": 0.33,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000016",
-            "cex_price": "0.00000016",
-            "liquidity": "$5732463"
-        },
-        {
             "symbol": "MANYU",
-            "spread": 0.3,
+            "spread": 0.85,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000001",
             "cex_price": "0.00000001",
-            "liquidity": "$596530"
+            "liquidity": "$596158"
         },
         {
-            "symbol": "AZTEC",
-            "spread": 0.29,
-            "buyAt": "ETH",
+            "symbol": "WKC",
+            "spread": 0.47,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02178638",
-            "cex_price": "0.02185000",
-            "liquidity": "$15096345"
+            "dex_price": "0.00000005",
+            "cex_price": "0.00000005",
+            "liquidity": "$885310"
         }
     ],
     "spot": [],
