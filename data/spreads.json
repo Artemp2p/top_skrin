@@ -1,5 +1,24 @@
 {
-    "dex": [],
+    "dex": [
+        {
+            "symbol": "GIZA",
+            "spread": 8.63,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.03187073",
+            "cex_price": "0.03462000",
+            "liquidity": "$15882604"
+        },
+        {
+            "symbol": "PEPU",
+            "spread": 0.26,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00018232",
+            "cex_price": "0.00018280",
+            "liquidity": "$282710"
+        }
+    ],
     "spot": [],
     "futures": []
 }
