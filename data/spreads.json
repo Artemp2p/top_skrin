@@ -1,49 +1,22 @@
 {
     "dex": [
         {
-            "symbol": "MANYU",
-            "spread": 0.93,
+            "symbol": "LINK",
+            "spread": 0.99,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$578039"
+            "dex_price": "8.58226231",
+            "cex_price": "8.66700000",
+            "liquidity": "$18159175"
         },
         {
-            "symbol": "KIN",
-            "spread": 0.8,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.02773882",
-            "cex_price": "0.02796000",
-            "liquidity": "$1055057"
-        },
-        {
-            "symbol": "PENGUIN",
-            "spread": 0.75,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00470368",
-            "cex_price": "0.00473900",
-            "liquidity": "$360807"
-        },
-        {
-            "symbol": "KITE",
-            "spread": 0.44,
+            "symbol": "AZTEC",
+            "spread": 0.34,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.24559164",
-            "cex_price": "0.24667000",
-            "liquidity": "$39761811"
-        },
-        {
-            "symbol": "POWER",
-            "spread": 0.21,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "1.72082406",
-            "cex_price": "1.72442000",
-            "liquidity": "$476470"
+            "dex_price": "0.02165608",
+            "cex_price": "0.02173000",
+            "liquidity": "$14809006"
         }
     ],
     "spot": [],
