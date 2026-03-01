@@ -1,22 +1,31 @@
 {
     "dex": [
         {
+            "symbol": "KIN",
+            "spread": 1.08,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02848181",
+            "cex_price": "0.02879000",
+            "liquidity": "$1070733"
+        },
+        {
             "symbol": "LINK",
-            "spread": 0.99,
+            "spread": 1.01,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "8.58226231",
-            "cex_price": "8.66700000",
-            "liquidity": "$18159175"
+            "cex_price": "8.66900000",
+            "liquidity": "$18121201"
         },
         {
-            "symbol": "AZTEC",
-            "spread": 0.34,
+            "symbol": "KITE",
+            "spread": 0.21,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.02165608",
-            "cex_price": "0.02173000",
-            "liquidity": "$14809006"
+            "dex_price": "0.25114400",
+            "cex_price": "0.25168000",
+            "liquidity": "$40683518"
         }
     ],
     "spot": [],
