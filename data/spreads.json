@@ -2,21 +2,39 @@
     "dex": [
         {
             "symbol": "PIPPIN",
-            "spread": 38.18,
+            "spread": 36.96,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.40591225",
-            "cex_price": "0.56089300",
-            "liquidity": "$279945700"
+            "cex_price": "0.55592000",
+            "liquidity": "$278994658"
         },
         {
-            "symbol": "AZTEC",
-            "spread": 0.55,
+            "symbol": "GIZA",
+            "spread": 14.6,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.02119436",
-            "cex_price": "0.02131000",
-            "liquidity": "$14612426"
+            "dex_price": "0.03101960",
+            "cex_price": "0.03555000",
+            "liquidity": "$15509840"
+        },
+        {
+            "symbol": "KIN",
+            "spread": 2.34,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02993917",
+            "cex_price": "0.03064000",
+            "liquidity": "$1099522"
+        },
+        {
+            "symbol": "UNI",
+            "spread": 0.32,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "3.66915649",
+            "cex_price": "3.68100000",
+            "liquidity": "$15475819"
         }
     ],
     "spot": [],
