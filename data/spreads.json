@@ -1,67 +1,112 @@
 {
     "dex": [
         {
-            "symbol": "IMX",
-            "spread": 8.45,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.15427089",
-            "cex_price": "0.16730000",
-            "liquidity": "$183957346"
-        },
-        {
             "symbol": "PENGU",
-            "spread": 7.73,
+            "spread": 7.58,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00649393",
-            "cex_price": "0.00699600",
-            "liquidity": "$38717830"
+            "cex_price": "0.00698600",
+            "liquidity": "$38613808"
         },
         {
             "symbol": "FET",
-            "spread": 6.71,
+            "spread": 6.24,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.14881618",
-            "cex_price": "0.15880000",
-            "liquidity": "$88726493"
+            "cex_price": "0.15810000",
+            "liquidity": "$88488116"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 5.73,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.24855590",
+            "cex_price": "0.26280000",
+            "liquidity": "$1489488865"
         },
         {
             "symbol": "UNI",
-            "spread": 2.67,
+            "spread": 2.21,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "3.71478209",
-            "cex_price": "3.81400000",
-            "liquidity": "$219505482"
+            "cex_price": "3.79700000",
+            "liquidity": "$218915757"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.64,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.33614785",
+            "cex_price": "0.33830000",
+            "liquidity": "$9008541"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.57,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000360",
+            "cex_price": "0.00000363",
+            "liquidity": "$24381434"
+        },
+        {
+            "symbol": "MOG",
+            "spread": 0.39,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000016",
+            "cex_price": "0.00000016",
+            "liquidity": "$5804381"
+        },
+        {
+            "symbol": "AZTEC",
+            "spread": 0.38,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.02170841",
+            "cex_price": "0.02179000",
+            "liquidity": "$15180192"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.35,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000576",
+            "cex_price": "0.00000578",
+            "liquidity": "$2655202"
         },
         {
             "symbol": "MANYU",
-            "spread": 0.43,
+            "spread": 0.27,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000001",
             "cex_price": "0.00000001",
-            "liquidity": "$592626"
+            "liquidity": "$587606"
         },
         {
             "symbol": "LINK",
-            "spread": 0.37,
+            "spread": 0.27,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "8.95431488",
-            "cex_price": "8.98700000",
-            "liquidity": "$18779688"
+            "dex_price": "8.94457869",
+            "cex_price": "8.96900000",
+            "liquidity": "$18702495"
         },
         {
-            "symbol": "CRTR",
-            "spread": 0.33,
-            "buyAt": "BSC",
+            "symbol": "ETH",
+            "spread": 0.24,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03987956",
-            "cex_price": "0.04001000",
-            "liquidity": "$1636062"
+            "dex_price": "1998.64223469",
+            "cex_price": "2003.51000000",
+            "liquidity": "$90257809"
         }
     ],
     "spot": [],
