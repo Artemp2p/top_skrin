@@ -2,30 +2,48 @@
     "dex": [
         {
             "symbol": "GIZA",
-            "spread": 6.99,
+            "spread": 6.68,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.03187073",
-            "cex_price": "0.03410000",
-            "liquidity": "$16181491"
+            "cex_price": "0.03400000",
+            "liquidity": "$16167554"
         },
         {
-            "symbol": "PUNCH",
-            "spread": 0.47,
+            "symbol": "PEPU",
+            "spread": 0.65,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00018410",
+            "cex_price": "0.00018530",
+            "liquidity": "$287233"
+        },
+        {
+            "symbol": "PENGUIN",
+            "spread": 0.3,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01220044",
-            "cex_price": "0.01225800",
-            "liquidity": "$578367"
+            "dex_price": "0.00509396",
+            "cex_price": "0.00510900",
+            "liquidity": "$383351"
         },
         {
-            "symbol": "CRTR",
-            "spread": 0.4,
+            "symbol": "SPX",
+            "spread": 0.25,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.33556488",
+            "cex_price": "0.33640000",
+            "liquidity": "$8982769"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.24,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.04582661",
-            "cex_price": "0.04601000",
-            "liquidity": "$1753894"
+            "dex_price": "0.70956785",
+            "cex_price": "0.71130000",
+            "liquidity": "$1718311"
         }
     ],
     "spot": [],
