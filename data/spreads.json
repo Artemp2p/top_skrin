@@ -2,39 +2,48 @@
     "dex": [
         {
             "symbol": "PEPU",
-            "spread": 1.13,
+            "spread": 1.79,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00017314",
-            "cex_price": "0.00017510",
-            "liquidity": "$276510"
+            "dex_price": "0.00017182",
+            "cex_price": "0.00017490",
+            "liquidity": "$274586"
+        },
+        {
+            "symbol": "UNI",
+            "spread": 0.48,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "3.76185382",
+            "cex_price": "3.78000000",
+            "liquidity": "$15763713"
         },
         {
             "symbol": "PUNCH",
-            "spread": 1.05,
+            "spread": 0.48,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01202615",
-            "cex_price": "0.01215200",
-            "liquidity": "$570049"
+            "dex_price": "0.01226082",
+            "cex_price": "0.01232000",
+            "liquidity": "$577449"
         },
         {
             "symbol": "KEKIUS",
-            "spread": 0.83,
+            "spread": 0.41,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01082884",
-            "cex_price": "0.01091900",
-            "liquidity": "$989592"
+            "dex_price": "0.01118061",
+            "cex_price": "0.01122600",
+            "liquidity": "$1004247"
         },
         {
-            "symbol": "ROBO",
-            "spread": 0.8,
-            "buyAt": "BSC",
+            "symbol": "ETH",
+            "spread": 0.21,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04335531",
-            "cex_price": "0.04370000",
-            "liquidity": "$1178243"
+            "dex_price": "1941.62166987",
+            "cex_price": "1945.76000000",
+            "liquidity": "$89194416"
         }
     ],
     "spot": [],
