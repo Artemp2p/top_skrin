@@ -1,31 +1,40 @@
 {
     "dex": [
         {
+            "symbol": "XRP",
+            "spread": 38.41,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1.00507197",
+            "cex_price": "1.39110000",
+            "liquidity": "$116162"
+        },
+        {
+            "symbol": "FAI",
+            "spread": 18.69,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00351846",
+            "cex_price": "0.00417600",
+            "liquidity": "$14358478"
+        },
+        {
             "symbol": "ROBO",
-            "spread": 15.33,
+            "spread": 15.52,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.05056953",
-            "cex_price": "0.05832000",
-            "liquidity": "$1176355"
-        },
-        {
-            "symbol": "KEKIUS",
-            "spread": 0.43,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.01151661",
-            "cex_price": "0.01156600",
-            "liquidity": "$1045833"
+            "cex_price": "0.05842000",
+            "liquidity": "$1168194"
         },
         {
             "symbol": "SERV",
-            "spread": 0.36,
+            "spread": 7.14,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.01165761",
-            "cex_price": "0.01170000",
-            "liquidity": "$5828809"
+            "cex_price": "0.01249000",
+            "liquidity": "$5808971"
         }
     ],
     "spot": [],
