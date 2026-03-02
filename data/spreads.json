@@ -1,22 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "RAVE",
-            "spread": 2.42,
-            "buyAt": "BSC",
+            "symbol": "PEPU",
+            "spread": 1.13,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.36127126",
-            "cex_price": "0.37000000",
-            "liquidity": "$1369912"
+            "dex_price": "0.00017314",
+            "cex_price": "0.00017510",
+            "liquidity": "$276510"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 1.05,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01202615",
+            "cex_price": "0.01215200",
+            "liquidity": "$570049"
         },
         {
             "symbol": "KEKIUS",
-            "spread": 0.35,
+            "spread": 0.83,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01019192",
-            "cex_price": "0.01022800",
-            "liquidity": "$961306"
+            "dex_price": "0.01082884",
+            "cex_price": "0.01091900",
+            "liquidity": "$989592"
+        },
+        {
+            "symbol": "ROBO",
+            "spread": 0.8,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.04335531",
+            "cex_price": "0.04370000",
+            "liquidity": "$1178243"
         }
     ],
     "spot": [],
