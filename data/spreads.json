@@ -1,13 +1,40 @@
 {
     "dex": [
         {
+            "symbol": "ONDO",
+            "spread": 1.04,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.24967266",
+            "cex_price": "0.25226000",
+            "liquidity": "$3360355"
+        },
+        {
+            "symbol": "POWER",
+            "spread": 0.45,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.79994295",
+            "cex_price": "1.80811000",
+            "liquidity": "$490007"
+        },
+        {
             "symbol": "PEPU",
-            "spread": 0.32,
+            "spread": 0.38,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00017553",
-            "cex_price": "0.00017610",
-            "liquidity": "$275866"
+            "cex_price": "0.00017620",
+            "liquidity": "$273975"
+        },
+        {
+            "symbol": "KITE",
+            "spread": 0.3,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.24185553",
+            "cex_price": "0.24257000",
+            "liquidity": "$39040122"
         }
     ],
     "spot": [],
