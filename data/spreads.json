@@ -1,67 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "TIBBIR",
-            "spread": 0.92,
-            "buyAt": "BASE",
-            "sellAt": "MEXC",
-            "dex_price": "0.17488737",
-            "cex_price": "0.17649000",
-            "liquidity": "$2881204"
-        },
-        {
             "symbol": "WKC",
-            "spread": 0.87,
+            "spread": 3.85,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000005",
             "cex_price": "0.00000005",
-            "liquidity": "$888569"
-        },
-        {
-            "symbol": "FAI",
-            "spread": 0.74,
-            "buyAt": "BASE",
-            "sellAt": "MEXC",
-            "dex_price": "0.00290748",
-            "cex_price": "0.00292900",
-            "liquidity": "$2437665"
+            "liquidity": "$874735"
         },
         {
             "symbol": "ZCX",
-            "spread": 0.46,
+            "spread": 0.82,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00443158",
-            "cex_price": "0.00445200",
-            "liquidity": "$69728"
+            "dex_price": "0.00459035",
+            "cex_price": "0.00462800",
+            "liquidity": "$69979"
         },
         {
-            "symbol": "PENDLE",
+            "symbol": "ONDO",
+            "spread": 0.39,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.24999359",
+            "cex_price": "0.25098000",
+            "liquidity": "$3372067"
+        },
+        {
+            "symbol": "ASTER",
             "spread": 0.38,
-            "buyAt": "ARBITRUM",
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "1.27617044",
-            "cex_price": "1.28100000",
-            "liquidity": "$623577"
+            "dex_price": "0.68821797",
+            "cex_price": "0.69080000",
+            "liquidity": "$1652652"
         },
         {
-            "symbol": "SOL",
-            "spread": 0.29,
-            "buyAt": "BASE",
+            "symbol": "POWER",
+            "spread": 0.28,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "85.21331728",
-            "cex_price": "85.46000000",
-            "liquidity": "$7861791"
-        },
-        {
-            "symbol": "BTC",
-            "spread": 0.23,
-            "buyAt": "ARBITRUM",
-            "sellAt": "MEXC",
-            "dex_price": "67986.25449353",
-            "cex_price": "68145.71000000",
-            "liquidity": "$54386499"
+            "dex_price": "1.85883020",
+            "cex_price": "1.86404000",
+            "liquidity": "$536870"
         }
     ],
     "spot": [],
