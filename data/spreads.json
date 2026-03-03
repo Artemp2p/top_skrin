@@ -1,85 +1,76 @@
 {
     "dex": [
         {
-            "symbol": "BTW",
-            "spread": 0.92,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.01001436",
-            "cex_price": "0.01010600",
-            "liquidity": "$1354906"
-        },
-        {
-            "symbol": "PENGUIN",
-            "spread": 0.73,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00480075",
-            "cex_price": "0.00483600",
-            "liquidity": "$369471"
-        },
-        {
             "symbol": "ZCX",
-            "spread": 0.58,
+            "spread": 1.66,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00442919",
-            "cex_price": "0.00445500",
-            "liquidity": "$68931"
-        },
-        {
-            "symbol": "PUNCH",
-            "spread": 0.55,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.01391295",
-            "cex_price": "0.01398900",
-            "liquidity": "$622034"
-        },
-        {
-            "symbol": "ZAMA",
-            "spread": 0.4,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.01900316",
-            "cex_price": "0.01908000",
-            "liquidity": "$837519"
-        },
-        {
-            "symbol": "ASTER",
-            "spread": 0.36,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.69527651",
-            "cex_price": "0.69780000",
-            "liquidity": "$1665887"
-        },
-        {
-            "symbol": "SPX",
-            "spread": 0.28,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.31602451",
-            "cex_price": "0.31690000",
-            "liquidity": "$8657884"
+            "dex_price": "0.00424848",
+            "cex_price": "0.00431900",
+            "liquidity": "$67619"
         },
         {
             "symbol": "PEPE",
-            "spread": 0.22,
+            "spread": 0.67,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000339",
-            "cex_price": "0.00000340",
-            "liquidity": "$23402201"
+            "cex_price": "0.00000341",
+            "liquidity": "$23400773"
         },
         {
-            "symbol": "CRTR",
-            "spread": 0.22,
+            "symbol": "ETH",
+            "spread": 0.35,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1958.48868920",
+            "cex_price": "1965.40000000",
+            "liquidity": "$91097195"
+        },
+        {
+            "symbol": "MOG",
+            "spread": 0.32,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000016",
+            "cex_price": "0.00000016",
+            "liquidity": "$5645545"
+        },
+        {
+            "symbol": "POWER",
+            "spread": 0.31,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.04943994",
-            "cex_price": "0.04955000",
-            "liquidity": "$1813916"
+            "dex_price": "1.84708509",
+            "cex_price": "1.85290000",
+            "liquidity": "$527847"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.3,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.24951565",
+            "cex_price": "0.25026000",
+            "liquidity": "$3364045"
+        },
+        {
+            "symbol": "IRYS",
+            "spread": 0.27,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02129158",
+            "cex_price": "0.02135000",
+            "liquidity": "$443490"
+        },
+        {
+            "symbol": "AAVE",
+            "spread": 0.26,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "111.99480182",
+            "cex_price": "112.29000000",
+            "liquidity": "$7568800"
         }
     ],
     "spot": [],
