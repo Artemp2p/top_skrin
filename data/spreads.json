@@ -1,31 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "SERV",
-            "spread": 12.64,
+            "symbol": "XRP",
+            "spread": 34.14,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01026294",
-            "cex_price": "0.01156000",
-            "liquidity": "$7641901"
+            "dex_price": "1.01822493",
+            "cex_price": "1.36580000",
+            "liquidity": "$118496"
+        },
+        {
+            "symbol": "POWER",
+            "spread": 0.83,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.83961081",
+            "cex_price": "1.85487000",
+            "liquidity": "$524256"
         },
         {
             "symbol": "ZCX",
-            "spread": 1.05,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00396148",
-            "cex_price": "0.00400300",
-            "liquidity": "$66160"
-        },
-        {
-            "symbol": "USAT",
             "spread": 0.57,
             "buyAt": "ETH",
             "sellAt": "MEXC",
+            "dex_price": "0.00398828",
+            "cex_price": "0.00401100",
+            "liquidity": "$66079"
+        },
+        {
+            "symbol": "USAT",
+            "spread": 0.53,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
             "dex_price": "0.99330256",
-            "cex_price": "0.99900000",
-            "liquidity": "$9948"
+            "cex_price": "0.99860000",
+            "liquidity": "$9939"
+        },
+        {
+            "symbol": "IRYS",
+            "spread": 0.3,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02026864",
+            "cex_price": "0.02033000",
+            "liquidity": "$433350"
         }
     ],
     "spot": [],
