@@ -1,31 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "XRP",
-            "spread": 33.29,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "1.02275337",
-            "cex_price": "1.36320000",
-            "liquidity": "$118285"
-        },
-        {
             "symbol": "WKC",
-            "spread": 1.21,
+            "spread": 3.42,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000005",
             "cex_price": "0.00000005",
-            "liquidity": "$883871"
+            "liquidity": "$887911"
         },
         {
-            "symbol": "ASTER",
-            "spread": 0.35,
-            "buyAt": "BSC",
+            "symbol": "ONDO",
+            "spread": 0.36,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.69168505",
-            "cex_price": "0.69410000",
-            "liquidity": "$1656739"
+            "dex_price": "0.25366997",
+            "cex_price": "0.25458000",
+            "liquidity": "$3420551"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.21,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01454605",
+            "cex_price": "0.01457600",
+            "liquidity": "$640621"
         }
     ],
     "spot": [],
