@@ -2,57 +2,75 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 1.29,
+            "spread": 2.72,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000005",
             "cex_price": "0.00000005",
-            "liquidity": "$909630"
+            "liquidity": "$912222"
+        },
+        {
+            "symbol": "PHA",
+            "spread": 1.29,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.04874902",
+            "cex_price": "0.04938000",
+            "liquidity": "$191959"
+        },
+        {
+            "symbol": "ROBO",
+            "spread": 1.0,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.04303950",
+            "cex_price": "0.04347000",
+            "liquidity": "$793542"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.3,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.72630315",
+            "cex_price": "0.72850000",
+            "liquidity": "$1719611"
+        },
+        {
+            "symbol": "CFG",
+            "spread": 0.27,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.14181158",
+            "cex_price": "0.14220000",
+            "liquidity": "$758241"
         },
         {
             "symbol": "MANYU",
-            "spread": 0.7,
+            "spread": 0.22,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000001",
             "cex_price": "0.00000001",
-            "liquidity": "$679825"
+            "liquidity": "$668235"
         },
         {
-            "symbol": "ROBO",
-            "spread": 0.51,
+            "symbol": "BTC",
+            "spread": 0.22,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04313974",
-            "cex_price": "0.04336000",
-            "liquidity": "$800049"
-        },
-        {
-            "symbol": "POWER",
-            "spread": 0.45,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.17174023",
-            "cex_price": "0.17252000",
-            "liquidity": "$1121142"
-        },
-        {
-            "symbol": "PIPPIN",
-            "spread": 0.28,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.33381559",
-            "cex_price": "0.33476400",
-            "liquidity": "$12611706"
+            "dex_price": "73487.82545772",
+            "cex_price": "73650.00000000",
+            "liquidity": "$47920531"
         },
         {
             "symbol": "CRTR",
-            "spread": 0.23,
+            "spread": 0.2,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.05256034",
-            "cex_price": "0.05268000",
-            "liquidity": "$1877474"
+            "dex_price": "0.05371152",
+            "cex_price": "0.05382000",
+            "liquidity": "$1894664"
         }
     ],
     "spot": [],
