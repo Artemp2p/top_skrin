@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "POWER",
-            "spread": 0.82,
+            "symbol": "KEKIUS",
+            "spread": 0.48,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.01254775",
+            "cex_price": "0.01260800",
+            "liquidity": "$1101412"
+        },
+        {
+            "symbol": "IRYS",
+            "spread": 0.45,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.17713201",
-            "cex_price": "0.17858000",
-            "liquidity": "$1130971"
+            "dex_price": "0.01988981",
+            "cex_price": "0.01998000",
+            "liquidity": "$427472"
+        },
+        {
+            "symbol": "KITE",
+            "spread": 0.38,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.23419077",
+            "cex_price": "0.23507000",
+            "liquidity": "$38000218"
         },
         {
             "symbol": "BTC",
-            "spread": 0.35,
+            "spread": 0.31,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "71319.01577711",
-            "cex_price": "71570.79000000",
-            "liquidity": "$45995659"
-        },
-        {
-            "symbol": "AZTEC",
-            "spread": 0.24,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.02242543",
-            "cex_price": "0.02248000",
-            "liquidity": "$15738609"
+            "dex_price": "71076.25558817",
+            "cex_price": "71297.69000000",
+            "liquidity": "$45680598"
         }
     ],
     "spot": [],
