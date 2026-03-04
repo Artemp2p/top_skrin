@@ -2,39 +2,57 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 0.76,
+            "spread": 4.44,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000005",
             "cex_price": "0.00000005",
-            "liquidity": "$880079"
+            "liquidity": "$884304"
+        },
+        {
+            "symbol": "PHA",
+            "spread": 1.31,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.03797239",
+            "cex_price": "0.03847000",
+            "liquidity": "$161038"
         },
         {
             "symbol": "KIN",
-            "spread": 0.75,
+            "spread": 0.76,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02868488",
+            "dex_price": "0.02868291",
             "cex_price": "0.02890000",
-            "liquidity": "$1077112"
+            "liquidity": "$1079751"
         },
         {
-            "symbol": "IRYS",
-            "spread": 0.56,
-            "buyAt": "BSC",
+            "symbol": "PIPPIN",
+            "spread": 0.4,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01945193",
-            "cex_price": "0.01956000",
-            "liquidity": "$422790"
+            "dex_price": "0.32853624",
+            "cex_price": "0.32986600",
+            "liquidity": "$11965813"
         },
         {
             "symbol": "MANYU",
-            "spread": 0.51,
+            "spread": 0.32,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000001",
             "cex_price": "0.00000001",
-            "liquidity": "$577784"
+            "liquidity": "$579887"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.21,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.69565096",
+            "cex_price": "0.69710000",
+            "liquidity": "$1674370"
         }
     ],
     "spot": [],
