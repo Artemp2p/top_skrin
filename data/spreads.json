@@ -1,49 +1,76 @@
 {
     "dex": [
         {
-            "symbol": "NPC",
-            "spread": 0.59,
-            "buyAt": "ETH",
+            "symbol": "EDGE",
+            "spread": 0.78,
+            "buyAt": "BASE",
             "sellAt": "MEXC",
-            "dex_price": "0.00895229",
-            "cex_price": "0.00900500",
-            "liquidity": "$2858918"
+            "dex_price": "0.17296754",
+            "cex_price": "0.17431000",
+            "liquidity": "$3382739"
         },
         {
-            "symbol": "ROBO",
-            "spread": 0.55,
-            "buyAt": "ETH",
+            "symbol": "BTW",
+            "spread": 0.46,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.04450656",
-            "cex_price": "0.04475000",
-            "liquidity": "$798328"
+            "dex_price": "0.01169830",
+            "cex_price": "0.01175200",
+            "liquidity": "$1348405"
         },
         {
-            "symbol": "ONDO",
-            "spread": 0.35,
-            "buyAt": "ETH",
+            "symbol": "PIPPIN",
+            "spread": 0.42,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.26654016",
-            "cex_price": "0.26746000",
-            "liquidity": "$3636153"
-        },
-        {
-            "symbol": "PHA",
-            "spread": 0.23,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.04781964",
-            "cex_price": "0.04793000",
-            "liquidity": "$188081"
+            "dex_price": "0.31960764",
+            "cex_price": "0.32093700",
+            "liquidity": "$12222819"
         },
         {
             "symbol": "BTC",
-            "spread": 0.23,
+            "spread": 0.38,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "72102.94640016",
+            "cex_price": "72378.74000000",
+            "liquidity": "$59359085"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.38,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "72568.54532682",
-            "cex_price": "72734.12000000",
-            "liquidity": "$47732363"
+            "dex_price": "0.26535670",
+            "cex_price": "0.26636000",
+            "liquidity": "$3609249"
+        },
+        {
+            "symbol": "TIBBIR",
+            "spread": 0.3,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.18708993",
+            "cex_price": "0.18765000",
+            "liquidity": "$2916760"
+        },
+        {
+            "symbol": "MOG",
+            "spread": 0.26,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000017",
+            "cex_price": "0.00000017",
+            "liquidity": "$6064485"
+        },
+        {
+            "symbol": "PENDLE",
+            "spread": 0.22,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "1.29512204",
+            "cex_price": "1.29800000",
+            "liquidity": "$918060"
         }
     ],
     "spot": [],
