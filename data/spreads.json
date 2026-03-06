@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "FAI",
-            "spread": 12.5,
+            "symbol": "PLUME",
+            "spread": 13.32,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00496527",
-            "cex_price": "0.00558600",
-            "liquidity": "$30642618"
+            "dex_price": "0.01006599",
+            "cex_price": "0.01140700",
+            "liquidity": "$50178966"
         },
         {
-            "symbol": "LINK",
-            "spread": 0.4,
+            "symbol": "PEPE",
+            "spread": 0.39,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "9.09725858",
-            "cex_price": "9.13400000",
-            "liquidity": "$17008540"
+            "dex_price": "0.00000344",
+            "cex_price": "0.00000345",
+            "liquidity": "$24221550"
         },
         {
-            "symbol": "MANYU",
-            "spread": 0.34,
+            "symbol": "MOG",
+            "spread": 0.38,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$607455"
+            "dex_price": "0.00000016",
+            "cex_price": "0.00000016",
+            "liquidity": "$5886692"
         },
         {
-            "symbol": "OPN",
-            "spread": 0.25,
-            "buyAt": "BSC",
+            "symbol": "NPC",
+            "spread": 0.38,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.36519281",
-            "cex_price": "0.36610000",
-            "liquidity": "$963990"
+            "dex_price": "0.00874380",
+            "cex_price": "0.00877700",
+            "liquidity": "$2771264"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.26,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00813983",
+            "cex_price": "0.00816100",
+            "liquidity": "$497709"
         }
     ],
     "spot": [],
