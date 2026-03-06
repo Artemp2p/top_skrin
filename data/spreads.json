@@ -1,58 +1,103 @@
 {
     "dex": [
         {
-            "symbol": "PLUME",
-            "spread": 9.59,
+            "symbol": "PEPU",
+            "spread": 0.79,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01006599",
-            "cex_price": "0.01103100",
-            "liquidity": "$50017159"
+            "dex_price": "0.00016887",
+            "cex_price": "0.00017020",
+            "liquidity": "$281995"
         },
         {
-            "symbol": "BTR",
-            "spread": 7.15,
+            "symbol": "RAVE",
+            "spread": 0.6,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.31750699",
+            "cex_price": "0.31940000",
+            "liquidity": "$1297422"
+        },
+        {
+            "symbol": "KEKIUS",
+            "spread": 0.54,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.17335394",
-            "cex_price": "0.18575000",
-            "liquidity": "$5998"
+            "dex_price": "0.01221050",
+            "cex_price": "0.01227600",
+            "liquidity": "$1079638"
         },
         {
-            "symbol": "MANYU",
-            "spread": 0.75,
+            "symbol": "KITE",
+            "spread": 0.45,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$606187"
+            "dex_price": "0.28432714",
+            "cex_price": "0.28560000",
+            "liquidity": "$46109976"
         },
         {
-            "symbol": "OPN",
+            "symbol": "PIPPIN",
+            "spread": 0.45,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.34629641",
+            "cex_price": "0.34785200",
+            "liquidity": "$12531565"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.38,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.33192348",
+            "cex_price": "0.33320000",
+            "liquidity": "$9076732"
+        },
+        {
+            "symbol": "CAKE",
+            "spread": 0.37,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.36398410",
+            "cex_price": "1.36900000",
+            "liquidity": "$5532402"
+        },
+        {
+            "symbol": "NPC",
+            "spread": 0.36,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00853707",
+            "cex_price": "0.00856800",
+            "liquidity": "$2724774"
+        },
+        {
+            "symbol": "SHIB",
             "spread": 0.29,
-            "buyAt": "BSC",
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.36165290",
-            "cex_price": "0.36270000",
-            "liquidity": "$956104"
+            "dex_price": "0.00000549",
+            "cex_price": "0.00000550",
+            "liquidity": "$2623624"
         },
         {
-            "symbol": "CRTR",
-            "spread": 0.28,
-            "buyAt": "BSC",
+            "symbol": "XCN",
+            "spread": 0.24,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04656758",
-            "cex_price": "0.04670000",
-            "liquidity": "$1770875"
+            "dex_price": "0.00486574",
+            "cex_price": "0.00487760",
+            "liquidity": "$1089077"
         },
         {
-            "symbol": "ZAMA",
-            "spread": 0.28,
-            "buyAt": "BSC",
+            "symbol": "ETH",
+            "spread": 0.2,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.02021240",
-            "cex_price": "0.02027000",
-            "liquidity": "$872289"
+            "dex_price": "2045.99795858",
+            "cex_price": "2050.09000000",
+            "liquidity": "$94494906"
         }
     ],
     "spot": [],
