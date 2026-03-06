@@ -1,22 +1,58 @@
 {
     "dex": [
         {
+            "symbol": "FLOW",
+            "spread": 3.14,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.04381372",
+            "cex_price": "0.04519000",
+            "liquidity": "$36068721"
+        },
+        {
             "symbol": "USAT",
             "spread": 1.26,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.98655374",
             "cex_price": "0.99900000",
-            "liquidity": "$11840"
+            "liquidity": "$11839"
         },
         {
-            "symbol": "PUNCH",
-            "spread": 0.43,
-            "buyAt": "SOLANA",
+            "symbol": "UAI",
+            "spread": 1.06,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00669691",
-            "cex_price": "0.00672600",
-            "liquidity": "$446987"
+            "dex_price": "0.34534650",
+            "cex_price": "0.34900000",
+            "liquidity": "$1337097"
+        },
+        {
+            "symbol": "MANYU",
+            "spread": 0.64,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$592584"
+        },
+        {
+            "symbol": "CRTR",
+            "spread": 0.33,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.05176006",
+            "cex_price": "0.05193000",
+            "liquidity": "$1864946"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.33,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02179699",
+            "cex_price": "0.02187000",
+            "liquidity": "$1391253"
         }
     ],
     "spot": [],
