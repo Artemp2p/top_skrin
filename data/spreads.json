@@ -1,40 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "FLOW",
-            "spread": 3.21,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.04381372",
-            "cex_price": "0.04522000",
-            "liquidity": "$36068743"
-        },
-        {
-            "symbol": "USAT",
-            "spread": 1.41,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.98506680",
-            "cex_price": "0.99900000",
-            "liquidity": "$11824"
-        },
-        {
-            "symbol": "OPN",
-            "spread": 0.44,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.31700842",
-            "cex_price": "0.31840000",
-            "liquidity": "$891412"
-        },
-        {
-            "symbol": "NPC",
+            "symbol": "MANYU",
             "spread": 0.33,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00783697",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$592666"
+        },
+        {
+            "symbol": "NPC",
+            "spread": 0.31,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00783901",
             "cex_price": "0.00786300",
-            "liquidity": "$2581051"
+            "liquidity": "$2579649"
+        },
+        {
+            "symbol": "RIVER",
+            "spread": 0.24,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "15.45005216",
+            "cex_price": "15.48790000",
+            "liquidity": "$55416"
         }
     ],
     "spot": [],
