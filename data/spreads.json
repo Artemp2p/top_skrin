@@ -2,21 +2,30 @@
     "dex": [
         {
             "symbol": "PUNCH",
-            "spread": 14.01,
+            "spread": 20.72,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00803168",
-            "cex_price": "0.00915700",
-            "liquidity": "$4015843"
+            "cex_price": "0.00969600",
+            "liquidity": "$4015849"
         },
         {
-            "symbol": "ASTER",
-            "spread": 0.31,
+            "symbol": "WOD",
+            "spread": 0.9,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.68755840",
-            "cex_price": "0.68970000",
-            "liquidity": "$1527006"
+            "dex_price": "0.01203121",
+            "cex_price": "0.01214000",
+            "liquidity": "$754938"
+        },
+        {
+            "symbol": "KEKIUS",
+            "spread": 0.41,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.01226238",
+            "cex_price": "0.01231300",
+            "liquidity": "$1064729"
         }
     ],
     "spot": [],
