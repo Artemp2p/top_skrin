@@ -2,21 +2,48 @@
     "dex": [
         {
             "symbol": "ROBO",
-            "spread": 0.93,
+            "spread": 1.85,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.04002818",
-            "cex_price": "0.04040000",
-            "liquidity": "$1168453"
+            "cex_price": "0.04077000",
+            "liquidity": "$1167625"
         },
         {
-            "symbol": "CRTR",
-            "spread": 0.35,
-            "buyAt": "BSC",
+            "symbol": "PENGUIN",
+            "spread": 0.84,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.04388622",
-            "cex_price": "0.04404000",
-            "liquidity": "$1718603"
+            "dex_price": "0.00785813",
+            "cex_price": "0.00792400",
+            "liquidity": "$476986"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.43,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000532",
+            "cex_price": "0.00000534",
+            "liquidity": "$2527232"
+        },
+        {
+            "symbol": "PERP",
+            "spread": 0.39,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.04883894",
+            "cex_price": "0.04903000",
+            "liquidity": "$122428"
+        },
+        {
+            "symbol": "ETH",
+            "spread": 0.24,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1959.43252354",
+            "cex_price": "1964.15000000",
+            "liquidity": "$91790462"
         }
     ],
     "spot": [],
