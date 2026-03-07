@@ -1,40 +1,13 @@
 {
     "dex": [
         {
-            "symbol": "OPN",
-            "spread": 7.18,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.28018119",
-            "cex_price": "0.30030000",
-            "liquidity": "$210706435"
-        },
-        {
             "symbol": "ROBO",
-            "spread": 3.0,
+            "spread": 2.8,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.04002818",
-            "cex_price": "0.04123000",
+            "cex_price": "0.04115000",
             "liquidity": "$1182042"
-        },
-        {
-            "symbol": "NPC",
-            "spread": 0.64,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00792231",
-            "cex_price": "0.00797300",
-            "liquidity": "$2598137"
-        },
-        {
-            "symbol": "SHIB",
-            "spread": 0.26,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000538",
-            "cex_price": "0.00000540",
-            "liquidity": "$2562524"
         }
     ],
     "spot": [],
