@@ -2,12 +2,30 @@
     "dex": [
         {
             "symbol": "ROBO",
-            "spread": 2.13,
+            "spread": 1.65,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.04002818",
-            "cex_price": "0.04088000",
-            "liquidity": "$1171145"
+            "cex_price": "0.04069000",
+            "liquidity": "$1168453"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.35,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000324",
+            "cex_price": "0.00000325",
+            "liquidity": "$22932669"
+        },
+        {
+            "symbol": "OPN",
+            "spread": 0.2,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.30707109",
+            "cex_price": "0.30770000",
+            "liquidity": "$889146"
         }
     ],
     "spot": [],
