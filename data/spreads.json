@@ -1,22 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "PUNCH",
-            "spread": 0.61,
+            "symbol": "PENGUIN",
+            "spread": 0.53,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00904724",
-            "cex_price": "0.00910200",
-            "liquidity": "$519768"
+            "dex_price": "0.00842642",
+            "cex_price": "0.00847100",
+            "liquidity": "$494724"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.43,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.35876875",
+            "cex_price": "0.36031400",
+            "liquidity": "$12532291"
         },
         {
             "symbol": "SPX",
-            "spread": 0.24,
+            "spread": 0.27,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.31006757",
-            "cex_price": "0.31080000",
-            "liquidity": "$8605518"
+            "cex_price": "0.31090000",
+            "liquidity": "$8605487"
         }
     ],
     "spot": [],
