@@ -2,12 +2,30 @@
     "dex": [
         {
             "symbol": "ROBO",
-            "spread": 7.42,
+            "spread": 4.05,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.04002818",
-            "cex_price": "0.04300000",
-            "liquidity": "$1180631"
+            "cex_price": "0.04165000",
+            "liquidity": "$1173196"
+        },
+        {
+            "symbol": "POWER",
+            "spread": 0.6,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.11607700",
+            "cex_price": "0.11677000",
+            "liquidity": "$964397"
+        },
+        {
+            "symbol": "PENGUIN",
+            "spread": 0.37,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00665108",
+            "cex_price": "0.00667600",
+            "liquidity": "$434432"
         }
     ],
     "spot": [],
