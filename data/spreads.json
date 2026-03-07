@@ -1,5 +1,42 @@
 {
-    "dex": [],
+    "dex": [
+        {
+            "symbol": "USD1",
+            "spread": 8.2,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "0.92373180",
+            "cex_price": "0.99950000",
+            "liquidity": "$46880436"
+        },
+        {
+            "symbol": "TOSHI",
+            "spread": 7.71,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00019032",
+            "cex_price": "0.00020500",
+            "liquidity": "$39912906"
+        },
+        {
+            "symbol": "KEKIUS",
+            "spread": 0.45,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.01218528",
+            "cex_price": "0.01224000",
+            "liquidity": "$1059368"
+        },
+        {
+            "symbol": "FAI",
+            "spread": 0.26,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00939431",
+            "cex_price": "0.00941900",
+            "liquidity": "$4318884"
+        }
+    ],
     "spot": [],
     "futures": []
 }
