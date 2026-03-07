@@ -2,12 +2,30 @@
     "dex": [
         {
             "symbol": "ROBO",
-            "spread": 2.8,
+            "spread": 2.38,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.04002818",
-            "cex_price": "0.04115000",
-            "liquidity": "$1182042"
+            "cex_price": "0.04098000",
+            "liquidity": "$1180386"
+        },
+        {
+            "symbol": "KITE",
+            "spread": 0.57,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.25154736",
+            "cex_price": "0.25298000",
+            "liquidity": "$40714831"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.22,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.69385323",
+            "cex_price": "0.69540000",
+            "liquidity": "$1537844"
         }
     ],
     "spot": [],
