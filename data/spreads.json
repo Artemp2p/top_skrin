@@ -2,21 +2,48 @@
     "dex": [
         {
             "symbol": "PI",
-            "spread": 18.65,
+            "spread": 16.95,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.19337249",
-            "cex_price": "0.22943000",
-            "liquidity": "$9668624389"
+            "cex_price": "0.22615000",
+            "liquidity": "$9656916576"
         },
         {
             "symbol": "ROBO",
-            "spread": 2.7,
+            "spread": 4.13,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.04002818",
-            "cex_price": "0.04111000",
+            "cex_price": "0.04168000",
             "liquidity": "$1180405"
+        },
+        {
+            "symbol": "FAI",
+            "spread": 2.89,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00810568",
+            "cex_price": "0.00834000",
+            "liquidity": "$33191544"
+        },
+        {
+            "symbol": "UNI",
+            "spread": 0.29,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "3.81391337",
+            "cex_price": "3.82500000",
+            "liquidity": "$16251879"
+        },
+        {
+            "symbol": "BTW",
+            "spread": 0.28,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01277461",
+            "cex_price": "0.01281100",
+            "liquidity": "$2064514"
         }
     ],
     "spot": [],
