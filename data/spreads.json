@@ -1,31 +1,40 @@
 {
     "dex": [
         {
+            "symbol": "PENGUIN",
+            "spread": 3.85,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00866670",
+            "cex_price": "0.00900000",
+            "liquidity": "$501761"
+        },
+        {
             "symbol": "ROBO",
-            "spread": 2.9,
+            "spread": 2.95,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.04002818",
-            "cex_price": "0.04119000",
+            "cex_price": "0.04121000",
             "liquidity": "$1176245"
         },
         {
-            "symbol": "SHIB",
-            "spread": 0.64,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000534",
-            "cex_price": "0.00000538",
-            "liquidity": "$2546127"
-        },
-        {
-            "symbol": "CRTR",
-            "spread": 0.23,
+            "symbol": "ASTER",
+            "spread": 0.36,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.04478733",
-            "cex_price": "0.04489000",
-            "liquidity": "$1741079"
+            "dex_price": "0.69203426",
+            "cex_price": "0.69450000",
+            "liquidity": "$1535247"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.23,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.36564910",
+            "cex_price": "0.36649800",
+            "liquidity": "$12690965"
         }
     ],
     "spot": [],
