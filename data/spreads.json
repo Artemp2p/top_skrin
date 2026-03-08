@@ -2,48 +2,39 @@
     "dex": [
         {
             "symbol": "BXN",
-            "spread": 0.98,
+            "spread": 1.07,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00118137",
-            "cex_price": "0.00119300",
-            "liquidity": "$29445614"
+            "cex_price": "0.00119400",
+            "liquidity": "$29445735"
         },
         {
-            "symbol": "OPN",
-            "spread": 0.59,
+            "symbol": "WOD",
+            "spread": 0.86,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.31562500",
-            "cex_price": "0.31750000",
-            "liquidity": "$907329"
+            "dex_price": "0.01229382",
+            "cex_price": "0.01240000",
+            "liquidity": "$761604"
+        },
+        {
+            "symbol": "BANANA",
+            "spread": 0.55,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "4.98244552",
+            "cex_price": "5.01000000",
+            "liquidity": "$3050778"
         },
         {
             "symbol": "POWER",
-            "spread": 0.58,
+            "spread": 0.51,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.11655614",
-            "cex_price": "0.11723000",
-            "liquidity": "$969589"
-        },
-        {
-            "symbol": "BSB",
-            "spread": 0.55,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.12602176",
-            "cex_price": "0.12671000",
-            "liquidity": "$2541414"
-        },
-        {
-            "symbol": "ASTER",
-            "spread": 0.25,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.68519462",
-            "cex_price": "0.68690000",
-            "liquidity": "$1521701"
+            "dex_price": "0.11728626",
+            "cex_price": "0.11789000",
+            "liquidity": "$972347"
         }
     ],
     "spot": [],
