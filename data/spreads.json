@@ -1,5 +1,96 @@
 {
-    "dex": [],
+    "dex": [
+        {
+            "symbol": "EIGEN",
+            "spread": 2.78,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.17074602",
+            "cex_price": "0.17550000",
+            "liquidity": "$300245"
+        },
+        {
+            "symbol": "LTC",
+            "spread": 2.34,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "52.39543072",
+            "cex_price": "53.62000000",
+            "liquidity": "$2006209777"
+        },
+        {
+            "symbol": "IDOS",
+            "spread": 1.27,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "0.03469830",
+            "cex_price": "0.03514000",
+            "liquidity": "$404975"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.41,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000323",
+            "cex_price": "0.00000324",
+            "liquidity": "$22928958"
+        },
+        {
+            "symbol": "MOLT",
+            "spread": 0.38,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00001576",
+            "cex_price": "0.00001582",
+            "liquidity": "$1356558"
+        },
+        {
+            "symbol": "BTC",
+            "spread": 0.36,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "67093.81717187",
+            "cex_price": "67337.25000000",
+            "liquidity": "$55245120"
+        },
+        {
+            "symbol": "TIBBIR",
+            "spread": 0.35,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.15605538",
+            "cex_price": "0.15660000",
+            "liquidity": "$2520569"
+        },
+        {
+            "symbol": "VSN",
+            "spread": 0.29,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "0.05105295",
+            "cex_price": "0.05120000",
+            "liquidity": "$885143"
+        },
+        {
+            "symbol": "BSB",
+            "spread": 0.25,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.12495701",
+            "cex_price": "0.12527000",
+            "liquidity": "$2536819"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.2,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.30808004",
+            "cex_price": "0.30870000",
+            "liquidity": "$8578210"
+        }
+    ],
     "spot": [],
     "futures": []
 }
