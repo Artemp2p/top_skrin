@@ -2,21 +2,30 @@
     "dex": [
         {
             "symbol": "PEPU",
-            "spread": 1.33,
+            "spread": 0.52,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00015730",
+            "dex_price": "0.00015858",
             "cex_price": "0.00015940",
-            "liquidity": "$266217"
+            "liquidity": "$266372"
         },
         {
-            "symbol": "KEKIUS",
-            "spread": 0.88,
-            "buyAt": "ETH",
+            "symbol": "BSB",
+            "spread": 0.44,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.01199332",
-            "cex_price": "0.01209900",
-            "liquidity": "$1046262"
+            "dex_price": "0.13156737",
+            "cex_price": "0.13214000",
+            "liquidity": "$2552054"
+        },
+        {
+            "symbol": "POWER",
+            "spread": 0.22,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.12031755",
+            "cex_price": "0.12058000",
+            "liquidity": "$983022"
         }
     ],
     "spot": [],
