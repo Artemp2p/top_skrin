@@ -1,22 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "BTW",
-            "spread": 0.42,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.01771794",
-            "cex_price": "0.01779300",
-            "liquidity": "$1065694"
-        },
-        {
-            "symbol": "LDO",
-            "spread": 0.36,
+            "symbol": "MANYU",
+            "spread": 0.63,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.28457940",
-            "cex_price": "0.28560000",
-            "liquidity": "$18582"
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$581575"
+        },
+        {
+            "symbol": "BTW",
+            "spread": 0.35,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01786436",
+            "cex_price": "0.01792700",
+            "liquidity": "$1058464"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.32,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.68693215",
+            "cex_price": "0.68910000",
+            "liquidity": "$1527258"
+        },
+        {
+            "symbol": "OPN",
+            "spread": 0.27,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.30977671",
+            "cex_price": "0.31060000",
+            "liquidity": "$895986"
         }
     ],
     "spot": [],
