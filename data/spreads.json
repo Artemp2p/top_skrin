@@ -1,22 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "PEPU",
-            "spread": 0.71,
+            "symbol": "GIGGLE",
+            "spread": 6.21,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00015798",
-            "cex_price": "0.00015910",
-            "liquidity": "$268647"
+            "dex_price": "25.95822902",
+            "cex_price": "27.57000000",
+            "liquidity": "$6489568"
         },
         {
-            "symbol": "MANYU",
-            "spread": 0.21,
-            "buyAt": "ETH",
+            "symbol": "POWER",
+            "spread": 0.39,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$573722"
+            "dex_price": "0.12716613",
+            "cex_price": "0.12766000",
+            "liquidity": "$1006978"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.23,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00804171",
+            "cex_price": "0.00806000",
+            "liquidity": "$493931"
         }
     ],
     "spot": [],
