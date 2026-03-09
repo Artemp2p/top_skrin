@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "PLUME",
-            "spread": 1.75,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.01315141",
-            "cex_price": "0.01338100",
-            "liquidity": "$365074"
-        },
-        {
-            "symbol": "POWER",
-            "spread": 0.58,
+            "symbol": "RAVE",
+            "spread": 0.88,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.12463490",
-            "cex_price": "0.12536000",
-            "liquidity": "$997972"
+            "dex_price": "0.25772312",
+            "cex_price": "0.26000000",
+            "liquidity": "$1185281"
         },
         {
-            "symbol": "OWL",
-            "spread": 0.45,
+            "symbol": "BTW",
+            "spread": 0.8,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00808044",
-            "cex_price": "0.00811700",
-            "liquidity": "$3114854"
+            "dex_price": "0.02590184",
+            "cex_price": "0.02610800",
+            "liquidity": "$1099030"
+        },
+        {
+            "symbol": "OPN",
+            "spread": 0.64,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.30434067",
+            "cex_price": "0.30630000",
+            "liquidity": "$887204"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.2,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.69470696",
+            "cex_price": "0.69610000",
+            "liquidity": "$1540630"
         }
     ],
     "spot": [],
