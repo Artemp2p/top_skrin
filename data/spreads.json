@@ -1,31 +1,40 @@
 {
     "dex": [
         {
+            "symbol": "TRUMP",
+            "spread": 12.71,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "2.63074751",
+            "cex_price": "2.96500000",
+            "liquidity": "$1981248364"
+        },
+        {
             "symbol": "XPR",
-            "spread": 7.81,
+            "spread": 7.97,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00202031",
-            "cex_price": "0.00217810",
-            "liquidity": "$31068827"
+            "cex_price": "0.00218140",
+            "liquidity": "$31265350"
         },
         {
-            "symbol": "NAORIS",
-            "spread": 1.96,
+            "symbol": "KEKIUS",
+            "spread": 0.4,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04395679",
-            "cex_price": "0.04482000",
-            "liquidity": "$56777"
+            "dex_price": "0.01140015",
+            "cex_price": "0.01144600",
+            "liquidity": "$1037857"
         },
         {
-            "symbol": "BTW",
-            "spread": 0.33,
+            "symbol": "ASTER",
+            "spread": 0.22,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02451186",
-            "cex_price": "0.02459200",
-            "liquidity": "$1090585"
+            "dex_price": "0.70094804",
+            "cex_price": "0.70250000",
+            "liquidity": "$1554470"
         }
     ],
     "spot": [],
