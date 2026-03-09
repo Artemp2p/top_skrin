@@ -1,22 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "POWER",
-            "spread": 0.3,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.12822150",
-            "cex_price": "0.12861000",
-            "liquidity": "$1007172"
-        },
-        {
             "symbol": "PEPU",
-            "spread": 0.24,
+            "spread": 1.88,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00017009",
+            "dex_price": "0.00016735",
             "cex_price": "0.00017050",
-            "liquidity": "$278894"
+            "liquidity": "$277888"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.85,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00793289",
+            "cex_price": "0.00800000",
+            "liquidity": "$501465"
+        },
+        {
+            "symbol": "KITE",
+            "spread": 0.34,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.29239558",
+            "cex_price": "0.29338000",
+            "liquidity": "$47119051"
+        },
+        {
+            "symbol": "BTW",
+            "spread": 0.28,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02715233",
+            "cex_price": "0.02722900",
+            "liquidity": "$1101961"
         }
     ],
     "spot": [],
