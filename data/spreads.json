@@ -1,22 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "MOG",
-            "spread": 0.28,
+            "symbol": "NPC",
+            "spread": 0.75,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000015",
-            "cex_price": "0.00000015",
-            "liquidity": "$5687090"
+            "dex_price": "0.00784530",
+            "cex_price": "0.00790400",
+            "liquidity": "$2614673"
         },
         {
-            "symbol": "PIPPIN",
-            "spread": 0.24,
+            "symbol": "KITE",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.28401804",
+            "cex_price": "0.28466000",
+            "liquidity": "$45971375"
+        },
+        {
+            "symbol": "PENGU",
+            "spread": 0.22,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.34591895",
-            "cex_price": "0.34674100",
-            "liquidity": "$12457637"
+            "dex_price": "0.00686125",
+            "cex_price": "0.00687600",
+            "liquidity": "$34443"
         }
     ],
     "spot": [],
