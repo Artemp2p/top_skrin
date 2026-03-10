@@ -1,31 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "BABYDOGE",
-            "spread": 0.37,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000000",
-            "cex_price": "0.00000000",
-            "liquidity": "$8477341"
-        },
-        {
-            "symbol": "UNI",
-            "spread": 0.34,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "3.91077391",
-            "cex_price": "3.92400000",
-            "liquidity": "$16686397"
-        },
-        {
             "symbol": "SHIB",
-            "spread": 0.23,
+            "spread": 0.86,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000554",
-            "cex_price": "0.00000555",
-            "liquidity": "$2632168"
+            "cex_price": "0.00000559",
+            "liquidity": "$2643036"
+        },
+        {
+            "symbol": "NPC",
+            "spread": 0.84,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00808672",
+            "cex_price": "0.00815500",
+            "liquidity": "$2667929"
+        },
+        {
+            "symbol": "PENGU",
+            "spread": 0.64,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00710165",
+            "cex_price": "0.00714700",
+            "liquidity": "$35067"
+        },
+        {
+            "symbol": "PEPU",
+            "spread": 0.33,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00016964",
+            "cex_price": "0.00017020",
+            "liquidity": "$284002"
+        },
+        {
+            "symbol": "BTW",
+            "spread": 0.25,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02584470",
+            "cex_price": "0.02591000",
+            "liquidity": "$1097646"
         }
     ],
     "spot": [],
