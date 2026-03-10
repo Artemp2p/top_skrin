@@ -2,30 +2,48 @@
     "dex": [
         {
             "symbol": "XRP",
-            "spread": 29.53,
+            "spread": 29.45,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "1.07510030",
-            "cex_price": "1.39260000",
-            "liquidity": "$124014"
+            "cex_price": "1.39170000",
+            "liquidity": "$123915"
         },
         {
-            "symbol": "OPN",
-            "spread": 0.36,
-            "buyAt": "BSC",
+            "symbol": "NEXI",
+            "spread": 3.06,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.33767381",
-            "cex_price": "0.33890000",
-            "liquidity": "$944619"
+            "dex_price": "0.01786286",
+            "cex_price": "0.01841000",
+            "liquidity": "$20227"
         },
         {
-            "symbol": "BTW",
-            "spread": 0.22,
+            "symbol": "PEPE",
+            "spread": 0.41,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000337",
+            "cex_price": "0.00000339",
+            "liquidity": "$23997830"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.37,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02576248",
-            "cex_price": "0.02581800",
-            "liquidity": "$1096353"
+            "dex_price": "0.70382181",
+            "cex_price": "0.70640000",
+            "liquidity": "$1555301"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.27,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000572",
+            "cex_price": "0.00000573",
+            "liquidity": "$2688555"
         }
     ],
     "spot": [],
