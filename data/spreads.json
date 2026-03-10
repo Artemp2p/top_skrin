@@ -2,30 +2,39 @@
     "dex": [
         {
             "symbol": "PEPU",
-            "spread": 1.18,
+            "spread": 0.85,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00016426",
-            "cex_price": "0.00016620",
-            "liquidity": "$276184"
+            "dex_price": "0.00016440",
+            "cex_price": "0.00016580",
+            "liquidity": "$283210"
         },
         {
-            "symbol": "NEXI",
-            "spread": 0.29,
-            "buyAt": "ETH",
+            "symbol": "RAVE",
+            "spread": 0.32,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02007211",
-            "cex_price": "0.02013000",
-            "liquidity": "$21398"
+            "dex_price": "0.24262955",
+            "cex_price": "0.24340000",
+            "liquidity": "$1156061"
         },
         {
-            "symbol": "PIPPIN",
-            "spread": 0.26,
+            "symbol": "ASTER",
+            "spread": 0.25,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.70327476",
+            "cex_price": "0.70500000",
+            "liquidity": "$1554748"
+        },
+        {
+            "symbol": "PENGUIN",
+            "spread": 0.2,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.34874845",
-            "cex_price": "0.34966600",
-            "liquidity": "$12559334"
+            "dex_price": "0.00583406",
+            "cex_price": "0.00584600",
+            "liquidity": "$425375"
         }
     ],
     "spot": [],
