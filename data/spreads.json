@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "PEPU",
-            "spread": 0.85,
+            "symbol": "PENGUIN",
+            "spread": 0.8,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00575080",
+            "cex_price": "0.00579700",
+            "liquidity": "$425302"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.54,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00016440",
-            "cex_price": "0.00016580",
-            "liquidity": "$283210"
+            "dex_price": "0.00000595",
+            "cex_price": "0.00000598",
+            "liquidity": "$2749889"
         },
         {
-            "symbol": "RAVE",
-            "spread": 0.32,
-            "buyAt": "BSC",
+            "symbol": "SPX",
+            "spread": 0.36,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.24262955",
-            "cex_price": "0.24340000",
-            "liquidity": "$1156061"
+            "dex_price": "0.31705946",
+            "cex_price": "0.31820000",
+            "liquidity": "$8937949"
         },
         {
-            "symbol": "ASTER",
-            "spread": 0.25,
-            "buyAt": "BSC",
+            "symbol": "MOG",
+            "spread": 0.23,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.70327476",
-            "cex_price": "0.70500000",
-            "liquidity": "$1554748"
+            "dex_price": "0.00000016",
+            "cex_price": "0.00000016",
+            "liquidity": "$5883699"
         },
         {
-            "symbol": "PENGUIN",
+            "symbol": "PENGU",
             "spread": 0.2,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00583406",
-            "cex_price": "0.00584600",
-            "liquidity": "$425375"
+            "dex_price": "0.00722022",
+            "cex_price": "0.00723500",
+            "liquidity": "$35524"
         }
     ],
     "spot": [],
