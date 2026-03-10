@@ -1,13 +1,40 @@
 {
     "dex": [
         {
+            "symbol": "NEXI",
+            "spread": 1.19,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.01965629",
+            "cex_price": "0.01989000",
+            "liquidity": "$21147"
+        },
+        {
+            "symbol": "MANYU",
+            "spread": 0.84,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$595861"
+        },
+        {
             "symbol": "TRIA",
-            "spread": 0.48,
+            "spread": 0.45,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02735807",
-            "cex_price": "0.02749000",
-            "liquidity": "$1487652"
+            "dex_price": "0.02728608",
+            "cex_price": "0.02741000",
+            "liquidity": "$1496848"
+        },
+        {
+            "symbol": "PEPU",
+            "spread": 0.25,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00016689",
+            "cex_price": "0.00016730",
+            "liquidity": "$279672"
         }
     ],
     "spot": [],
