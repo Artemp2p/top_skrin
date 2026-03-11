@@ -1,22 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "APU",
-            "spread": 0.5,
-            "buyAt": "ETH",
+            "symbol": "BTW",
+            "spread": 0.85,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00002557",
-            "cex_price": "0.00002570",
-            "liquidity": "$955112"
+            "dex_price": "0.01890113",
+            "cex_price": "0.01906100",
+            "liquidity": "$1067996"
         },
         {
             "symbol": "NAORIS",
-            "spread": 0.38,
+            "spread": 0.83,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.05804984",
-            "cex_price": "0.05827000",
-            "liquidity": "$67107"
+            "dex_price": "0.05764234",
+            "cex_price": "0.05812000",
+            "liquidity": "$66812"
+        },
+        {
+            "symbol": "\u9f99\u867e",
+            "spread": 0.56,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02218690",
+            "cex_price": "0.02231200",
+            "liquidity": "$765161"
         }
     ],
     "spot": [],
