@@ -1,49 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "RAVE",
-            "spread": 7.95,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.24084132",
-            "cex_price": "0.26000000",
-            "liquidity": "$1148022"
-        },
-        {
             "symbol": "BTC",
-            "spread": 0.81,
+            "spread": 0.71,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "69114.11046404",
-            "cex_price": "69671.59000000",
-            "liquidity": "$26934943"
+            "cex_price": "69605.09000000",
+            "liquidity": "$27005970"
         },
         {
-            "symbol": "NEXI",
-            "spread": 0.6,
+            "symbol": "SPX",
+            "spread": 0.51,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01623247",
-            "cex_price": "0.01633000",
-            "liquidity": "$19249"
+            "dex_price": "0.29858370",
+            "cex_price": "0.30010000",
+            "liquidity": "$8558481"
         },
         {
-            "symbol": "PEPE",
-            "spread": 0.32,
+            "symbol": "SHIB",
+            "spread": 0.39,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000327",
-            "cex_price": "0.00000328",
-            "liquidity": "$23327699"
+            "dex_price": "0.00000561",
+            "cex_price": "0.00000563",
+            "liquidity": "$2627196"
         },
         {
-            "symbol": "NAORIS",
-            "spread": 0.28,
+            "symbol": "APU",
+            "spread": 0.39,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.05853774",
-            "cex_price": "0.05870000",
-            "liquidity": "$67477"
+            "dex_price": "0.00002550",
+            "cex_price": "0.00002560",
+            "liquidity": "$955026"
         }
     ],
     "spot": [],
