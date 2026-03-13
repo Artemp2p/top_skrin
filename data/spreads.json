@@ -1,58 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "KEKIUS",
-            "spread": 0.66,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.01207073",
-            "cex_price": "0.01215100",
-            "liquidity": "$1105107"
-        },
-        {
-            "symbol": "SPX",
-            "spread": 0.48,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.32214645",
-            "cex_price": "0.32370000",
-            "liquidity": "$9163839"
-        },
-        {
             "symbol": "ACX",
-            "spread": 0.47,
+            "spread": 1.06,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04959563",
-            "cex_price": "0.04983000",
-            "liquidity": "$655674"
+            "dex_price": "0.05021660",
+            "cex_price": "0.05075000",
+            "liquidity": "$655276"
+        },
+        {
+            "symbol": "SN3",
+            "spread": 1.01,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00534880",
+            "cex_price": "0.00540300",
+            "liquidity": "$356389"
         },
         {
             "symbol": "BTW",
-            "spread": 0.29,
+            "spread": 0.62,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02241974",
-            "cex_price": "0.02248500",
-            "liquidity": "$1087866"
+            "dex_price": "0.02250049",
+            "cex_price": "0.02263900",
+            "liquidity": "$1088124"
         },
         {
-            "symbol": "DISTORTED",
-            "spread": 0.25,
-            "buyAt": "SOLANA",
+            "symbol": "PEIPEI",
+            "spread": 0.61,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00108831",
-            "cex_price": "0.00109100",
-            "liquidity": "$116783"
-        },
-        {
-            "symbol": "ASTER",
-            "spread": 0.2,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.70307199",
-            "cex_price": "0.70450000",
-            "liquidity": "$1543683"
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$677985"
         }
     ],
     "spot": [],
