@@ -1,22 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "DISTORTED",
-            "spread": 0.67,
-            "buyAt": "SOLANA",
+            "symbol": "SN3",
+            "spread": 2.38,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00133898",
-            "cex_price": "0.00134800",
-            "liquidity": "$132458"
+            "dex_price": "0.00559658",
+            "cex_price": "0.00573000",
+            "liquidity": "$375820"
         },
         {
-            "symbol": "KITE",
-            "spread": 0.47,
+            "symbol": "DISTORTED",
+            "spread": 1.16,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00127617",
+            "cex_price": "0.00129100",
+            "liquidity": "$129280"
+        },
+        {
+            "symbol": "PEIPEI",
+            "spread": 0.9,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.24422450",
-            "cex_price": "0.24537000",
-            "liquidity": "$39296408"
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$657037"
+        },
+        {
+            "symbol": "NPC",
+            "spread": 0.54,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00822985",
+            "cex_price": "0.00827400",
+            "liquidity": "$2751609"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.33,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000606",
+            "cex_price": "0.00000608",
+            "liquidity": "$2813613"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.3,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.32451303",
+            "cex_price": "0.32550000",
+            "liquidity": "$9193088"
         }
     ],
     "spot": [],
