@@ -1,40 +1,76 @@
 {
     "dex": [
         {
-            "symbol": "TRUMP",
-            "spread": 19.94,
-            "buyAt": "ETH",
+            "symbol": "PENGU",
+            "spread": 0.69,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "3.62857513",
-            "cex_price": "4.35200000",
-            "liquidity": "$1816326084"
+            "dex_price": "0.00772707",
+            "cex_price": "0.00778000",
+            "liquidity": "$29581"
         },
         {
-            "symbol": "MELANIA",
-            "spread": 4.83,
+            "symbol": "FORU",
+            "spread": 0.46,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02171049",
+            "cex_price": "0.02181000",
+            "liquidity": "$775182"
+        },
+        {
+            "symbol": "ACX",
+            "spread": 0.41,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.13050181",
-            "cex_price": "0.13680000",
-            "liquidity": "$65200987"
+            "dex_price": "0.04876941",
+            "cex_price": "0.04897000",
+            "liquidity": "$648593"
+        },
+        {
+            "symbol": "NPC",
+            "spread": 0.35,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00843929",
+            "cex_price": "0.00846900",
+            "liquidity": "$2788983"
         },
         {
             "symbol": "TURBO",
-            "spread": 0.38,
+            "spread": 0.23,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00114636",
-            "cex_price": "0.00115070",
-            "liquidity": "$148987"
+            "dex_price": "0.00114140",
+            "cex_price": "0.00114400",
+            "liquidity": "$149760"
         },
         {
-            "symbol": "PEPU",
-            "spread": 0.31,
+            "symbol": "OPN",
+            "spread": 0.22,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.30921838",
+            "cex_price": "0.30990000",
+            "liquidity": "$895432"
+        },
+        {
+            "symbol": "TRUMP",
+            "spread": 0.22,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "4.27546317",
+            "cex_price": "4.28500000",
+            "liquidity": "$99553963"
+        },
+        {
+            "symbol": "KITE",
+            "spread": 0.21,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00016369",
-            "cex_price": "0.00016420",
-            "liquidity": "$285362"
+            "dex_price": "0.24718325",
+            "cex_price": "0.24769000",
+            "liquidity": "$40035688"
         }
     ],
     "spot": [],
