@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "ACX",
-            "spread": 0.73,
+            "symbol": "XRP",
+            "spread": 37.26,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.05035169",
-            "cex_price": "0.05072000",
-            "liquidity": "$659436"
+            "dex_price": "1.03053068",
+            "cex_price": "1.41450000",
+            "liquidity": "$122406"
         },
         {
-            "symbol": "MOG",
-            "spread": 0.53,
+            "symbol": "NIGHT",
+            "spread": 13.89,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000016",
-            "cex_price": "0.00000016",
-            "liquidity": "$5973335"
+            "dex_price": "0.04767829",
+            "cex_price": "0.05430000",
+            "liquidity": "$7925581"
         },
         {
-            "symbol": "KEKIUS",
-            "spread": 0.23,
+            "symbol": "BLUAI",
+            "spread": 4.72,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01226193",
-            "cex_price": "0.01229000",
-            "liquidity": "$1105603"
+            "dex_price": "0.00727010",
+            "cex_price": "0.00761300",
+            "liquidity": "$3624144"
+        },
+        {
+            "symbol": "\u9f99\u867e",
+            "spread": 0.21,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02362455",
+            "cex_price": "0.02367400",
+            "liquidity": "$1157050"
         }
     ],
     "spot": [],
