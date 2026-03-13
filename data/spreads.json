@@ -1,49 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "NPC",
-            "spread": 0.73,
-            "buyAt": "ETH",
+            "symbol": "DISTORTED",
+            "spread": 1.26,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00801248",
-            "cex_price": "0.00807100",
-            "liquidity": "$2681368"
+            "dex_price": "0.00115742",
+            "cex_price": "0.00117200",
+            "liquidity": "$122583"
         },
         {
-            "symbol": "MOLT",
-            "spread": 0.45,
-            "buyAt": "BASE",
-            "sellAt": "MEXC",
-            "dex_price": "0.00004337",
-            "cex_price": "0.00004357",
-            "liquidity": "$2299471"
-        },
-        {
-            "symbol": "GRT",
-            "spread": 0.45,
-            "buyAt": "ARBITRUM",
-            "sellAt": "MEXC",
-            "dex_price": "0.02700714",
-            "cex_price": "0.02713000",
-            "liquidity": "$83027"
-        },
-        {
-            "symbol": "SPX",
-            "spread": 0.4,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.31472917",
-            "cex_price": "0.31600000",
-            "liquidity": "$8968511"
-        },
-        {
-            "symbol": "ASTER",
-            "spread": 0.28,
+            "symbol": "BTW",
+            "spread": 0.5,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.70141199",
-            "cex_price": "0.70340000",
-            "liquidity": "$1539747"
+            "dex_price": "0.02315314",
+            "cex_price": "0.02326900",
+            "liquidity": "$1090622"
+        },
+        {
+            "symbol": "NPC",
+            "spread": 0.42,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00802058",
+            "cex_price": "0.00805400",
+            "liquidity": "$2691559"
+        },
+        {
+            "symbol": "ACX",
+            "spread": 0.29,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.04970686",
+            "cex_price": "0.04985000",
+            "liquidity": "$652835"
         }
     ],
     "spot": [],
