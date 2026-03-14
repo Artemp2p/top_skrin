@@ -1,13 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "PSYOPANIME",
-            "spread": 0.49,
+            "symbol": "NPC",
+            "spread": 0.7,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00776099",
+            "cex_price": "0.00781500",
+            "liquidity": "$2632098"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.69,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00649312",
-            "cex_price": "0.00652500",
-            "liquidity": "$409244"
+            "dex_price": "0.00716450",
+            "cex_price": "0.00721400",
+            "liquidity": "$491099"
+        },
+        {
+            "symbol": "TURBO",
+            "spread": 0.59,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00114019",
+            "cex_price": "0.00114690",
+            "liquidity": "$148004"
+        },
+        {
+            "symbol": "MANYU",
+            "spread": 0.53,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$600781"
+        },
+        {
+            "symbol": "LYN",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.20287153",
+            "cex_price": "0.20339000",
+            "liquidity": "$521581"
         }
     ],
     "spot": [],
