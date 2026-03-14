@@ -1,49 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "NPC",
-            "spread": 0.7,
+            "symbol": "SPX",
+            "spread": 0.29,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00776099",
-            "cex_price": "0.00781500",
-            "liquidity": "$2632098"
+            "dex_price": "0.30163311",
+            "cex_price": "0.30250000",
+            "liquidity": "$8732603"
         },
         {
-            "symbol": "PUNCH",
-            "spread": 0.69,
+            "symbol": "TRUMP",
+            "spread": 0.28,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00716450",
-            "cex_price": "0.00721400",
-            "liquidity": "$491099"
+            "dex_price": "4.07861979",
+            "cex_price": "4.09000000",
+            "liquidity": "$95109280"
         },
         {
-            "symbol": "TURBO",
-            "spread": 0.59,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00114019",
-            "cex_price": "0.00114690",
-            "liquidity": "$148004"
-        },
-        {
-            "symbol": "MANYU",
-            "spread": 0.53,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$600781"
-        },
-        {
-            "symbol": "LYN",
+            "symbol": "NPC",
             "spread": 0.26,
-            "buyAt": "BSC",
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.20287153",
-            "cex_price": "0.20339000",
-            "liquidity": "$521581"
+            "dex_price": "0.00778457",
+            "cex_price": "0.00780500",
+            "liquidity": "$2630277"
         }
     ],
     "spot": [],
