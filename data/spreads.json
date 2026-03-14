@@ -1,31 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "TURBO",
-            "spread": 1.42,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00113065",
-            "cex_price": "0.00114670",
-            "liquidity": "$149606"
-        },
-        {
-            "symbol": "SHIB",
-            "spread": 0.72,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000591",
-            "cex_price": "0.00000595",
-            "liquidity": "$2754524"
-        },
-        {
             "symbol": "ACX",
-            "spread": 0.53,
+            "spread": 1.24,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04554716",
-            "cex_price": "0.04579000",
-            "liquidity": "$622866"
+            "dex_price": "0.04530830",
+            "cex_price": "0.04587000",
+            "liquidity": "$626773"
+        },
+        {
+            "symbol": "NPC",
+            "spread": 0.74,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00785859",
+            "cex_price": "0.00791700",
+            "liquidity": "$2659470"
+        },
+        {
+            "symbol": "KITE",
+            "spread": 0.29,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.22464901",
+            "cex_price": "0.22529000",
+            "liquidity": "$36384819"
         }
     ],
     "spot": [],
