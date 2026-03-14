@@ -2,12 +2,39 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 2.3,
+            "spread": 3.1,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000006",
             "cex_price": "0.00000007",
-            "liquidity": "$991672"
+            "liquidity": "$990270"
+        },
+        {
+            "symbol": "PERP",
+            "spread": 0.45,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.04053860",
+            "cex_price": "0.04072000",
+            "liquidity": "$102422"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.31,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000586",
+            "cex_price": "0.00000588",
+            "liquidity": "$2721333"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.23,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00803056",
+            "cex_price": "0.00804900",
+            "liquidity": "$520909"
         }
     ],
     "spot": [],
