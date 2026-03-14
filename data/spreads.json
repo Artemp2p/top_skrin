@@ -2,30 +2,57 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 0.34,
+            "spread": 1.93,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000007",
+            "dex_price": "0.00000006",
             "cex_price": "0.00000007",
-            "liquidity": "$1000566"
+            "liquidity": "$995802"
+        },
+        {
+            "symbol": "LYN",
+            "spread": 0.3,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.20851258",
+            "cex_price": "0.20914000",
+            "liquidity": "$527518"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.28,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.25976033",
+            "cex_price": "0.26050000",
+            "liquidity": "$3605910"
         },
         {
             "symbol": "ETH",
-            "spread": 0.26,
+            "spread": 0.27,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "2068.58279010",
-            "cex_price": "2074.00000000",
-            "liquidity": "$95023528"
+            "dex_price": "2070.36837843",
+            "cex_price": "2076.05000000",
+            "liquidity": "$95092991"
         },
         {
-            "symbol": "MANYU",
-            "spread": 0.23,
+            "symbol": "LINK",
+            "spread": 0.25,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$596780"
+            "dex_price": "8.97289077",
+            "cex_price": "8.99500000",
+            "liquidity": "$16788249"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.2,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00751690",
+            "cex_price": "0.00753200",
+            "liquidity": "$502164"
         }
     ],
     "spot": [],
