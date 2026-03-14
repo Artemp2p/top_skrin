@@ -1,40 +1,40 @@
 {
     "dex": [
         {
+            "symbol": "COS",
+            "spread": 6.06,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00241324",
+            "cex_price": "0.00255960",
+            "liquidity": "$8275790"
+        },
+        {
             "symbol": "WKC",
-            "spread": 4.11,
+            "spread": 3.45,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000006",
             "cex_price": "0.00000007",
-            "liquidity": "$986793"
+            "liquidity": "$988513"
         },
         {
-            "symbol": "BANANAS31",
-            "spread": 1.92,
+            "symbol": "KITE",
+            "spread": 0.49,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01101102",
-            "cex_price": "0.01122260",
-            "liquidity": "$54889916"
-        },
-        {
-            "symbol": "DISTORTED",
-            "spread": 0.39,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00082876",
-            "cex_price": "0.00083200",
-            "liquidity": "$102710"
+            "dex_price": "0.22768159",
+            "cex_price": "0.22880000",
+            "liquidity": "$36912871"
         },
         {
             "symbol": "LINK",
-            "spread": 0.24,
+            "spread": 0.23,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "8.96021837",
-            "cex_price": "8.98200000",
-            "liquidity": "$16836930"
+            "dex_price": "8.96021826",
+            "cex_price": "8.98100000",
+            "liquidity": "$16835168"
         }
     ],
     "spot": [],
