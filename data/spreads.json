@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "TRUMP",
-            "spread": 3.12,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "3.90408318",
-            "cex_price": "4.02600000",
-            "liquidity": "$91209319"
-        },
-        {
             "symbol": "WKC",
-            "spread": 1.44,
+            "spread": 1.55,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000007",
             "cex_price": "0.00000007",
-            "liquidity": "$1011266"
+            "liquidity": "$1013821"
         },
         {
             "symbol": "LINK",
-            "spread": 0.46,
+            "spread": 0.56,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "8.97688461",
-            "cex_price": "9.01800000",
-            "liquidity": "$16922750"
+            "cex_price": "9.02700000",
+            "liquidity": "$16900992"
         },
         {
-            "symbol": "POWER",
-            "spread": 0.29,
+            "symbol": "TRIA",
+            "spread": 0.45,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.12275201",
-            "cex_price": "0.12311000",
-            "liquidity": "$998092"
+            "dex_price": "0.03106026",
+            "cex_price": "0.03120000",
+            "liquidity": "$1448441"
+        },
+        {
+            "symbol": "LYN",
+            "spread": 0.43,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.14459854",
+            "cex_price": "0.14522000",
+            "liquidity": "$438071"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.30111403",
+            "cex_price": "0.30180000",
+            "liquidity": "$8716633"
         }
     ],
     "spot": [],
