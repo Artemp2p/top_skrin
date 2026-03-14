@@ -2,102 +2,66 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 2.76,
+            "spread": 4.55,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000007",
             "cex_price": "0.00000007",
-            "liquidity": "$1018563"
-        },
-        {
-            "symbol": "PERP",
-            "spread": 1.16,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.04212037",
-            "cex_price": "0.04261000",
-            "liquidity": "$104646"
-        },
-        {
-            "symbol": "IDOS",
-            "spread": 0.74,
-            "buyAt": "ARBITRUM",
-            "sellAt": "MEXC",
-            "dex_price": "0.02441910",
-            "cex_price": "0.02460000",
-            "liquidity": "$318423"
+            "liquidity": "$1023503"
         },
         {
             "symbol": "LINK",
-            "spread": 0.65,
+            "spread": 0.8,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "8.97688461",
-            "cex_price": "9.03500000",
-            "liquidity": "$16918540"
+            "cex_price": "9.04900000",
+            "liquidity": "$16955734"
         },
         {
-            "symbol": "PEPE",
-            "spread": 0.51,
-            "buyAt": "ETH",
+            "symbol": "MOLT",
+            "spread": 0.55,
+            "buyAt": "BASE",
             "sellAt": "MEXC",
-            "dex_price": "0.00000331",
-            "cex_price": "0.00000332",
-            "liquidity": "$23873202"
+            "dex_price": "0.00003430",
+            "cex_price": "0.00003449",
+            "liquidity": "$2048168"
         },
         {
-            "symbol": "TRIA",
-            "spread": 0.44,
+            "symbol": "FAI",
+            "spread": 0.54,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00679158",
+            "cex_price": "0.00682800",
+            "liquidity": "$3822425"
+        },
+        {
+            "symbol": "ION",
+            "spread": 0.32,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03129227",
-            "cex_price": "0.03143000",
-            "liquidity": "$1450580"
-        },
-        {
-            "symbol": "VSN",
-            "spread": 0.4,
-            "buyAt": "ARBITRUM",
-            "sellAt": "MEXC",
-            "dex_price": "0.05110722",
-            "cex_price": "0.05131000",
-            "liquidity": "$839279"
-        },
-        {
-            "symbol": "POWER",
-            "spread": 0.38,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.12372056",
-            "cex_price": "0.12419000",
-            "liquidity": "$995479"
+            "dex_price": "0.00217105",
+            "cex_price": "0.00217800",
+            "liquidity": "$901688"
         },
         {
             "symbol": "SHIB",
-            "spread": 0.37,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000582",
-            "cex_price": "0.00000584",
-            "liquidity": "$2717568"
-        },
-        {
-            "symbol": "BTC",
-            "spread": 0.27,
-            "buyAt": "ARBITRUM",
-            "sellAt": "MEXC",
-            "dex_price": "70621.81689275",
-            "cex_price": "70811.71000000",
-            "liquidity": "$57386248"
-        },
-        {
-            "symbol": "ETH",
             "spread": 0.25,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "2080.30649891",
-            "cex_price": "2085.49000000",
-            "liquidity": "$95289460"
+            "dex_price": "0.00000583",
+            "cex_price": "0.00000584",
+            "liquidity": "$2721209"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.24,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.30096447",
+            "cex_price": "0.30170000",
+            "liquidity": "$8734600"
         }
     ],
     "spot": [],
