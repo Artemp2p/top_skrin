@@ -2,48 +2,39 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 3.12,
+            "spread": 2.42,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000007",
             "cex_price": "0.00000007",
-            "liquidity": "$1027884"
+            "liquidity": "$1032115"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.53,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000331",
+            "cex_price": "0.00000333",
+            "liquidity": "$23899114"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.43,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03177219",
+            "cex_price": "0.03191000",
+            "liquidity": "$1457499"
         },
         {
             "symbol": "LINK",
-            "spread": 1.1,
+            "spread": 0.26,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "8.97688461",
-            "cex_price": "9.07600000",
-            "liquidity": "$16955714"
-        },
-        {
-            "symbol": "OPN",
-            "spread": 0.35,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.33462076",
-            "cex_price": "0.33580000",
-            "liquidity": "$940099"
-        },
-        {
-            "symbol": "SHIB",
-            "spread": 0.27,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000583",
-            "cex_price": "0.00000584",
-            "liquidity": "$2721871"
-        },
-        {
-            "symbol": "ETH",
-            "spread": 0.22,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "2081.12503232",
-            "cex_price": "2085.68000000",
-            "liquidity": "$95345295"
+            "dex_price": "9.07139733",
+            "cex_price": "9.09500000",
+            "liquidity": "$16972517"
         }
     ],
     "spot": [],
