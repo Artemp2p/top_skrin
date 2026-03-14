@@ -1,40 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "COS",
-            "spread": 6.06,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00241324",
-            "cex_price": "0.00255960",
-            "liquidity": "$8275790"
-        },
-        {
             "symbol": "WKC",
-            "spread": 3.45,
+            "spread": 4.18,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000006",
             "cex_price": "0.00000007",
-            "liquidity": "$988513"
+            "liquidity": "$989381"
         },
         {
-            "symbol": "KITE",
-            "spread": 0.49,
+            "symbol": "COS",
+            "spread": 2.58,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.22768159",
-            "cex_price": "0.22880000",
-            "liquidity": "$36912871"
+            "dex_price": "0.00241324",
+            "cex_price": "0.00247550",
+            "liquidity": "$8275803"
+        },
+        {
+            "symbol": "SN3",
+            "spread": 1.06,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00497249",
+            "cex_price": "0.00502500",
+            "liquidity": "$30457"
+        },
+        {
+            "symbol": "PEIPEI",
+            "spread": 0.5,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$647566"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.35,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000333",
+            "cex_price": "0.00000334",
+            "liquidity": "$23920054"
         },
         {
             "symbol": "LINK",
-            "spread": 0.23,
+            "spread": 0.33,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "8.96021826",
-            "cex_price": "8.98100000",
-            "liquidity": "$16835168"
+            "cex_price": "8.99000000",
+            "liquidity": "$16835194"
+        },
+        {
+            "symbol": "APR",
+            "spread": 0.33,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.16997516",
+            "cex_price": "0.17053000",
+            "liquidity": "$495013"
         }
     ],
     "spot": [],
