@@ -1,13 +1,40 @@
 {
     "dex": [
         {
+            "symbol": "WKC",
+            "spread": 2.72,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000007",
+            "cex_price": "0.00000007",
+            "liquidity": "$1062905"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 1.0,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.30642134",
+            "cex_price": "0.30950000",
+            "liquidity": "$8869889"
+        },
+        {
+            "symbol": "MOG",
+            "spread": 0.45,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000016",
+            "cex_price": "0.00000016",
+            "liquidity": "$5934696"
+        },
+        {
             "symbol": "PEPU",
-            "spread": 0.4,
+            "spread": 0.34,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00016195",
-            "cex_price": "0.00016260",
-            "liquidity": "$284215"
+            "cex_price": "0.00016250",
+            "liquidity": "$283892"
         }
     ],
     "spot": [],
