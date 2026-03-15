@@ -2,39 +2,66 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 2.72,
+            "spread": 1.75,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000007",
             "cex_price": "0.00000007",
-            "liquidity": "$1062905"
+            "liquidity": "$1063983"
         },
         {
-            "symbol": "SPX",
-            "spread": 1.0,
-            "buyAt": "ETH",
+            "symbol": "LINK",
+            "spread": 0.97,
+            "buyAt": "ARBITRUM",
             "sellAt": "MEXC",
-            "dex_price": "0.30642134",
-            "cex_price": "0.30950000",
-            "liquidity": "$8869889"
+            "dex_price": "9.11512968",
+            "cex_price": "9.20400000",
+            "liquidity": "$202395"
         },
         {
-            "symbol": "MOG",
-            "spread": 0.45,
-            "buyAt": "ETH",
+            "symbol": "IDOS",
+            "spread": 0.62,
+            "buyAt": "ARBITRUM",
             "sellAt": "MEXC",
-            "dex_price": "0.00000016",
-            "cex_price": "0.00000016",
-            "liquidity": "$5934696"
+            "dex_price": "0.02446725",
+            "cex_price": "0.02462000",
+            "liquidity": "$318831"
         },
         {
-            "symbol": "PEPU",
-            "spread": 0.34,
-            "buyAt": "ETH",
+            "symbol": "FAI",
+            "spread": 0.44,
+            "buyAt": "BASE",
             "sellAt": "MEXC",
-            "dex_price": "0.00016195",
-            "cex_price": "0.00016250",
-            "liquidity": "$283892"
+            "dex_price": "0.00687850",
+            "cex_price": "0.00690900",
+            "liquidity": "$3863414"
+        },
+        {
+            "symbol": "VSN",
+            "spread": 0.43,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "0.05115947",
+            "cex_price": "0.05138000",
+            "liquidity": "$838619"
+        },
+        {
+            "symbol": "MOLT",
+            "spread": 0.38,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00004090",
+            "cex_price": "0.00004106",
+            "liquidity": "$2236970"
+        },
+        {
+            "symbol": "POWER",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.12343548",
+            "cex_price": "0.12376000",
+            "liquidity": "$996289"
         }
     ],
     "spot": [],
