@@ -2,39 +2,75 @@
     "dex": [
         {
             "symbol": "SN51",
-            "spread": 7.19,
+            "spread": 7.09,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "10.01927244",
-            "cex_price": "10.74000000",
-            "liquidity": "$104554226"
+            "cex_price": "10.73000000",
+            "liquidity": "$104130850"
+        },
+        {
+            "symbol": "UP",
+            "spread": 1.33,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.06217360",
+            "cex_price": "0.06300000",
+            "liquidity": "$1514407"
+        },
+        {
+            "symbol": "MOLT",
+            "spread": 1.14,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00003706",
+            "cex_price": "0.00003748",
+            "liquidity": "$2112937"
+        },
+        {
+            "symbol": "LYN",
+            "spread": 0.65,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.09293373",
+            "cex_price": "0.09354000",
+            "liquidity": "$341741"
         },
         {
             "symbol": "FET",
-            "spread": 0.76,
+            "spread": 0.42,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.19282973",
-            "cex_price": "0.19430000",
-            "liquidity": "$1360419"
+            "dex_price": "0.19378744",
+            "cex_price": "0.19460000",
+            "liquidity": "$1344552"
         },
         {
-            "symbol": "APR",
-            "spread": 0.38,
+            "symbol": "OPN",
+            "spread": 0.3,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.17687445",
-            "cex_price": "0.17755000",
-            "liquidity": "$507032"
+            "dex_price": "0.30858131",
+            "cex_price": "0.30950000",
+            "liquidity": "$898372"
         },
         {
-            "symbol": "PEPU",
-            "spread": 0.29,
-            "buyAt": "ETH",
+            "symbol": "\u9f99\u867e",
+            "spread": 0.28,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00015286",
-            "cex_price": "0.00015330",
-            "liquidity": "$277659"
+            "dex_price": "0.01740747",
+            "cex_price": "0.01745600",
+            "liquidity": "$1032654"
+        },
+        {
+            "symbol": "TRUMP",
+            "spread": 0.27,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "3.96636440",
+            "cex_price": "3.97700000",
+            "liquidity": "$92598437"
         }
     ],
     "spot": [],
