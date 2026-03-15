@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "POWER",
-            "spread": 0.36,
-            "buyAt": "BSC",
+            "symbol": "FET",
+            "spread": 0.86,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.12027349",
-            "cex_price": "0.12071000",
-            "liquidity": "$985709"
+            "dex_price": "0.19265255",
+            "cex_price": "0.19430000",
+            "liquidity": "$1338352"
         },
         {
-            "symbol": "TRIA",
-            "spread": 0.32,
+            "symbol": "WKC",
+            "spread": 0.77,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02841849",
-            "cex_price": "0.02851000",
-            "liquidity": "$1416826"
+            "dex_price": "0.00000007",
+            "cex_price": "0.00000007",
+            "liquidity": "$1072238"
+        },
+        {
+            "symbol": "XCN",
+            "spread": 0.56,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00627024",
+            "cex_price": "0.00630520",
+            "liquidity": "$1331072"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.47,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.36448715",
+            "cex_price": "0.36620100",
+            "liquidity": "$13061679"
         },
         {
             "symbol": "OPN",
-            "spread": 0.3,
+            "spread": 0.28,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.31168039",
-            "cex_price": "0.31260000",
-            "liquidity": "$902805"
-        },
-        {
-            "symbol": "UP",
-            "spread": 0.24,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.06105126",
-            "cex_price": "0.06120000",
-            "liquidity": "$1508693"
+            "dex_price": "0.31411974",
+            "cex_price": "0.31500000",
+            "liquidity": "$907616"
         }
     ],
     "spot": [],
