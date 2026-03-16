@@ -2,30 +2,39 @@
     "dex": [
         {
             "symbol": "UP",
-            "spread": 4.15,
+            "spread": 11.77,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.08353689",
-            "cex_price": "0.08700000",
-            "liquidity": "$41987290"
-        },
-        {
-            "symbol": "THE",
-            "spread": 0.86,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.20602059",
-            "cex_price": "0.20780000",
-            "liquidity": "$412699"
+            "cex_price": "0.09337000",
+            "liquidity": "$42139828"
         },
         {
             "symbol": "KEKIUS",
-            "spread": 0.39,
+            "spread": 0.36,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01215214",
-            "cex_price": "0.01220000",
-            "liquidity": "$1138869"
+            "dex_price": "0.01224038",
+            "cex_price": "0.01228500",
+            "liquidity": "$1142489"
+        },
+        {
+            "symbol": "OPN",
+            "spread": 0.32,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.33055563",
+            "cex_price": "0.33160000",
+            "liquidity": "$934354"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.21,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000613",
+            "cex_price": "0.00000614",
+            "liquidity": "$2915245"
         }
     ],
     "spot": [],
