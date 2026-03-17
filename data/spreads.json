@@ -1,13 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "FET",
-            "spread": 0.63,
+            "symbol": "POLYX",
+            "spread": 4.37,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.23490981",
-            "cex_price": "0.23640000",
-            "liquidity": "$1610167"
+            "dex_price": "0.04838634",
+            "cex_price": "0.05050000",
+            "liquidity": "$30337721"
+        },
+        {
+            "symbol": "FAI",
+            "spread": 1.96,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00748535",
+            "cex_price": "0.00763200",
+            "liquidity": "$4224338"
+        },
+        {
+            "symbol": "67",
+            "spread": 1.41,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00136676",
+            "cex_price": "0.00138600",
+            "liquidity": "$230515"
+        },
+        {
+            "symbol": "XCN",
+            "spread": 0.46,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00576328",
+            "cex_price": "0.00578980",
+            "liquidity": "$1347634"
+        },
+        {
+            "symbol": "CLAWNCH",
+            "spread": 0.36,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00005013",
+            "cex_price": "0.00005031",
+            "liquidity": "$1664521"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.27,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03075628",
+            "cex_price": "0.03084000",
+            "liquidity": "$1447495"
         }
     ],
     "spot": [],
