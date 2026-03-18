@@ -1,31 +1,121 @@
 {
     "dex": [
         {
-            "symbol": "BTC",
-            "spread": 0.93,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "73109.85083059",
-            "cex_price": "73787.17000000",
-            "liquidity": "$18028345"
-        },
-        {
-            "symbol": "PIPPIN",
-            "spread": 0.51,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.12267149",
-            "cex_price": "0.12329600",
-            "liquidity": "$7945016"
-        },
-        {
             "symbol": "LYN",
-            "spread": 0.23,
+            "spread": 3.83,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.04242428",
-            "cex_price": "0.04252000",
-            "liquidity": "$212988"
+            "dex_price": "0.05021727",
+            "cex_price": "0.05214000",
+            "liquidity": "$237446"
+        },
+        {
+            "symbol": "BTC",
+            "spread": 1.39,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "73008.76448713",
+            "cex_price": "74022.47000000",
+            "liquidity": "$17974002"
+        },
+        {
+            "symbol": "FET",
+            "spread": 1.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.22246309",
+            "cex_price": "0.22520000",
+            "liquidity": "$1538762"
+        },
+        {
+            "symbol": "WKC",
+            "spread": 1.19,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000008",
+            "cex_price": "0.00000008",
+            "liquidity": "$1139109"
+        },
+        {
+            "symbol": "FARTCOIN",
+            "spread": 1.06,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.21108669",
+            "cex_price": "0.21333000",
+            "liquidity": "$8066756"
+        },
+        {
+            "symbol": "UAI",
+            "spread": 0.72,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.40884185",
+            "cex_price": "0.41180000",
+            "liquidity": "$1467923"
+        },
+        {
+            "symbol": "\u9f99\u867e",
+            "spread": 0.58,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01421778",
+            "cex_price": "0.01430000",
+            "liquidity": "$774220"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.46,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.28047818",
+            "cex_price": "0.28178000",
+            "liquidity": "$3930898"
+        },
+        {
+            "symbol": "KITE",
+            "spread": 0.43,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.19047511",
+            "cex_price": "0.19129000",
+            "liquidity": "$30988453"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.37,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01372105",
+            "cex_price": "0.01377200",
+            "liquidity": "$729304"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.34,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000366",
+            "cex_price": "0.00000367",
+            "liquidity": "$26515205"
+        },
+        {
+            "symbol": "NPC",
+            "spread": 0.34,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00965530",
+            "cex_price": "0.00968800",
+            "liquidity": "$3097626"
+        },
+        {
+            "symbol": "UP",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.10141130",
+            "cex_price": "0.10168000",
+            "liquidity": "$1887379"
         }
     ],
     "spot": [],
