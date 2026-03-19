@@ -2,12 +2,39 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 1.09,
+            "spread": 2.52,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000008",
             "cex_price": "0.00000008",
-            "liquidity": "$1095767"
+            "liquidity": "$1087074"
+        },
+        {
+            "symbol": "SN3",
+            "spread": 1.03,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00205777",
+            "cex_price": "0.00207900",
+            "liquidity": "$39789"
+        },
+        {
+            "symbol": "OPN",
+            "spread": 0.54,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.26127977",
+            "cex_price": "0.26270000",
+            "liquidity": "$804744"
+        },
+        {
+            "symbol": "FET",
+            "spread": 0.39,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.21167583",
+            "cex_price": "0.21250000",
+            "liquidity": "$1459678"
         }
     ],
     "spot": [],
