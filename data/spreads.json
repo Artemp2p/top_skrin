@@ -2,21 +2,30 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 4.2,
+            "spread": 3.29,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000008",
             "cex_price": "0.00000008",
-            "liquidity": "$1107470"
+            "liquidity": "$1106040"
         },
         {
-            "symbol": "PIPPIN",
-            "spread": 0.6,
+            "symbol": "BARD",
+            "spread": 0.75,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.64643752",
+            "cex_price": "0.65130000",
+            "liquidity": "$5644"
+        },
+        {
+            "symbol": "BAN",
+            "spread": 0.62,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.09431389",
-            "cex_price": "0.09487800",
-            "liquidity": "$6822391"
+            "dex_price": "0.05378617",
+            "cex_price": "0.05412000",
+            "liquidity": "$2221310"
         }
     ],
     "spot": [],
