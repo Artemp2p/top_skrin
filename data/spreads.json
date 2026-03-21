@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "PIPPIN",
-            "spread": 1.0,
-            "buyAt": "SOLANA",
+            "symbol": "MOLT",
+            "spread": 0.65,
+            "buyAt": "BASE",
             "sellAt": "MEXC",
-            "dex_price": "0.10496279",
-            "cex_price": "0.10601300",
-            "liquidity": "$7312241"
-        },
-        {
-            "symbol": "DISTORTED",
-            "spread": 0.98,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00080007",
-            "cex_price": "0.00080790",
-            "liquidity": "$109824"
+            "dex_price": "0.00002304",
+            "cex_price": "0.00002319",
+            "liquidity": "$1786036"
         },
         {
             "symbol": "WKC",
-            "spread": 0.24,
+            "spread": 0.41,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000010",
             "cex_price": "0.00000010",
-            "liquidity": "$1241673"
+            "liquidity": "$1244091"
         },
         {
-            "symbol": "UAI",
-            "spread": 0.2,
+            "symbol": "MANYU",
+            "spread": 0.28,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$599133"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.23,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.44359933",
-            "cex_price": "0.44450000",
-            "liquidity": "$1437539"
+            "dex_price": "0.03712457",
+            "cex_price": "0.03721000",
+            "liquidity": "$1519849"
+        },
+        {
+            "symbol": "RDNT",
+            "spread": 0.21,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "0.00535470",
+            "cex_price": "0.00536600",
+            "liquidity": "$539889"
         }
     ],
     "spot": [],
