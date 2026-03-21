@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "XEN",
-            "spread": 2.15,
+            "symbol": "MOG",
+            "spread": 0.5,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$61098"
+            "dex_price": "0.00000015",
+            "cex_price": "0.00000015",
+            "liquidity": "$5845685"
+        },
+        {
+            "symbol": "WKC",
+            "spread": 0.46,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000010",
+            "cex_price": "0.00000010",
+            "liquidity": "$1216787"
         },
         {
             "symbol": "PIPPIN",
-            "spread": 0.5,
+            "spread": 0.36,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.10562738",
-            "cex_price": "0.10615200",
-            "liquidity": "$7346110"
+            "dex_price": "0.10416804",
+            "cex_price": "0.10453900",
+            "liquidity": "$7277343"
         },
         {
-            "symbol": "TRIA",
-            "spread": 0.47,
-            "buyAt": "BSC",
+            "symbol": "GMEE",
+            "spread": 0.34,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03448828",
-            "cex_price": "0.03465000",
-            "liquidity": "$1497841"
+            "dex_price": "0.00167846",
+            "cex_price": "0.00168420",
+            "liquidity": "$152685"
         },
         {
-            "symbol": "BABYDOGE",
-            "spread": 0.24,
-            "buyAt": "BSC",
+            "symbol": "ZBCN",
+            "spread": 0.25,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00000000",
-            "cex_price": "0.00000000",
-            "liquidity": "$8676608"
+            "dex_price": "0.00255461",
+            "cex_price": "0.00256100",
+            "liquidity": "$137066"
         }
     ],
     "spot": [],
