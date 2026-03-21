@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "MANYU",
-            "spread": 0.33,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$597922"
-        },
-        {
-            "symbol": "PIPPIN",
-            "spread": 0.29,
+            "symbol": "67",
+            "spread": 0.59,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.10216816",
-            "cex_price": "0.10246300",
-            "liquidity": "$7193760"
+            "dex_price": "0.00149021",
+            "cex_price": "0.00149900",
+            "liquidity": "$234705"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.43,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03688090",
+            "cex_price": "0.03704000",
+            "liquidity": "$1518766"
         },
         {
             "symbol": "OPN",
-            "spread": 0.27,
+            "spread": 0.26,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.27416391",
+            "dex_price": "0.27419025",
             "cex_price": "0.27490000",
-            "liquidity": "$834306"
+            "liquidity": "$833942"
+        },
+        {
+            "symbol": "UAI",
+            "spread": 0.25,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.31642319",
+            "cex_price": "0.31720000",
+            "liquidity": "$1349901"
         }
     ],
     "spot": [],
