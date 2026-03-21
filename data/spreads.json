@@ -2,30 +2,48 @@
     "dex": [
         {
             "symbol": "PIPPIN",
-            "spread": 0.78,
+            "spread": 0.91,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.09607525",
-            "cex_price": "0.09682000",
-            "liquidity": "$6983287"
+            "dex_price": "0.09815780",
+            "cex_price": "0.09904700",
+            "liquidity": "$7058033"
         },
         {
-            "symbol": "PUNCH",
-            "spread": 0.47,
-            "buyAt": "SOLANA",
+            "symbol": "ATH",
+            "spread": 0.35,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01288036",
-            "cex_price": "0.01294100",
-            "liquidity": "$699435"
+            "dex_price": "0.00806637",
+            "cex_price": "0.00809500",
+            "liquidity": "$320070"
         },
         {
-            "symbol": "TRIA",
-            "spread": 0.25,
-            "buyAt": "BSC",
+            "symbol": "MOG",
+            "spread": 0.34,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03708899",
-            "cex_price": "0.03718000",
-            "liquidity": "$1521560"
+            "dex_price": "0.00000015",
+            "cex_price": "0.00000015",
+            "liquidity": "$5811491"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.28,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.25910716",
+            "cex_price": "0.25983000",
+            "liquidity": "$3563811"
+        },
+        {
+            "symbol": "VINE",
+            "spread": 0.22,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.01726220",
+            "cex_price": "0.01730000",
+            "liquidity": "$8605207"
         }
     ],
     "spot": [],
