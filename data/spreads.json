@@ -1,22 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "XRP",
-            "spread": 37.13,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "1.01800929",
-            "cex_price": "1.39600000",
-            "liquidity": "$117053"
-        },
-        {
             "symbol": "WKC",
-            "spread": 1.5,
+            "spread": 0.93,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000010",
             "cex_price": "0.00000010",
-            "liquidity": "$1234947"
+            "liquidity": "$1233892"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.64,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.29323582",
+            "cex_price": "0.29510000",
+            "liquidity": "$8636866"
+        },
+        {
+            "symbol": "BTW",
+            "spread": 0.42,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02769424",
+            "cex_price": "0.02781100",
+            "liquidity": "$1108771"
+        },
+        {
+            "symbol": "ATH",
+            "spread": 0.36,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00776813",
+            "cex_price": "0.00779600",
+            "liquidity": "$309856"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.31,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.04173117",
+            "cex_price": "0.04186000",
+            "liquidity": "$1576313"
         }
     ],
     "spot": [],
