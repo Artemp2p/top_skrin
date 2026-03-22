@@ -2,12 +2,57 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 2.45,
+            "spread": 1.61,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000010",
             "cex_price": "0.00000010",
-            "liquidity": "$1228439"
+            "liquidity": "$1231210"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.38,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.04048523",
+            "cex_price": "0.04064000",
+            "liquidity": "$1560671"
+        },
+        {
+            "symbol": "BTC",
+            "spread": 0.37,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "68552.26157268",
+            "cex_price": "68807.71000000",
+            "liquidity": "$16886376"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.36,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000330",
+            "cex_price": "0.00000331",
+            "liquidity": "$23836400"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.3,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.09293849",
+            "cex_price": "0.09321400",
+            "liquidity": "$6797424"
+        },
+        {
+            "symbol": "TURBO",
+            "spread": 0.29,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00113854",
+            "cex_price": "0.00114180",
+            "liquidity": "$148491"
         }
     ],
     "spot": [],
