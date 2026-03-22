@@ -1,22 +1,67 @@
 {
     "dex": [
         {
+            "symbol": "BNKR",
+            "spread": 1.45,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00038306",
+            "cex_price": "0.00038860",
+            "liquidity": "$2446142"
+        },
+        {
             "symbol": "WKC",
-            "spread": 1.91,
+            "spread": 1.37,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000010",
             "cex_price": "0.00000010",
-            "liquidity": "$1228949"
+            "liquidity": "$1224906"
         },
         {
-            "symbol": "BTW",
-            "spread": 0.32,
+            "symbol": "MOLT",
+            "spread": 0.54,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00002520",
+            "cex_price": "0.00002534",
+            "liquidity": "$1800939"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.44,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000575",
+            "cex_price": "0.00000578",
+            "liquidity": "$2702522"
+        },
+        {
+            "symbol": "TURBO",
+            "spread": 0.37,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00111046",
+            "cex_price": "0.00111460",
+            "liquidity": "$146541"
+        },
+        {
+            "symbol": "UAI",
+            "spread": 0.28,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02822921",
-            "cex_price": "0.02832000",
-            "liquidity": "$1112262"
+            "dex_price": "0.30025566",
+            "cex_price": "0.30110000",
+            "liquidity": "$1315389"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.24,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.04117998",
+            "cex_price": "0.04128000",
+            "liquidity": "$1566215"
         }
     ],
     "spot": [],
