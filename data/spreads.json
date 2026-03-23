@@ -2,12 +2,12 @@
     "dex": [
         {
             "symbol": "XRP",
-            "spread": 28.4,
+            "spread": 32.97,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "1.11208939",
-            "cex_price": "1.42790000",
-            "liquidity": "$125197"
+            "dex_price": "1.07218245",
+            "cex_price": "1.42570000",
+            "liquidity": "$120251"
         },
         {
             "symbol": "HNT",
@@ -16,34 +16,25 @@
             "sellAt": "MEXC",
             "dex_price": "1.31520290",
             "cex_price": "1.33870000",
-            "liquidity": "$146097143"
+            "liquidity": "$146097163"
+        },
+        {
+            "symbol": "MANYU",
+            "spread": 0.41,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$586296"
         },
         {
             "symbol": "DISTORTED",
-            "spread": 1.04,
+            "spread": 0.34,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00099962",
+            "dex_price": "0.00100654",
             "cex_price": "0.00101000",
-            "liquidity": "$125760"
-        },
-        {
-            "symbol": "BP",
-            "spread": 0.72,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.21475292",
-            "cex_price": "0.21630000",
-            "liquidity": "$501900"
-        },
-        {
-            "symbol": "TRIA",
-            "spread": 0.49,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.04331577",
-            "cex_price": "0.04353000",
-            "liquidity": "$1591898"
+            "liquidity": "$125731"
         }
     ],
     "spot": [],
