@@ -1,13 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "NPC",
-            "spread": 0.3,
+            "symbol": "CHIBI",
+            "spread": 7.75,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00344954",
+            "cex_price": "0.00371700",
+            "liquidity": "$195946"
+        },
+        {
+            "symbol": "XEN",
+            "spread": 1.86,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00809298",
-            "cex_price": "0.00811700",
-            "liquidity": "$2685349"
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$64525"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.4,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.09107200",
+            "cex_price": "0.09143900",
+            "liquidity": "$6744666"
+        },
+        {
+            "symbol": "ETH",
+            "spread": 0.22,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "2065.18129952",
+            "cex_price": "2069.67000000",
+            "liquidity": "$94773828"
         }
     ],
     "spot": [],
