@@ -2,30 +2,39 @@
     "dex": [
         {
             "symbol": "A2Z",
-            "spread": 29.81,
+            "spread": 10.85,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00039812",
-            "cex_price": "0.00051680",
-            "liquidity": "$8670"
+            "dex_price": "0.00044935",
+            "cex_price": "0.00049810",
+            "liquidity": "$17181"
         },
         {
-            "symbol": "CHIBI",
-            "spread": 0.6,
-            "buyAt": "SOLANA",
+            "symbol": "MOLT",
+            "spread": 0.73,
+            "buyAt": "BASE",
             "sellAt": "MEXC",
-            "dex_price": "0.00185285",
-            "cex_price": "0.00186400",
-            "liquidity": "$148970"
+            "dex_price": "0.00002659",
+            "cex_price": "0.00002678",
+            "liquidity": "$1891525"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.54,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.04405149",
+            "cex_price": "0.04429000",
+            "liquidity": "$1599226"
         },
         {
             "symbol": "UAI",
-            "spread": 0.26,
+            "spread": 0.41,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.23819032",
-            "cex_price": "0.23880000",
-            "liquidity": "$1263598"
+            "dex_price": "0.24179867",
+            "cex_price": "0.24280000",
+            "liquidity": "$1269901"
         }
     ],
     "spot": [],
