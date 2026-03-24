@@ -2,39 +2,66 @@
     "dex": [
         {
             "symbol": "BKN",
-            "spread": 1.78,
+            "spread": 3.87,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.05551367",
-            "cex_price": "0.05650000",
-            "liquidity": "$7238"
+            "dex_price": "0.05215253",
+            "cex_price": "0.05417000",
+            "liquidity": "$7159"
+        },
+        {
+            "symbol": "MANYU",
+            "spread": 1.02,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$562379"
         },
         {
             "symbol": "WKC",
-            "spread": 1.03,
+            "spread": 0.83,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000010",
             "cex_price": "0.00000010",
-            "liquidity": "$1216972"
+            "liquidity": "$1223909"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.79,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000605",
+            "cex_price": "0.00000610",
+            "liquidity": "$2797467"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.74,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.24856406",
+            "cex_price": "0.25040000",
+            "liquidity": "$3449091"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.44,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.07926377",
+            "cex_price": "0.07961600",
+            "liquidity": "$6385675"
         },
         {
             "symbol": "TRIA",
-            "spread": 0.59,
+            "spread": 0.25,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03442687",
-            "cex_price": "0.03463000",
-            "liquidity": "$1490803"
-        },
-        {
-            "symbol": "BUTTCOIN",
-            "spread": 0.4,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.01494056",
-            "cex_price": "0.01500000",
-            "liquidity": "$651905"
+            "dex_price": "0.03502104",
+            "cex_price": "0.03511000",
+            "liquidity": "$1503899"
         }
     ],
     "spot": [],
