@@ -2,39 +2,57 @@
     "dex": [
         {
             "symbol": "CCD",
-            "spread": 14.69,
+            "spread": 13.57,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00418348",
-            "cex_price": "0.00479800",
-            "liquidity": "$30057554"
+            "cex_price": "0.00475100",
+            "liquidity": "$29886442"
         },
         {
-            "symbol": "PUNCH",
-            "spread": 4.58,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.01254060",
-            "cex_price": "0.01311500",
-            "liquidity": "$708912"
-        },
-        {
-            "symbol": "FET",
-            "spread": 0.43,
+            "symbol": "UCN",
+            "spread": 8.99,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.22881224",
-            "cex_price": "0.22980000",
-            "liquidity": "$1560544"
+            "dex_price": "368.48801186",
+            "cex_price": "401.61000000",
+            "liquidity": "$18320290"
+        },
+        {
+            "symbol": "WKC",
+            "spread": 2.3,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000010",
+            "cex_price": "0.00000010",
+            "liquidity": "$1216657"
         },
         {
             "symbol": "RIVER",
-            "spread": 0.31,
+            "spread": 0.86,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "25.22372045",
-            "cex_price": "25.30290000",
-            "liquidity": "$72249"
+            "dex_price": "25.59017548",
+            "cex_price": "25.80980000",
+            "liquidity": "$72867"
+        },
+        {
+            "symbol": "MANYU",
+            "spread": 0.85,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$580381"
+        },
+        {
+            "symbol": "ION",
+            "spread": 0.8,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00193048",
+            "cex_price": "0.00194600",
+            "liquidity": "$840007"
         }
     ],
     "spot": [],
