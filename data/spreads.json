@@ -1,40 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "AO",
-            "spread": 13.66,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "3.50171251",
-            "cex_price": "3.98000000",
-            "liquidity": "$36772611"
-        },
-        {
             "symbol": "WKC",
-            "spread": 2.79,
+            "spread": 2.82,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000010",
             "cex_price": "0.00000010",
-            "liquidity": "$1224959"
-        },
-        {
-            "symbol": "CHIBI",
-            "spread": 2.34,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00132014",
-            "cex_price": "0.00135100",
-            "liquidity": "$128772"
+            "liquidity": "$1229103"
         },
         {
             "symbol": "FET",
-            "spread": 1.03,
+            "spread": 1.47,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.23962173",
-            "cex_price": "0.24210000",
-            "liquidity": "$1608328"
+            "dex_price": "0.23956869",
+            "cex_price": "0.24310000",
+            "liquidity": "$1614489"
+        },
+        {
+            "symbol": "TAO",
+            "spread": 0.98,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "329.43541541",
+            "cex_price": "332.67000000",
+            "liquidity": "$2114407"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.46,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000618",
+            "cex_price": "0.00000620",
+            "liquidity": "$2853296"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.45,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000351",
+            "cex_price": "0.00000352",
+            "liquidity": "$25053391"
+        },
+        {
+            "symbol": "EURI",
+            "spread": 0.41,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1.15666138",
+            "cex_price": "1.16140000",
+            "liquidity": "$6156"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.28,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.25599679",
+            "cex_price": "0.25671000",
+            "liquidity": "$3550578"
         }
     ],
     "spot": [],
