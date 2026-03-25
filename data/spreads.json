@@ -2,30 +2,66 @@
     "dex": [
         {
             "symbol": "CES",
-            "spread": 9.08,
+            "spread": 15.33,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "1.10183057",
-            "cex_price": "1.20190000",
-            "liquidity": "$233604309"
+            "cex_price": "1.27070000",
+            "liquidity": "$233603764"
+        },
+        {
+            "symbol": "TAO",
+            "spread": 0.67,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "342.39179008",
+            "cex_price": "344.69000000",
+            "liquidity": "$1998374"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.54,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03149100",
+            "cex_price": "0.03166000",
+            "liquidity": "$1457108"
+        },
+        {
+            "symbol": "TESTICLE",
+            "spread": 0.4,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01178011",
+            "cex_price": "0.01182700",
+            "liquidity": "$695417"
         },
         {
             "symbol": "PIPPIN",
-            "spread": 1.62,
+            "spread": 0.38,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.04975269",
-            "cex_price": "0.05055800",
-            "liquidity": "$5178991"
+            "dex_price": "0.05173009",
+            "cex_price": "0.05192600",
+            "liquidity": "$5283388"
         },
         {
-            "symbol": "CHIBI",
-            "spread": 0.26,
-            "buyAt": "SOLANA",
+            "symbol": "VVV",
+            "spread": 0.37,
+            "buyAt": "BASE",
             "sellAt": "MEXC",
-            "dex_price": "0.00071217",
-            "cex_price": "0.00071400",
-            "liquidity": "$96348"
+            "dex_price": "6.58803519",
+            "cex_price": "6.61220000",
+            "liquidity": "$3107518"
+        },
+        {
+            "symbol": "CFG",
+            "spread": 0.35,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.14110961",
+            "cex_price": "0.14160000",
+            "liquidity": "$815585"
         }
     ],
     "spot": [],
