@@ -2,57 +2,57 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 3.16,
+            "spread": 3.95,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000010",
             "cex_price": "0.00000010",
-            "liquidity": "$1238839"
+            "liquidity": "$1232538"
         },
         {
-            "symbol": "TAO",
-            "spread": 0.7,
+            "symbol": "PIPPIN",
+            "spread": 1.17,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.04743388",
+            "cex_price": "0.04799000",
+            "liquidity": "$4996224"
+        },
+        {
+            "symbol": "FET",
+            "spread": 1.03,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "350.02638354",
-            "cex_price": "352.49000000",
-            "liquidity": "$2097922"
-        },
-        {
-            "symbol": "PRL",
-            "spread": 0.6,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.15745516",
-            "cex_price": "0.15840000",
-            "liquidity": "$1294592"
-        },
-        {
-            "symbol": "BSB",
-            "spread": 0.56,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.14961557",
-            "cex_price": "0.15046000",
-            "liquidity": "$10247869"
-        },
-        {
-            "symbol": "BTC",
-            "spread": 0.3,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "70679.82252635",
-            "cex_price": "70893.80000000",
-            "liquidity": "$48082164"
+            "dex_price": "0.26101472",
+            "cex_price": "0.26370000",
+            "liquidity": "$1721237"
         },
         {
             "symbol": "ZAMA",
-            "spread": 0.23,
+            "spread": 0.48,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02451375",
-            "cex_price": "0.02457000",
-            "liquidity": "$977999"
+            "dex_price": "0.02452338",
+            "cex_price": "0.02464000",
+            "liquidity": "$977196"
+        },
+        {
+            "symbol": "TRIA",
+            "spread": 0.43,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03169396",
+            "cex_price": "0.03183000",
+            "liquidity": "$1458306"
+        },
+        {
+            "symbol": "ION",
+            "spread": 0.29,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00169509",
+            "cex_price": "0.00170000",
+            "liquidity": "$794877"
         }
     ],
     "spot": [],
