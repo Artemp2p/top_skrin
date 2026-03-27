@@ -1,76 +1,58 @@
 {
     "dex": [
         {
+            "symbol": "TAO",
+            "spread": 1.81,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "315.43501438",
+            "cex_price": "321.16000000",
+            "liquidity": "$1890897"
+        },
+        {
             "symbol": "PEPU",
-            "spread": 1.61,
+            "spread": 1.28,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00011977",
-            "cex_price": "0.00012170",
-            "liquidity": "$246288"
+            "cex_price": "0.00012130",
+            "liquidity": "$245671"
         },
         {
             "symbol": "STG",
-            "spread": 1.4,
+            "spread": 0.94,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.24308472",
-            "cex_price": "0.24650000",
-            "liquidity": "$822365"
+            "dex_price": "0.24430584",
+            "cex_price": "0.24660000",
+            "liquidity": "$825963"
         },
         {
-            "symbol": "SIREN",
-            "spread": 1.38,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.75261087",
-            "cex_price": "0.76300000",
-            "liquidity": "$8651187"
-        },
-        {
-            "symbol": "BSB",
-            "spread": 0.9,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.21528234",
-            "cex_price": "0.21722000",
-            "liquidity": "$12643983"
-        },
-        {
-            "symbol": "PRL",
-            "spread": 0.74,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.14989273",
-            "cex_price": "0.15100000",
-            "liquidity": "$1294811"
-        },
-        {
-            "symbol": "TAO",
-            "spread": 0.35,
+            "symbol": "ONDO",
+            "spread": 0.33,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "321.27225945",
-            "cex_price": "322.40000000",
-            "liquidity": "$1882499"
+            "dex_price": "0.27016243",
+            "cex_price": "0.27106000",
+            "liquidity": "$3641740"
         },
         {
-            "symbol": "ASTER",
-            "spread": 0.23,
-            "buyAt": "BSC",
+            "symbol": "PIPPIN",
+            "spread": 0.3,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.65850439",
-            "cex_price": "0.66000000",
-            "liquidity": "$1392032"
+            "dex_price": "0.05110554",
+            "cex_price": "0.05126000",
+            "liquidity": "$5295172"
         },
         {
-            "symbol": "C",
-            "spread": 0.23,
-            "buyAt": "BSC",
+            "symbol": "BTC",
+            "spread": 0.27,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.09148801",
-            "cex_price": "0.09170000",
-            "liquidity": "$874511"
+            "dex_price": "65901.23215416",
+            "cex_price": "66077.02000000",
+            "liquidity": "$44322128"
         }
     ],
     "spot": [],
