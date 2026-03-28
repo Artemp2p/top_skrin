@@ -1,22 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "LOL",
-            "spread": 1.15,
+            "symbol": "CHIBI",
+            "spread": 1.61,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00504790",
-            "cex_price": "0.00510600",
-            "liquidity": "$238602"
+            "dex_price": "0.00077108",
+            "cex_price": "0.00078350",
+            "liquidity": "$98877"
         },
         {
-            "symbol": "LOBSTAR",
-            "spread": 0.42,
-            "buyAt": "SOLANA",
+            "symbol": "BSB",
+            "spread": 0.27,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00571316",
-            "cex_price": "0.00573700",
-            "liquidity": "$413308"
+            "dex_price": "0.20768552",
+            "cex_price": "0.20824000",
+            "liquidity": "$12375484"
+        },
+        {
+            "symbol": "RIVER",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "14.07645637",
+            "cex_price": "14.11340000",
+            "liquidity": "$1005193"
+        },
+        {
+            "symbol": "Q",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00878647",
+            "cex_price": "0.00880900",
+            "liquidity": "$626975"
         }
     ],
     "spot": [],
