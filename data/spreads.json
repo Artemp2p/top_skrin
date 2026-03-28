@@ -1,40 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "SMART",
-            "spread": 7.32,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00477563",
-            "cex_price": "0.00512500",
-            "liquidity": "$8272"
-        },
-        {
             "symbol": "SIREN",
-            "spread": 2.27,
+            "spread": 4.05,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "1.63579753",
-            "cex_price": "1.67300000",
-            "liquidity": "$813037561"
+            "cex_price": "1.70200000",
+            "liquidity": "$806661339"
+        },
+        {
+            "symbol": "LOL",
+            "spread": 2.63,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00462644",
+            "cex_price": "0.00474800",
+            "liquidity": "$226970"
+        },
+        {
+            "symbol": "VRA",
+            "spread": 1.17,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00002422",
+            "cex_price": "0.00002450",
+            "liquidity": "$55263"
         },
         {
             "symbol": "CAPTCHA",
-            "spread": 0.59,
+            "spread": 0.95,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00100428",
-            "cex_price": "0.00101020",
-            "liquidity": "$103349"
+            "dex_price": "0.00110646",
+            "cex_price": "0.00111700",
+            "liquidity": "$106608"
         },
         {
-            "symbol": "LOBSTAR",
-            "spread": 0.53,
+            "symbol": "PUNCH",
+            "spread": 0.37,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00532493",
-            "cex_price": "0.00535300",
-            "liquidity": "$396735"
+            "dex_price": "0.01424596",
+            "cex_price": "0.01429800",
+            "liquidity": "$733064"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.28,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.05582964",
+            "cex_price": "0.05598600",
+            "liquidity": "$5553698"
+        },
+        {
+            "symbol": "CHIBI",
+            "spread": 0.28,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00072753",
+            "cex_price": "0.00072960",
+            "liquidity": "$95720"
         }
     ],
     "spot": [],
