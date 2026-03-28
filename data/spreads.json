@@ -2,48 +2,39 @@
     "dex": [
         {
             "symbol": "PTB",
-            "spread": 13.69,
+            "spread": 24.88,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00218849",
-            "cex_price": "0.00248800",
+            "cex_price": "0.00273300",
             "liquidity": "$9191655"
         },
         {
             "symbol": "ON",
-            "spread": 8.79,
+            "spread": 9.03,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.14157058",
-            "cex_price": "0.15402000",
-            "liquidity": "$70785288"
+            "cex_price": "0.15435000",
+            "liquidity": "$70785289"
         },
         {
             "symbol": "CES",
-            "spread": 8.19,
+            "spread": 8.84,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "1.10688367",
-            "cex_price": "1.19750000",
-            "liquidity": "$55211065"
+            "cex_price": "1.20470000",
+            "liquidity": "$55211066"
         },
         {
-            "symbol": "CHIBI",
-            "spread": 2.01,
-            "buyAt": "SOLANA",
+            "symbol": "CSPR",
+            "spread": 4.74,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00074946",
-            "cex_price": "0.00076450",
-            "liquidity": "$97301"
-        },
-        {
-            "symbol": "LOL",
-            "spread": 1.82,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00460118",
-            "cex_price": "0.00468500",
-            "liquidity": "$222747"
+            "dex_price": "0.00343216",
+            "cex_price": "0.00359500",
+            "liquidity": "$33012003"
         },
         {
             "symbol": "PEPU",
@@ -52,52 +43,43 @@
             "sellAt": "MEXC",
             "dex_price": "0.00010938",
             "cex_price": "0.00011090",
-            "liquidity": "$239368"
+            "liquidity": "$239397"
         },
         {
-            "symbol": "TAO",
-            "spread": 0.74,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "313.44032747",
-            "cex_price": "315.77000000",
-            "liquidity": "$1898088"
-        },
-        {
-            "symbol": "WKC",
-            "spread": 0.71,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000010",
-            "cex_price": "0.00000010",
-            "liquidity": "$1201760"
-        },
-        {
-            "symbol": "RIVER",
-            "spread": 0.71,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "14.89046942",
-            "cex_price": "14.99650000",
-            "liquidity": "$1019590"
-        },
-        {
-            "symbol": "SIREN",
-            "spread": 0.54,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "1.62922128",
-            "cex_price": "1.63800000",
-            "liquidity": "$14302033"
-        },
-        {
-            "symbol": "PIPPIN",
-            "spread": 0.29,
+            "symbol": "PENGUIN",
+            "spread": 0.39,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.05156218",
-            "cex_price": "0.05171400",
-            "liquidity": "$5333909"
+            "dex_price": "0.00354233",
+            "cex_price": "0.00355600",
+            "liquidity": "$328395"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.3,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.26441183",
+            "cex_price": "0.26521000",
+            "liquidity": "$3637362"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000582",
+            "cex_price": "0.00000583",
+            "liquidity": "$2665135"
+        },
+        {
+            "symbol": "USAD",
+            "spread": 0.21,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.99799947",
+            "cex_price": "1.00010000",
+            "liquidity": "$13999"
         }
     ],
     "spot": [],
