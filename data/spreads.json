@@ -2,57 +2,66 @@
     "dex": [
         {
             "symbol": "HYPE",
-            "spread": 18.19,
+            "spread": 18.65,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "32.72774311",
-            "cex_price": "38.68000000",
-            "liquidity": "$191467727"
+            "cex_price": "38.83000000",
+            "liquidity": "$192253413"
         },
         {
             "symbol": "CORE",
-            "spread": 1.64,
+            "spread": 3.38,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.03212420",
-            "cex_price": "0.03265000",
-            "liquidity": "$33723219"
+            "cex_price": "0.03321000",
+            "liquidity": "$33868862"
         },
         {
             "symbol": "PEPU",
-            "spread": 0.47,
+            "spread": 1.0,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00010949",
+            "dex_price": "0.00010891",
             "cex_price": "0.00011000",
-            "liquidity": "$238059"
+            "liquidity": "$240350"
+        },
+        {
+            "symbol": "SIREN",
+            "spread": 0.93,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.72402079",
+            "cex_price": "1.74000000",
+            "liquidity": "$14910313"
         },
         {
             "symbol": "PIPPIN",
-            "spread": 0.37,
+            "spread": 0.4,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.05198904",
-            "cex_price": "0.05218300",
-            "liquidity": "$5342156"
+            "dex_price": "0.05178982",
+            "cex_price": "0.05199600",
+            "liquidity": "$5343696"
         },
         {
             "symbol": "BTC",
-            "spread": 0.25,
+            "spread": 0.28,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "66178.07054437",
-            "cex_price": "66342.12000000",
-            "liquidity": "$44579481"
+            "dex_price": "66489.68132104",
+            "cex_price": "66677.44000000",
+            "liquidity": "$44780884"
         },
         {
-            "symbol": "BSB",
-            "spread": 0.25,
-            "buyAt": "BSC",
+            "symbol": "LOL",
+            "spread": 0.22,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.25220690",
-            "cex_price": "0.25283000",
-            "liquidity": "$14042442"
+            "dex_price": "0.00937351",
+            "cex_price": "0.00939400",
+            "liquidity": "$334700"
         }
     ],
     "spot": [],
