@@ -1,76 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "XRP",
-            "spread": 29.1,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "1.01511781",
-            "cex_price": "1.31050000",
-            "liquidity": "$112425"
-        },
-        {
-            "symbol": "LOL",
-            "spread": 1.11,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00570739",
-            "cex_price": "0.00577100",
-            "liquidity": "$271280"
-        },
-        {
-            "symbol": "BASED",
-            "spread": 0.99,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.10893046",
-            "cex_price": "0.11001000",
-            "liquidity": "$1250374"
-        },
-        {
-            "symbol": "TAO",
-            "spread": 0.84,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "303.61467803",
-            "cex_price": "306.18000000",
-            "liquidity": "$1998751"
-        },
-        {
-            "symbol": "SIREN",
-            "spread": 0.62,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "1.67368568",
-            "cex_price": "1.68400000",
-            "liquidity": "$14585814"
-        },
-        {
             "symbol": "RIVER",
-            "spread": 0.37,
+            "spread": 1.58,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "17.03421366",
-            "cex_price": "17.09700000",
-            "liquidity": "$951598"
+            "dex_price": "17.14163973",
+            "cex_price": "17.41180000",
+            "liquidity": "$1017388"
         },
         {
-            "symbol": "TRIA",
-            "spread": 0.32,
-            "buyAt": "BSC",
+            "symbol": "BARD",
+            "spread": 1.53,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.02881736",
-            "cex_price": "0.02891000",
-            "liquidity": "$1426589"
+            "dex_price": "0.35141198",
+            "cex_price": "0.35680000",
+            "liquidity": "$5017"
         },
         {
-            "symbol": "BSB",
-            "spread": 0.23,
-            "buyAt": "BSC",
+            "symbol": "TIBBIR",
+            "spread": 0.84,
+            "buyAt": "BASE",
             "sellAt": "MEXC",
-            "dex_price": "0.20590645",
-            "cex_price": "0.20639000",
-            "liquidity": "$12330300"
+            "dex_price": "0.09649294",
+            "cex_price": "0.09730000",
+            "liquidity": "$1954289"
+        },
+        {
+            "symbol": "MOLT",
+            "spread": 0.5,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00001762",
+            "cex_price": "0.00001771",
+            "liquidity": "$1583399"
+        },
+        {
+            "symbol": "FAI",
+            "spread": 0.27,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00433844",
+            "cex_price": "0.00435000",
+            "liquidity": "$2976365"
         }
     ],
     "spot": [],
