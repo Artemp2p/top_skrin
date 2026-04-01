@@ -1,67 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "XRP",
-            "spread": 24.4,
+            "symbol": "KERNEL",
+            "spread": 1.73,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "1.07706333",
-            "cex_price": "1.33990000",
-            "liquidity": "$118253"
+            "dex_price": "0.10388782",
+            "cex_price": "0.10569000",
+            "liquidity": "$16579"
         },
         {
             "symbol": "EDGE",
-            "spread": 1.05,
+            "spread": 1.36,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.64976919",
-            "cex_price": "0.65660000",
-            "liquidity": "$171998"
+            "dex_price": "0.64515074",
+            "cex_price": "0.65390000",
+            "liquidity": "$167945"
         },
         {
-            "symbol": "BASED",
-            "spread": 0.84,
+            "symbol": "TRIA",
+            "spread": 0.74,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.09169927",
-            "cex_price": "0.09247000",
-            "liquidity": "$1172760"
+            "dex_price": "0.02920435",
+            "cex_price": "0.02942000",
+            "liquidity": "$1439183"
         },
         {
-            "symbol": "RIVER",
-            "spread": 0.71,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "16.39418795",
-            "cex_price": "16.51090000",
-            "liquidity": "$929093"
-        },
-        {
-            "symbol": "VRA",
-            "spread": 0.56,
+            "symbol": "MANYU",
+            "spread": 0.51,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00002571",
-            "cex_price": "0.00002585",
-            "liquidity": "$59304"
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$591272"
         },
         {
-            "symbol": "PIPPIN",
-            "spread": 0.35,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.04849895",
-            "cex_price": "0.04867100",
-            "liquidity": "$5241857"
-        },
-        {
-            "symbol": "BTC",
+            "symbol": "ZCHF",
             "spread": 0.33,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "68037.53787281",
-            "cex_price": "68259.32000000",
-            "liquidity": "$46517641"
+            "dex_price": "1.24883035",
+            "cex_price": "1.25290000",
+            "liquidity": "$1145545"
+        },
+        {
+            "symbol": "BABYDOGE",
+            "spread": 0.27,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000000",
+            "cex_price": "0.00000000",
+            "liquidity": "$8287374"
+        },
+        {
+            "symbol": "VRA",
+            "spread": 0.22,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00002473",
+            "cex_price": "0.00002479",
+            "liquidity": "$58337"
         }
     ],
     "spot": [],
