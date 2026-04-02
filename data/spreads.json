@@ -2,57 +2,48 @@
     "dex": [
         {
             "symbol": "STO",
-            "spread": 1.26,
+            "spread": 1.81,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.79595553",
-            "cex_price": "0.80602000",
-            "liquidity": "$418702"
+            "dex_price": "0.81740466",
+            "cex_price": "0.83216000",
+            "liquidity": "$419839"
         },
         {
-            "symbol": "67",
-            "spread": 0.73,
+            "symbol": "PIPPIN",
+            "spread": 0.32,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00129456",
-            "cex_price": "0.00130400",
-            "liquidity": "$206511"
-        },
-        {
-            "symbol": "VRA",
-            "spread": 0.59,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00002719",
-            "cex_price": "0.00002735",
-            "liquidity": "$60360"
-        },
-        {
-            "symbol": "WKC",
-            "spread": 0.53,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000012",
-            "cex_price": "0.00000012",
-            "liquidity": "$1292369"
-        },
-        {
-            "symbol": "TAO",
-            "spread": 0.33,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "298.85445628",
-            "cex_price": "299.83000000",
-            "liquidity": "$2180199"
+            "dex_price": "0.06190376",
+            "cex_price": "0.06210200",
+            "liquidity": "$5826069"
         },
         {
             "symbol": "CRTR",
-            "spread": 0.24,
+            "spread": 0.3,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02971935",
-            "cex_price": "0.02979000",
-            "liquidity": "$1409888"
+            "dex_price": "0.02970993",
+            "cex_price": "0.02980000",
+            "liquidity": "$1409424"
+        },
+        {
+            "symbol": "TAO",
+            "spread": 0.26,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "295.99480224",
+            "cex_price": "296.77000000",
+            "liquidity": "$2175632"
+        },
+        {
+            "symbol": "BANK",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.04022682",
+            "cex_price": "0.04033000",
+            "liquidity": "$692132"
         }
     ],
     "spot": [],
