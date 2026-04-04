@@ -2,39 +2,57 @@
     "dex": [
         {
             "symbol": "XRP",
-            "spread": 27.74,
+            "spread": 27.64,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "1.02942355",
-            "cex_price": "1.31500000",
-            "liquidity": "$117614"
+            "cex_price": "1.31400000",
+            "liquidity": "$117632"
+        },
+        {
+            "symbol": "ION",
+            "spread": 1.81,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00148606",
+            "cex_price": "0.00151300",
+            "liquidity": "$725815"
         },
         {
             "symbol": "WKC",
-            "spread": 1.94,
+            "spread": 1.67,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000013",
             "cex_price": "0.00000014",
-            "liquidity": "$1377035"
+            "liquidity": "$1375057"
         },
         {
-            "symbol": "EDGE",
-            "spread": 0.97,
-            "buyAt": "ETH",
+            "symbol": "SIREN",
+            "spread": 1.17,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "1.00106989",
-            "cex_price": "1.01080000",
-            "liquidity": "$435574"
+            "dex_price": "0.20658581",
+            "cex_price": "0.20900000",
+            "liquidity": "$4609320"
         },
         {
             "symbol": "PEPU",
-            "spread": 0.81,
+            "spread": 0.35,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00011844",
+            "dex_price": "0.00011898",
             "cex_price": "0.00011940",
-            "liquidity": "$250729"
+            "liquidity": "$250555"
+        },
+        {
+            "symbol": "RIVER",
+            "spread": 0.3,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "12.91172094",
+            "cex_price": "12.95070000",
+            "liquidity": "$997147"
         }
     ],
     "spot": [],
