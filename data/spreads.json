@@ -2,48 +2,57 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 3.52,
+            "spread": 2.86,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000014",
             "cex_price": "0.00000014",
-            "liquidity": "$1381042"
+            "liquidity": "$1382242"
         },
         {
-            "symbol": "AIOT",
-            "spread": 1.93,
+            "symbol": "VRA",
+            "spread": 1.22,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03511903",
-            "cex_price": "0.03579700",
-            "liquidity": "$17559269"
-        },
-        {
-            "symbol": "ZND",
-            "spread": 0.86,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00333518",
-            "cex_price": "0.00336400",
-            "liquidity": "$42318"
+            "dex_price": "0.00002124",
+            "cex_price": "0.00002150",
+            "liquidity": "$53997"
         },
         {
             "symbol": "ARIA",
-            "spread": 0.67,
+            "spread": 0.92,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.55881663",
-            "cex_price": "0.56258000",
-            "liquidity": "$5293207"
+            "dex_price": "0.56061849",
+            "cex_price": "0.56580000",
+            "liquidity": "$5326409"
         },
         {
-            "symbol": "RIVER",
-            "spread": 0.2,
-            "buyAt": "BSC",
+            "symbol": "CHIBI",
+            "spread": 0.62,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "11.73235198",
-            "cex_price": "11.75590000",
-            "liquidity": "$982101"
+            "dex_price": "0.00029329",
+            "cex_price": "0.00029510",
+            "liquidity": "$61794"
+        },
+        {
+            "symbol": "EDGE",
+            "spread": 0.54,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1.12715601",
+            "cex_price": "1.13320000",
+            "liquidity": "$407092"
+        },
+        {
+            "symbol": "ZND",
+            "spread": 0.51,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00345151",
+            "cex_price": "0.00346900",
+            "liquidity": "$43419"
         }
     ],
     "spot": [],
