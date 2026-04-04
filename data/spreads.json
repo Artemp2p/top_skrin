@@ -1,22 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "VRA",
-            "spread": 1.08,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00001986",
-            "cex_price": "0.00002007",
-            "liquidity": "$52311"
-        },
-        {
             "symbol": "WKC",
-            "spread": 0.82,
+            "spread": 2.18,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000014",
             "cex_price": "0.00000014",
-            "liquidity": "$1428061"
+            "liquidity": "$1416078"
+        },
+        {
+            "symbol": "VRA",
+            "spread": 0.58,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00002103",
+            "cex_price": "0.00002115",
+            "liquidity": "$53660"
+        },
+        {
+            "symbol": "RIVER",
+            "spread": 0.42,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "11.92416230",
+            "cex_price": "11.97460000",
+            "liquidity": "$990313"
+        },
+        {
+            "symbol": "ARIA",
+            "spread": 0.41,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.55694638",
+            "cex_price": "0.55921000",
+            "liquidity": "$2184744"
         }
     ],
     "spot": [],
