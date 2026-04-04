@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "PUFFER",
-            "spread": 0.78,
+            "symbol": "STO",
+            "spread": 1.02,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03512506",
-            "cex_price": "0.03540000",
-            "liquidity": "$486380"
+            "dex_price": "0.20967027",
+            "cex_price": "0.21181000",
+            "liquidity": "$360324"
         },
         {
             "symbol": "PIPPIN",
+            "spread": 0.72,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.04067487",
+            "cex_price": "0.04096700",
+            "liquidity": "$4667489"
+        },
+        {
+            "symbol": "LOL",
             "spread": 0.66,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.03964930",
-            "cex_price": "0.03991000",
-            "liquidity": "$4606929"
+            "dex_price": "0.00818168",
+            "cex_price": "0.00823600",
+            "liquidity": "$348979"
         },
         {
-            "symbol": "MOG",
-            "spread": 0.38,
-            "buyAt": "ETH",
+            "symbol": "ION",
+            "spread": 0.64,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000014",
-            "cex_price": "0.00000014",
-            "liquidity": "$5402148"
+            "dex_price": "0.00136126",
+            "cex_price": "0.00137000",
+            "liquidity": "$690664"
         },
         {
-            "symbol": "EDGE",
-            "spread": 0.22,
+            "symbol": "MANYU",
+            "spread": 0.47,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.86722708",
-            "cex_price": "0.86910000",
-            "liquidity": "$427075"
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$581377"
         }
     ],
     "spot": [],
