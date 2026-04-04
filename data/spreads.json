@@ -1,22 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "NOM",
-            "spread": 11.68,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00612464",
-            "cex_price": "0.00684000",
-            "liquidity": "$7007"
-        },
-        {
-            "symbol": "PUFFER",
-            "spread": 0.3,
+            "symbol": "WKC",
+            "spread": 0.92,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03679105",
-            "cex_price": "0.03690000",
-            "liquidity": "$498700"
+            "dex_price": "0.00000014",
+            "cex_price": "0.00000014",
+            "liquidity": "$1425190"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.32,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.26324626",
+            "cex_price": "0.26410000",
+            "liquidity": "$8153792"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000339",
+            "cex_price": "0.00000340",
+            "liquidity": "$24133544"
         }
     ],
     "spot": [],
