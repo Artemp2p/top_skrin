@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "XRP",
-            "spread": 27.56,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "1.02942355",
-            "cex_price": "1.31310000",
-            "liquidity": "$117643"
-        },
-        {
-            "symbol": "PIPPIN",
-            "spread": 1.0,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.03484350",
-            "cex_price": "0.03519300",
-            "liquidity": "$4277452"
-        },
-        {
             "symbol": "PEPU",
-            "spread": 0.61,
+            "spread": 0.96,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00011867",
+            "dex_price": "0.00011826",
             "cex_price": "0.00011940",
-            "liquidity": "$250222"
+            "liquidity": "$250686"
         },
         {
             "symbol": "WKC",
-            "spread": 0.32,
+            "spread": 0.77,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000014",
             "cex_price": "0.00000014",
-            "liquidity": "$1390255"
+            "liquidity": "$1386209"
+        },
+        {
+            "symbol": "PUFFER",
+            "spread": 0.61,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03975867",
+            "cex_price": "0.04000000",
+            "liquidity": "$516143"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.49,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.03749160",
+            "cex_price": "0.03767500",
+            "liquidity": "$4438941"
+        },
+        {
+            "symbol": "STO",
+            "spread": 0.48,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.14757548",
+            "cex_price": "0.14828000",
+            "liquidity": "$333898"
         }
     ],
     "spot": [],
