@@ -1,67 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "A2Z",
-            "spread": 2.81,
+            "symbol": "PIXEL",
+            "spread": 27.39,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00497518",
+            "cex_price": "0.00633800",
+            "liquidity": "$244503"
+        },
+        {
+            "symbol": "SIREN",
+            "spread": 10.77,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00010279",
-            "cex_price": "0.00010568",
-            "liquidity": "$20117"
+            "dex_price": "0.26910599",
+            "cex_price": "0.29810000",
+            "liquidity": "$228740070"
+        },
+        {
+            "symbol": "STO",
+            "spread": 2.64,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.15704201",
+            "cex_price": "0.16119000",
+            "liquidity": "$340990"
+        },
+        {
+            "symbol": "EDGE",
+            "spread": 1.04,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.89713853",
+            "cex_price": "0.90650000",
+            "liquidity": "$428399"
         },
         {
             "symbol": "WKC",
-            "spread": 1.96,
+            "spread": 0.72,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000014",
             "cex_price": "0.00000014",
-            "liquidity": "$1385239"
+            "liquidity": "$1385166"
         },
         {
-            "symbol": "TIBBIR",
-            "spread": 1.26,
-            "buyAt": "BASE",
+            "symbol": "PIPPIN",
+            "spread": 0.58,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.09529556",
-            "cex_price": "0.09650000",
-            "liquidity": "$1943546"
-        },
-        {
-            "symbol": "ION",
-            "spread": 0.43,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00149054",
-            "cex_price": "0.00149700",
-            "liquidity": "$719954"
-        },
-        {
-            "symbol": "AERO",
-            "spread": 0.32,
-            "buyAt": "BASE",
-            "sellAt": "MEXC",
-            "dex_price": "0.31329654",
-            "cex_price": "0.31430000",
-            "liquidity": "$22376434"
-        },
-        {
-            "symbol": "RAIN",
-            "spread": 0.29,
-            "buyAt": "ARBITRUM",
-            "sellAt": "MEXC",
-            "dex_price": "0.00734680",
-            "cex_price": "0.00736820",
-            "liquidity": "$3059373"
-        },
-        {
-            "symbol": "EDGE",
-            "spread": 0.25,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.93572278",
-            "cex_price": "0.93810000",
-            "liquidity": "$414569"
+            "dex_price": "0.04075985",
+            "cex_price": "0.04099800",
+            "liquidity": "$4626422"
         }
     ],
     "spot": [],
