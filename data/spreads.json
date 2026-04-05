@@ -2,21 +2,48 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 3.73,
+            "spread": 2.47,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000014",
             "cex_price": "0.00000014",
-            "liquidity": "$1402483"
+            "liquidity": "$1405967"
         },
         {
             "symbol": "KOMA",
-            "spread": 0.23,
+            "spread": 0.57,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00993738",
-            "cex_price": "0.00996000",
-            "liquidity": "$1480482"
+            "dex_price": "0.00997294",
+            "cex_price": "0.01003000",
+            "liquidity": "$1470484"
+        },
+        {
+            "symbol": "VRA",
+            "spread": 0.39,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00002417",
+            "cex_price": "0.00002427",
+            "liquidity": "$57621"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.38,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.04468684",
+            "cex_price": "0.04485600",
+            "liquidity": "$5385003"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.28,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.65783916",
+            "cex_price": "0.65970000",
+            "liquidity": "$1267926"
         }
     ],
     "spot": [],
