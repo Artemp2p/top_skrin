@@ -2,21 +2,39 @@
     "dex": [
         {
             "symbol": "UP",
-            "spread": 12.47,
+            "spread": 12.85,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.23640198",
-            "cex_price": "0.26589000",
+            "cex_price": "0.26679000",
             "liquidity": "$2028229"
         },
         {
-            "symbol": "BSB",
-            "spread": 0.57,
+            "symbol": "BRISE",
+            "spread": 8.28,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.17709634",
-            "cex_price": "0.17811000",
-            "liquidity": "$35461"
+            "dex_price": "0.00000002",
+            "cex_price": "0.00000002",
+            "liquidity": "$566880"
+        },
+        {
+            "symbol": "CHIBI",
+            "spread": 2.05,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00029809",
+            "cex_price": "0.00030420",
+            "liquidity": "$64559"
+        },
+        {
+            "symbol": "XCX",
+            "spread": 1.4,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00200892",
+            "cex_price": "0.00203700",
+            "liquidity": "$336011"
         }
     ],
     "spot": [],
