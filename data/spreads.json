@@ -2,21 +2,84 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 4.06,
+            "spread": 2.66,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000012",
             "cex_price": "0.00000013",
-            "liquidity": "$1338147"
+            "liquidity": "$1335803"
         },
         {
-            "symbol": "SPX",
-            "spread": 0.25,
+            "symbol": "RSC",
+            "spread": 1.29,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.07825759",
+            "cex_price": "0.07927000",
+            "liquidity": "$175125"
+        },
+        {
+            "symbol": "BNKR",
+            "spread": 0.93,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00032856",
+            "cex_price": "0.00033160",
+            "liquidity": "$2205402"
+        },
+        {
+            "symbol": "MOLT",
+            "spread": 0.62,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00002011",
+            "cex_price": "0.00002023",
+            "liquidity": "$1746644"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.53,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01094244",
+            "cex_price": "0.01100000",
+            "liquidity": "$658855"
+        },
+        {
+            "symbol": "FET",
+            "spread": 0.51,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.30165281",
-            "cex_price": "0.30240000",
-            "liquidity": "$9095794"
+            "dex_price": "0.24077273",
+            "cex_price": "0.24200000",
+            "liquidity": "$1667788"
+        },
+        {
+            "symbol": "LAB",
+            "spread": 0.41,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.37820636",
+            "cex_price": "0.37976000",
+            "liquidity": "$2034227"
+        },
+        {
+            "symbol": "TIBBIR",
+            "spread": 0.31,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.10630747",
+            "cex_price": "0.10664000",
+            "liquidity": "$2114219"
+        },
+        {
+            "symbol": "BTC",
+            "spread": 0.26,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "71014.32149452",
+            "cex_price": "71199.56000000",
+            "liquidity": "$48963324"
         }
     ],
     "spot": [],
