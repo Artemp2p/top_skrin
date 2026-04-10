@@ -2,12 +2,57 @@
     "dex": [
         {
             "symbol": "ARIA",
-            "spread": 4.63,
+            "spread": 5.16,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.57904135",
-            "cex_price": "0.60586000",
-            "liquidity": "$2331920"
+            "dex_price": "0.58832122",
+            "cex_price": "0.61865000",
+            "liquidity": "$2362295"
+        },
+        {
+            "symbol": "ION",
+            "spread": 1.8,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00069252",
+            "cex_price": "0.00070500",
+            "liquidity": "$504247"
+        },
+        {
+            "symbol": "TAO",
+            "spread": 0.7,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "255.73213927",
+            "cex_price": "257.51000000",
+            "liquidity": "$2281980"
+        },
+        {
+            "symbol": "BTC",
+            "spread": 0.41,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "72647.62516275",
+            "cex_price": "72946.81000000",
+            "liquidity": "$51215263"
+        },
+        {
+            "symbol": "RIVER",
+            "spread": 0.37,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "8.35161965",
+            "cex_price": "8.38270000",
+            "liquidity": "$933419"
+        },
+        {
+            "symbol": "FF",
+            "spread": 0.37,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.11004648",
+            "cex_price": "0.11045000",
+            "liquidity": "$4089720"
         }
     ],
     "spot": [],
