@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "PIXEL",
-            "spread": 30.0,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00580542",
-            "cex_price": "0.00754700",
-            "liquidity": "$281229"
-        },
-        {
             "symbol": "ARIA",
-            "spread": 3.53,
+            "spread": 10.66,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.34970706",
-            "cex_price": "0.36205000",
-            "liquidity": "$1810185"
+            "dex_price": "0.40254185",
+            "cex_price": "0.44544000",
+            "liquidity": "$1920557"
         },
         {
-            "symbol": "ONDO",
-            "spread": 0.47,
+            "symbol": "RAVE",
+            "spread": 5.7,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.25479422",
-            "cex_price": "0.25600000",
-            "liquidity": "$3774542"
+            "dex_price": "1.04063694",
+            "cex_price": "1.10000000",
+            "liquidity": "$32304781"
+        },
+        {
+            "symbol": "CFG",
+            "spread": 1.84,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.22850393",
+            "cex_price": "0.23270000",
+            "liquidity": "$1028058"
+        },
+        {
+            "symbol": "LOL",
+            "spread": 0.23,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00706770",
+            "cex_price": "0.00708400",
+            "liquidity": "$365297"
         }
     ],
     "spot": [],
