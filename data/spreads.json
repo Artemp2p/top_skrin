@@ -1,49 +1,67 @@
 {
     "dex": [
         {
+            "symbol": "MEZO",
+            "spread": 22.45,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.08983561",
+            "cex_price": "0.11000000",
+            "liquidity": "$1069528"
+        },
+        {
             "symbol": "BULL",
-            "spread": 0.61,
+            "spread": 1.12,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00658063",
-            "cex_price": "0.00662100",
-            "liquidity": "$275890"
+            "dex_price": "0.00659187",
+            "cex_price": "0.00666600",
+            "liquidity": "$275547"
         },
         {
-            "symbol": "PIPPIN",
-            "spread": 0.51,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.02651600",
-            "cex_price": "0.02665000",
-            "liquidity": "$4330217"
-        },
-        {
-            "symbol": "LAB",
-            "spread": 0.47,
+            "symbol": "ION",
+            "spread": 0.8,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.49415978",
-            "cex_price": "0.49649000",
-            "liquidity": "$2274950"
-        },
-        {
-            "symbol": "ZAMA",
-            "spread": 0.43,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.03303906",
-            "cex_price": "0.03318000",
-            "liquidity": "$1142779"
+            "dex_price": "0.00020139",
+            "cex_price": "0.00020300",
+            "liquidity": "$299464"
         },
         {
             "symbol": "ARIA",
-            "spread": 0.23,
+            "spread": 0.71,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.09860214",
-            "cex_price": "0.09883000",
-            "liquidity": "$1589322"
+            "dex_price": "0.09786380",
+            "cex_price": "0.09856000",
+            "liquidity": "$1583290"
+        },
+        {
+            "symbol": "AERO",
+            "spread": 0.64,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.36267613",
+            "cex_price": "0.36500000",
+            "liquidity": "$23892421"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.33,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.02597390",
+            "cex_price": "0.02605900",
+            "liquidity": "$4279769"
+        },
+        {
+            "symbol": "EVAA",
+            "spread": 0.29,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.79731633",
+            "cex_price": "0.79960000",
+            "liquidity": "$743834"
         }
     ],
     "spot": [],
