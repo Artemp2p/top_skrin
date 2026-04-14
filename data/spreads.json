@@ -1,13 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "GENIUS",
-            "spread": 2.98,
+            "symbol": "BULL",
+            "spread": 0.34,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00682314",
+            "cex_price": "0.00684600",
+            "liquidity": "$279904"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.3,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.31625930",
+            "cex_price": "0.31720000",
+            "liquidity": "$9485691"
+        },
+        {
+            "symbol": "MYX",
+            "spread": 0.29,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.52779508",
-            "cex_price": "0.54353000",
-            "liquidity": "$1545569"
+            "dex_price": "0.30180713",
+            "cex_price": "0.30268000",
+            "liquidity": "$634585"
+        },
+        {
+            "symbol": "BTC",
+            "spread": 0.28,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "73918.12148441",
+            "cex_price": "74123.39000000",
+            "liquidity": "$15015832"
         }
     ],
     "spot": [],
