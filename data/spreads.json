@@ -2,66 +2,57 @@
     "dex": [
         {
             "symbol": "PIXEL",
-            "spread": 23.92,
+            "spread": 25.4,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00610799",
-            "cex_price": "0.00756900",
-            "liquidity": "$300853"
+            "dex_price": "0.00598639",
+            "cex_price": "0.00750700",
+            "liquidity": "$295958"
         },
         {
-            "symbol": "MEZO",
-            "spread": 12.88,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.08423212",
-            "cex_price": "0.09508000",
-            "liquidity": "$5363"
-        },
-        {
-            "symbol": "ON",
-            "spread": 1.01,
+            "symbol": "ARIA",
+            "spread": 2.13,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.13897157",
-            "cex_price": "0.14038000",
-            "liquidity": "$886354"
-        },
-        {
-            "symbol": "RAVE",
-            "spread": 0.47,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "13.83453439",
-            "cex_price": "13.89990000",
-            "liquidity": "$422385154"
-        },
-        {
-            "symbol": "TRADOOR",
-            "spread": 0.42,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "5.45387209",
-            "cex_price": "5.47690000",
-            "liquidity": "$2457220"
-        },
-        {
-            "symbol": "EVAA",
-            "spread": 0.36,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.82041859",
-            "cex_price": "0.82340000",
-            "liquidity": "$751580"
+            "dex_price": "0.85235117",
+            "cex_price": "0.87048000",
+            "liquidity": "$3660386"
         },
         {
             "symbol": "PEPU",
-            "spread": 0.27,
+            "spread": 0.87,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00013414",
+            "dex_price": "0.00013333",
             "cex_price": "0.00013450",
-            "liquidity": "$288703"
+            "liquidity": "$286627"
+        },
+        {
+            "symbol": "BLESS",
+            "spread": 0.83,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01884386",
+            "cex_price": "0.01900100",
+            "liquidity": "$582442"
+        },
+        {
+            "symbol": "RAVE",
+            "spread": 0.61,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "14.83878857",
+            "cex_price": "14.93000000",
+            "liquidity": "$459710101"
+        },
+        {
+            "symbol": "MYX",
+            "spread": 0.37,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.33124444",
+            "cex_price": "0.33247000",
+            "liquidity": "$677082"
         }
     ],
     "spot": [],
