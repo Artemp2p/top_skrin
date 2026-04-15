@@ -1,5 +1,51 @@
 {
-    "dex": [],
+    "dex": [
+        {
+            "symbol": "PIXEL",
+            "spread": 25.62,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00617744",
+            "cex_price": "0.00776000",
+            "liquidity": "$301967"
+        },
+        {
+            "symbol": "GENIUS",
+            "spread": 2.59,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.52313682",
+            "cex_price": "0.53668000",
+            "liquidity": "$1545644"
+        },
+        {
+            "symbol": "UNC",
+            "spread": 2.03,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01189119",
+            "cex_price": "0.01213200",
+            "liquidity": "$334394"
+        },
+        {
+            "symbol": "SIREN",
+            "spread": 0.34,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.78383782",
+            "cex_price": "0.78650000",
+            "liquidity": "$9278850"
+        },
+        {
+            "symbol": "EVAA",
+            "spread": 0.27,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.75150068",
+            "cex_price": "0.75350000",
+            "liquidity": "$721833"
+        }
+    ],
     "spot": [],
     "futures": []
 }
