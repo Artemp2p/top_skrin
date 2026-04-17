@@ -1,49 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "RAVE",
-            "spread": 3.67,
+            "symbol": "BELIEF",
+            "spread": 2.39,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01182767",
+            "cex_price": "0.01211000",
+            "liquidity": "$405194"
+        },
+        {
+            "symbol": "ASTEROID",
+            "spread": 1.37,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "20.05380868",
-            "cex_price": "20.79000000",
-            "liquidity": "$613874768"
+            "dex_price": "0.00004602",
+            "cex_price": "0.00004665",
+            "liquidity": "$1013342"
         },
         {
-            "symbol": "UNC",
-            "spread": 1.39,
+            "symbol": "PUNCH",
+            "spread": 0.37,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01333844",
-            "cex_price": "0.01352400",
-            "liquidity": "$390963"
+            "dex_price": "0.00650109",
+            "cex_price": "0.00652500",
+            "liquidity": "$540099"
         },
         {
-            "symbol": "BELIEF",
-            "spread": 1.38,
+            "symbol": "RAVE",
+            "spread": 0.32,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "20.76877751",
+            "cex_price": "20.83500000",
+            "liquidity": "$640236362"
+        },
+        {
+            "symbol": "GRIFFAIN",
+            "spread": 0.27,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01134295",
-            "cex_price": "0.01150000",
-            "liquidity": "$399350"
-        },
-        {
-            "symbol": "LOL",
-            "spread": 0.41,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00341395",
-            "cex_price": "0.00342800",
-            "liquidity": "$282801"
-        },
-        {
-            "symbol": "OPN",
-            "spread": 0.3,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.19871083",
-            "cex_price": "0.19930000",
-            "liquidity": "$631412"
+            "dex_price": "0.01726070",
+            "cex_price": "0.01730800",
+            "liquidity": "$1755976"
         }
     ],
     "spot": [],
