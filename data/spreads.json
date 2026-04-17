@@ -1,13 +1,76 @@
 {
     "dex": [
         {
-            "symbol": "LOL",
-            "spread": 0.75,
+            "symbol": "MUBI",
+            "spread": 4.37,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00140177",
+            "cex_price": "0.00146300",
+            "liquidity": "$545965"
+        },
+        {
+            "symbol": "PUMPCADE",
+            "spread": 3.04,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00388368",
-            "cex_price": "0.00391300",
-            "liquidity": "$295420"
+            "dex_price": "0.03139579",
+            "cex_price": "0.03235000",
+            "liquidity": "$585435"
+        },
+        {
+            "symbol": "LOL",
+            "spread": 1.99,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00326016",
+            "cex_price": "0.00332500",
+            "liquidity": "$267996"
+        },
+        {
+            "symbol": "PRL",
+            "spread": 0.65,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.25216041",
+            "cex_price": "0.25380000",
+            "liquidity": "$1460674"
+        },
+        {
+            "symbol": "BASED",
+            "spread": 0.46,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.18081445",
+            "cex_price": "0.18164000",
+            "liquidity": "$1417945"
+        },
+        {
+            "symbol": "RAVE",
+            "spread": 0.45,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "18.24884427",
+            "cex_price": "18.33040000",
+            "liquidity": "$562897639"
+        },
+        {
+            "symbol": "MANYU",
+            "spread": 0.44,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$609657"
+        },
+        {
+            "symbol": "BULL",
+            "spread": 0.3,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00485359",
+            "cex_price": "0.00486800",
+            "liquidity": "$249983"
         }
     ],
     "spot": [],
