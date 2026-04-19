@@ -2,39 +2,75 @@
     "dex": [
         {
             "symbol": "GWEI",
-            "spread": 15.13,
+            "spread": 12.88,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.10021964",
-            "cex_price": "0.11538000",
-            "liquidity": "$1304354"
+            "cex_price": "0.11313000",
+            "liquidity": "$1306868"
         },
         {
-            "symbol": "BASED",
-            "spread": 1.46,
-            "buyAt": "BSC",
+            "symbol": "AAVE",
+            "spread": 1.55,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.08559806",
-            "cex_price": "0.08685000",
-            "liquidity": "$1174909"
+            "dex_price": "92.69143212",
+            "cex_price": "94.13000000",
+            "liquidity": "$6029622"
         },
         {
             "symbol": "STETH",
-            "spread": 0.99,
+            "spread": 1.01,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "2296.70851371",
-            "cex_price": "2319.56000000",
-            "liquidity": "$97041912"
+            "dex_price": "2314.18906897",
+            "cex_price": "2337.61000000",
+            "liquidity": "$97966535"
+        },
+        {
+            "symbol": "HIGH",
+            "spread": 0.93,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.31436878",
+            "cex_price": "0.31730000",
+            "liquidity": "$230146"
+        },
+        {
+            "symbol": "\u5e01\u5b89\u4eba\u751f",
+            "spread": 0.76,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.44676551",
+            "cex_price": "0.45017000",
+            "liquidity": "$6442578"
+        },
+        {
+            "symbol": "ST",
+            "spread": 0.33,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.07778513",
+            "cex_price": "0.07804000",
+            "liquidity": "$1352191"
+        },
+        {
+            "symbol": "ETH",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "2342.37015677",
+            "cex_price": "2347.68000000",
+            "liquidity": "$100141397"
         },
         {
             "symbol": "ARIA",
-            "spread": 0.64,
+            "spread": 0.22,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.06762998",
-            "cex_price": "0.06806000",
-            "liquidity": "$1456709"
+            "dex_price": "0.06849131",
+            "cex_price": "0.06864000",
+            "liquidity": "$1463101"
         }
     ],
     "spot": [],
