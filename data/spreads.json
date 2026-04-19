@@ -2,57 +2,48 @@
     "dex": [
         {
             "symbol": "GWEI",
-            "spread": 6.46,
+            "spread": 2.95,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.10050772",
-            "cex_price": "0.10700000",
-            "liquidity": "$1305339"
-        },
-        {
-            "symbol": "SIREN",
-            "spread": 1.77,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.63161328",
-            "cex_price": "0.64280000",
-            "liquidity": "$8503623"
-        },
-        {
-            "symbol": "LOL",
-            "spread": 1.26,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00197517",
-            "cex_price": "0.00200000",
-            "liquidity": "$213401"
-        },
-        {
-            "symbol": "ARIA",
-            "spread": 0.69,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.06760345",
-            "cex_price": "0.06807000",
-            "liquidity": "$1460307"
+            "cex_price": "0.10347000",
+            "liquidity": "$1305045"
         },
         {
             "symbol": "STETH",
-            "spread": 0.67,
+            "spread": 0.64,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "2272.44466315",
-            "cex_price": "2287.78000000",
-            "liquidity": "$96062903"
+            "dex_price": "2268.31054222",
+            "cex_price": "2282.80000000",
+            "liquidity": "$95912376"
         },
         {
-            "symbol": "\u5e01\u5b89\u4eba\u751f",
-            "spread": 0.61,
+            "symbol": "GENIUS",
+            "spread": 0.53,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.46438400",
-            "cex_price": "0.46720000",
-            "liquidity": "$6479680"
+            "dex_price": "0.62217096",
+            "cex_price": "0.62549000",
+            "liquidity": "$290950"
+        },
+        {
+            "symbol": "PIEVERSE",
+            "spread": 0.4,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.30199076",
+            "cex_price": "1.30720000",
+            "liquidity": "$2090408"
+        },
+        {
+            "symbol": "ARIA",
+            "spread": 0.24,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.06697721",
+            "cex_price": "0.06714000",
+            "liquidity": "$1452304"
         }
     ],
     "spot": [],
