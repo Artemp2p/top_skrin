@@ -1,22 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "ASTEROID",
-            "spread": 1.12,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00033158",
-            "cex_price": "0.00033530",
-            "liquidity": "$3120914"
-        },
-        {
             "symbol": "ARIA",
-            "spread": 0.89,
+            "spread": 1.26,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.06543956",
-            "cex_price": "0.06602000",
-            "liquidity": "$1447350"
+            "dex_price": "0.06732448",
+            "cex_price": "0.06817000",
+            "liquidity": "$1465118"
+        },
+        {
+            "symbol": "ASTEROID",
+            "spread": 0.61,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00031608",
+            "cex_price": "0.00031800",
+            "liquidity": "$3035891"
+        },
+        {
+            "symbol": "PUNCH",
+            "spread": 0.42,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00298736",
+            "cex_price": "0.00300000",
+            "liquidity": "$363444"
         }
     ],
     "spot": [],
