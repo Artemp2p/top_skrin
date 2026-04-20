@@ -1,22 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "STETH",
-            "spread": 0.67,
+            "symbol": "MAPO",
+            "spread": 17.63,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "2238.05229066",
-            "cex_price": "2253.06000000",
-            "liquidity": "$94636760"
+            "dex_price": "0.00303825",
+            "cex_price": "0.00357400",
+            "liquidity": "$15183648"
         },
         {
-            "symbol": "PIEVERSE",
-            "spread": 0.23,
+            "symbol": "AITECH",
+            "spread": 2.66,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "1.60729348",
-            "cex_price": "1.61100000",
-            "liquidity": "$2223588"
+            "dex_price": "0.01177502",
+            "cex_price": "0.01208800",
+            "liquidity": "$584917"
+        },
+        {
+            "symbol": "SIREN",
+            "spread": 1.62,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.69573719",
+            "cex_price": "0.70700000",
+            "liquidity": "$9057548"
+        },
+        {
+            "symbol": "ASTEROID",
+            "spread": 1.09,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00032690",
+            "cex_price": "0.00033048",
+            "liquidity": "$3085576"
         }
     ],
     "spot": [],
