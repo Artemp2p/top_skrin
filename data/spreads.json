@@ -1,31 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "ARIA",
-            "spread": 1.26,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.06732448",
-            "cex_price": "0.06817000",
-            "liquidity": "$1465118"
-        },
-        {
-            "symbol": "ASTEROID",
-            "spread": 0.61,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00031608",
-            "cex_price": "0.00031800",
-            "liquidity": "$3035891"
-        },
-        {
-            "symbol": "PUNCH",
-            "spread": 0.42,
+            "symbol": "UNC",
+            "spread": 2.35,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00298736",
-            "cex_price": "0.00300000",
-            "liquidity": "$363444"
+            "dex_price": "0.00764613",
+            "cex_price": "0.00782600",
+            "liquidity": "$525640"
+        },
+        {
+            "symbol": "BULL",
+            "spread": 1.49,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00479358",
+            "cex_price": "0.00486500",
+            "liquidity": "$258552"
+        },
+        {
+            "symbol": "PIPPIN",
+            "spread": 0.47,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.02438929",
+            "cex_price": "0.02450400",
+            "liquidity": "$4270703"
+        },
+        {
+            "symbol": "AITECH",
+            "spread": 0.36,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01536026",
+            "cex_price": "0.01541500",
+            "liquidity": "$668500"
+        },
+        {
+            "symbol": "ARIA",
+            "spread": 0.34,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.06694537",
+            "cex_price": "0.06717000",
+            "liquidity": "$1453255"
+        },
+        {
+            "symbol": "SIREN",
+            "spread": 0.22,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.69849778",
+            "cex_price": "0.70000000",
+            "liquidity": "$9057241"
         }
     ],
     "spot": [],
