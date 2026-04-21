@@ -2,48 +2,57 @@
     "dex": [
         {
             "symbol": "RAVE",
-            "spread": 20.45,
+            "spread": 14.48,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "1.41169082",
-            "cex_price": "1.70040000",
-            "liquidity": "$44638637"
+            "dex_price": "1.32784124",
+            "cex_price": "1.52010000",
+            "liquidity": "$41802889"
         },
         {
             "symbol": "WKC",
-            "spread": 3.3,
+            "spread": 1.15,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000009",
+            "dex_price": "0.00000010",
             "cex_price": "0.00000010",
-            "liquidity": "$1205485"
+            "liquidity": "$1212481"
+        },
+        {
+            "symbol": "MANYU",
+            "spread": 0.92,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$643722"
         },
         {
             "symbol": "ARIA",
-            "spread": 0.94,
+            "spread": 0.8,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.07858499",
-            "cex_price": "0.07932000",
-            "liquidity": "$1510241"
+            "dex_price": "0.07773534",
+            "cex_price": "0.07836000",
+            "liquidity": "$1504372"
         },
         {
-            "symbol": "ASTEROID",
-            "spread": 0.89,
-            "buyAt": "ETH",
+            "symbol": "BTC",
+            "spread": 0.32,
+            "buyAt": "ARBITRUM",
             "sellAt": "MEXC",
-            "dex_price": "0.00035080",
-            "cex_price": "0.00035393",
-            "liquidity": "$3569648"
+            "dex_price": "75382.95101547",
+            "cex_price": "75623.35000000",
+            "liquidity": "$48390180"
         },
         {
-            "symbol": "UNC",
-            "spread": 0.42,
-            "buyAt": "SOLANA",
+            "symbol": "\u5e01\u5b89\u4eba\u751f",
+            "spread": 0.21,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00716998",
-            "cex_price": "0.00720000",
-            "liquidity": "$594050"
+            "dex_price": "0.46073850",
+            "cex_price": "0.46170000",
+            "liquidity": "$6607211"
         }
     ],
     "spot": [],
