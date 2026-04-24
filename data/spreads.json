@@ -2,39 +2,57 @@
     "dex": [
         {
             "symbol": "RAVE",
-            "spread": 22.44,
+            "spread": 21.05,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.95297630",
-            "cex_price": "1.16680000",
-            "liquidity": "$30150880"
+            "dex_price": "0.93529185",
+            "cex_price": "1.13220000",
+            "liquidity": "$29443145"
         },
         {
-            "symbol": "BELIEF",
-            "spread": 3.12,
+            "symbol": "ASTEROID",
+            "spread": 0.95,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00027494",
+            "cex_price": "0.00027756",
+            "liquidity": "$3412126"
+        },
+        {
+            "symbol": "MAGA",
+            "spread": 0.76,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01607910",
-            "cex_price": "0.01658000",
-            "liquidity": "$472319"
+            "dex_price": "0.01876725",
+            "cex_price": "0.01891000",
+            "liquidity": "$445264"
         },
         {
-            "symbol": "APE",
-            "spread": 2.04,
+            "symbol": "PEPE",
+            "spread": 0.62,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.26235095",
-            "cex_price": "0.26770000",
-            "liquidity": "$472763"
+            "dex_price": "0.00000389",
+            "cex_price": "0.00000391",
+            "liquidity": "$27430900"
         },
         {
-            "symbol": "BTC",
-            "spread": 0.31,
-            "buyAt": "ETH",
+            "symbol": "\u5e01\u5b89\u4eba\u751f",
+            "spread": 0.37,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "77324.40410679",
-            "cex_price": "77562.90000000",
-            "liquidity": "$55207074"
+            "dex_price": "0.33924694",
+            "cex_price": "0.34049000",
+            "liquidity": "$5733278"
+        },
+        {
+            "symbol": "OPG",
+            "spread": 0.24,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.27694075",
+            "cex_price": "0.27760000",
+            "liquidity": "$1403306"
         }
     ],
     "spot": [],
