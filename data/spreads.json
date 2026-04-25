@@ -2,39 +2,48 @@
     "dex": [
         {
             "symbol": "RAVE",
-            "spread": 34.89,
+            "spread": 24.86,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.79188132",
-            "cex_price": "1.06820000",
-            "liquidity": "$1941419"
+            "dex_price": "0.85060267",
+            "cex_price": "1.06210000",
+            "liquidity": "$1995350"
         },
         {
-            "symbol": "WKC",
-            "spread": 4.73,
+            "symbol": "SIREN",
+            "spread": 1.44,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000010",
-            "cex_price": "0.00000010",
-            "liquidity": "$1216812"
+            "dex_price": "0.70437983",
+            "cex_price": "0.71450000",
+            "liquidity": "$9071752"
         },
         {
-            "symbol": "FLORK",
-            "spread": 0.5,
+            "symbol": "BLEND",
+            "spread": 1.25,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000915",
-            "cex_price": "0.00000920",
-            "liquidity": "$398283"
+            "dex_price": "0.11310334",
+            "cex_price": "0.11452000",
+            "liquidity": "$111859"
         },
         {
-            "symbol": "RIVER",
-            "spread": 0.25,
-            "buyAt": "BSC",
+            "symbol": "PIPPIN",
+            "spread": 0.81,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "6.14013640",
-            "cex_price": "6.15540000",
-            "liquidity": "$880849"
+            "dex_price": "0.02986076",
+            "cex_price": "0.03010300",
+            "liquidity": "$4753957"
+        },
+        {
+            "symbol": "ASTEROID",
+            "spread": 0.33,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00034186",
+            "cex_price": "0.00034298",
+            "liquidity": "$3707621"
         }
     ],
     "spot": [],
