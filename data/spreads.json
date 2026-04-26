@@ -2,39 +2,48 @@
     "dex": [
         {
             "symbol": "RAVE",
-            "spread": 33.21,
+            "spread": 30.13,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.89716629",
-            "cex_price": "1.19510000",
-            "liquidity": "$2019083"
+            "dex_price": "0.90840455",
+            "cex_price": "1.18210000",
+            "liquidity": "$2023126"
         },
         {
             "symbol": "KISHU",
-            "spread": 3.44,
+            "spread": 4.04,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000000",
             "cex_price": "0.00000000",
-            "liquidity": "$844379"
+            "liquidity": "$843851"
         },
         {
-            "symbol": "APE",
-            "spread": 0.65,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.15539103",
-            "cex_price": "0.15640000",
-            "liquidity": "$357908"
-        },
-        {
-            "symbol": "AGT",
-            "spread": 0.44,
+            "symbol": "SIREN",
+            "spread": 1.51,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.01701253",
-            "cex_price": "0.01708800",
-            "liquidity": "$1243680"
+            "dex_price": "0.67392277",
+            "cex_price": "0.68410000",
+            "liquidity": "$8859125"
+        },
+        {
+            "symbol": "BELIEF",
+            "spread": 0.57,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01433819",
+            "cex_price": "0.01442000",
+            "liquidity": "$438561"
+        },
+        {
+            "symbol": "ZBT",
+            "spread": 0.21,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.17708554",
+            "cex_price": "0.17745000",
+            "liquidity": "$618444"
         }
     ],
     "spot": [],
