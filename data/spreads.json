@@ -2,21 +2,39 @@
     "dex": [
         {
             "symbol": "RAVE",
-            "spread": 20.02,
+            "spread": 26.51,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.94890627",
-            "cex_price": "1.13890000",
-            "liquidity": "$29882058"
+            "dex_price": "0.91221132",
+            "cex_price": "1.15400000",
+            "liquidity": "$29094790"
         },
         {
-            "symbol": "AAVE",
-            "spread": 0.25,
+            "symbol": "ZBT",
+            "spread": 3.78,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.23025218",
+            "cex_price": "0.23895000",
+            "liquidity": "$706162"
+        },
+        {
+            "symbol": "BSB",
+            "spread": 0.41,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.73846929",
+            "cex_price": "0.74148000",
+            "liquidity": "$31472853"
+        },
+        {
+            "symbol": "UPEG",
+            "spread": 0.39,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "95.54251485",
-            "cex_price": "95.78000000",
-            "liquidity": "$99751"
+            "dex_price": "546.49355260",
+            "cex_price": "548.61000000",
+            "liquidity": "$519752"
         }
     ],
     "spot": [],
