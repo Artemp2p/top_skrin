@@ -2,66 +2,57 @@
     "dex": [
         {
             "symbol": "RAVE",
-            "spread": 17.09,
+            "spread": 17.24,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.89682168",
-            "cex_price": "1.05010000",
-            "liquidity": "$2027389"
+            "dex_price": "0.87425493",
+            "cex_price": "1.02500000",
+            "liquidity": "$2007229"
         },
         {
-            "symbol": "LOL",
-            "spread": 2.95,
-            "buyAt": "SOLANA",
+            "symbol": "UPEG",
+            "spread": 1.33,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00235937",
-            "cex_price": "0.00242900",
-            "liquidity": "$243912"
+            "dex_price": "826.28068977",
+            "cex_price": "837.27000000",
+            "liquidity": "$709510"
         },
         {
             "symbol": "WKC",
-            "spread": 2.78,
+            "spread": 1.25,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000010",
             "cex_price": "0.00000010",
-            "liquidity": "$1240237"
+            "liquidity": "$1237603"
+        },
+        {
+            "symbol": "LOL",
+            "spread": 0.64,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00248812",
+            "cex_price": "0.00250400",
+            "liquidity": "$250825"
+        },
+        {
+            "symbol": "ZBT",
+            "spread": 0.58,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.19374707",
+            "cex_price": "0.19488000",
+            "liquidity": "$644516"
         },
         {
             "symbol": "LAB",
-            "spread": 0.73,
+            "spread": 0.36,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.66591831",
-            "cex_price": "0.67078000",
-            "liquidity": "$2587876"
-        },
-        {
-            "symbol": "DAM",
-            "spread": 0.56,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.05189751",
-            "cex_price": "0.05219000",
-            "liquidity": "$391879"
-        },
-        {
-            "symbol": "BASED",
-            "spread": 0.38,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.14058748",
-            "cex_price": "0.14112000",
-            "liquidity": "$1402109"
-        },
-        {
-            "symbol": "PRL",
-            "spread": 0.24,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.31973988",
-            "cex_price": "0.32050000",
-            "liquidity": "$1547464"
+            "dex_price": "0.70525561",
+            "cex_price": "0.70781000",
+            "liquidity": "$2637316"
         }
     ],
     "spot": [],
