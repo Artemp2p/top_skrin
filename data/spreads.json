@@ -1,49 +1,58 @@
 {
     "dex": [
         {
+            "symbol": "OPG",
+            "spread": 18.01,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.24793900",
+            "cex_price": "0.29260000",
+            "liquidity": "$123839409"
+        },
+        {
             "symbol": "RAVE",
-            "spread": 10.73,
+            "spread": 5.88,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.86695300",
-            "cex_price": "0.96000000",
-            "liquidity": "$1996730"
+            "dex_price": "0.90175372",
+            "cex_price": "0.95480000",
+            "liquidity": "$2020361"
         },
         {
             "symbol": "WKC",
-            "spread": 2.35,
+            "spread": 4.46,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000010",
-            "cex_price": "0.00000010",
-            "liquidity": "$1201820"
+            "dex_price": "0.00000009",
+            "cex_price": "0.00000009",
+            "liquidity": "$1164250"
         },
         {
-            "symbol": "MAGA",
-            "spread": 0.63,
+            "symbol": "LOL",
+            "spread": 0.41,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01689413",
-            "cex_price": "0.01700000",
-            "liquidity": "$429952"
+            "dex_price": "0.00259741",
+            "cex_price": "0.00260800",
+            "liquidity": "$255540"
         },
         {
-            "symbol": "DAM",
-            "spread": 0.34,
+            "symbol": "ORCA",
+            "spread": 0.31,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "1.60722158",
+            "cex_price": "1.61220000",
+            "liquidity": "$877823"
+        },
+        {
+            "symbol": "LAB",
+            "spread": 0.27,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.04719996",
-            "cex_price": "0.04736000",
-            "liquidity": "$489603"
-        },
-        {
-            "symbol": "UPEG",
-            "spread": 0.24,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "840.19190954",
-            "cex_price": "842.22000000",
-            "liquidity": "$728443"
+            "dex_price": "0.66495833",
+            "cex_price": "0.66677000",
+            "liquidity": "$2596481"
         }
     ],
     "spot": [],
