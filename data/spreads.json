@@ -2,21 +2,57 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 2.15,
+            "spread": 3.33,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000009",
             "cex_price": "0.00000009",
-            "liquidity": "$1176269"
+            "liquidity": "$1172128"
         },
         {
             "symbol": "ASTEROID",
-            "spread": 0.27,
+            "spread": 0.82,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00033826",
-            "cex_price": "0.00033918",
-            "liquidity": "$3817192"
+            "dex_price": "0.00033791",
+            "cex_price": "0.00034067",
+            "liquidity": "$3816138"
+        },
+        {
+            "symbol": "BASED",
+            "spread": 0.72,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.11108498",
+            "cex_price": "0.11188000",
+            "liquidity": "$1317164"
+        },
+        {
+            "symbol": "BSB",
+            "spread": 0.66,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.60363930",
+            "cex_price": "0.60763000",
+            "liquidity": "$26757609"
+        },
+        {
+            "symbol": "TRADOOR",
+            "spread": 0.34,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.72793797",
+            "cex_price": "0.73040000",
+            "liquidity": "$867381"
+        },
+        {
+            "symbol": "SKYAI",
+            "spread": 0.33,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.35204565",
+            "cex_price": "0.35320000",
+            "liquidity": "$12337729"
         }
     ],
     "spot": [],
