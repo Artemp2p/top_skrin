@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "BTC",
-            "spread": 0.32,
+            "symbol": "KISHU",
+            "spread": 1.39,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "78383.03272047",
-            "cex_price": "78636.42000000",
-            "liquidity": "$70054"
+            "dex_price": "0.00000000",
+            "cex_price": "0.00000000",
+            "liquidity": "$911631"
         },
         {
-            "symbol": "FLORK",
-            "spread": 0.26,
+            "symbol": "UPEG",
+            "spread": 1.35,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000411",
-            "cex_price": "0.00000412",
-            "liquidity": "$291026"
+            "dex_price": "1517.43604361",
+            "cex_price": "1537.90000000",
+            "liquidity": "$1294728"
         },
         {
-            "symbol": "RAVE",
+            "symbol": "MAGA",
+            "spread": 0.8,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01389856",
+            "cex_price": "0.01401000",
+            "liquidity": "$400294"
+        },
+        {
+            "symbol": "SKYAI",
             "spread": 0.25,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.64369506",
-            "cex_price": "0.64530000",
-            "liquidity": "$1838255"
+            "dex_price": "0.45098890",
+            "cex_price": "0.45210000",
+            "liquidity": "$14101898"
         }
     ],
     "spot": [],
