@@ -1,31 +1,40 @@
 {
     "dex": [
         {
+            "symbol": "UPEG",
+            "spread": 0.88,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1733.03330629",
+            "cex_price": "1748.28000000",
+            "liquidity": "$1301114"
+        },
+        {
             "symbol": "WKC",
-            "spread": 2.26,
+            "spread": 0.32,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000008",
-            "cex_price": "0.00000009",
-            "liquidity": "$1122677"
+            "cex_price": "0.00000008",
+            "liquidity": "$1124668"
         },
         {
-            "symbol": "B",
-            "spread": 0.65,
+            "symbol": "TAG",
+            "spread": 0.31,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.35090530",
-            "cex_price": "0.35319000",
-            "liquidity": "$2880319"
+            "dex_price": "0.00119209",
+            "cex_price": "0.00119580",
+            "liquidity": "$2549670"
         },
         {
-            "symbol": "AI",
-            "spread": 0.6,
-            "buyAt": "ETH",
+            "symbol": "UB",
+            "spread": 0.25,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03190823",
-            "cex_price": "0.03210000",
-            "liquidity": "$1619751"
+            "dex_price": "0.15043926",
+            "cex_price": "0.15082000",
+            "liquidity": "$4195091"
         }
     ],
     "spot": [],
