@@ -2,30 +2,66 @@
     "dex": [
         {
             "symbol": "RAVE",
-            "spread": 3.42,
+            "spread": 3.01,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.75226873",
-            "cex_price": "0.77800000",
-            "liquidity": "$1945232"
+            "dex_price": "0.77089721",
+            "cex_price": "0.79410000",
+            "liquidity": "$1956264"
         },
         {
-            "symbol": "SKYAI",
-            "spread": 1.81,
-            "buyAt": "BSC",
+            "symbol": "UPEG",
+            "spread": 1.39,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.60220007",
-            "cex_price": "0.61310000",
-            "liquidity": "$17055464"
+            "dex_price": "993.51933440",
+            "cex_price": "1007.31000000",
+            "liquidity": "$1232477"
         },
         {
             "symbol": "WKC",
-            "spread": 1.52,
+            "spread": 1.34,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000008",
             "cex_price": "0.00000008",
-            "liquidity": "$1134052"
+            "liquidity": "$1132926"
+        },
+        {
+            "symbol": "BILL",
+            "spread": 0.4,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.10410078",
+            "cex_price": "0.10452000",
+            "liquidity": "$2063094"
+        },
+        {
+            "symbol": "ASTEROID",
+            "spread": 0.28,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00035701",
+            "cex_price": "0.00035802",
+            "liquidity": "$3759886"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.42322671",
+            "cex_price": "0.42419000",
+            "liquidity": "$670393"
+        },
+        {
+            "symbol": "MAGA",
+            "spread": 0.2,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01157628",
+            "cex_price": "0.01160000",
+            "liquidity": "$393704"
         }
     ],
     "spot": [],
