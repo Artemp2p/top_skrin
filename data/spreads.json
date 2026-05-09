@@ -2,48 +2,57 @@
     "dex": [
         {
             "symbol": "HANTA",
-            "spread": 3.95,
-            "buyAt": "SOLANA",
+            "spread": 14.57,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00421345",
-            "cex_price": "0.00438000",
-            "liquidity": "$267357"
+            "dex_price": "0.00303824",
+            "cex_price": "0.00348100",
+            "liquidity": "$1518360"
         },
         {
             "symbol": "RAVE",
-            "spread": 2.94,
+            "spread": 2.43,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.74308466",
-            "cex_price": "0.76490000",
-            "liquidity": "$1940514"
+            "dex_price": "0.74340271",
+            "cex_price": "0.76150000",
+            "liquidity": "$1936444"
         },
         {
-            "symbol": "ASTEROID",
-            "spread": 0.34,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00034383",
-            "cex_price": "0.00034500",
-            "liquidity": "$3677165"
-        },
-        {
-            "symbol": "BSB",
-            "spread": 0.34,
+            "symbol": "SIREN",
+            "spread": 1.08,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.53921419",
-            "cex_price": "0.54105000",
-            "liquidity": "$24631182"
+            "dex_price": "1.24404365",
+            "cex_price": "1.25750000",
+            "liquidity": "$12674132"
         },
         {
-            "symbol": "UPEG",
-            "spread": 0.21,
-            "buyAt": "ETH",
+            "symbol": "FOREST",
+            "spread": 0.87,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "946.50954220",
-            "cex_price": "948.46000000",
-            "liquidity": "$1211544"
+            "dex_price": "0.16580077",
+            "cex_price": "0.16724000",
+            "liquidity": "$403190"
+        },
+        {
+            "symbol": "ELIZAOS",
+            "spread": 0.33,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00108881",
+            "cex_price": "0.00109240",
+            "liquidity": "$418025"
+        },
+        {
+            "symbol": "SKYAI",
+            "spread": 0.32,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.66858365",
+            "cex_price": "0.67070000",
+            "liquidity": "$18033359"
         }
     ],
     "spot": [],
