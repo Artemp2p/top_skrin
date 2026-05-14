@@ -1,76 +1,40 @@
 {
     "dex": [
         {
+            "symbol": "SWEAT",
+            "spread": 29.79,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00165138",
+            "cex_price": "0.00214330",
+            "liquidity": "$16347595"
+        },
+        {
+            "symbol": "HANTA",
+            "spread": 0.34,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00317822",
+            "cex_price": "0.00318900",
+            "liquidity": "$254382"
+        },
+        {
             "symbol": "BILL",
-            "spread": 2.17,
+            "spread": 0.3,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.16084148",
-            "cex_price": "0.16433000",
-            "liquidity": "$1966187"
+            "dex_price": "0.18096068",
+            "cex_price": "0.18150000",
+            "liquidity": "$2027272"
         },
         {
-            "symbol": "KISHU",
-            "spread": 2.13,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000000",
-            "cex_price": "0.00000000",
-            "liquidity": "$1531926"
-        },
-        {
-            "symbol": "SHARE",
-            "spread": 0.97,
+            "symbol": "SKYAI",
+            "spread": 0.23,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.26503008",
-            "cex_price": "0.26760000",
-            "liquidity": "$1201930"
-        },
-        {
-            "symbol": "RAVE",
-            "spread": 0.84,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.63366176",
-            "cex_price": "0.63900000",
-            "liquidity": "$1840817"
-        },
-        {
-            "symbol": "LAB",
-            "spread": 0.78,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "5.52605053",
-            "cex_price": "5.56896000",
-            "liquidity": "$106619"
-        },
-        {
-            "symbol": "RVV",
-            "spread": 0.75,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00038609",
-            "cex_price": "0.00038900",
-            "liquidity": "$156639"
-        },
-        {
-            "symbol": "ASTEROID",
-            "spread": 0.59,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00026615",
-            "cex_price": "0.00026771",
-            "liquidity": "$3669656"
-        },
-        {
-            "symbol": "ONDO",
-            "spread": 0.2,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.38389525",
-            "cex_price": "0.38467000",
-            "liquidity": "$674562"
+            "dex_price": "0.38611191",
+            "cex_price": "0.38700000",
+            "liquidity": "$14071698"
         }
     ],
     "spot": [],
