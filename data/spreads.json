@@ -1,49 +1,67 @@
 {
     "dex": [
         {
+            "symbol": "STABLE",
+            "spread": 21.58,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.02996661",
+            "cex_price": "0.03643300",
+            "liquidity": "$1498331260"
+        },
+        {
             "symbol": "WKC",
-            "spread": 4.45,
+            "spread": 2.22,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000008",
             "cex_price": "0.00000008",
-            "liquidity": "$1160532"
+            "liquidity": "$1161186"
         },
         {
-            "symbol": "RKC",
-            "spread": 1.46,
-            "buyAt": "SOLANA",
+            "symbol": "SIREN",
+            "spread": 0.94,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00352255",
-            "cex_price": "0.00357400",
-            "liquidity": "$263976"
+            "dex_price": "0.55142733",
+            "cex_price": "0.55660000",
+            "liquidity": "$8094641"
         },
         {
-            "symbol": "HANTA",
-            "spread": 1.45,
-            "buyAt": "SOLANA",
+            "symbol": "ASTEROID",
+            "spread": 0.74,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00308631",
-            "cex_price": "0.00313100",
-            "liquidity": "$257168"
+            "dex_price": "0.00030590",
+            "cex_price": "0.00030816",
+            "liquidity": "$3505772"
         },
         {
             "symbol": "UB",
-            "spread": 0.65,
+            "spread": 0.27,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.21372131",
-            "cex_price": "0.21511000",
-            "liquidity": "$4967184"
+            "dex_price": "0.21398535",
+            "cex_price": "0.21457000",
+            "liquidity": "$4978043"
         },
         {
-            "symbol": "BULL",
-            "spread": 0.4,
-            "buyAt": "SOLANA",
+            "symbol": "OPG",
+            "spread": 0.24,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00650288",
-            "cex_price": "0.00652900",
-            "liquidity": "$381181"
+            "dex_price": "0.28091774",
+            "cex_price": "0.28160000",
+            "liquidity": "$1437160"
+        },
+        {
+            "symbol": "LINK",
+            "spread": 0.22,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "10.55465040",
+            "cex_price": "10.57800000",
+            "liquidity": "$23775860"
         }
     ],
     "spot": [],
