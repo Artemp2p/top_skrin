@@ -1,94 +1,76 @@
 {
     "dex": [
         {
+            "symbol": "KISHU",
+            "spread": 3.74,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000000",
+            "cex_price": "0.00000000",
+            "liquidity": "$1510588"
+        },
+        {
             "symbol": "WKC",
-            "spread": 1.36,
+            "spread": 2.54,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000008",
             "cex_price": "0.00000008",
-            "liquidity": "$1143737"
+            "liquidity": "$1128170"
         },
         {
-            "symbol": "SIREN",
-            "spread": 1.07,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.52081507",
-            "cex_price": "0.52640000",
-            "liquidity": "$7725686"
-        },
-        {
-            "symbol": "BULL",
-            "spread": 0.9,
+            "symbol": "RKC",
+            "spread": 0.69,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00582632",
-            "cex_price": "0.00587900",
-            "liquidity": "$357482"
-        },
-        {
-            "symbol": "UPEG",
-            "spread": 0.87,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "583.15224067",
-            "cex_price": "588.21000000",
-            "liquidity": "$1105479"
-        },
-        {
-            "symbol": "SPX",
-            "spread": 0.65,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.38889165",
-            "cex_price": "0.39140000",
-            "liquidity": "$10369251"
-        },
-        {
-            "symbol": "IRYS",
-            "spread": 0.59,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.06019688",
-            "cex_price": "0.06055000",
-            "liquidity": "$754176"
+            "dex_price": "0.00458921",
+            "cex_price": "0.00462100",
+            "liquidity": "$300494"
         },
         {
             "symbol": "AI",
-            "spread": 0.29,
+            "spread": 0.5,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03698420",
-            "cex_price": "0.03709000",
-            "liquidity": "$1578189"
+            "dex_price": "0.03797882",
+            "cex_price": "0.03817000",
+            "liquidity": "$1590553"
         },
         {
-            "symbol": "PIEVERSE",
-            "spread": 0.27,
+            "symbol": "LAB",
+            "spread": 0.5,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.99651814",
-            "cex_price": "0.99920000",
-            "liquidity": "$1939986"
+            "dex_price": "4.86204144",
+            "cex_price": "4.88625000",
+            "liquidity": "$128979"
         },
         {
-            "symbol": "ETH",
-            "spread": 0.25,
-            "buyAt": "ETH",
+            "symbol": "SIREN",
+            "spread": 0.39,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "2221.96768446",
-            "cex_price": "2227.42000000",
-            "liquidity": "$102245749"
+            "dex_price": "0.52742034",
+            "cex_price": "0.52950000",
+            "liquidity": "$7740598"
         },
         {
-            "symbol": "ELIZAOS",
+            "symbol": "UB",
+            "spread": 0.24,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.22016546",
+            "cex_price": "0.22069000",
+            "liquidity": "$5046223"
+        },
+        {
+            "symbol": "LINK",
             "spread": 0.21,
-            "buyAt": "BSC",
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00102891",
-            "cex_price": "0.00103110",
-            "liquidity": "$409504"
+            "dex_price": "10.04394158",
+            "cex_price": "10.06500000",
+            "liquidity": "$22909205"
         }
     ],
     "spot": [],
