@@ -1,49 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "HANTA",
-            "spread": 2.45,
+            "symbol": "PEACE",
+            "spread": 20.67,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00135485",
-            "cex_price": "0.00138800",
-            "liquidity": "$166210"
+            "dex_price": "0.00004392",
+            "cex_price": "0.00005300",
+            "liquidity": "$18931"
+        },
+        {
+            "symbol": "KISHU",
+            "spread": 10.1,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000000",
+            "cex_price": "0.00000000",
+            "liquidity": "$1335899"
+        },
+        {
+            "symbol": "BTC",
+            "spread": 0.46,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "76589.35401731",
+            "cex_price": "76939.67000000",
+            "liquidity": "$52600646"
+        },
+        {
+            "symbol": "SIREN",
+            "spread": 0.32,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.49433953",
+            "cex_price": "0.49590000",
+            "liquidity": "$7358389"
         },
         {
             "symbol": "MANYU",
-            "spread": 0.41,
+            "spread": 0.23,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000001",
             "cex_price": "0.00000001",
-            "liquidity": "$584618"
-        },
-        {
-            "symbol": "RAVE",
-            "spread": 0.39,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.55117032",
-            "cex_price": "0.55330000",
-            "liquidity": "$1754042"
-        },
-        {
-            "symbol": "CGPT",
-            "spread": 0.28,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.03448239",
-            "cex_price": "0.03457800",
-            "liquidity": "$1290264"
-        },
-        {
-            "symbol": "SERV",
-            "spread": 0.22,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.04839386",
-            "cex_price": "0.04850000",
-            "liquidity": "$1892904"
+            "liquidity": "$579691"
         }
     ],
     "spot": [],
