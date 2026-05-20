@@ -1,67 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "AT",
-            "spread": 25.82,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.09958152",
-            "cex_price": "0.12529000",
-            "liquidity": "$49544137"
-        },
-        {
-            "symbol": "XRP",
-            "spread": 12.9,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "1.20317252",
-            "cex_price": "1.35840000",
-            "liquidity": "$597491124"
-        },
-        {
             "symbol": "DN",
-            "spread": 7.64,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.23065766",
-            "cex_price": "0.24829000",
-            "liquidity": "$7114970"
-        },
-        {
-            "symbol": "SIREN",
-            "spread": 0.58,
+            "spread": 1.13,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.53150342",
-            "cex_price": "0.53460000",
-            "liquidity": "$7742194"
-        },
-        {
-            "symbol": "LAB",
-            "spread": 0.44,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "4.31942284",
-            "cex_price": "4.33829000",
-            "liquidity": "$142167"
-        },
-        {
-            "symbol": "RAVE",
-            "spread": 0.41,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.58869713",
-            "cex_price": "0.59110000",
-            "liquidity": "$1793632"
+            "dex_price": "0.23750666",
+            "cex_price": "0.24019000",
+            "liquidity": "$677340"
         },
         {
             "symbol": "BTC",
-            "spread": 0.27,
+            "spread": 0.33,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "76545.56454490",
-            "cex_price": "76755.63000000",
-            "liquidity": "$51761701"
+            "dex_price": "76622.28891473",
+            "cex_price": "76873.88000000",
+            "liquidity": "$51831929"
+        },
+        {
+            "symbol": "RIVER",
+            "spread": 0.33,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "6.26275049",
+            "cex_price": "6.28370000",
+            "liquidity": "$878593"
         }
     ],
     "spot": [],
