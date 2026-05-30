@@ -1,31 +1,85 @@
 {
     "dex": [
         {
-            "symbol": "ALLO",
-            "spread": 0.44,
+            "symbol": "BSB",
+            "spread": 1.45,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.31093073",
-            "cex_price": "0.31231000",
-            "liquidity": "$193775"
+            "dex_price": "0.32915720",
+            "cex_price": "0.33394000",
+            "liquidity": "$16938549"
         },
         {
-            "symbol": "LAB",
-            "spread": 0.32,
-            "buyAt": "BSC",
+            "symbol": "MOMO",
+            "spread": 0.66,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "7.27285037",
-            "cex_price": "7.29585000",
-            "liquidity": "$95736"
+            "dex_price": "0.00050925",
+            "cex_price": "0.00051260",
+            "liquidity": "$61941"
         },
         {
-            "symbol": "GENIUS",
-            "spread": 0.26,
+            "symbol": "SHIB",
+            "spread": 0.54,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000547",
+            "cex_price": "0.00000550",
+            "liquidity": "$2600400"
+        },
+        {
+            "symbol": "RAVE",
+            "spread": 0.34,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.45174759",
-            "cex_price": "0.45290000",
-            "liquidity": "$1546580"
+            "dex_price": "0.45104626",
+            "cex_price": "0.45260000",
+            "liquidity": "$1624898"
+        },
+        {
+            "symbol": "BILL",
+            "spread": 0.31,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.07743723",
+            "cex_price": "0.07768000",
+            "liquidity": "$1897898"
+        },
+        {
+            "symbol": "MANYU",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$563437"
+        },
+        {
+            "symbol": "KISHU",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000000",
+            "cex_price": "0.00000000",
+            "liquidity": "$1218247"
+        },
+        {
+            "symbol": "ETH",
+            "spread": 0.22,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "2016.00162103",
+            "cex_price": "2020.48000000",
+            "liquidity": "$97796079"
+        },
+        {
+            "symbol": "QAIT",
+            "spread": 0.22,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01737346",
+            "cex_price": "0.01741100",
+            "liquidity": "$1490036"
         }
     ],
     "spot": [],
