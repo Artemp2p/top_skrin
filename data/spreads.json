@@ -1,31 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "TESTICLE",
-            "spread": 22.7,
+            "symbol": "UPEG",
+            "spread": 2.75,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00347435",
-            "cex_price": "0.00426300",
-            "liquidity": "$1736308"
+            "dex_price": "1240.33913620",
+            "cex_price": "1274.48000000",
+            "liquidity": "$1405418"
+        },
+        {
+            "symbol": "H",
+            "spread": 1.0,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.38893412",
+            "cex_price": "0.39284000",
+            "liquidity": "$2127851"
+        },
+        {
+            "symbol": "BSB",
+            "spread": 0.64,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.33442939",
+            "cex_price": "0.33656000",
+            "liquidity": "$17131429"
+        },
+        {
+            "symbol": "LAB",
+            "spread": 0.55,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "8.61998173",
+            "cex_price": "8.66736000",
+            "liquidity": "$135003"
+        },
+        {
+            "symbol": "XCX",
+            "spread": 0.34,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00383602",
+            "cex_price": "0.00384890",
+            "liquidity": "$373244"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.74060900",
+            "cex_price": "0.74250000",
+            "liquidity": "$1484238"
         },
         {
             "symbol": "TA",
-            "spread": 0.52,
+            "spread": 0.25,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.08186285",
-            "cex_price": "0.08229000",
-            "liquidity": "$276855"
-        },
-        {
-            "symbol": "FET",
-            "spread": 0.21,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.26894370",
-            "cex_price": "0.26950000",
-            "liquidity": "$1764548"
+            "dex_price": "0.08267975",
+            "cex_price": "0.08289000",
+            "liquidity": "$278062"
         }
     ],
     "spot": [],
