@@ -1,58 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "4",
-            "spread": 19.35,
+            "symbol": "THREE",
+            "spread": 15.79,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00348742",
+            "cex_price": "0.00403800",
+            "liquidity": "$1743712"
+        },
+        {
+            "symbol": "LAB",
+            "spread": 3.07,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00701967",
-            "cex_price": "0.00837800",
-            "liquidity": "$18959"
+            "dex_price": "23.20393524",
+            "cex_price": "23.91524000",
+            "liquidity": "$164815"
         },
         {
             "symbol": "ESPORTS",
-            "spread": 1.21,
+            "spread": 1.54,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.05349246",
-            "cex_price": "0.05414000",
-            "liquidity": "$1312750"
+            "dex_price": "0.05151654",
+            "cex_price": "0.05231000",
+            "liquidity": "$1296646"
         },
         {
             "symbol": "SIREN",
-            "spread": 0.64,
+            "spread": 1.49,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.56339425",
-            "cex_price": "0.56700000",
-            "liquidity": "$8125893"
+            "dex_price": "0.53533151",
+            "cex_price": "0.54330000",
+            "liquidity": "$7822677"
         },
         {
-            "symbol": "SLX",
-            "spread": 0.57,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.34166653",
-            "cex_price": "0.34360000",
-            "liquidity": "$1206151"
-        },
-        {
-            "symbol": "WLD",
-            "spread": 0.39,
+            "symbol": "MANYU",
+            "spread": 0.4,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.40721554",
-            "cex_price": "0.40880000",
-            "liquidity": "$270402"
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$522920"
         },
         {
-            "symbol": "PIEVERSE",
-            "spread": 0.27,
-            "buyAt": "BSC",
+            "symbol": "BTC",
+            "spread": 0.22,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "1.17079292",
-            "cex_price": "1.17390000",
-            "liquidity": "$2060711"
+            "dex_price": "67560.78569744",
+            "cex_price": "67707.80000000",
+            "liquidity": "$47758326"
         }
     ],
     "spot": [],
