@@ -1,40 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "SYN",
-            "spread": 0.85,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.14769912",
-            "cex_price": "0.14896000",
-            "liquidity": "$101868"
-        },
-        {
             "symbol": "RE",
-            "spread": 0.75,
+            "spread": 2.67,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.78669456",
-            "cex_price": "0.79257000",
-            "liquidity": "$864582"
+            "dex_price": "0.67515188",
+            "cex_price": "0.69318000",
+            "liquidity": "$801972"
         },
         {
-            "symbol": "SERV",
-            "spread": 0.51,
+            "symbol": "UPEG",
+            "spread": 1.05,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04965900",
-            "cex_price": "0.04991000",
-            "liquidity": "$1715379"
+            "dex_price": "479.96519872",
+            "cex_price": "485.00000000",
+            "liquidity": "$924056"
+        },
+        {
+            "symbol": "LAB",
+            "spread": 0.68,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "15.14703264",
+            "cex_price": "15.25044000",
+            "liquidity": "$105987"
         },
         {
             "symbol": "BTC",
-            "spread": 0.33,
+            "spread": 0.34,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "62415.49485260",
-            "cex_price": "62618.88000000",
-            "liquidity": "$12126411"
+            "dex_price": "63052.06699346",
+            "cex_price": "63264.98000000",
+            "liquidity": "$42113475"
+        },
+        {
+            "symbol": "COAI",
+            "spread": 0.31,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.33923248",
+            "cex_price": "0.34030000",
+            "liquidity": "$1935641"
+        },
+        {
+            "symbol": "SYN",
+            "spread": 0.27,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.13980490",
+            "cex_price": "0.14018000",
+            "liquidity": "$99776"
         }
     ],
     "spot": [],
