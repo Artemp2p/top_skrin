@@ -1,22 +1,76 @@
 {
     "dex": [
         {
-            "symbol": "RE",
-            "spread": 1.16,
+            "symbol": "DEGEN",
+            "spread": 6.19,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.90078515",
-            "cex_price": "0.91126000",
-            "liquidity": "$913587"
+            "dex_price": "0.00180125",
+            "cex_price": "0.00191270",
+            "liquidity": "$32932628"
+        },
+        {
+            "symbol": "H",
+            "spread": 2.01,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.12700514",
+            "cex_price": "0.12956000",
+            "liquidity": "$707805"
+        },
+        {
+            "symbol": "RE",
+            "spread": 1.42,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.86988326",
+            "cex_price": "0.88221000",
+            "liquidity": "$898237"
+        },
+        {
+            "symbol": "SERV",
+            "spread": 1.2,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.04740944",
+            "cex_price": "0.04798000",
+            "liquidity": "$1684580"
+        },
+        {
+            "symbol": "XCX",
+            "spread": 0.78,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00534802",
+            "cex_price": "0.00538970",
+            "liquidity": "$403211"
         },
         {
             "symbol": "MANYU",
-            "spread": 0.55,
+            "spread": 0.36,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000000",
             "cex_price": "0.00000000",
-            "liquidity": "$473045"
+            "liquidity": "$472410"
+        },
+        {
+            "symbol": "CLO",
+            "spread": 0.33,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.24610012",
+            "cex_price": "0.24692000",
+            "liquidity": "$1774136"
+        },
+        {
+            "symbol": "BILL",
+            "spread": 0.28,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.05594306",
+            "cex_price": "0.05610000",
+            "liquidity": "$1826670"
         }
     ],
     "spot": [],
