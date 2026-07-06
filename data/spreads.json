@@ -1,22 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "AB",
-            "spread": 18.07,
+            "symbol": "LAB",
+            "spread": 0.93,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00082408",
-            "cex_price": "0.00097300",
-            "liquidity": "$98024"
+            "dex_price": "15.55763121",
+            "cex_price": "15.70277000",
+            "liquidity": "$191628"
         },
         {
-            "symbol": "LAB",
-            "spread": 1.13,
+            "symbol": "CZ",
+            "spread": 0.75,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "13.64460474",
-            "cex_price": "13.79908000",
-            "liquidity": "$184614"
+            "dex_price": "0.05613071",
+            "cex_price": "0.05655000",
+            "liquidity": "$951044"
+        },
+        {
+            "symbol": "AAVE",
+            "spread": 0.27,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "95.28634076",
+            "cex_price": "95.54000000",
+            "liquidity": "$3518858"
         }
     ],
     "spot": [],
