@@ -1,22 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "GIGGLE",
-            "spread": 14.18,
-            "buyAt": "ETH",
+            "symbol": "ZERO",
+            "spread": 1.32,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "26.97568419",
-            "cex_price": "30.80000000",
-            "liquidity": "$13491247"
+            "dex_price": "0.00740823",
+            "cex_price": "0.00750600",
+            "liquidity": "$351573"
         },
         {
-            "symbol": "CAP",
-            "spread": 0.43,
+            "symbol": "DOGEUS",
+            "spread": 0.67,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00073290",
+            "cex_price": "0.00073780",
+            "liquidity": "$102484"
+        },
+        {
+            "symbol": "LAB",
+            "spread": 0.67,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02206480",
-            "cex_price": "0.02216000",
-            "liquidity": "$870380"
+            "dex_price": "17.06191937",
+            "cex_price": "17.17550000",
+            "liquidity": "$210144"
+        },
+        {
+            "symbol": "JOTCHUA",
+            "spread": 0.43,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00684623",
+            "cex_price": "0.00687600",
+            "liquidity": "$493386"
+        },
+        {
+            "symbol": "SKYAI",
+            "spread": 0.24,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.05237320",
+            "cex_price": "0.05250000",
+            "liquidity": "$5299285"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.22,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.39352048",
+            "cex_price": "0.39440000",
+            "liquidity": "$9445043"
         }
     ],
     "spot": [],
