@@ -2,48 +2,57 @@
     "dex": [
         {
             "symbol": "UNI",
-            "spread": 19.99,
+            "spread": 20.81,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "2.93691954",
-            "cex_price": "3.52400000",
-            "liquidity": "$1466717736"
-        },
-        {
-            "symbol": "EIGEN",
-            "spread": 1.0,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.23357309",
-            "cex_price": "0.23590000",
-            "liquidity": "$3608180"
+            "cex_price": "3.54800000",
+            "liquidity": "$1469184405"
         },
         {
             "symbol": "TAC",
-            "spread": 0.56,
+            "spread": 0.46,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00429089",
-            "cex_price": "0.00431500",
-            "liquidity": "$250721"
+            "dex_price": "0.00433922",
+            "cex_price": "0.00435900",
+            "liquidity": "$253160"
+        },
+        {
+            "symbol": "ANSEM",
+            "spread": 0.33,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.20531592",
+            "cex_price": "0.20599000",
+            "liquidity": "$1986841"
+        },
+        {
+            "symbol": "ASTEROID",
+            "spread": 0.31,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00005463",
+            "cex_price": "0.00005480",
+            "liquidity": "$1596821"
         },
         {
             "symbol": "CZ",
-            "spread": 0.43,
+            "spread": 0.3,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00908076",
-            "cex_price": "0.00912000",
-            "liquidity": "$408195"
+            "dex_price": "0.00983090",
+            "cex_price": "0.00986000",
+            "liquidity": "$425347"
         },
         {
-            "symbol": "BSB",
-            "spread": 0.27,
-            "buyAt": "BSC",
+            "symbol": "AAVE",
+            "spread": 0.22,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.14441496",
-            "cex_price": "0.14481000",
-            "liquidity": "$10102008"
+            "dex_price": "96.84164645",
+            "cex_price": "97.05000000",
+            "liquidity": "$7174"
         }
     ],
     "spot": [],
