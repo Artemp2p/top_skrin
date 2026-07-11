@@ -1,22 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "DEXE",
-            "spread": 0.53,
+            "symbol": "RAY",
+            "spread": 11.24,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "37.61429356",
-            "cex_price": "37.81500000",
-            "liquidity": "$895365"
+            "dex_price": "0.62684112",
+            "cex_price": "0.69730000",
+            "liquidity": "$172814630"
         },
         {
-            "symbol": "TCC",
-            "spread": 0.22,
+            "symbol": "ORCA",
+            "spread": 3.57,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1.15177102",
+            "cex_price": "1.19290000",
+            "liquidity": "$34939128"
+        },
+        {
+            "symbol": "SERV",
+            "spread": 1.31,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.03631394",
+            "cex_price": "0.03679000",
+            "liquidity": "$1529999"
+        },
+        {
+            "symbol": "SKYAI",
+            "spread": 0.55,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00494517",
-            "cex_price": "0.00495600",
-            "liquidity": "$281469"
+            "dex_price": "0.03800986",
+            "cex_price": "0.03822000",
+            "liquidity": "$4543161"
+        },
+        {
+            "symbol": "KINS",
+            "spread": 0.53,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00827307",
+            "cex_price": "0.00831700",
+            "liquidity": "$362253"
+        },
+        {
+            "symbol": "TAC",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00335726",
+            "cex_price": "0.00336600",
+            "liquidity": "$207743"
         }
     ],
     "spot": [],
