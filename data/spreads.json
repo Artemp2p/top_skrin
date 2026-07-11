@@ -1,31 +1,85 @@
 {
     "dex": [
         {
-            "symbol": "XPIN",
-            "spread": 0.57,
+            "symbol": "DEXE",
+            "spread": 1.1,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "36.52210229",
+            "cex_price": "36.92500000",
+            "liquidity": "$876050"
+        },
+        {
+            "symbol": "TAC",
+            "spread": 0.83,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00213377",
-            "cex_price": "0.00214600",
-            "liquidity": "$1176314"
+            "dex_price": "0.00339489",
+            "cex_price": "0.00342300",
+            "liquidity": "$209109"
+        },
+        {
+            "symbol": "ANSEM",
+            "spread": 0.7,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.23923298",
+            "cex_price": "0.24091000",
+            "liquidity": "$2170195"
+        },
+        {
+            "symbol": "XPIN",
+            "spread": 0.61,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00215821",
+            "cex_price": "0.00217140",
+            "liquidity": "$1199659"
+        },
+        {
+            "symbol": "ASTEROID",
+            "spread": 0.59,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00005364",
+            "cex_price": "0.00005396",
+            "liquidity": "$1588862"
+        },
+        {
+            "symbol": "BEAT",
+            "spread": 0.53,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "2.92054789",
+            "cex_price": "2.93591000",
+            "liquidity": "$3026357"
+        },
+        {
+            "symbol": "KISHU",
+            "spread": 0.4,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000000",
+            "cex_price": "0.00000000",
+            "liquidity": "$929155"
+        },
+        {
+            "symbol": "EVAA",
+            "spread": 0.27,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.90169869",
+            "cex_price": "1.90690000",
+            "liquidity": "$344218"
         },
         {
             "symbol": "CAP",
-            "spread": 0.5,
+            "spread": 0.22,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.01667625",
-            "cex_price": "0.01676000",
-            "liquidity": "$779019"
-        },
-        {
-            "symbol": "BASED",
-            "spread": 0.34,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.09311632",
-            "cex_price": "0.09343000",
-            "liquidity": "$1305383"
+            "dex_price": "0.01695346",
+            "cex_price": "0.01699000",
+            "liquidity": "$790661"
         }
     ],
     "spot": [],
