@@ -1,49 +1,22 @@
 {
     "dex": [
         {
-            "symbol": "SERV",
-            "spread": 1.31,
+            "symbol": "DEXE",
+            "spread": 0.53,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03594751",
-            "cex_price": "0.03642000",
-            "liquidity": "$1515455"
+            "dex_price": "37.61429356",
+            "cex_price": "37.81500000",
+            "liquidity": "$895365"
         },
         {
-            "symbol": "CZ",
-            "spread": 0.63,
+            "symbol": "TCC",
+            "spread": 0.22,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.01106077",
-            "cex_price": "0.01113000",
-            "liquidity": "$457238"
-        },
-        {
-            "symbol": "SYN",
-            "spread": 0.47,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.30672800",
-            "cex_price": "0.30817000",
-            "liquidity": "$179070"
-        },
-        {
-            "symbol": "EVAA",
-            "spread": 0.42,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "1.60410413",
-            "cex_price": "1.61080000",
-            "liquidity": "$354467"
-        },
-        {
-            "symbol": "TAC",
-            "spread": 0.42,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00333110",
-            "cex_price": "0.00334500",
-            "liquidity": "$207805"
+            "dex_price": "0.00494517",
+            "cex_price": "0.00495600",
+            "liquidity": "$281469"
         }
     ],
     "spot": [],
