@@ -1,85 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "B2",
-            "spread": 31.0,
+            "symbol": "SYN",
+            "spread": 0.47,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.41491178",
-            "cex_price": "0.54352000",
-            "liquidity": "$43561380"
+            "dex_price": "0.32151185",
+            "cex_price": "0.32301000",
+            "liquidity": "$182670"
         },
         {
-            "symbol": "LAB",
-            "spread": 1.76,
+            "symbol": "CLO",
+            "spread": 0.45,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.50049476",
-            "cex_price": "0.50929000",
-            "liquidity": "$2345164"
-        },
-        {
-            "symbol": "UPEG",
-            "spread": 1.71,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "169.41988948",
-            "cex_price": "172.31000000",
-            "liquidity": "$526287"
-        },
-        {
-            "symbol": "BEAT",
-            "spread": 1.2,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "2.29235483",
-            "cex_price": "2.31989000",
-            "liquidity": "$2779457"
+            "dex_price": "0.28614998",
+            "cex_price": "0.28745000",
+            "liquidity": "$1903822"
         },
         {
             "symbol": "CUPSEY",
-            "spread": 1.15,
+            "spread": 0.28,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00320912",
-            "cex_price": "0.00324600",
-            "liquidity": "$191284"
+            "dex_price": "0.00349818",
+            "cex_price": "0.00350800",
+            "liquidity": "$198540"
         },
         {
-            "symbol": "CZ",
-            "spread": 0.86,
+            "symbol": "BEAT",
+            "spread": 0.27,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00666279",
-            "cex_price": "0.00672000",
-            "liquidity": "$354031"
-        },
-        {
-            "symbol": "BASED",
-            "spread": 0.47,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.09995341",
-            "cex_price": "0.10042000",
-            "liquidity": "$1350949"
-        },
-        {
-            "symbol": "XPIN",
-            "spread": 0.4,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00200226",
-            "cex_price": "0.00201020",
-            "liquidity": "$1128028"
-        },
-        {
-            "symbol": "ANSEM",
-            "spread": 0.21,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.19900315",
-            "cex_price": "0.19943000",
-            "liquidity": "$1964774"
+            "dex_price": "2.52230269",
+            "cex_price": "2.52921000",
+            "liquidity": "$2857776"
         }
     ],
     "spot": [],
