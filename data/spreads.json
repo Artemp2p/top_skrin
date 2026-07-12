@@ -1,40 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "SYN",
-            "spread": 0.47,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.32151185",
-            "cex_price": "0.32301000",
-            "liquidity": "$182670"
-        },
-        {
-            "symbol": "CLO",
-            "spread": 0.45,
+            "symbol": "\u5e01\u5b89\u4eba\u751f",
+            "spread": 35.23,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.28614998",
-            "cex_price": "0.28745000",
-            "liquidity": "$1903822"
+            "dex_price": "0.52343894",
+            "cex_price": "0.70787000",
+            "liquidity": "$21097"
         },
         {
-            "symbol": "CUPSEY",
-            "spread": 0.28,
-            "buyAt": "SOLANA",
+            "symbol": "TCC",
+            "spread": 1.12,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00349818",
-            "cex_price": "0.00350800",
-            "liquidity": "$198540"
+            "dex_price": "0.00735038",
+            "cex_price": "0.00743300",
+            "liquidity": "$342722"
         },
         {
             "symbol": "BEAT",
+            "spread": 1.05,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "2.60301995",
+            "cex_price": "2.63040000",
+            "liquidity": "$2890941"
+        },
+        {
+            "symbol": "ANSEM",
+            "spread": 0.93,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.20863388",
+            "cex_price": "0.21057000",
+            "liquidity": "$2023912"
+        },
+        {
+            "symbol": "EVAA",
+            "spread": 0.83,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.33545848",
+            "cex_price": "1.34650000",
+            "liquidity": "$203151"
+        },
+        {
+            "symbol": "B",
             "spread": 0.27,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "2.52230269",
-            "cex_price": "2.52921000",
-            "liquidity": "$2857776"
+            "dex_price": "0.12098990",
+            "cex_price": "0.12132000",
+            "liquidity": "$1673710"
+        },
+        {
+            "symbol": "BABYDOGE",
+            "spread": 0.21,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000000",
+            "cex_price": "0.00000000",
+            "liquidity": "$7218219"
         }
     ],
     "spot": [],
