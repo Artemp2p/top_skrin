@@ -1,40 +1,22 @@
 {
     "dex": [
         {
-            "symbol": "CUPSEY",
-            "spread": 1.8,
+            "symbol": "TCC",
+            "spread": 1.15,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00591324",
+            "cex_price": "0.00598100",
+            "liquidity": "$313642"
+        },
+        {
+            "symbol": "ANSEM",
+            "spread": 0.21,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00389594",
-            "cex_price": "0.00396600",
-            "liquidity": "$211875"
-        },
-        {
-            "symbol": "BTC",
-            "spread": 1.06,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "63368.56664414",
-            "cex_price": "64040.56000000",
-            "liquidity": "$13572860"
-        },
-        {
-            "symbol": "SKYAI",
-            "spread": 0.31,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.03504079",
-            "cex_price": "0.03515000",
-            "liquidity": "$4363455"
-        },
-        {
-            "symbol": "BABYDOGE",
-            "spread": 0.29,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000000",
-            "cex_price": "0.00000000",
-            "liquidity": "$7199289"
+            "dex_price": "0.22437616",
+            "cex_price": "0.22484000",
+            "liquidity": "$2100037"
         }
     ],
     "spot": [],
