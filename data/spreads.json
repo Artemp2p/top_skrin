@@ -1,31 +1,40 @@
 {
     "dex": [
         {
+            "symbol": "CYS",
+            "spread": 37.92,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.22484289",
+            "cex_price": "0.31010000",
+            "liquidity": "$112358804"
+        },
+        {
             "symbol": "RAVE",
-            "spread": 2.97,
+            "spread": 5.34,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.28261854",
-            "cex_price": "0.29100000",
-            "liquidity": "$686574"
+            "dex_price": "0.28290614",
+            "cex_price": "0.29800000",
+            "liquidity": "$688221"
         },
         {
-            "symbol": "EVAA",
-            "spread": 0.25,
+            "symbol": "AKE",
+            "spread": 0.67,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "1.06421144",
-            "cex_price": "1.06690000",
-            "liquidity": "$181722"
+            "dex_price": "0.00070886",
+            "cex_price": "0.00071360",
+            "liquidity": "$1163001"
         },
         {
-            "symbol": "LAB",
-            "spread": 0.23,
-            "buyAt": "BSC",
+            "symbol": "ASTEROID",
+            "spread": 0.27,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.23857659",
-            "cex_price": "0.23913000",
-            "liquidity": "$1746203"
+            "dex_price": "0.00005762",
+            "cex_price": "0.00005778",
+            "liquidity": "$1710739"
         }
     ],
     "spot": [],
