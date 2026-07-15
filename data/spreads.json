@@ -1,76 +1,94 @@
 {
     "dex": [
         {
-            "symbol": "GROVE",
-            "spread": 6.36,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.01184609",
-            "cex_price": "0.01260000",
-            "liquidity": "$9290"
-        },
-        {
             "symbol": "CASHCAT",
-            "spread": 0.74,
+            "spread": 0.8,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.13353188",
-            "cex_price": "0.13452000",
-            "liquidity": "$122883"
+            "dex_price": "0.12648933",
+            "cex_price": "0.12750000",
+            "liquidity": "$122278"
         },
         {
-            "symbol": "AKE",
-            "spread": 0.69,
+            "symbol": "UPEG",
+            "spread": 0.6,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "181.71923250",
+            "cex_price": "182.81000000",
+            "liquidity": "$565834"
+        },
+        {
+            "symbol": "MOG",
+            "spread": 0.45,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000011",
+            "cex_price": "0.00000011",
+            "liquidity": "$4702813"
+        },
+        {
+            "symbol": "BILL",
+            "spread": 0.3,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00069319",
-            "cex_price": "0.00069800",
-            "liquidity": "$1149672"
+            "dex_price": "0.03407703",
+            "cex_price": "0.03418000",
+            "liquidity": "$1595480"
         },
         {
-            "symbol": "67",
-            "spread": 0.68,
-            "buyAt": "SOLANA",
+            "symbol": "USDC",
+            "spread": 0.28,
+            "buyAt": "ARBITRUM",
             "sellAt": "MEXC",
-            "dex_price": "0.00202031",
-            "cex_price": "0.00203400",
-            "liquidity": "$287352"
+            "dex_price": "0.99791448",
+            "cex_price": "1.00075000",
+            "liquidity": "$564006729"
         },
         {
-            "symbol": "ASE",
-            "spread": 0.62,
+            "symbol": "PEPE",
+            "spread": 0.26,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00194497",
-            "cex_price": "0.00195700",
-            "liquidity": "$161704"
+            "dex_price": "0.00000287",
+            "cex_price": "0.00000287",
+            "liquidity": "$21587553"
         },
         {
             "symbol": "TRIA",
-            "spread": 0.4,
+            "spread": 0.24,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00896374",
-            "cex_price": "0.00900000",
-            "liquidity": "$901951"
-        },
-        {
-            "symbol": "THREE",
-            "spread": 0.31,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00312318",
-            "cex_price": "0.00313300",
-            "liquidity": "$295939"
+            "dex_price": "0.00825034",
+            "cex_price": "0.00827000",
+            "liquidity": "$898521"
         },
         {
             "symbol": "LINK",
+            "spread": 0.22,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "8.58571595",
+            "cex_price": "8.60500000",
+            "liquidity": "$21914331"
+        },
+        {
+            "symbol": "BTC",
             "spread": 0.21,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "8.58106877",
-            "cex_price": "8.59900000",
-            "liquidity": "$21934693"
+            "dex_price": "65297.42447857",
+            "cex_price": "65431.52000000",
+            "liquidity": "$41336844"
+        },
+        {
+            "symbol": "LIT",
+            "spread": 0.21,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "2.55025876",
+            "cex_price": "2.55570000",
+            "liquidity": "$618889"
         }
     ],
     "spot": [],
