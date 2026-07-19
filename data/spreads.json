@@ -1,22 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "AKE",
-            "spread": 0.55,
+            "symbol": "BANK",
+            "spread": 0.48,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00182062",
-            "cex_price": "0.00183070",
-            "liquidity": "$1047339"
+            "dex_price": "0.22499781",
+            "cex_price": "0.22607000",
+            "liquidity": "$123020"
         },
         {
-            "symbol": "PEPE",
-            "spread": 0.54,
-            "buyAt": "ETH",
+            "symbol": "AKE",
+            "spread": 0.48,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000282",
-            "cex_price": "0.00000283",
-            "liquidity": "$21006291"
+            "dex_price": "0.00184815",
+            "cex_price": "0.00185710",
+            "liquidity": "$1056855"
+        },
+        {
+            "symbol": "TRADOOR",
+            "spread": 0.27,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.50454735",
+            "cex_price": "0.50590000",
+            "liquidity": "$714090"
+        },
+        {
+            "symbol": "TCC",
+            "spread": 0.22,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00482934",
+            "cex_price": "0.00484000",
+            "liquidity": "$291048"
+        },
+        {
+            "symbol": "EVAA",
+            "spread": 0.22,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.79622529",
+            "cex_price": "0.79800000",
+            "liquidity": "$157008"
         }
     ],
     "spot": [],
