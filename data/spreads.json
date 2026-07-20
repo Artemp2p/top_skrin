@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "CUPSEY",
-            "spread": 3.33,
+            "symbol": "JIMOTHY",
+            "spread": 3.65,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00254330",
-            "cex_price": "0.00262800",
-            "liquidity": "$177008"
+            "dex_price": "0.01047043",
+            "cex_price": "0.01085300",
+            "liquidity": "$385127"
         },
         {
-            "symbol": "GROVE",
-            "spread": 2.63,
+            "symbol": "SPX",
+            "spread": 1.09,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01102953",
-            "cex_price": "0.01132000",
-            "liquidity": "$5026"
+            "dex_price": "0.35800189",
+            "cex_price": "0.36190000",
+            "liquidity": "$9324068"
         },
         {
-            "symbol": "FEBU",
-            "spread": 1.57,
+            "symbol": "CUPSEY",
+            "spread": 0.83,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00079454",
-            "cex_price": "0.00080700",
-            "liquidity": "$113167"
+            "dex_price": "0.00239914",
+            "cex_price": "0.00241900",
+            "liquidity": "$173952"
         },
         {
-            "symbol": "PUMP",
-            "spread": 1.01,
-            "buyAt": "SOLANA",
+            "symbol": "ZBT",
+            "spread": 0.5,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00196325",
-            "cex_price": "0.00198300",
-            "liquidity": "$14753320"
+            "dex_price": "0.08947171",
+            "cex_price": "0.08992000",
+            "liquidity": "$416135"
+        },
+        {
+            "symbol": "HANA",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.04540073",
+            "cex_price": "0.04552000",
+            "liquidity": "$1748490"
         }
     ],
     "spot": [],
