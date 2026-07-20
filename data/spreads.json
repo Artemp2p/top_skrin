@@ -1,58 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "GROVE",
-            "spread": 5.2,
-            "buyAt": "ETH",
+            "symbol": "BASED",
+            "spread": 0.56,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.01093122",
-            "cex_price": "0.01150000",
-            "liquidity": "$5010"
-        },
-        {
-            "symbol": "UPEG",
-            "spread": 2.23,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "175.17030088",
-            "cex_price": "179.08000000",
-            "liquidity": "$537620"
+            "dex_price": "0.08866436",
+            "cex_price": "0.08916000",
+            "liquidity": "$1282826"
         },
         {
             "symbol": "JIMOTHY",
-            "spread": 2.11,
+            "spread": 0.53,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00717977",
-            "cex_price": "0.00733100",
-            "liquidity": "$309162"
-        },
-        {
-            "symbol": "AKE",
-            "spread": 0.58,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00158845",
-            "cex_price": "0.00159770",
-            "liquidity": "$968954"
+            "dex_price": "0.00647580",
+            "cex_price": "0.00651000",
+            "liquidity": "$296040"
         },
         {
             "symbol": "SPX",
-            "spread": 0.32,
+            "spread": 0.39,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.34459660",
-            "cex_price": "0.34570000",
-            "liquidity": "$9099895"
+            "dex_price": "0.35141215",
+            "cex_price": "0.35280000",
+            "liquidity": "$9204669"
         },
         {
-            "symbol": "CZ",
-            "spread": 0.21,
+            "symbol": "LAB",
+            "spread": 0.23,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.01238259",
-            "cex_price": "0.01240800",
-            "liquidity": "$533642"
+            "dex_price": "0.14702361",
+            "cex_price": "0.14736000",
+            "liquidity": "$1397877"
+        },
+        {
+            "symbol": "PUMP",
+            "spread": 0.23,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00195759",
+            "cex_price": "0.00196200",
+            "liquidity": "$14647713"
         }
     ],
     "spot": [],
