@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "JIMOTHY",
-            "spread": 2.53,
-            "buyAt": "SOLANA",
+            "symbol": "BANK",
+            "spread": 1.02,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.01762805",
-            "cex_price": "0.01807400",
-            "liquidity": "$522539"
+            "dex_price": "0.14573649",
+            "cex_price": "0.14723000",
+            "liquidity": "$107773"
+        },
+        {
+            "symbol": "ZAMA",
+            "spread": 0.88,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.04013483",
+            "cex_price": "0.04049000",
+            "liquidity": "$754779"
         },
         {
             "symbol": "ONDO",
-            "spread": 1.23,
+            "spread": 0.49,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.37875720",
-            "cex_price": "0.38343000",
-            "liquidity": "$723469"
+            "dex_price": "0.39389497",
+            "cex_price": "0.39584000",
+            "liquidity": "$739378"
         },
         {
-            "symbol": "TRIA",
-            "spread": 0.27,
-            "buyAt": "BSC",
+            "symbol": "BTC",
+            "spread": 0.37,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00798857",
-            "cex_price": "0.00801000",
-            "liquidity": "$889952"
+            "dex_price": "66072.71188661",
+            "cex_price": "66317.16000000",
+            "liquidity": "$25843879"
         },
         {
-            "symbol": "HEMI",
-            "spread": 0.25,
+            "symbol": "ON",
+            "spread": 0.29,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00589421",
-            "cex_price": "0.00590900",
-            "liquidity": "$319685"
+            "dex_price": "0.15753919",
+            "cex_price": "0.15800000",
+            "liquidity": "$960804"
         }
     ],
     "spot": [],
