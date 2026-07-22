@@ -1,85 +1,76 @@
 {
     "dex": [
         {
-            "symbol": "B2",
-            "spread": 33.53,
-            "buyAt": "BSC",
+            "symbol": "XRP",
+            "spread": 26.8,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.34930941",
-            "cex_price": "0.46642000",
-            "liquidity": "$14609"
+            "dex_price": "0.90496754",
+            "cex_price": "1.14750000",
+            "liquidity": "$157996"
         },
         {
-            "symbol": "JIMOTHY",
-            "spread": 2.41,
+            "symbol": "RAVE",
+            "spread": 2.84,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.29124324",
+            "cex_price": "0.29950000",
+            "liquidity": "$695071"
+        },
+        {
+            "symbol": "KET",
+            "spread": 2.15,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.02050137",
-            "cex_price": "0.02099500",
-            "liquidity": "$589568"
+            "dex_price": "0.00802321",
+            "cex_price": "0.00819600",
+            "liquidity": "$227199"
         },
         {
-            "symbol": "SPX",
-            "spread": 0.94,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.35685173",
-            "cex_price": "0.36020000",
-            "liquidity": "$9485094"
-        },
-        {
-            "symbol": "UPEG",
-            "spread": 0.79,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "232.07294426",
-            "cex_price": "233.91000000",
-            "liquidity": "$635159"
-        },
-        {
-            "symbol": "QAIT",
-            "spread": 0.48,
+            "symbol": "NES",
+            "spread": 0.62,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00717639",
-            "cex_price": "0.00721100",
-            "liquidity": "$1131201"
-        },
-        {
-            "symbol": "ASTEROID",
-            "spread": 0.35,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00006578",
-            "cex_price": "0.00006601",
-            "liquidity": "$1856094"
-        },
-        {
-            "symbol": "MOG",
-            "spread": 0.34,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000010",
-            "cex_price": "0.00000010",
-            "liquidity": "$4656471"
-        },
-        {
-            "symbol": "BANK",
-            "spread": 0.25,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.18823631",
-            "cex_price": "0.18871000",
-            "liquidity": "$119483"
+            "dex_price": "0.26446364",
+            "cex_price": "0.26610000",
+            "liquidity": "$1611931"
         },
         {
             "symbol": "NPC",
-            "spread": 0.22,
+            "spread": 0.53,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00630105",
-            "cex_price": "0.00631500",
-            "liquidity": "$2348110"
+            "dex_price": "0.00630830",
+            "cex_price": "0.00634200",
+            "liquidity": "$2338179"
+        },
+        {
+            "symbol": "AKE",
+            "spread": 0.45,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00181810",
+            "cex_price": "0.00182620",
+            "liquidity": "$1052189"
+        },
+        {
+            "symbol": "ERA",
+            "spread": 0.36,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.09356232",
+            "cex_price": "0.09390000",
+            "liquidity": "$73763"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.3,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.35742027",
+            "cex_price": "0.35850000",
+            "liquidity": "$9440226"
         }
     ],
     "spot": [],
