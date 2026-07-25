@@ -2,21 +2,48 @@
     "dex": [
         {
             "symbol": "ESPORTS",
-            "spread": 26.36,
+            "spread": 29.11,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03840672",
-            "cex_price": "0.04853000",
-            "liquidity": "$1069051"
+            "dex_price": "0.03750201",
+            "cex_price": "0.04842000",
+            "liquidity": "$1064517"
+        },
+        {
+            "symbol": "DEXE",
+            "spread": 5.18,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "4.48853318",
+            "cex_price": "4.72100000",
+            "liquidity": "$314120"
+        },
+        {
+            "symbol": "GMEBULL",
+            "spread": 4.65,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00015299",
+            "cex_price": "0.00016010",
+            "liquidity": "$35908"
         },
         {
             "symbol": "EVAA",
-            "spread": 0.22,
+            "spread": 0.84,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.88123640",
-            "cex_price": "0.88320000",
-            "liquidity": "$165465"
+            "dex_price": "0.88871479",
+            "cex_price": "0.89620000",
+            "liquidity": "$166098"
+        },
+        {
+            "symbol": "BTC",
+            "spread": 0.59,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "63729.70769106",
+            "cex_price": "64108.34000000",
+            "liquidity": "$39841603"
         }
     ],
     "spot": [],
