@@ -1,49 +1,49 @@
 {
     "dex": [
         {
+            "symbol": "REQ",
+            "spread": 3.25,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.05646286",
+            "cex_price": "0.05830000",
+            "liquidity": "$103883"
+        },
+        {
             "symbol": "DEXE",
-            "spread": 2.98,
+            "spread": 0.96,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "3.54243746",
-            "cex_price": "3.64800000",
-            "liquidity": "$283776"
+            "dex_price": "3.81154914",
+            "cex_price": "3.84800000",
+            "liquidity": "$290174"
         },
         {
-            "symbol": "EUL",
-            "spread": 1.26,
+            "symbol": "SYN",
+            "spread": 0.66,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "2.49530113",
-            "cex_price": "2.52680000",
-            "liquidity": "$1156270"
+            "dex_price": "0.15071194",
+            "cex_price": "0.15170000",
+            "liquidity": "$132440"
         },
         {
-            "symbol": "UPEG",
-            "spread": 0.54,
+            "symbol": "PEPE",
+            "spread": 0.39,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "315.11866914",
-            "cex_price": "316.83000000",
-            "liquidity": "$717158"
+            "dex_price": "0.00000289",
+            "cex_price": "0.00000290",
+            "liquidity": "$21516342"
         },
         {
-            "symbol": "CAP",
-            "spread": 0.27,
-            "buyAt": "BSC",
+            "symbol": "ETH",
+            "spread": 0.33,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.02233077",
-            "cex_price": "0.02239000",
-            "liquidity": "$879984"
-        },
-        {
-            "symbol": "AKE",
-            "spread": 0.24,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00307348",
-            "cex_price": "0.00308080",
-            "liquidity": "$961403"
+            "dex_price": "1897.57000000",
+            "cex_price": "1903.81000000",
+            "liquidity": "$96462667"
         }
     ],
     "spot": [],
