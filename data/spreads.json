@@ -1,40 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "SOON",
-            "spread": 6.11,
+            "symbol": "EUL",
+            "spread": 1.01,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "1.59465838",
+            "cex_price": "1.61070000",
+            "liquidity": "$925298"
+        },
+        {
+            "symbol": "BEAT",
+            "spread": 1.01,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.24521008",
-            "cex_price": "0.26020000",
-            "liquidity": "$538489"
-        },
-        {
-            "symbol": "TLOS",
-            "spread": 2.45,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.01615675",
-            "cex_price": "0.01655200",
-            "liquidity": "$34666"
-        },
-        {
-            "symbol": "ONDO",
-            "spread": 0.48,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.38775400",
-            "cex_price": "0.38960000",
-            "liquidity": "$751252"
+            "dex_price": "3.05524622",
+            "cex_price": "3.08602000",
+            "liquidity": "$3093126"
         },
         {
             "symbol": "PEPE",
-            "spread": 0.37,
+            "spread": 0.53,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000280",
-            "cex_price": "0.00000281",
-            "liquidity": "$21061873"
+            "dex_price": "0.00000276",
+            "cex_price": "0.00000277",
+            "liquidity": "$20888870"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.39,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.39534378",
+            "cex_price": "0.39690000",
+            "liquidity": "$756490"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.33,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.32371955",
+            "cex_price": "0.32480000",
+            "liquidity": "$8813980"
+        },
+        {
+            "symbol": "JIMOTHY",
+            "spread": 0.28,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00648199",
+            "cex_price": "0.00650000",
+            "liquidity": "$388535"
         }
     ],
     "spot": [],
