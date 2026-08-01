@@ -1,76 +1,85 @@
 {
     "dex": [
         {
-            "symbol": "UPEG",
-            "spread": 1.38,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "375.81357133",
-            "cex_price": "381.01000000",
-            "liquidity": "$766616"
-        },
-        {
-            "symbol": "KEKIUS",
-            "spread": 1.0,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00442180",
-            "cex_price": "0.00446600",
-            "liquidity": "$641055"
-        },
-        {
             "symbol": "MANYU",
-            "spread": 0.77,
+            "spread": 1.09,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000001",
             "cex_price": "0.00000001",
-            "liquidity": "$636539"
+            "liquidity": "$636044"
         },
         {
-            "symbol": "BEAT",
-            "spread": 0.3,
-            "buyAt": "BSC",
+            "symbol": "KEKIUS",
+            "spread": 0.89,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "4.31416798",
-            "cex_price": "4.32705000",
-            "liquidity": "$3488424"
+            "dex_price": "0.00445546",
+            "cex_price": "0.00449500",
+            "liquidity": "$642181"
         },
         {
-            "symbol": "BASED",
-            "spread": 0.29,
+            "symbol": "JIMOTHY",
+            "spread": 0.66,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00958701",
+            "cex_price": "0.00965000",
+            "liquidity": "$508101"
+        },
+        {
+            "symbol": "KOMA",
+            "spread": 0.54,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.07981674",
-            "cex_price": "0.08005000",
-            "liquidity": "$1222658"
+            "dex_price": "0.02768182",
+            "cex_price": "0.02783000",
+            "liquidity": "$2585648"
+        },
+        {
+            "symbol": "UNI",
+            "spread": 0.5,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "4.10363201",
+            "cex_price": "4.12400000",
+            "liquidity": "$16094722"
+        },
+        {
+            "symbol": "BANK",
+            "spread": 0.35,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.05749640",
+            "cex_price": "0.05770000",
+            "liquidity": "$70149"
         },
         {
             "symbol": "GRVT",
-            "spread": 0.25,
+            "spread": 0.28,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.27331597",
-            "cex_price": "0.27400000",
-            "liquidity": "$679011"
+            "dex_price": "0.30813888",
+            "cex_price": "0.30900000",
+            "liquidity": "$709957"
         },
         {
-            "symbol": "ANSEM",
-            "spread": 0.22,
-            "buyAt": "SOLANA",
+            "symbol": "BASED",
+            "spread": 0.23,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.17971820",
-            "cex_price": "0.18012000",
-            "liquidity": "$1937435"
+            "dex_price": "0.07871161",
+            "cex_price": "0.07889000",
+            "liquidity": "$1214252"
         },
         {
-            "symbol": "LAB",
+            "symbol": "PEPE",
             "spread": 0.2,
-            "buyAt": "BSC",
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.16613633",
-            "cex_price": "0.16647000",
-            "liquidity": "$1485738"
+            "dex_price": "0.00000278",
+            "cex_price": "0.00000279",
+            "liquidity": "$20959287"
         }
     ],
     "spot": [],
