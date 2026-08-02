@@ -1,49 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "ANSEM",
-            "spread": 2.79,
-            "buyAt": "ETH",
+            "symbol": "BTW",
+            "spread": 0.66,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.20137174",
-            "cex_price": "0.20700000",
-            "liquidity": "$100554464"
+            "dex_price": "0.08015453",
+            "cex_price": "0.08068100",
+            "liquidity": "$1320917"
         },
         {
-            "symbol": "V4",
-            "spread": 0.86,
-            "buyAt": "ETH",
+            "symbol": "BEAT",
+            "spread": 0.63,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00160117",
-            "cex_price": "0.00161500",
-            "liquidity": "$140582"
-        },
-        {
-            "symbol": "ENA",
-            "spread": 0.58,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.08774136",
-            "cex_price": "0.08825000",
-            "liquidity": "$579010"
+            "dex_price": "3.95309714",
+            "cex_price": "3.97806000",
+            "liquidity": "$3400953"
         },
         {
             "symbol": "ASTEROID",
-            "spread": 0.52,
+            "spread": 0.61,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00006497",
-            "cex_price": "0.00006531",
-            "liquidity": "$1855760"
+            "dex_price": "0.00006471",
+            "cex_price": "0.00006511",
+            "liquidity": "$1849572"
         },
         {
-            "symbol": "BTW",
-            "spread": 0.22,
+            "symbol": "MARSCOIN",
+            "spread": 0.38,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.09067531",
-            "cex_price": "0.09087600",
-            "liquidity": "$1345401"
+            "dex_price": "0.04252693",
+            "cex_price": "0.04269000",
+            "liquidity": "$239709"
+        },
+        {
+            "symbol": "BLESS",
+            "spread": 0.32,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01661310",
+            "cex_price": "0.01666600",
+            "liquidity": "$280969"
+        },
+        {
+            "symbol": "KINS",
+            "spread": 0.32,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00537096",
+            "cex_price": "0.00538800",
+            "liquidity": "$295352"
+        },
+        {
+            "symbol": "GRVT",
+            "spread": 0.21,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.24567496",
+            "cex_price": "0.24620000",
+            "liquidity": "$660373"
         }
     ],
     "spot": [],
