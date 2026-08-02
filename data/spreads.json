@@ -1,31 +1,49 @@
 {
     "dex": [
         {
+            "symbol": "ANSEM",
+            "spread": 2.79,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.20137174",
+            "cex_price": "0.20700000",
+            "liquidity": "$100554464"
+        },
+        {
+            "symbol": "V4",
+            "spread": 0.86,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00160117",
+            "cex_price": "0.00161500",
+            "liquidity": "$140582"
+        },
+        {
+            "symbol": "ENA",
+            "spread": 0.58,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.08774136",
+            "cex_price": "0.08825000",
+            "liquidity": "$579010"
+        },
+        {
             "symbol": "ASTEROID",
-            "spread": 1.03,
+            "spread": 0.52,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00006530",
-            "cex_price": "0.00006597",
-            "liquidity": "$1862160"
+            "dex_price": "0.00006497",
+            "cex_price": "0.00006531",
+            "liquidity": "$1855760"
         },
         {
-            "symbol": "PEPE",
-            "spread": 0.26,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000288",
-            "cex_price": "0.00000289",
-            "liquidity": "$21256473"
-        },
-        {
-            "symbol": "MARSCOIN",
-            "spread": 0.2,
+            "symbol": "BTW",
+            "spread": 0.22,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03845288",
-            "cex_price": "0.03853000",
-            "liquidity": "$362231"
+            "dex_price": "0.09067531",
+            "cex_price": "0.09087600",
+            "liquidity": "$1345401"
         }
     ],
     "spot": [],
