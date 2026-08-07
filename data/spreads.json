@@ -1,49 +1,22 @@
 {
     "dex": [
         {
-            "symbol": "MARSCOIN",
-            "spread": 0.93,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.06009220",
-            "cex_price": "0.06065000",
-            "liquidity": "$501415"
-        },
-        {
-            "symbol": "V4",
-            "spread": 0.72,
+            "symbol": "KAG",
+            "spread": 17.71,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00124905",
-            "cex_price": "0.00125800",
-            "liquidity": "$126878"
+            "dex_price": "42.34181822",
+            "cex_price": "49.84000000",
+            "liquidity": "$79853605"
         },
         {
-            "symbol": "BTW",
-            "spread": 0.72,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.19661714",
-            "cex_price": "0.19802700",
-            "liquidity": "$1568011"
-        },
-        {
-            "symbol": "GWEI",
-            "spread": 0.65,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.02950914",
-            "cex_price": "0.02970000",
-            "liquidity": "$1584547"
-        },
-        {
-            "symbol": "SHIB",
-            "spread": 0.6,
+            "symbol": "BICO",
+            "spread": 0.73,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000460",
-            "cex_price": "0.00000462",
-            "liquidity": "$2329634"
+            "dex_price": "0.05368643",
+            "cex_price": "0.05408000",
+            "liquidity": "$45682"
         },
         {
             "symbol": "DEOD",
@@ -52,52 +25,43 @@
             "sellAt": "MEXC",
             "dex_price": "0.02249845",
             "cex_price": "0.02259100",
-            "liquidity": "$71599"
+            "liquidity": "$71519"
         },
         {
-            "symbol": "SYN",
-            "spread": 0.33,
+            "symbol": "ASTEROID",
+            "spread": 0.3,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.10738017",
-            "cex_price": "0.10773000",
-            "liquidity": "$112571"
+            "dex_price": "0.00005508",
+            "cex_price": "0.00005524",
+            "liquidity": "$1751685"
         },
         {
-            "symbol": "67",
-            "spread": 0.32,
+            "symbol": "UNI",
+            "spread": 0.29,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "4.01156664",
+            "cex_price": "4.02300000",
+            "liquidity": "$16079492"
+        },
+        {
+            "symbol": "UPEG",
+            "spread": 0.25,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "516.08483306",
+            "cex_price": "517.39000000",
+            "liquidity": "$989754"
+        },
+        {
+            "symbol": "CATE",
+            "spread": 0.23,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00155006",
-            "cex_price": "0.00155500",
-            "liquidity": "$247889"
-        },
-        {
-            "symbol": "BASED",
-            "spread": 0.3,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.07720016",
-            "cex_price": "0.07743000",
-            "liquidity": "$1201522"
-        },
-        {
-            "symbol": "ON",
-            "spread": 0.26,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.32401080",
-            "cex_price": "0.32486000",
-            "liquidity": "$1401739"
-        },
-        {
-            "symbol": "CYS",
-            "spread": 0.22,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.90138143",
-            "cex_price": "0.90340000",
-            "liquidity": "$2070344"
+            "dex_price": "0.03369329",
+            "cex_price": "0.03377000",
+            "liquidity": "$1105566"
         }
     ],
     "spot": [],
