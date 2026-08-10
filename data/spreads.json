@@ -2,57 +2,111 @@
     "dex": [
         {
             "symbol": "DOS",
-            "spread": 24.12,
+            "spread": 28.61,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.29162944",
-            "cex_price": "0.36197000",
+            "cex_price": "0.37507000",
             "liquidity": "$1444644"
         },
         {
             "symbol": "V4",
-            "spread": 2.78,
+            "spread": 3.33,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00141566",
-            "cex_price": "0.00145500",
-            "liquidity": "$131784"
+            "dex_price": "0.00169653",
+            "cex_price": "0.00175300",
+            "liquidity": "$144552"
         },
         {
             "symbol": "TOAD",
-            "spread": 1.01,
+            "spread": 2.0,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01696901",
-            "cex_price": "0.01714000",
-            "liquidity": "$466403"
+            "dex_price": "0.01517611",
+            "cex_price": "0.01548000",
+            "liquidity": "$452892"
         },
         {
-            "symbol": "CATE",
-            "spread": 0.82,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.01856072",
-            "cex_price": "0.01871200",
-            "liquidity": "$862089"
-        },
-        {
-            "symbol": "UPEG",
-            "spread": 0.65,
+            "symbol": "LINK",
+            "spread": 0.68,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "608.40436198",
-            "cex_price": "612.34000000",
-            "liquidity": "$1082575"
+            "dex_price": "8.25653176",
+            "cex_price": "8.31300000",
+            "liquidity": "$20912251"
+        },
+        {
+            "symbol": "TUT",
+            "spread": 0.65,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.11915390",
+            "cex_price": "0.11992300",
+            "liquidity": "$5394342"
+        },
+        {
+            "symbol": "BMT",
+            "spread": 0.43,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02363842",
+            "cex_price": "0.02374000",
+            "liquidity": "$396521"
+        },
+        {
+            "symbol": "XAN",
+            "spread": 0.34,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01252703",
+            "cex_price": "0.01256900",
+            "liquidity": "$478838"
         },
         {
             "symbol": "NIL",
-            "spread": 0.46,
+            "spread": 0.26,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03923776",
-            "cex_price": "0.03942000",
-            "liquidity": "$316495"
+            "dex_price": "0.03928797",
+            "cex_price": "0.03939000",
+            "liquidity": "$317036"
+        },
+        {
+            "symbol": "UNI",
+            "spread": 0.25,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "3.93627959",
+            "cex_price": "3.94600000",
+            "liquidity": "$15705950"
+        },
+        {
+            "symbol": "CYS",
+            "spread": 0.23,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.27208147",
+            "cex_price": "1.27500000",
+            "liquidity": "$2292532"
+        },
+        {
+            "symbol": "CATE",
+            "spread": 0.23,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01914685",
+            "cex_price": "0.01919100",
+            "liquidity": "$878208"
+        },
+        {
+            "symbol": "MUBARAK",
+            "spread": 0.22,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02253293",
+            "cex_price": "0.02258200",
+            "liquidity": "$1775188"
         }
     ],
     "spot": [],
