@@ -2,75 +2,57 @@
     "dex": [
         {
             "symbol": "DOS",
-            "spread": 26.63,
+            "spread": 24.12,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.29162944",
-            "cex_price": "0.36928000",
-            "liquidity": "$1447153"
+            "cex_price": "0.36197000",
+            "liquidity": "$1444644"
+        },
+        {
+            "symbol": "V4",
+            "spread": 2.78,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00141566",
+            "cex_price": "0.00145500",
+            "liquidity": "$131784"
+        },
+        {
+            "symbol": "TOAD",
+            "spread": 1.01,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01696901",
+            "cex_price": "0.01714000",
+            "liquidity": "$466403"
+        },
+        {
+            "symbol": "CATE",
+            "spread": 0.82,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01856072",
+            "cex_price": "0.01871200",
+            "liquidity": "$862089"
         },
         {
             "symbol": "UPEG",
-            "spread": 0.89,
+            "spread": 0.65,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "624.62749544",
-            "cex_price": "630.16000000",
-            "liquidity": "$1090176"
+            "dex_price": "608.40436198",
+            "cex_price": "612.34000000",
+            "liquidity": "$1082575"
         },
         {
-            "symbol": "BROCCOLI",
-            "spread": 0.58,
-            "buyAt": "BSC",
+            "symbol": "NIL",
+            "spread": 0.46,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01899030",
-            "cex_price": "0.01910000",
-            "liquidity": "$1826427"
-        },
-        {
-            "symbol": "XAN",
-            "spread": 0.49,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.01228459",
-            "cex_price": "0.01234500",
-            "liquidity": "$471889"
-        },
-        {
-            "symbol": "GRVT",
-            "spread": 0.48,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.31587256",
-            "cex_price": "0.31740000",
-            "liquidity": "$787991"
-        },
-        {
-            "symbol": "CAP",
-            "spread": 0.29,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.04555621",
-            "cex_price": "0.04569000",
-            "liquidity": "$1082523"
-        },
-        {
-            "symbol": "BOME",
-            "spread": 0.25,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00082721",
-            "cex_price": "0.00082930",
-            "liquidity": "$12811499"
-        },
-        {
-            "symbol": "JIMOTHY",
-            "spread": 0.21,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00668677",
-            "cex_price": "0.00670100",
-            "liquidity": "$489704"
+            "dex_price": "0.03923776",
+            "cex_price": "0.03942000",
+            "liquidity": "$316495"
         }
     ],
     "spot": [],
