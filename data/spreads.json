@@ -1,40 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "ALON",
-            "spread": 1.51,
-            "buyAt": "SOLANA",
+            "symbol": "TUT",
+            "spread": 1.04,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00431972",
-            "cex_price": "0.00438500",
-            "liquidity": "$588812"
+            "dex_price": "0.09635676",
+            "cex_price": "0.09735900",
+            "liquidity": "$4800740"
         },
         {
-            "symbol": "NIL",
-            "spread": 0.45,
-            "buyAt": "ETH",
+            "symbol": "MUBARAK",
+            "spread": 0.48,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03738014",
-            "cex_price": "0.03755000",
-            "liquidity": "$309451"
+            "dex_price": "0.01782299",
+            "cex_price": "0.01790800",
+            "liquidity": "$1542784"
         },
         {
-            "symbol": "UNI",
-            "spread": 0.4,
-            "buyAt": "ETH",
+            "symbol": "UB",
+            "spread": 0.42,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "3.92744803",
-            "cex_price": "3.94300000",
-            "liquidity": "$15690154"
+            "dex_price": "0.14861458",
+            "cex_price": "0.14924000",
+            "liquidity": "$4059965"
         },
         {
             "symbol": "PEPE",
-            "spread": 0.39,
+            "spread": 0.28,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00000285",
             "cex_price": "0.00000286",
-            "liquidity": "$21244995"
+            "liquidity": "$21281981"
+        },
+        {
+            "symbol": "ONDO",
+            "spread": 0.26,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.33919380",
+            "cex_price": "0.34009000",
+            "liquidity": "$696454"
         }
     ],
     "spot": [],
