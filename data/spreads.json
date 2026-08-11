@@ -1,22 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "MANYU",
-            "spread": 0.76,
+            "symbol": "V4",
+            "spread": 3.9,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000000",
-            "cex_price": "0.00000000",
-            "liquidity": "$508444"
+            "dex_price": "0.00207887",
+            "cex_price": "0.00216000",
+            "liquidity": "$159765"
         },
         {
-            "symbol": "CYS",
-            "spread": 0.4,
+            "symbol": "MARSCOIN",
+            "spread": 1.61,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "1.19133071",
-            "cex_price": "1.19610000",
-            "liquidity": "$2253811"
+            "dex_price": "0.05538637",
+            "cex_price": "0.05628000",
+            "liquidity": "$422067"
+        },
+        {
+            "symbol": "HOLO",
+            "spread": 1.29,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.08495706",
+            "cex_price": "0.08605000",
+            "liquidity": "$561921"
+        },
+        {
+            "symbol": "TUT",
+            "spread": 1.21,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.07778268",
+            "cex_price": "0.07872700",
+            "liquidity": "$4291528"
+        },
+        {
+            "symbol": "ASTEROID",
+            "spread": 0.85,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00006498",
+            "cex_price": "0.00006553",
+            "liquidity": "$1899383"
         }
     ],
     "spot": [],
