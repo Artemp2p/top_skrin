@@ -1,112 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "V4",
-            "spread": 1.76,
+            "symbol": "CAP",
+            "spread": 0.51,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.06594609",
+            "cex_price": "0.06628000",
+            "liquidity": "$1148140"
+        },
+        {
+            "symbol": "ETHFI",
+            "spread": 0.44,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00124214",
-            "cex_price": "0.00126400",
-            "liquidity": "$125032"
-        },
-        {
-            "symbol": "AKE",
-            "spread": 1.03,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00974859",
-            "cex_price": "0.00984900",
-            "liquidity": "$1383923"
-        },
-        {
-            "symbol": "TUT",
-            "spread": 0.9,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.03107016",
-            "cex_price": "0.03134900",
-            "liquidity": "$2764269"
-        },
-        {
-            "symbol": "CAP",
-            "spread": 0.88,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.06428398",
-            "cex_price": "0.06485000",
-            "liquidity": "$1148737"
-        },
-        {
-            "symbol": "CATE",
-            "spread": 0.82,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.01413421",
-            "cex_price": "0.01425000",
-            "liquidity": "$771745"
-        },
-        {
-            "symbol": "LAB",
-            "spread": 0.4,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.08489345",
-            "cex_price": "0.08523000",
-            "liquidity": "$1085135"
+            "dex_price": "0.44601853",
+            "cex_price": "0.44800000",
+            "liquidity": "$707110"
         },
         {
             "symbol": "ASE",
-            "spread": 0.38,
+            "spread": 0.43,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.00199832",
-            "cex_price": "0.00200600",
-            "liquidity": "$162672"
-        },
-        {
-            "symbol": "BEAT",
-            "spread": 0.32,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.64208601",
-            "cex_price": "0.64414000",
-            "liquidity": "$1694818"
-        },
-        {
-            "symbol": "BTW",
-            "spread": 0.3,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.31259617",
-            "cex_price": "0.31352300",
-            "liquidity": "$1763727"
+            "cex_price": "0.00200700",
+            "liquidity": "$162626"
         },
         {
             "symbol": "H",
-            "spread": 0.29,
+            "spread": 0.36,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.11905077",
-            "cex_price": "0.11940000",
-            "liquidity": "$1166057"
-        },
-        {
-            "symbol": "MANYU",
-            "spread": 0.22,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000000",
-            "cex_price": "0.00000000",
-            "liquidity": "$460909"
-        },
-        {
-            "symbol": "ALON",
-            "spread": 0.22,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00320004",
-            "cex_price": "0.00320700",
-            "liquidity": "$518347"
+            "dex_price": "0.12132290",
+            "cex_price": "0.12176000",
+            "liquidity": "$1175398"
         }
     ],
     "spot": [],
