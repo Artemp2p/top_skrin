@@ -1,112 +1,121 @@
 {
     "dex": [
         {
+            "symbol": "\u725b\u6765",
+            "spread": 3.44,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02025673",
+            "cex_price": "0.02095400",
+            "liquidity": "$486041"
+        },
+        {
             "symbol": "WKC",
-            "spread": 4.24,
+            "spread": 3.0,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000009",
             "cex_price": "0.00000009",
-            "liquidity": "$1162618"
+            "liquidity": "$1171962"
         },
         {
-            "symbol": "V4",
-            "spread": 2.52,
+            "symbol": "BEAT",
+            "spread": 0.89,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.38687580",
+            "cex_price": "0.39032000",
+            "liquidity": "$1321254"
+        },
+        {
+            "symbol": "CYS",
+            "spread": 0.78,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.92780164",
+            "cex_price": "0.93500000",
+            "liquidity": "$2111318"
+        },
+        {
+            "symbol": "LINK",
+            "spread": 0.53,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00114712",
-            "cex_price": "0.00117600",
-            "liquidity": "$120638"
-        },
-        {
-            "symbol": "KII",
-            "spread": 1.13,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.06477962",
-            "cex_price": "0.06551000",
-            "liquidity": "$1248584"
-        },
-        {
-            "symbol": "COW",
-            "spread": 0.72,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.14069312",
-            "cex_price": "0.14170000",
-            "liquidity": "$362116"
-        },
-        {
-            "symbol": "AKE",
-            "spread": 0.68,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.01133873",
-            "cex_price": "0.01141570",
-            "liquidity": "$1463515"
-        },
-        {
-            "symbol": "LAB",
-            "spread": 0.48,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.08656166",
-            "cex_price": "0.08698000",
-            "liquidity": "$1095514"
-        },
-        {
-            "symbol": "AEON",
-            "spread": 0.36,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.07937644",
-            "cex_price": "0.07966000",
-            "liquidity": "$1687273"
-        },
-        {
-            "symbol": "GRVT",
-            "spread": 0.35,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.29765524",
-            "cex_price": "0.29870000",
-            "liquidity": "$767217"
-        },
-        {
-            "symbol": "PEPE",
-            "spread": 0.29,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000264",
-            "cex_price": "0.00000265",
-            "liquidity": "$20491423"
-        },
-        {
-            "symbol": "CAP",
-            "spread": 0.29,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.06655030",
-            "cex_price": "0.06674000",
-            "liquidity": "$1150583"
-        },
-        {
-            "symbol": "APR",
-            "spread": 0.25,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.15775990",
-            "cex_price": "0.15816000",
-            "liquidity": "$489512"
+            "dex_price": "9.52435994",
+            "cex_price": "9.57500000",
+            "liquidity": "$21476937"
         },
         {
             "symbol": "DOS",
-            "spread": 0.22,
+            "spread": 0.5,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.27323578",
-            "cex_price": "0.27385000",
-            "liquidity": "$917295"
+            "dex_price": "0.27330530",
+            "cex_price": "0.27468000",
+            "liquidity": "$912797"
+        },
+        {
+            "symbol": "KII",
+            "spread": 0.36,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.06650272",
+            "cex_price": "0.06674000",
+            "liquidity": "$1269699"
+        },
+        {
+            "symbol": "LAB",
+            "spread": 0.34,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.08600398",
+            "cex_price": "0.08630000",
+            "liquidity": "$1091593"
+        },
+        {
+            "symbol": "BTW",
+            "spread": 0.29,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.31051468",
+            "cex_price": "0.31140500",
+            "liquidity": "$1761049"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.28,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.31772428",
+            "cex_price": "0.31860000",
+            "liquidity": "$8798830"
+        },
+        {
+            "symbol": "APR",
+            "spread": 0.23,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.15776089",
+            "cex_price": "0.15813000",
+            "liquidity": "$488022"
+        },
+        {
+            "symbol": "ROBO",
+            "spread": 0.21,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.01415030",
+            "cex_price": "0.01418000",
+            "liquidity": "$851423"
+        },
+        {
+            "symbol": "GRVT",
+            "spread": 0.21,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.29578156",
+            "cex_price": "0.29640000",
+            "liquidity": "$767246"
         }
     ],
     "spot": [],
