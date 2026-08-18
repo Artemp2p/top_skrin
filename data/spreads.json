@@ -1,49 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "WKC",
-            "spread": 6.85,
-            "buyAt": "BSC",
+            "symbol": "ASTEROID",
+            "spread": 0.36,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000015",
-            "cex_price": "0.00000016",
-            "liquidity": "$1517588"
-        },
-        {
-            "symbol": "BEAT",
-            "spread": 0.55,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.23330605",
-            "cex_price": "0.23458000",
-            "liquidity": "$1000536"
+            "dex_price": "0.00006189",
+            "cex_price": "0.00006211",
+            "liquidity": "$1884384"
         },
         {
             "symbol": "SPX",
-            "spread": 0.29,
+            "spread": 0.36,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.31927760",
-            "cex_price": "0.32020000",
-            "liquidity": "$8906625"
+            "dex_price": "0.31913519",
+            "cex_price": "0.32030000",
+            "liquidity": "$8894699"
         },
         {
-            "symbol": "AEON",
-            "spread": 0.28,
+            "symbol": "XPIN",
+            "spread": 0.32,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.09244506",
-            "cex_price": "0.09270000",
-            "liquidity": "$1731611"
+            "dex_price": "0.00119163",
+            "cex_price": "0.00119540",
+            "liquidity": "$794374"
         },
         {
-            "symbol": "UNI",
+            "symbol": "LINK",
+            "spread": 0.26,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "9.45947655",
+            "cex_price": "9.48400000",
+            "liquidity": "$21941923"
+        },
+        {
+            "symbol": "ANSEM",
+            "spread": 0.25,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.24560428",
+            "cex_price": "0.24622000",
+            "liquidity": "$2379021"
+        },
+        {
+            "symbol": "\u725b\u6765",
+            "spread": 0.24,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03142077",
+            "cex_price": "0.03149700",
+            "liquidity": "$929134"
+        },
+        {
+            "symbol": "ASE",
             "spread": 0.21,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "3.26310704",
-            "cex_price": "3.27000000",
-            "liquidity": "$11983008"
+            "dex_price": "0.00174925",
+            "cex_price": "0.00175300",
+            "liquidity": "$153848"
         }
     ],
     "spot": [],
