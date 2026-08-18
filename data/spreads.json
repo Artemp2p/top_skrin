@@ -1,67 +1,76 @@
 {
     "dex": [
         {
+            "symbol": "SUI",
+            "spread": 19.56,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.54843724",
+            "cex_price": "0.65570000",
+            "liquidity": "$1113794709"
+        },
+        {
+            "symbol": "HBAR",
+            "spread": 6.78,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.06212057",
+            "cex_price": "0.06633000",
+            "liquidity": "$1357697968"
+        },
+        {
             "symbol": "WKC",
-            "spread": 6.25,
+            "spread": 5.26,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000012",
             "cex_price": "0.00000013",
-            "liquidity": "$1376556"
-        },
-        {
-            "symbol": "CUDIS",
-            "spread": 5.08,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00087483",
-            "cex_price": "0.00091930",
-            "liquidity": "$10007"
+            "liquidity": "$1374531"
         },
         {
             "symbol": "KII",
-            "spread": 0.69,
+            "spread": 0.66,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.06934818",
-            "cex_price": "0.06983000",
-            "liquidity": "$1361747"
+            "dex_price": "0.07123114",
+            "cex_price": "0.07170000",
+            "liquidity": "$1375903"
         },
         {
-            "symbol": "LINK",
-            "spread": 0.56,
-            "buyAt": "ETH",
+            "symbol": "AEON",
+            "spread": 0.35,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "9.45187343",
-            "cex_price": "9.50500000",
-            "liquidity": "$21925252"
+            "dex_price": "0.08839998",
+            "cex_price": "0.08871000",
+            "liquidity": "$1698813"
         },
         {
-            "symbol": "ANSEM",
-            "spread": 0.44,
+            "symbol": "BEAT",
+            "spread": 0.28,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.22280208",
+            "cex_price": "0.22343000",
+            "liquidity": "$970239"
+        },
+        {
+            "symbol": "XPIN",
+            "spread": 0.28,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00118371",
+            "cex_price": "0.00118700",
+            "liquidity": "$791841"
+        },
+        {
+            "symbol": "PENGU",
+            "spread": 0.23,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.24600906",
-            "cex_price": "0.24710000",
-            "liquidity": "$2377835"
-        },
-        {
-            "symbol": "SPX",
-            "spread": 0.3,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.31834613",
-            "cex_price": "0.31930000",
-            "liquidity": "$8875515"
-        },
-        {
-            "symbol": "\u725b\u6765",
-            "spread": 0.23,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.03631377",
-            "cex_price": "0.03639900",
-            "liquidity": "$888509"
+            "dex_price": "0.00602218",
+            "cex_price": "0.00603600",
+            "liquidity": "$24002"
         }
     ],
     "spot": [],
