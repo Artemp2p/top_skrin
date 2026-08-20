@@ -1,5 +1,60 @@
 {
-    "dex": [],
+    "dex": [
+        {
+            "symbol": "JOTCHUA",
+            "spread": 0.96,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00312668",
+            "cex_price": "0.00315660",
+            "liquidity": "$282814"
+        },
+        {
+            "symbol": "BTW",
+            "spread": 0.73,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.40827705",
+            "cex_price": "0.41123800",
+            "liquidity": "$1912611"
+        },
+        {
+            "symbol": "SPX",
+            "spread": 0.68,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.39413459",
+            "cex_price": "0.39680000",
+            "liquidity": "$10947850"
+        },
+        {
+            "symbol": "XRP",
+            "spread": 0.41,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.28938619",
+            "cex_price": "1.29470000",
+            "liquidity": "$1356472"
+        },
+        {
+            "symbol": "ASTER",
+            "spread": 0.24,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.67845296",
+            "cex_price": "0.68010000",
+            "liquidity": "$799125"
+        },
+        {
+            "symbol": "LINK",
+            "spread": 0.21,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "10.75274495",
+            "cex_price": "10.77500000",
+            "liquidity": "$16481948"
+        }
+    ],
     "spot": [],
     "futures": []
 }
