@@ -1,67 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "XRP",
-            "spread": 1.05,
-            "buyAt": "BSC",
+            "symbol": "EYE",
+            "spread": 1.41,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "1.18310691",
-            "cex_price": "1.19550000",
-            "liquidity": "$1289348"
+            "dex_price": "0.00122574",
+            "cex_price": "0.00124300",
+            "liquidity": "$139713"
         },
         {
-            "symbol": "HEMI",
-            "spread": 0.82,
+            "symbol": "KEKIUS",
+            "spread": 1.21,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00833877",
+            "cex_price": "0.00844000",
+            "liquidity": "$977732"
+        },
+        {
+            "symbol": "BEAT",
+            "spread": 1.21,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00907300",
-            "cex_price": "0.00914700",
-            "liquidity": "$447570"
+            "dex_price": "0.13162143",
+            "cex_price": "0.13321000",
+            "liquidity": "$705462"
+        },
+        {
+            "symbol": "BTW",
+            "spread": 1.06,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.38578562",
+            "cex_price": "0.38987500",
+            "liquidity": "$1879444"
         },
         {
             "symbol": "SKYAI",
-            "spread": 0.59,
+            "spread": 0.69,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.07577047",
-            "cex_price": "0.07622000",
-            "liquidity": "$7135083"
+            "dex_price": "0.07695569",
+            "cex_price": "0.07749000",
+            "liquidity": "$7184183"
         },
         {
-            "symbol": "KII",
-            "spread": 0.31,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.06496581",
-            "cex_price": "0.06517000",
-            "liquidity": "$1329661"
-        },
-        {
-            "symbol": "PUMP",
-            "spread": 0.29,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00344187",
-            "cex_price": "0.00345200",
-            "liquidity": "$19664911"
-        },
-        {
-            "symbol": "MUBARAK",
+            "symbol": "HEMI",
             "spread": 0.27,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02020265",
-            "cex_price": "0.02025800",
-            "liquidity": "$1740693"
-        },
-        {
-            "symbol": "AEON",
-            "spread": 0.25,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.07387720",
-            "cex_price": "0.07406000",
-            "liquidity": "$1564780"
+            "dex_price": "0.00911433",
+            "cex_price": "0.00913900",
+            "liquidity": "$450811"
         }
     ],
     "spot": [],
