@@ -2,48 +2,57 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 1.32,
+            "spread": 2.66,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000010",
-            "cex_price": "0.00000010",
-            "liquidity": "$1296150"
+            "cex_price": "0.00000011",
+            "liquidity": "$1303027"
         },
         {
-            "symbol": "\u725b\u6765",
-            "spread": 0.86,
-            "buyAt": "BSC",
+            "symbol": "CATE",
+            "spread": 2.21,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.06085510",
-            "cex_price": "0.06138100",
-            "liquidity": "$578407"
-        },
-        {
-            "symbol": "PEPE",
-            "spread": 0.44,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000311",
-            "cex_price": "0.00000312",
-            "liquidity": "$24748864"
+            "dex_price": "0.02209460",
+            "cex_price": "0.02258400",
+            "liquidity": "$1075423"
         },
         {
             "symbol": "BOME",
-            "spread": 0.24,
+            "spread": 0.76,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00115837",
-            "cex_price": "0.00116120",
-            "liquidity": "$16295637"
+            "dex_price": "0.00116398",
+            "cex_price": "0.00117280",
+            "liquidity": "$16318477"
         },
         {
-            "symbol": "MOG",
-            "spread": 0.22,
-            "buyAt": "ETH",
+            "symbol": "PUMP",
+            "spread": 0.59,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00000011",
-            "cex_price": "0.00000011",
-            "liquidity": "$5301504"
+            "dex_price": "0.00365554",
+            "cex_price": "0.00367700",
+            "liquidity": "$20268235"
+        },
+        {
+            "symbol": "PENGU",
+            "spread": 0.4,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00711620",
+            "cex_price": "0.00714500",
+            "liquidity": "$26489"
+        },
+        {
+            "symbol": "HEMI",
+            "spread": 0.22,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00868283",
+            "cex_price": "0.00870200",
+            "liquidity": "$434228"
         }
     ],
     "spot": [],
