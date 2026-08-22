@@ -2,21 +2,57 @@
     "dex": [
         {
             "symbol": "WKC",
-            "spread": 5.92,
+            "spread": 4.12,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000012",
             "cex_price": "0.00000013",
-            "liquidity": "$1482947"
+            "liquidity": "$1466549"
         },
         {
-            "symbol": "BASECAT",
-            "spread": 1.5,
-            "buyAt": "BASE",
+            "symbol": "TUT",
+            "spread": 1.8,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.02944308",
-            "cex_price": "0.02988400",
-            "liquidity": "$794893"
+            "dex_price": "0.06316206",
+            "cex_price": "0.06429800",
+            "liquidity": "$4216175"
+        },
+        {
+            "symbol": "FARTCOIN",
+            "spread": 0.79,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.19013537",
+            "cex_price": "0.19164000",
+            "liquidity": "$8006632"
+        },
+        {
+            "symbol": "ENA",
+            "spread": 0.56,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.15512659",
+            "cex_price": "0.15600000",
+            "liquidity": "$816168"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.36,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000552",
+            "cex_price": "0.00000554",
+            "liquidity": "$2883454"
+        },
+        {
+            "symbol": "FLOKI",
+            "spread": 0.28,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00002723",
+            "cex_price": "0.00002731",
+            "liquidity": "$9261179"
         }
     ],
     "spot": [],
