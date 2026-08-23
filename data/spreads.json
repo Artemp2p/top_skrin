@@ -1,49 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "ELON",
-            "spread": 19.1,
+            "symbol": "POD",
+            "spread": 0.84,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.49217223",
+            "cex_price": "0.49630000",
+            "liquidity": "$6006900"
+        },
+        {
+            "symbol": "ENA",
+            "spread": 0.78,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000003",
-            "cex_price": "0.00000003",
-            "liquidity": "$7485"
+            "dex_price": "0.16613467",
+            "cex_price": "0.16743000",
+            "liquidity": "$846747"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.37,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000547",
+            "cex_price": "0.00000549",
+            "liquidity": "$2879686"
+        },
+        {
+            "symbol": "PUMP",
+            "spread": 0.35,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00511327",
+            "cex_price": "0.00513100",
+            "liquidity": "$24096473"
+        },
+        {
+            "symbol": "BEAT",
+            "spread": 0.34,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.12964325",
+            "cex_price": "0.13008000",
+            "liquidity": "$702107"
+        },
+        {
+            "symbol": "TIBBIR",
+            "spread": 0.31,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.23752821",
+            "cex_price": "0.23827000",
+            "liquidity": "$3327442"
         },
         {
             "symbol": "WKC",
-            "spread": 1.01,
+            "spread": 0.25,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000011",
             "cex_price": "0.00000011",
-            "liquidity": "$1410151"
-        },
-        {
-            "symbol": "ASTEROID",
-            "spread": 0.43,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00006508",
-            "cex_price": "0.00006536",
-            "liquidity": "$2190966"
-        },
-        {
-            "symbol": "LINK",
-            "spread": 0.4,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "11.50260024",
-            "cex_price": "11.54900000",
-            "liquidity": "$17322302"
-        },
-        {
-            "symbol": "SHIB",
-            "spread": 0.2,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000547",
-            "cex_price": "0.00000548",
-            "liquidity": "$2876957"
+            "liquidity": "$1410682"
         }
     ],
     "spot": [],
