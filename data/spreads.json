@@ -1,94 +1,76 @@
 {
     "dex": [
         {
+            "symbol": "V4",
+            "spread": 4.34,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00128213",
+            "cex_price": "0.00133780",
+            "liquidity": "$145187"
+        },
+        {
             "symbol": "WKC",
-            "spread": 2.04,
+            "spread": 1.79,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000011",
             "cex_price": "0.00000011",
-            "liquidity": "$1404024"
+            "liquidity": "$1403936"
         },
         {
-            "symbol": "ASTEROID",
-            "spread": 0.86,
+            "symbol": "MOG",
+            "spread": 0.73,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00006584",
-            "cex_price": "0.00006640",
-            "liquidity": "$2214120"
+            "dex_price": "0.00000012",
+            "cex_price": "0.00000012",
+            "liquidity": "$5609646"
         },
         {
-            "symbol": "ENA",
-            "spread": 0.83,
+            "symbol": "UNI",
+            "spread": 0.69,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.17224449",
-            "cex_price": "0.17368000",
-            "liquidity": "$867251"
-        },
-        {
-            "symbol": "BEAT",
-            "spread": 0.49,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.13612631",
-            "cex_price": "0.13680000",
-            "liquidity": "$722104"
-        },
-        {
-            "symbol": "LIT",
-            "spread": 0.46,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "3.32514591",
-            "cex_price": "3.34060000",
-            "liquidity": "$492469"
+            "dex_price": "4.60132525",
+            "cex_price": "4.63300000",
+            "liquidity": "$13157369"
         },
         {
             "symbol": "PENGU",
-            "spread": 0.36,
+            "spread": 0.61,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00855030",
-            "cex_price": "0.00858100",
-            "liquidity": "$30662"
+            "dex_price": "0.00855150",
+            "cex_price": "0.00860400",
+            "liquidity": "$30754"
         },
         {
-            "symbol": "SPX",
-            "spread": 0.3,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.46430121",
-            "cex_price": "0.46570000",
-            "liquidity": "$12168548"
-        },
-        {
-            "symbol": "PUMP",
-            "spread": 0.3,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00526131",
-            "cex_price": "0.00527700",
-            "liquidity": "$24496537"
-        },
-        {
-            "symbol": "BASED",
-            "spread": 0.24,
+            "symbol": "ASTER",
+            "spread": 0.51,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.07498955",
-            "cex_price": "0.07517000",
-            "liquidity": "$1192020"
+            "dex_price": "0.67075031",
+            "cex_price": "0.67420000",
+            "liquidity": "$841487"
         },
         {
-            "symbol": "BTC",
-            "spread": 0.22,
-            "buyAt": "ETH",
+            "symbol": "KII",
+            "spread": 0.45,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "77373.58354279",
-            "cex_price": "77544.73000000",
-            "liquidity": "$38148773"
+            "dex_price": "0.05854389",
+            "cex_price": "0.05881000",
+            "liquidity": "$1854849"
+        },
+        {
+            "symbol": "CATE",
+            "spread": 0.44,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.04969757",
+            "cex_price": "0.04991800",
+            "liquidity": "$1859415"
         }
     ],
     "spot": [],
