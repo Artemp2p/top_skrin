@@ -1,40 +1,76 @@
 {
     "dex": [
         {
+            "symbol": "BASECAT",
+            "spread": 2.49,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.03417551",
+            "cex_price": "0.03502500",
+            "liquidity": "$858268"
+        },
+        {
             "symbol": "WKC",
-            "spread": 2.38,
+            "spread": 2.31,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000011",
             "cex_price": "0.00000011",
-            "liquidity": "$1396950"
-        },
-        {
-            "symbol": "TOAD",
-            "spread": 1.29,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00756075",
-            "cex_price": "0.00765800",
-            "liquidity": "$411233"
-        },
-        {
-            "symbol": "ENA",
-            "spread": 0.66,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.17028694",
-            "cex_price": "0.17141000",
-            "liquidity": "$864102"
+            "liquidity": "$1402268"
         },
         {
             "symbol": "TUT",
-            "spread": 0.48,
+            "spread": 1.9,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.05669653",
-            "cex_price": "0.05696700",
-            "liquidity": "$3948402"
+            "dex_price": "0.05273148",
+            "cex_price": "0.05373100",
+            "liquidity": "$3852897"
+        },
+        {
+            "symbol": "DRB",
+            "spread": 1.12,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00015525",
+            "cex_price": "0.00015700",
+            "liquidity": "$1316254"
+        },
+        {
+            "symbol": "CATE",
+            "spread": 1.05,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.04660915",
+            "cex_price": "0.04710000",
+            "liquidity": "$1817872"
+        },
+        {
+            "symbol": "SQD",
+            "spread": 0.94,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "0.03168371",
+            "cex_price": "0.03198000",
+            "liquidity": "$335183"
+        },
+        {
+            "symbol": "LINK",
+            "spread": 0.47,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "11.47856590",
+            "cex_price": "11.53300000",
+            "liquidity": "$17265927"
+        },
+        {
+            "symbol": "ASTEROID",
+            "spread": 0.31,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00006493",
+            "cex_price": "0.00006513",
+            "liquidity": "$2190836"
         }
     ],
     "spot": [],
