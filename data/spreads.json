@@ -2,57 +2,84 @@
     "dex": [
         {
             "symbol": "NES",
-            "spread": 39.7,
+            "spread": 38.16,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.09058478",
-            "cex_price": "0.12655000",
-            "liquidity": "$78331"
+            "cex_price": "0.12515000",
+            "liquidity": "$78534"
         },
         {
-            "symbol": "LIT",
-            "spread": 0.58,
+            "symbol": "CATE",
+            "spread": 6.47,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.04624594",
+            "cex_price": "0.04923800",
+            "liquidity": "$1833479"
+        },
+        {
+            "symbol": "PIN",
+            "spread": 3.13,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "3.29014684",
-            "cex_price": "3.30930000",
-            "liquidity": "$426683"
+            "dex_price": "0.04975249",
+            "cex_price": "0.05131000",
+            "liquidity": "$498863"
+        },
+        {
+            "symbol": "WKC",
+            "spread": 2.76,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000010",
+            "cex_price": "0.00000010",
+            "liquidity": "$1326705"
+        },
+        {
+            "symbol": "TUT",
+            "spread": 1.11,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.04767233",
+            "cex_price": "0.04820200",
+            "liquidity": "$3675330"
         },
         {
             "symbol": "ASTEROID",
-            "spread": 0.55,
+            "spread": 0.79,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00005529",
-            "cex_price": "0.00005560",
-            "liquidity": "$2033766"
+            "dex_price": "0.00005408",
+            "cex_price": "0.00005451",
+            "liquidity": "$2014511"
         },
         {
-            "symbol": "PENGU",
-            "spread": 0.45,
+            "symbol": "PUMP",
+            "spread": 0.39,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00933119",
-            "cex_price": "0.00937300",
-            "liquidity": "$32075"
+            "dex_price": "0.00471760",
+            "cex_price": "0.00473600",
+            "liquidity": "$23177417"
         },
         {
-            "symbol": "BEAT",
-            "spread": 0.27,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.12299279",
-            "cex_price": "0.12333000",
-            "liquidity": "$675936"
-        },
-        {
-            "symbol": "ETH",
-            "spread": 0.23,
+            "symbol": "ENA",
+            "spread": 0.34,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "2457.88000000",
-            "cex_price": "2463.53000000",
-            "liquidity": "$117623687"
+            "dex_price": "0.15302309",
+            "cex_price": "0.15354000",
+            "liquidity": "$786751"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.21,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000537",
+            "cex_price": "0.00000538",
+            "liquidity": "$2856899"
         }
     ],
     "spot": [],
