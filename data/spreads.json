@@ -1,40 +1,22 @@
 {
     "dex": [
         {
-            "symbol": "PIN",
-            "spread": 1.45,
+            "symbol": "NES",
+            "spread": 39.47,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.09058478",
+            "cex_price": "0.12634000",
+            "liquidity": "$78553"
+        },
+        {
+            "symbol": "LIT",
+            "spread": 0.25,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04966202",
-            "cex_price": "0.05038000",
-            "liquidity": "$495017"
-        },
-        {
-            "symbol": "\u725b\u6765",
-            "spread": 0.74,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.02997555",
-            "cex_price": "0.03019800",
-            "liquidity": "$409844"
-        },
-        {
-            "symbol": "PUMP",
-            "spread": 0.74,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00469219",
-            "cex_price": "0.00472700",
-            "liquidity": "$23110212"
-        },
-        {
-            "symbol": "BTW",
-            "spread": 0.27,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.43819660",
-            "cex_price": "0.43938200",
-            "liquidity": "$1953661"
+            "dex_price": "3.39994050",
+            "cex_price": "3.40850000",
+            "liquidity": "$436556"
         }
     ],
     "spot": [],
