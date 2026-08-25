@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "VELVET",
-            "spread": 1.3,
+            "symbol": "WKC",
+            "spread": 0.64,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.15558963",
-            "cex_price": "0.15761000",
-            "liquidity": "$888303"
+            "dex_price": "0.00000009",
+            "cex_price": "0.00000009",
+            "liquidity": "$1296290"
         },
         {
-            "symbol": "LIT",
-            "spread": 0.39,
+            "symbol": "MANYU",
+            "spread": 0.41,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "3.36022586",
-            "cex_price": "3.37330000",
-            "liquidity": "$434336"
+            "dex_price": "0.00000001",
+            "cex_price": "0.00000001",
+            "liquidity": "$655793"
         },
         {
-            "symbol": "BEAT",
-            "spread": 0.36,
+            "symbol": "PUMP",
+            "spread": 0.4,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00472207",
+            "cex_price": "0.00474100",
+            "liquidity": "$23221428"
+        },
+        {
+            "symbol": "VELVET",
+            "spread": 0.37,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.12720959",
-            "cex_price": "0.12767000",
-            "liquidity": "$693883"
+            "dex_price": "0.15639662",
+            "cex_price": "0.15698000",
+            "liquidity": "$895580"
         }
     ],
     "spot": [],
