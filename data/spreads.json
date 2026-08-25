@@ -2,21 +2,30 @@
     "dex": [
         {
             "symbol": "VELVET",
-            "spread": 3.26,
+            "spread": 2.85,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.12703893",
-            "cex_price": "0.13118000",
-            "liquidity": "$771766"
+            "dex_price": "0.12628133",
+            "cex_price": "0.12988000",
+            "liquidity": "$769693"
         },
         {
             "symbol": "BEAT",
-            "spread": 0.29,
+            "spread": 0.95,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.12485951",
-            "cex_price": "0.12522000",
-            "liquidity": "$683933"
+            "dex_price": "0.12165657",
+            "cex_price": "0.12281000",
+            "liquidity": "$675204"
+        },
+        {
+            "symbol": "MORTY",
+            "spread": 0.81,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00164176",
+            "cex_price": "0.00165500",
+            "liquidity": "$131927"
         }
     ],
     "spot": [],
