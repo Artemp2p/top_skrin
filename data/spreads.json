@@ -1,76 +1,67 @@
 {
     "dex": [
         {
-            "symbol": "DGAI",
-            "spread": 33.07,
+            "symbol": "XRP",
+            "spread": 22.89,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.52177000",
-            "cex_price": "0.69430000",
-            "liquidity": "$260276682"
+            "dex_price": "1.20493565",
+            "cex_price": "1.48080000",
+            "liquidity": "$198189"
+        },
+        {
+            "symbol": "TMX",
+            "spread": 8.9,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.16382355",
+            "cex_price": "0.17840000",
+            "liquidity": "$15014"
         },
         {
             "symbol": "WKC",
-            "spread": 2.84,
+            "spread": 3.56,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000009",
             "cex_price": "0.00000009",
-            "liquidity": "$1251436"
-        },
-        {
-            "symbol": "BNBCAT",
-            "spread": 2.29,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00342152",
-            "cex_price": "0.00350000",
-            "liquidity": "$214876"
+            "liquidity": "$1259632"
         },
         {
             "symbol": "VELVET",
-            "spread": 0.77,
+            "spread": 0.91,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.14655720",
-            "cex_price": "0.14768000",
-            "liquidity": "$855924"
+            "dex_price": "0.14377235",
+            "cex_price": "0.14508000",
+            "liquidity": "$843468"
         },
         {
-            "symbol": "MORTY",
-            "spread": 0.53,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00247693",
-            "cex_price": "0.00249000",
-            "liquidity": "$160885"
-        },
-        {
-            "symbol": "MARSCOIN",
-            "spread": 0.52,
+            "symbol": "TUT",
+            "spread": 0.59,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03777227",
-            "cex_price": "0.03797000",
-            "liquidity": "$352978"
+            "dex_price": "0.04749785",
+            "cex_price": "0.04777800",
+            "liquidity": "$3657979"
         },
         {
             "symbol": "PUMP",
-            "spread": 0.33,
+            "spread": 0.39,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00484512",
-            "cex_price": "0.00486100",
-            "liquidity": "$23529258"
+            "dex_price": "0.00482103",
+            "cex_price": "0.00484000",
+            "liquidity": "$23438416"
         },
         {
-            "symbol": "JIMOTHY",
-            "spread": 0.25,
-            "buyAt": "SOLANA",
+            "symbol": "BTC",
+            "spread": 0.21,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01647659",
-            "cex_price": "0.01651700",
-            "liquidity": "$959554"
+            "dex_price": "79125.44275326",
+            "cex_price": "79293.85000000",
+            "liquidity": "$40700991"
         }
     ],
     "spot": [],
