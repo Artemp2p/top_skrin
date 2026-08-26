@@ -1,49 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "XRP",
-            "spread": 18.42,
-            "buyAt": "ETH",
+            "symbol": "BOB",
+            "spread": 0.72,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "1.16876563",
-            "cex_price": "1.38400000",
-            "liquidity": "$192548"
+            "dex_price": "0.00591248",
+            "cex_price": "0.00595500",
+            "liquidity": "$525848"
         },
         {
-            "symbol": "PISTACIO",
-            "spread": 3.15,
-            "buyAt": "SOLANA",
+            "symbol": "WKC",
+            "spread": 0.61,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00643731",
-            "cex_price": "0.00664000",
-            "liquidity": "$303994"
+            "dex_price": "0.00000010",
+            "cex_price": "0.00000010",
+            "liquidity": "$1347635"
         },
         {
-            "symbol": "PIN",
-            "spread": 0.71,
+            "symbol": "AAPLON",
+            "spread": 0.54,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.04247914",
-            "cex_price": "0.04278000",
-            "liquidity": "$457633"
+            "dex_price": "312.84087510",
+            "cex_price": "314.54000000",
+            "liquidity": "$9955"
+        },
+        {
+            "symbol": "BMT",
+            "spread": 0.43,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02148841",
+            "cex_price": "0.02158000",
+            "liquidity": "$397838"
         },
         {
             "symbol": "NPC",
-            "spread": 0.43,
+            "spread": 0.33,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01436617",
-            "cex_price": "0.01442800",
-            "liquidity": "$4006430"
+            "dex_price": "0.01482356",
+            "cex_price": "0.01487200",
+            "liquidity": "$4068634"
         },
         {
-            "symbol": "DGAI",
-            "spread": 0.31,
+            "symbol": "MARSCOIN",
+            "spread": 0.24,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.71458307",
-            "cex_price": "0.71680000",
-            "liquidity": "$2678850"
+            "dex_price": "0.03110492",
+            "cex_price": "0.03118000",
+            "liquidity": "$340218"
         }
     ],
     "spot": [],
