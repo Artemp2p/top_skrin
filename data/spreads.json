@@ -1,76 +1,94 @@
 {
     "dex": [
         {
-            "symbol": "VELVET",
-            "spread": 2.41,
-            "buyAt": "BSC",
+            "symbol": "PISTACIO",
+            "spread": 3.75,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.11309951",
-            "cex_price": "0.11583000",
-            "liquidity": "$721003"
+            "dex_price": "0.00826956",
+            "cex_price": "0.00858000",
+            "liquidity": "$337434"
         },
         {
             "symbol": "BNBCAT",
-            "spread": 2.1,
+            "spread": 1.76,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00366393",
-            "cex_price": "0.00374100",
-            "liquidity": "$226599"
-        },
-        {
-            "symbol": "TMX",
-            "spread": 1.8,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.19036711",
-            "cex_price": "0.19380000",
-            "liquidity": "$1032325"
-        },
-        {
-            "symbol": "PISTACIO",
-            "spread": 1.78,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00770307",
-            "cex_price": "0.00784000",
-            "liquidity": "$323760"
-        },
-        {
-            "symbol": "BEAT",
-            "spread": 0.7,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.12403609",
-            "cex_price": "0.12491000",
-            "liquidity": "$682918"
+            "dex_price": "0.00363418",
+            "cex_price": "0.00369800",
+            "liquidity": "$224750"
         },
         {
             "symbol": "WKC",
-            "spread": 0.62,
+            "spread": 0.67,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000010",
             "cex_price": "0.00000010",
-            "liquidity": "$1331822"
+            "liquidity": "$1322018"
         },
         {
-            "symbol": "BTC",
-            "spread": 0.57,
-            "buyAt": "ETH",
+            "symbol": "MORTY",
+            "spread": 0.6,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "77989.40600286",
-            "cex_price": "78431.02000000",
-            "liquidity": "$39155220"
+            "dex_price": "0.00126242",
+            "cex_price": "0.00127000",
+            "liquidity": "$117130"
+        },
+        {
+            "symbol": "BTR",
+            "spread": 0.45,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.11671880",
+            "cex_price": "0.11724000",
+            "liquidity": "$740220"
         },
         {
             "symbol": "PIN",
-            "spread": 0.35,
+            "spread": 0.44,
             "buyAt": "ETH",
             "sellAt": "MEXC",
             "dex_price": "0.04325024",
-            "cex_price": "0.04340000",
-            "liquidity": "$462159"
+            "cex_price": "0.04344000",
+            "liquidity": "$461975"
+        },
+        {
+            "symbol": "UNI",
+            "spread": 0.29,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "4.28656125",
+            "cex_price": "4.29900000",
+            "liquidity": "$7657882"
+        },
+        {
+            "symbol": "CATE",
+            "spread": 0.27,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.06127019",
+            "cex_price": "0.06143800",
+            "liquidity": "$2210838"
+        },
+        {
+            "symbol": "BTC",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "78239.49712250",
+            "cex_price": "78416.50000000",
+            "liquidity": "$39203441"
+        },
+        {
+            "symbol": "ENA",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.14297375",
+            "cex_price": "0.14330000",
+            "liquidity": "$741713"
         }
     ],
     "spot": [],
