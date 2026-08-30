@@ -1,85 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "PONS",
-            "spread": 16.1,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.24503073",
-            "cex_price": "0.28447400",
-            "liquidity": "$122148314"
-        },
-        {
-            "symbol": "PIN",
-            "spread": 4.47,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.04585963",
-            "cex_price": "0.04791000",
-            "liquidity": "$481041"
-        },
-        {
             "symbol": "PISTACIO",
-            "spread": 1.49,
+            "spread": 1.6,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00138925",
-            "cex_price": "0.00141000",
-            "liquidity": "$162305"
-        },
-        {
-            "symbol": "MOG",
-            "spread": 0.44,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000011",
-            "cex_price": "0.00000011",
-            "liquidity": "$5413210"
-        },
-        {
-            "symbol": "SERV",
-            "spread": 0.37,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.02300576",
-            "cex_price": "0.02309000",
-            "liquidity": "$1400663"
-        },
-        {
-            "symbol": "\u9f99\u867e",
-            "spread": 0.36,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.07230648",
-            "cex_price": "0.07256800",
-            "liquidity": "$2106941"
-        },
-        {
-            "symbol": "FONE",
-            "spread": 0.35,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.02715948",
-            "cex_price": "0.02725400",
-            "liquidity": "$853186"
+            "dex_price": "0.00147642",
+            "cex_price": "0.00150000",
+            "liquidity": "$168132"
         },
         {
             "symbol": "WKC",
-            "spread": 0.29,
+            "spread": 1.28,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000009",
             "cex_price": "0.00000009",
-            "liquidity": "$1266270"
+            "liquidity": "$1249182"
         },
         {
-            "symbol": "MANYU",
-            "spread": 0.23,
+            "symbol": "SERV",
+            "spread": 0.99,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000001",
-            "cex_price": "0.00000001",
-            "liquidity": "$622325"
+            "dex_price": "0.02247731",
+            "cex_price": "0.02270000",
+            "liquidity": "$1398922"
+        },
+        {
+            "symbol": "\u9f99\u867e",
+            "spread": 0.24,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.07144219",
+            "cex_price": "0.07161400",
+            "liquidity": "$2099048"
         }
     ],
     "spot": [],
