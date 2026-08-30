@@ -1,40 +1,103 @@
 {
     "dex": [
         {
-            "symbol": "PISTACIO",
-            "spread": 1.6,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00147642",
-            "cex_price": "0.00150000",
-            "liquidity": "$168132"
-        },
-        {
             "symbol": "WKC",
-            "spread": 1.28,
+            "spread": 2.77,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000009",
             "cex_price": "0.00000009",
-            "liquidity": "$1249182"
+            "liquidity": "$1244509"
         },
         {
-            "symbol": "SERV",
-            "spread": 0.99,
+            "symbol": "FONE",
+            "spread": 1.79,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.02646000",
+            "cex_price": "0.02693300",
+            "liquidity": "$846902"
+        },
+        {
+            "symbol": "CFG",
+            "spread": 1.74,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.02247731",
-            "cex_price": "0.02270000",
-            "liquidity": "$1398922"
+            "dex_price": "0.11991841",
+            "cex_price": "0.12200000",
+            "liquidity": "$12087"
+        },
+        {
+            "symbol": "\u725b\u6765",
+            "spread": 0.6,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.12262458",
+            "cex_price": "0.12335800",
+            "liquidity": "$962104"
+        },
+        {
+            "symbol": "LAB",
+            "spread": 0.46,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.08784845",
+            "cex_price": "0.08825000",
+            "liquidity": "$1106668"
+        },
+        {
+            "symbol": "LINK",
+            "spread": 0.42,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "11.49946746",
+            "cex_price": "11.54800000",
+            "liquidity": "$13982530"
+        },
+        {
+            "symbol": "HNT",
+            "spread": 0.42,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.78157953",
+            "cex_price": "0.78490000",
+            "liquidity": "$905942"
         },
         {
             "symbol": "\u9f99\u867e",
-            "spread": 0.24,
+            "spread": 0.25,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.07144219",
-            "cex_price": "0.07161400",
-            "liquidity": "$2099048"
+            "dex_price": "0.07004597",
+            "cex_price": "0.07022400",
+            "liquidity": "$2088562"
+        },
+        {
+            "symbol": "UNI",
+            "spread": 0.24,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "5.16844978",
+            "cex_price": "5.18100000",
+            "liquidity": "$15176115"
+        },
+        {
+            "symbol": "PISTACIO",
+            "spread": 0.24,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00154635",
+            "cex_price": "0.00155000",
+            "liquidity": "$172962"
+        },
+        {
+            "symbol": "SERV",
+            "spread": 0.23,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.02219918",
+            "cex_price": "0.02225000",
+            "liquidity": "$1379355"
         }
     ],
     "spot": [],
