@@ -2,30 +2,57 @@
     "dex": [
         {
             "symbol": "BTC",
-            "spread": 1.5,
+            "spread": 1.76,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "75963.44385738",
-            "cex_price": "77100.87000000",
-            "liquidity": "$17600607"
+            "dex_price": "75961.32826942",
+            "cex_price": "77295.52000000",
+            "liquidity": "$17687865"
         },
         {
-            "symbol": "NPC",
-            "spread": 0.87,
+            "symbol": "KEKIUS",
+            "spread": 0.5,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.01664159",
-            "cex_price": "0.01678700",
-            "liquidity": "$4294278"
+            "dex_price": "0.00692671",
+            "cex_price": "0.00696100",
+            "liquidity": "$920527"
         },
         {
-            "symbol": "STONK",
-            "spread": 0.56,
+            "symbol": "UNI",
+            "spread": 0.43,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "5.81301427",
+            "cex_price": "5.83800000",
+            "liquidity": "$16592746"
+        },
+        {
+            "symbol": "ASTEROID",
+            "spread": 0.35,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00002334",
+            "cex_price": "0.00002342",
+            "liquidity": "$1332003"
+        },
+        {
+            "symbol": "PISTACIO",
+            "spread": 0.34,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01836157",
-            "cex_price": "0.01846400",
-            "liquidity": "$709202"
+            "dex_price": "0.00104499",
+            "cex_price": "0.00104850",
+            "liquidity": "$138987"
+        },
+        {
+            "symbol": "LINK",
+            "spread": 0.27,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "11.14602949",
+            "cex_price": "11.17600000",
+            "liquidity": "$13523674"
         }
     ],
     "spot": [],
