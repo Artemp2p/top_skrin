@@ -1,76 +1,85 @@
 {
     "dex": [
         {
+            "symbol": "PONS",
+            "spread": 15.51,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.52383559",
+            "cex_price": "0.60507000",
+            "liquidity": "$260102266"
+        },
+        {
+            "symbol": "PEPECOIN",
+            "spread": 3.03,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.16018727",
+            "cex_price": "0.16504000",
+            "liquidity": "$1927433"
+        },
+        {
+            "symbol": "BNBCAT",
+            "spread": 0.97,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00156549",
+            "cex_price": "0.00158060",
+            "liquidity": "$164109"
+        },
+        {
             "symbol": "AKE",
-            "spread": 2.86,
+            "spread": 0.85,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.01471404",
-            "cex_price": "0.01513480",
-            "liquidity": "$2073119"
-        },
-        {
-            "symbol": "USELESS",
-            "spread": 0.37,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.18476957",
-            "cex_price": "0.18546200",
-            "liquidity": "$4114549"
-        },
-        {
-            "symbol": "HEMI",
-            "spread": 0.34,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.01558190",
-            "cex_price": "0.01563500",
-            "liquidity": "$648099"
+            "dex_price": "0.01485681",
+            "cex_price": "0.01498250",
+            "liquidity": "$2073908"
         },
         {
             "symbol": "\u725b\u6765",
-            "spread": 0.27,
+            "spread": 0.68,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.08697979",
-            "cex_price": "0.08721500",
-            "liquidity": "$1145965"
+            "dex_price": "0.08916704",
+            "cex_price": "0.08977200",
+            "liquidity": "$1269943"
         },
         {
-            "symbol": "SERV",
-            "spread": 0.25,
+            "symbol": "ANSEM",
+            "spread": 0.43,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.27085640",
+            "cex_price": "0.27201000",
+            "liquidity": "$2350351"
+        },
+        {
+            "symbol": "SHIB",
+            "spread": 0.38,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.02045927",
-            "cex_price": "0.02051000",
-            "liquidity": "$1337556"
+            "dex_price": "0.00000541",
+            "cex_price": "0.00000543",
+            "liquidity": "$2898284"
         },
         {
-            "symbol": "FLORK",
-            "spread": 0.25,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.02436472",
-            "cex_price": "0.02442500",
-            "liquidity": "$643804"
-        },
-        {
-            "symbol": "BTW",
-            "spread": 0.25,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.45521362",
-            "cex_price": "0.45633900",
-            "liquidity": "$1981834"
-        },
-        {
-            "symbol": "SPX",
-            "spread": 0.24,
+            "symbol": "UNI",
+            "spread": 0.26,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.58556681",
-            "cex_price": "0.58700000",
-            "liquidity": "$13858280"
+            "dex_price": "6.31649405",
+            "cex_price": "6.33300000",
+            "liquidity": "$18081083"
+        },
+        {
+            "symbol": "KII",
+            "spread": 0.23,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.06191538",
+            "cex_price": "0.06206000",
+            "liquidity": "$488403"
         }
     ],
     "spot": [],
