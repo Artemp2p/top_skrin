@@ -1,67 +1,103 @@
 {
     "dex": [
         {
-            "symbol": "ANTFUN",
-            "spread": 14.63,
+            "symbol": "STAMP",
+            "spread": 3.1,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01561695",
-            "cex_price": "0.01790100",
-            "liquidity": "$16875054"
+            "dex_price": "0.00054260",
+            "cex_price": "0.00055940",
+            "liquidity": "$98245"
         },
         {
             "symbol": "ZCAT",
-            "spread": 2.53,
+            "spread": 2.3,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.09558521",
-            "cex_price": "0.09800000",
-            "liquidity": "$1020278"
+            "dex_price": "0.09726552",
+            "cex_price": "0.09950000",
+            "liquidity": "$1035902"
         },
         {
-            "symbol": "PUMP",
-            "spread": 0.75,
-            "buyAt": "SOLANA",
+            "symbol": "EURI",
+            "spread": 1.44,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00446362",
-            "cex_price": "0.00449700",
-            "liquidity": "$22963188"
+            "dex_price": "1.12889120",
+            "cex_price": "1.14510000",
+            "liquidity": "$40086"
         },
         {
-            "symbol": "PAID",
-            "spread": 0.3,
+            "symbol": "EMBER",
+            "spread": 1.23,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01555260",
-            "cex_price": "0.01560000",
-            "liquidity": "$704707"
+            "dex_price": "0.01840286",
+            "cex_price": "0.01863000",
+            "liquidity": "$654828"
+        },
+        {
+            "symbol": "STONK",
+            "spread": 0.82,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.32704669",
+            "cex_price": "0.32973600",
+            "liquidity": "$6054890"
         },
         {
             "symbol": "AKE",
-            "spread": 0.27,
+            "spread": 0.44,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.05343298",
-            "cex_price": "0.05357990",
-            "liquidity": "$3373824"
+            "dex_price": "0.05271800",
+            "cex_price": "0.05295000",
+            "liquidity": "$3354080"
         },
         {
-            "symbol": "BTC",
-            "spread": 0.23,
+            "symbol": "ENA",
+            "spread": 0.39,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "85239.24756152",
-            "cex_price": "85438.30000000",
-            "liquidity": "$47727671"
+            "dex_price": "0.20974111",
+            "cex_price": "0.21055000",
+            "liquidity": "$1185017"
         },
         {
-            "symbol": "SEI",
-            "spread": 0.23,
+            "symbol": "SPX",
+            "spread": 0.3,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.06070983",
-            "cex_price": "0.06085000",
-            "liquidity": "$2484641"
+            "dex_price": "0.52493681",
+            "cex_price": "0.52650000",
+            "liquidity": "$13890031"
+        },
+        {
+            "symbol": "POWER",
+            "spread": 0.29,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.11912936",
+            "cex_price": "0.11947000",
+            "liquidity": "$510799"
+        },
+        {
+            "symbol": "PAID",
+            "spread": 0.28,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.01443889",
+            "cex_price": "0.01448000",
+            "liquidity": "$684521"
+        },
+        {
+            "symbol": "PIEVERSE",
+            "spread": 0.23,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.84457962",
+            "cex_price": "1.84890000",
+            "liquidity": "$2449705"
         }
     ],
     "spot": [],
