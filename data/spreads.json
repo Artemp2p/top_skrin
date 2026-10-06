@@ -2,75 +2,102 @@
     "dex": [
         {
             "symbol": "AIN",
-            "spread": 2.13,
+            "spread": 2.09,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.05331181",
-            "cex_price": "0.05445000",
-            "liquidity": "$1278609"
+            "dex_price": "0.05498869",
+            "cex_price": "0.05614000",
+            "liquidity": "$1285487"
+        },
+        {
+            "symbol": "FET",
+            "spread": 0.86,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.24875322",
+            "cex_price": "0.25090000",
+            "liquidity": "$1870437"
+        },
+        {
+            "symbol": "BTW",
+            "spread": 0.77,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.14836856",
+            "cex_price": "1.15718600",
+            "liquidity": "$137780"
         },
         {
             "symbol": "SI",
-            "spread": 1.31,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.02653187",
-            "cex_price": "0.02688000",
-            "liquidity": "$803946"
-        },
-        {
-            "symbol": "FONE",
-            "spread": 0.99,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00530771",
-            "cex_price": "0.00536000",
-            "liquidity": "$580721"
-        },
-        {
-            "symbol": "GIGGLE",
-            "spread": 0.74,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "38.04972250",
-            "cex_price": "38.33000000",
-            "liquidity": "$891803"
-        },
-        {
-            "symbol": "JEANPHIL",
             "spread": 0.62,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00677303",
-            "cex_price": "0.00681500",
-            "liquidity": "$406662"
+            "dex_price": "0.02500434",
+            "cex_price": "0.02516000",
+            "liquidity": "$785958"
         },
         {
             "symbol": "GTC",
-            "spread": 0.21,
+            "spread": 0.59,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.18687141",
-            "cex_price": "0.18727000",
-            "liquidity": "$206017"
+            "dex_price": "0.19453174",
+            "cex_price": "0.19568000",
+            "liquidity": "$209256"
+        },
+        {
+            "symbol": "CT",
+            "spread": 0.53,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.37870130",
+            "cex_price": "0.38070000",
+            "liquidity": "$1103715"
+        },
+        {
+            "symbol": "MARSCOIN",
+            "spread": 0.46,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.10631366",
+            "cex_price": "0.10680000",
+            "liquidity": "$362972"
+        },
+        {
+            "symbol": "AEON",
+            "spread": 0.38,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.06496464",
+            "cex_price": "0.06521000",
+            "liquidity": "$1483577"
+        },
+        {
+            "symbol": "CLO",
+            "spread": 0.35,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.05967189",
+            "cex_price": "0.05988000",
+            "liquidity": "$948675"
+        },
+        {
+            "symbol": "FONE",
+            "spread": 0.31,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00494074",
+            "cex_price": "0.00495600",
+            "liquidity": "$556213"
         },
         {
             "symbol": "SHIB",
-            "spread": 0.21,
+            "spread": 0.27,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000589",
-            "cex_price": "0.00000590",
-            "liquidity": "$3163766"
-        },
-        {
-            "symbol": "QNT",
-            "spread": 0.2,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "262.62249196",
-            "cex_price": "263.16000000",
-            "liquidity": "$1513302"
+            "dex_price": "0.00000581",
+            "cex_price": "0.00000583",
+            "liquidity": "$3133066"
         }
     ],
     "spot": [],
