@@ -2,66 +2,84 @@
     "dex": [
         {
             "symbol": "AIN",
-            "spread": 2.69,
+            "spread": 1.66,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.04489298",
-            "cex_price": "0.04610000",
-            "liquidity": "$1209214"
+            "dex_price": "0.04814258",
+            "cex_price": "0.04894000",
+            "liquidity": "$1234236"
         },
         {
-            "symbol": "WKC",
-            "spread": 2.12,
+            "symbol": "\u9f99\u867e",
+            "spread": 1.28,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00000006",
-            "cex_price": "0.00000007",
-            "liquidity": "$1145821"
+            "dex_price": "0.06417161",
+            "cex_price": "0.06499000",
+            "liquidity": "$2516515"
         },
         {
-            "symbol": "AGENCY",
-            "spread": 0.92,
-            "buyAt": "SOLANA",
+            "symbol": "LINK",
+            "spread": 0.65,
+            "buyAt": "ARBITRUM",
             "sellAt": "MEXC",
-            "dex_price": "0.00544016",
-            "cex_price": "0.00549000",
-            "liquidity": "$357308"
+            "dex_price": "13.91411922",
+            "cex_price": "14.00500000",
+            "liquidity": "$334990"
         },
         {
-            "symbol": "HIGGS",
+            "symbol": "AERO",
+            "spread": 0.61,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.80290611",
+            "cex_price": "0.80780000",
+            "liquidity": "$43906652"
+        },
+        {
+            "symbol": "ZC",
             "spread": 0.52,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00225719",
-            "cex_price": "0.00226900",
-            "liquidity": "$202145"
-        },
-        {
-            "symbol": "MARSCOIN",
-            "spread": 0.45,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.10288425",
-            "cex_price": "0.10335000",
-            "liquidity": "$374569"
-        },
-        {
-            "symbol": "AEON",
-            "spread": 0.42,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.06431081",
-            "cex_price": "0.06458000",
-            "liquidity": "$1475324"
-        },
-        {
-            "symbol": "MANYU",
-            "spread": 0.29,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000000",
-            "cex_price": "0.00000000",
-            "liquidity": "$563871"
+            "dex_price": "0.01666238",
+            "cex_price": "0.01674900",
+            "liquidity": "$360195"
+        },
+        {
+            "symbol": "PENDLE",
+            "spread": 0.42,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "2.36616291",
+            "cex_price": "2.37600000",
+            "liquidity": "$1124811"
+        },
+        {
+            "symbol": "LYN",
+            "spread": 0.32,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02093390",
+            "cex_price": "0.02100000",
+            "liquidity": "$58270"
+        },
+        {
+            "symbol": "MAGIC",
+            "spread": 0.3,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "0.07174749",
+            "cex_price": "0.07196000",
+            "liquidity": "$233822"
+        },
+        {
+            "symbol": "BNKR",
+            "spread": 0.27,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00038237",
+            "cex_price": "0.00038340",
+            "liquidity": "$2523643"
         }
     ],
     "spot": [],
