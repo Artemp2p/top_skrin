@@ -1,58 +1,49 @@
 {
     "dex": [
         {
-            "symbol": "THEO",
-            "spread": 14.05,
-            "buyAt": "BASE",
-            "sellAt": "MEXC",
-            "dex_price": "0.00587475",
-            "cex_price": "0.00670000",
-            "liquidity": "$44887"
-        },
-        {
             "symbol": "WKC",
-            "spread": 2.25,
+            "spread": 4.48,
             "buyAt": "BSC",
             "sellAt": "MEXC",
             "dex_price": "0.00000007",
             "cex_price": "0.00000007",
-            "liquidity": "$1123720"
+            "liquidity": "$1120883"
         },
         {
-            "symbol": "DRV",
-            "spread": 0.78,
-            "buyAt": "BASE",
-            "sellAt": "MEXC",
-            "dex_price": "0.44917782",
-            "cex_price": "0.45270000",
-            "liquidity": "$4222555"
-        },
-        {
-            "symbol": "BLUAI",
-            "spread": 0.48,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.00807901",
-            "cex_price": "0.00811800",
-            "liquidity": "$597804"
-        },
-        {
-            "symbol": "PEPE",
-            "spread": 0.41,
+            "symbol": "AUCTION",
+            "spread": 2.51,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000420",
-            "cex_price": "0.00000422",
-            "liquidity": "$30282820"
+            "dex_price": "3.45227178",
+            "cex_price": "3.53900000",
+            "liquidity": "$10279"
         },
         {
-            "symbol": "PUMP",
-            "spread": 0.22,
-            "buyAt": "SOLANA",
+            "symbol": "CLAUS",
+            "spread": 1.25,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00503304",
-            "cex_price": "0.00504400",
-            "liquidity": "$24895280"
+            "dex_price": "0.00613362",
+            "cex_price": "0.00621000",
+            "liquidity": "$195736"
+        },
+        {
+            "symbol": "BTW",
+            "spread": 0.72,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "2.69344521",
+            "cex_price": "2.71291300",
+            "liquidity": "$205171"
+        },
+        {
+            "symbol": "BAT",
+            "spread": 0.2,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.19658988",
+            "cex_price": "0.19699000",
+            "liquidity": "$129000"
         }
     ],
     "spot": [],
