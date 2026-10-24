@@ -1,85 +1,49 @@
 {
     "dex": [
         {
+            "symbol": "IN",
+            "spread": 1.13,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.04431145",
+            "cex_price": "0.04481000",
+            "liquidity": "$1393422"
+        },
+        {
+            "symbol": "RAIL",
+            "spread": 1.1,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "2.50251309",
+            "cex_price": "2.53000000",
+            "liquidity": "$5899629"
+        },
+        {
             "symbol": "IRYS",
-            "spread": 5.03,
+            "spread": 0.66,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.07278548",
-            "cex_price": "0.07645000",
-            "liquidity": "$852409"
+            "dex_price": "0.09013669",
+            "cex_price": "0.09073000",
+            "liquidity": "$949568"
         },
         {
-            "symbol": "BIRB",
-            "spread": 2.27,
-            "buyAt": "SOLANA",
+            "symbol": "SHIB",
+            "spread": 0.49,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.19002311",
-            "cex_price": "0.19433000",
-            "liquidity": "$1858467"
-        },
-        {
-            "symbol": "DOPE",
-            "spread": 1.5,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.00276852",
-            "cex_price": "0.00281000",
-            "liquidity": "$217650"
-        },
-        {
-            "symbol": "BASED",
-            "spread": 0.73,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.05084035",
-            "cex_price": "0.05121000",
-            "liquidity": "$943892"
+            "dex_price": "0.00000496",
+            "cex_price": "0.00000498",
+            "liquidity": "$2716940"
         },
         {
             "symbol": "JCT",
-            "spread": 0.38,
+            "spread": 0.32,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00261801",
-            "cex_price": "0.00262800",
-            "liquidity": "$606829"
-        },
-        {
-            "symbol": "DNA",
-            "spread": 0.35,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.18528649",
-            "cex_price": "0.18593000",
-            "liquidity": "$1731921"
-        },
-        {
-            "symbol": "ZIG",
-            "spread": 0.31,
-            "buyAt": "BSC",
-            "sellAt": "MEXC",
-            "dex_price": "0.04473688",
-            "cex_price": "0.04487400",
-            "liquidity": "$691265"
-        },
-        {
-            "symbol": "USELESS",
-            "spread": 0.22,
-            "buyAt": "SOLANA",
-            "sellAt": "MEXC",
-            "dex_price": "0.15758573",
-            "cex_price": "0.15792900",
-            "liquidity": "$4065701"
-        },
-        {
-            "symbol": "LIT",
-            "spread": 0.2,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "3.09129319",
-            "cex_price": "3.09760000",
-            "liquidity": "$368805"
+            "dex_price": "0.00249301",
+            "cex_price": "0.00250100",
+            "liquidity": "$593349"
         }
     ],
     "spot": [],
