@@ -1,13 +1,58 @@
 {
     "dex": [
         {
-            "symbol": "PUMP",
-            "spread": 0.31,
+            "symbol": "CATE",
+            "spread": 0.69,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.00427369",
-            "cex_price": "0.00428700",
-            "liquidity": "$23197482"
+            "dex_price": "0.05231626",
+            "cex_price": "0.05267700",
+            "liquidity": "$2592087"
+        },
+        {
+            "symbol": "CNPY",
+            "spread": 0.5,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.24985364",
+            "cex_price": "0.25110000",
+            "liquidity": "$1276516"
+        },
+        {
+            "symbol": "PUMP",
+            "spread": 0.47,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00430462",
+            "cex_price": "0.00432500",
+            "liquidity": "$23209135"
+        },
+        {
+            "symbol": "DNA",
+            "spread": 0.41,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.19541431",
+            "cex_price": "0.19622000",
+            "liquidity": "$1763565"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.27,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000437",
+            "cex_price": "0.00000439",
+            "liquidity": "$29986105"
+        },
+        {
+            "symbol": "AI",
+            "spread": 0.2,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.01769382",
+            "cex_price": "0.01773000",
+            "liquidity": "$236624"
         }
     ],
     "spot": [],
