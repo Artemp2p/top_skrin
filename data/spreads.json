@@ -1,49 +1,85 @@
 {
     "dex": [
         {
+            "symbol": "BEAM",
+            "spread": 27.17,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00425736",
+            "cex_price": "0.00541400",
+            "liquidity": "$3174222"
+        },
+        {
+            "symbol": "JCT",
+            "spread": 1.46,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00590986",
+            "cex_price": "0.00599600",
+            "liquidity": "$948158"
+        },
+        {
             "symbol": "AKE",
-            "spread": 1.88,
+            "spread": 0.75,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00252598",
-            "cex_price": "0.00257350",
-            "liquidity": "$743521"
+            "dex_price": "0.00251955",
+            "cex_price": "0.00253850",
+            "liquidity": "$741000"
         },
         {
-            "symbol": "IDOL",
-            "spread": 0.85,
+            "symbol": "UAI",
+            "spread": 0.61,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03030839",
-            "cex_price": "0.03056500",
-            "liquidity": "$1458060"
+            "dex_price": "0.04185632",
+            "cex_price": "0.04211000",
+            "liquidity": "$335107"
         },
         {
-            "symbol": "PIEVERSE",
+            "symbol": "\u725b\u903c",
             "spread": 0.49,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "1.98082931",
-            "cex_price": "1.99050000",
-            "liquidity": "$2523206"
+            "dex_price": "0.00393091",
+            "cex_price": "0.00395000",
+            "liquidity": "$255159"
         },
         {
-            "symbol": "JEANPHIL",
-            "spread": 0.37,
-            "buyAt": "SOLANA",
+            "symbol": "KEKIUS",
+            "spread": 0.44,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00375094",
-            "cex_price": "0.00376500",
-            "liquidity": "$287017"
+            "dex_price": "0.00430026",
+            "cex_price": "0.00431900",
+            "liquidity": "$679771"
         },
         {
-            "symbol": "STONK",
-            "spread": 0.2,
-            "buyAt": "SOLANA",
+            "symbol": "SPX",
+            "spread": 0.36,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.05029497",
-            "cex_price": "0.05039800",
-            "liquidity": "$2391647"
+            "dex_price": "0.35323421",
+            "cex_price": "0.35450000",
+            "liquidity": "$10031617"
+        },
+        {
+            "symbol": "PIEVERSE",
+            "spread": 0.28,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "2.03782320",
+            "cex_price": "2.04360000",
+            "liquidity": "$2545773"
+        },
+        {
+            "symbol": "IDOL",
+            "spread": 0.23,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03252758",
+            "cex_price": "0.03260300",
+            "liquidity": "$1509124"
         }
     ],
     "spot": [],
