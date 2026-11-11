@@ -2,39 +2,48 @@
     "dex": [
         {
             "symbol": "BEAM",
-            "spread": 26.52,
+            "spread": 16.87,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00434304",
-            "cex_price": "0.00549500",
-            "liquidity": "$3176095"
+            "dex_price": "0.00446049",
+            "cex_price": "0.00521300",
+            "liquidity": "$3218720"
         },
         {
-            "symbol": "UAI",
-            "spread": 0.3,
+            "symbol": "FLOAT",
+            "spread": 4.17,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00715057",
+            "cex_price": "0.00744900",
+            "liquidity": "$556929"
+        },
+        {
+            "symbol": "NEAR",
+            "spread": 0.29,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03969254",
-            "cex_price": "0.03981000",
-            "liquidity": "$319254"
+            "dex_price": "3.57728141",
+            "cex_price": "3.58750000",
+            "liquidity": "$386367"
+        },
+        {
+            "symbol": "CATE",
+            "spread": 0.26,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.02657711",
+            "cex_price": "0.02664500",
+            "liquidity": "$1694860"
         },
         {
             "symbol": "ANSEM",
-            "spread": 0.28,
+            "spread": 0.22,
             "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.04818307",
-            "cex_price": "0.04832000",
-            "liquidity": "$1243430"
-        },
-        {
-            "symbol": "PEPE",
-            "spread": 0.27,
-            "buyAt": "ETH",
-            "sellAt": "MEXC",
-            "dex_price": "0.00000527",
-            "cex_price": "0.00000528",
-            "liquidity": "$31097645"
+            "dex_price": "0.05260508",
+            "cex_price": "0.05272000",
+            "liquidity": "$1303527"
         }
     ],
     "spot": [],
