@@ -1,13 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "AGT",
-            "spread": 9.86,
+            "symbol": "SUE",
+            "spread": 0.57,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03795042",
-            "cex_price": "0.04169100",
-            "liquidity": "$2026002"
+            "dex_price": "0.00032852",
+            "cex_price": "0.00033040",
+            "liquidity": "$98732"
+        },
+        {
+            "symbol": "JCT",
+            "spread": 0.5,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00498811",
+            "cex_price": "0.00501300",
+            "liquidity": "$882734"
+        },
+        {
+            "symbol": "XPIN",
+            "spread": 0.44,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00071775",
+            "cex_price": "0.00072090",
+            "liquidity": "$572189"
+        },
+        {
+            "symbol": "Q",
+            "spread": 0.26,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.02927892",
+            "cex_price": "0.02935400",
+            "liquidity": "$1096305"
         }
     ],
     "spot": [],
