@@ -1,13 +1,22 @@
 {
     "dex": [
         {
-            "symbol": "ONDO",
-            "spread": 0.46,
+            "symbol": "ENA",
+            "spread": 0.82,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.35602761",
-            "cex_price": "0.35765000",
-            "liquidity": "$1489358"
+            "dex_price": "0.14065843",
+            "cex_price": "0.14181000",
+            "liquidity": "$13947"
+        },
+        {
+            "symbol": "AKE",
+            "spread": 0.23,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.00264604",
+            "cex_price": "0.00265210",
+            "liquidity": "$756025"
         }
     ],
     "spot": [],
