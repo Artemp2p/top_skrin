@@ -1,40 +1,76 @@
 {
     "dex": [
         {
-            "symbol": "LINK",
-            "spread": 3.56,
+            "symbol": "IXS",
+            "spread": 10.12,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "9.61964887",
-            "cex_price": "9.96200000",
-            "liquidity": "$964613739"
+            "dex_price": "0.02896885",
+            "cex_price": "0.03190000",
+            "liquidity": "$159056"
+        },
+        {
+            "symbol": "RSGP",
+            "spread": 1.26,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00086908",
+            "cex_price": "0.00088000",
+            "liquidity": "$178958"
+        },
+        {
+            "symbol": "BNKR",
+            "spread": 1.1,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.00023323",
+            "cex_price": "0.00023580",
+            "liquidity": "$1449954"
         },
         {
             "symbol": "JCT",
-            "spread": 1.65,
+            "spread": 0.62,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00236895",
-            "cex_price": "0.00240800",
-            "liquidity": "$628691"
+            "dex_price": "0.00209901",
+            "cex_price": "0.00211200",
+            "liquidity": "$596592"
         },
         {
-            "symbol": "UAI",
-            "spread": 0.81,
-            "buyAt": "BSC",
+            "symbol": "SOL",
+            "spread": 0.47,
+            "buyAt": "BASE",
             "sellAt": "MEXC",
-            "dex_price": "0.03933200",
-            "cex_price": "0.03965000",
-            "liquidity": "$314230"
+            "dex_price": "79.51351740",
+            "cex_price": "79.89000000",
+            "liquidity": "$274853"
         },
         {
-            "symbol": "FOREST",
-            "spread": 0.72,
+            "symbol": "AERO",
+            "spread": 0.41,
+            "buyAt": "BASE",
+            "sellAt": "MEXC",
+            "dex_price": "0.47863966",
+            "cex_price": "0.48060000",
+            "liquidity": "$3930599"
+        },
+        {
+            "symbol": "GRT",
+            "spread": 0.32,
+            "buyAt": "ARBITRUM",
+            "sellAt": "MEXC",
+            "dex_price": "0.01752398",
+            "cex_price": "0.01758000",
+            "liquidity": "$334185"
+        },
+        {
+            "symbol": "IDOL",
+            "spread": 0.29,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.03384546",
-            "cex_price": "0.03409000",
-            "liquidity": "$316238"
+            "dex_price": "0.01392614",
+            "cex_price": "0.01396700",
+            "liquidity": "$953897"
         }
     ],
     "spot": [],
