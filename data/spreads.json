@@ -1,31 +1,40 @@
 {
     "dex": [
         {
-            "symbol": "FLOAT",
-            "spread": 8.69,
-            "buyAt": "SOLANA",
+            "symbol": "LINK",
+            "spread": 3.56,
+            "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00244725",
-            "cex_price": "0.00266000",
-            "liquidity": "$288955"
+            "dex_price": "9.61964887",
+            "cex_price": "9.96200000",
+            "liquidity": "$964613739"
         },
         {
             "symbol": "JCT",
-            "spread": 1.53,
+            "spread": 1.65,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.00208321",
-            "cex_price": "0.00211500",
-            "liquidity": "$594229"
+            "dex_price": "0.00236895",
+            "cex_price": "0.00240800",
+            "liquidity": "$628691"
         },
         {
-            "symbol": "AAVE",
-            "spread": 0.44,
-            "buyAt": "ETH",
+            "symbol": "UAI",
+            "spread": 0.81,
+            "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "111.30065449",
-            "cex_price": "111.79000000",
-            "liquidity": "$5825105"
+            "dex_price": "0.03933200",
+            "cex_price": "0.03965000",
+            "liquidity": "$314230"
+        },
+        {
+            "symbol": "FOREST",
+            "spread": 0.72,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "0.03384546",
+            "cex_price": "0.03409000",
+            "liquidity": "$316238"
         }
     ],
     "spot": [],
