@@ -1,13 +1,31 @@
 {
     "dex": [
         {
-            "symbol": "BTR",
-            "spread": 1.11,
+            "symbol": "FLOAT",
+            "spread": 17.83,
+            "buyAt": "SOLANA",
+            "sellAt": "MEXC",
+            "dex_price": "0.00269457",
+            "cex_price": "0.00317500",
+            "liquidity": "$280645"
+        },
+        {
+            "symbol": "ENA",
+            "spread": 0.37,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.03869190",
-            "cex_price": "0.03912000",
-            "liquidity": "$5973"
+            "dex_price": "0.11291567",
+            "cex_price": "0.11333000",
+            "liquidity": "$2614380"
+        },
+        {
+            "symbol": "PEPE",
+            "spread": 0.24,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00000375",
+            "cex_price": "0.00000376",
+            "liquidity": "$24465933"
         }
     ],
     "spot": [],
