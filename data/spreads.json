@@ -1,31 +1,76 @@
 {
     "dex": [
         {
-            "symbol": "NPC",
-            "spread": 0.43,
-            "buyAt": "ETH",
+            "symbol": "FLOAT",
+            "spread": 23.32,
+            "buyAt": "SOLANA",
             "sellAt": "MEXC",
-            "dex_price": "0.01222654",
-            "cex_price": "0.01227900",
-            "liquidity": "$3247465"
+            "dex_price": "0.00263631",
+            "cex_price": "0.00325100",
+            "liquidity": "$292410"
         },
         {
-            "symbol": "PEPE",
-            "spread": 0.26,
+            "symbol": "SHELL",
+            "spread": 22.98,
             "buyAt": "ETH",
             "sellAt": "MEXC",
-            "dex_price": "0.00000390",
-            "cex_price": "0.00000391",
-            "liquidity": "$25212846"
+            "dex_price": "0.02189795",
+            "cex_price": "0.02693000",
+            "liquidity": "$10903084"
         },
         {
-            "symbol": "UP",
-            "spread": 0.23,
+            "symbol": "CTM",
+            "spread": 13.58,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.17405618",
+            "cex_price": "0.19770000",
+            "liquidity": "$1907339"
+        },
+        {
+            "symbol": "FET",
+            "spread": 11.54,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.11933209",
+            "cex_price": "0.13310000",
+            "liquidity": "$161664713"
+        },
+        {
+            "symbol": "GLMR",
+            "spread": 8.87,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "0.00617722",
+            "cex_price": "0.00672500",
+            "liquidity": "$3803174"
+        },
+        {
+            "symbol": "WKC",
+            "spread": 2.58,
             "buyAt": "BSC",
             "sellAt": "MEXC",
-            "dex_price": "0.17393480",
-            "cex_price": "0.17433000",
-            "liquidity": "$878166"
+            "dex_price": "0.00000005",
+            "cex_price": "0.00000005",
+            "liquidity": "$848790"
+        },
+        {
+            "symbol": "PIEVERSE",
+            "spread": 0.95,
+            "buyAt": "BSC",
+            "sellAt": "MEXC",
+            "dex_price": "1.77326756",
+            "cex_price": "1.79020000",
+            "liquidity": "$2448310"
+        },
+        {
+            "symbol": "QNT",
+            "spread": 0.28,
+            "buyAt": "ETH",
+            "sellAt": "MEXC",
+            "dex_price": "155.65066094",
+            "cex_price": "156.08000000",
+            "liquidity": "$953184"
         }
     ],
     "spot": [],
